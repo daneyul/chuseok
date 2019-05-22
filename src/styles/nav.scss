@@ -1,0 +1,25 @@
+$nav-spacing: 8rem;
+
+nav {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.nav-top {
+    margin-top: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.nav-item {
+    text-transform: uppercase;
+    display: flex;
+    letter-spacing: 0.15em;
+}
+
+.nav-item--left {
+    margin-right: $nav-spacing;
+}
+
+.nav-item--right {
+    margin-left: $nav-spacing;
+}
