@@ -1,10 +1,11 @@
+
 .landing-title {
     font-family: "Oswald", sans-serif;
     font-size: 72px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 
-    margin-top: 14rem;
+    margin-top: 12rem;
 }
 
 .landing-title2 {
@@ -26,20 +27,6 @@
 }
 
 .landing-title3--margin {
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
-.landing-leader {
-    &:before {
-        z-index: -1;
-        content: '';
-        display: block;
-        position: absolute;
-        top: 15px;
-        margin-left: -600px;
-        left: 0;
-        width: 100%;
-        height: 1px;
-        background: rgba(0,0,0,0.2);
-    }
-}

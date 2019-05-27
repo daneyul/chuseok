@@ -25,8 +25,10 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Nav siteTitle={data.site.siteMetadata.title} />
-        <Landing />
-        <main>{children}</main>
+        <main>
+          <Landing />
+        </main>
+        
 
       </>
     )}

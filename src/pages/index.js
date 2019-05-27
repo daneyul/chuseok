@@ -14,10 +14,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Helmet>
-      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"></link>
-      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"></link>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     </Helmet>
   </Layout>
 )
 
 export default IndexPage
+
+
