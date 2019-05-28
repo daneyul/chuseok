@@ -11,12 +11,12 @@ import "../styles/custom.scss"
 
 
 const IndexPage = () => (
-  <Layout>
+  <indexLayout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Helmet>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     </Helmet>
-  </Layout>
+  </indexLayout>
 )
 
 export default IndexPage

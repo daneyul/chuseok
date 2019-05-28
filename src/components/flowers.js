@@ -1,8 +1,6 @@
 import React from "react";
-import { graphql, StaticQuery } from "gatsby";
 import "../styles/landing.scss";
 import "../styles/flowers.scss";
-import Img from 'gatsby-image';
 
 import f1 from "../images/landing/f1.svg"
 import f2 from "../images/landing/f2.svg"

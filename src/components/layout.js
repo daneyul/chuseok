@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Nav from "./nav"
 import Landing from "./landing"
 
-const Layout = ({ children }) => (
+const indexLayout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
