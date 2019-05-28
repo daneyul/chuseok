@@ -35,8 +35,8 @@ const indexLayout = ({ children }) => (
   />
 )
 
-Layout.propTypes = {
+indexLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default indexLayout
