@@ -18,7 +18,7 @@ import f13 from "../images/landing/f13.svg"
 
 
 
-const Flowers = ({data}) => (
+const Flowers = () => (
     <div class="landing-flowers">
         <img src={f1} alt="flower 1" class="f1" />
         <img src={f2} alt="flower 2" class="f2" />

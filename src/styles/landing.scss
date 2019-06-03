@@ -30,9 +30,197 @@
     margin-top: 6rem;
 }
 
-.landing-category {
+.header-mt {
+    margin-top: 8rem;
+}
+
+.header-col-1 {
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.header-col-2 {
+    -ms-flex: 0 0 26%;
+    flex: 0 0 26%;
+    max-width: 26%;
+}
+
+.header-mb {
+    margin-bottom: 7rem;
+}
+
+.landing-header__one {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.landing-header--description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+}
+
+.landing-header__two {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 3rem;
+}
+
+.landing-header__two--description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    margin-top: 1rem;
+}
+
+.landing-recipes {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-bottom: 8.5rem;
+}
+
+.food-header {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+    color: white;
+}
+
+.food-header--drink {
+    position: absolute; 
+    top: 190px; 
+    left: 0; 
+    width: 100%; 
+}
+
+.food-header--food {
+    position: absolute; 
+    top: 16px; 
+    left: 0; 
+    width: 100%; 
+}
+
+.landing-category--col {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.landing-category--first {
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 0.15em;
-    margin-top: 8rem;
+    position: relative;
+    padding: 0 1rem 0 0;
+    background: #fff;
+}
+
+.landing-category--second {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    position: relative;
+    padding: 0 1rem 0 0;
+    background: #fff;
+}
+
+.landing-category--third {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    position: relative;
+    padding: 0 1rem 0 1rem;
+    background: #fff;
+    right: 1rem;
+}
+
+.landing-category--fourth {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    position: relative;
+    background: #fff;
+    padding-left: 1rem;
+}
+
+.leader--first {
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 35px;
+        width: 100%;
+        height: 1px;
+        background: rgba(0,0,0,0.2);
+        left: -575px;
+    }
+}
+
+
+.leader--second {
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 8px;
+        width: 110%;
+        height: 1px;
+        background: rgba(0,0,0,0.2);
+        left: 10%;
+    }
+}
+
+.leader--third {
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 8px;
+        width: 170%;
+        height: 1px;
+        background: rgba(0,0,0,0.2);
+        left: -50%;
+    }
+}
+
+.leader--fourth {
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 7px;
+        width: 100%;
+        height: 1px;
+        background: rgba(0,0,0,0.2);
+        left: -20%;
+    }
 }

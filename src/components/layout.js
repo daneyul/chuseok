@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Nav from "./nav"
 import Landing from "./landing"
 
-const indexLayout = ({ children }) => (
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -35,8 +35,8 @@ const indexLayout = ({ children }) => (
   />
 )
 
-indexLayout.propTypes = {
+Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default indexLayout
+export default Layout
