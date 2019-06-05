@@ -5,6 +5,7 @@ import Flowers from "./flowers";
 import Festimages from "./festimages";
 import Foodimages from "./foodimages";
 import Tableimage from "./table";
+import Placeimages from "./places";
 
 const Landing = ({data}) => (
   
@@ -28,15 +29,15 @@ const Landing = ({data}) => (
         <h2 class="landing-category--first">Tradition</h2>
       </div>
       <div class="row justify-content-between header-mb">
-        <div class="header-col-1">
+        <div class="header-col-1 box">
           <h3 class="landing-header__one">What is Chuseok?</h3>
           <p class="landing-header--description">Chuseok (추석) is one of the biggest holidays in Korea. It is sometimes referred to as “Korean Thanksgiving” because it’s a special time for family, friends, and food.</p>
         </div>
-        <div class="header-col-2">
+        <div class="header-col-2 box">
           <h3 class="landing-header__two">Customs & Ceremonies</h3>
           <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
         </div>
-        <div class="header-col-2">
+        <div class="header-col-2 box">
           <h3 class="landing-header__two">The Moon Rabbit</h3>
           <p class="landing-header__two--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
@@ -72,6 +73,18 @@ const Landing = ({data}) => (
           Here are some guidelines to placing food on the table. <br /> Although, setting up the table the right way isn’t so crucial these days.
           </p>
       </div>
+
+      <div class="row justify-content-start">
+        <div class="landing-category--col">
+          <h2 class="leader--third text-left"><span class="landing-category--third">Festivities</span></h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-start">
+        <p class="landing-festivities--header">Check out some events in Seoul during Chuseok.</p>
+      </div>
+
+      <Placeimages />
 
     </div>
 

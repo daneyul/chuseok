@@ -22,14 +22,14 @@ const Festimages = () => (
               }
             }
           },
-          festThree: file(relativePath: { eq: "landing/activity-thumb.png" }) {
+          festThree: file(relativePath: { eq: "landing/greet-thumb.png" }) {
             childImageSharp {
               fluid(maxWidth: 400) {
                 ...GatsbyImageSharpFluid
               }
             }
           },
-          festFour: file(relativePath: { eq: "landing/greet-thumb.png" }) {
+          festFour: file(relativePath: { eq: "landing/activity-thumb.png" }) {
             childImageSharp {
               fluid(maxWidth: 400) {
                 ...GatsbyImageSharpFluid
@@ -42,19 +42,19 @@ const Festimages = () => (
     render ={data => (
         
     <React.Fragment>
-        <div class="fest-image">
+        <div class="fest-image fest-image--box">
             <Img fluid={data.festOne.childImageSharp.fluid} />
             <h3 class="fest-header">Wearing a Hanbok</h3>
         </div>
-        <div class="fest-image">
+        <div class="fest-image fest-image--box">
             <Img fluid={data.festTwo.childImageSharp.fluid} />
             <h3 class="fest-header">Gift Sets</h3>
         </div>
-        <div class="fest-image">
+        <div class="fest-image fest-image--box">
             <Img fluid={data.festThree.childImageSharp.fluid} />
             <h3 class="fest-header">How to Greet in Korean</h3>
         </div>
-        <div class="fest-image">
+        <div class="fest-image fest-image--box">
             <Img fluid={data.festFour.childImageSharp.fluid} />
             <h3 class="fest-header">Folk Games</h3>
         </div>

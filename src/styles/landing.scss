@@ -1,3 +1,9 @@
+.landing-flowers {
+    z-axis: -2;
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+}
 
 .landing-title {
     font-family: "Oswald", sans-serif;
@@ -38,12 +44,13 @@
     -ms-flex: 0 0 40%;
     flex: 0 0 40%;
     max-width: 40%;
+    margin-left: -2rem;
 }
 
 .header-col-2 {
-    -ms-flex: 0 0 26%;
-    flex: 0 0 26%;
-    max-width: 26%;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
 }
 
 .header-mb {
@@ -99,6 +106,26 @@
     margin-bottom: 8.5rem;
 }
 
+.fest-header {
+    position: absolute; 
+    top: 10px; 
+    left: 0; 
+    width: 100%; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
 .food-header {
     font-family: "Oswald";
     font-style: normal;
@@ -110,6 +137,7 @@
     text-transform: uppercase;
     padding-left: 1.5rem;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .food-header--drink {
@@ -124,6 +152,16 @@
     top: 16px; 
     left: 0; 
     width: 100%; 
+}
+
+.place-title {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.landing-festivities--header {
+    margin: 4rem 0;
 }
 
 .landing-category--col {
@@ -223,4 +261,26 @@
         background: rgba(0,0,0,0.2);
         left: -20%;
     }
+}
+
+// Interactions
+
+.box {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: #fff;
+}
+
+.box:hover {
+    box-shadow: 0 0 8px rgba(33,33,33,.2); 
+}
+
+.fest-image--box {
+    transition: box-shadow .3s;
+}
+
+.fest-image:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
 }

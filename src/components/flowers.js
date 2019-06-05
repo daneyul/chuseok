@@ -16,24 +16,29 @@ import f11 from "../images/landing/f11.svg"
 import f12 from "../images/landing/f12.svg"
 import f13 from "../images/landing/f13.svg"
 
-
+const Parallax = require('parallax-js')
 
 const Flowers = () => (
-    <div class="landing-flowers">
-        <img src={f1} alt="flower 1" class="f1" />
-        <img src={f2} alt="flower 2" class="f2" />
-        <img src={f3} alt="flower 3" class="f3" />
-        <img src={f4} alt="flower 4" class="f4" />
-        <img src={f5} alt="flower 5" class="f5" />
-        <img src={f6} alt="flower 6" class="f6" />
-        <img src={f7} alt="flower 7" class="f7" />
-        <img src={f8} alt="flower 8" class="f8" />
-        <img src={f9} alt="flower 9" class="f9" />
-        <img src={f10} alt="flower 10" class="f10" />
-        <img src={f11} alt="flower 11" class="f11" />
-        <img src={f12} alt="flower 12" class="f12" />
-        <img src={f13} alt="flower 13" class="f13" />
+    <div class="landing-flowers" id="scene">
+        <div data-depth="0.9"><img src={f1} alt="flower 1" class="f1 rotate"/></div>
+        <div data-depth="0.9"><img src={f2} alt="flower 2" class="f2"/></div>
+        <div data-depth="0.7"><img src={f3} alt="flower 3" class="f3 rotate"/></div>
+        <div data-depth="0.7"><img src={f4} alt="flower 4" class="f4"/></div>
+        <div data-depth="0.5"><img src={f5} alt="flower 5" class="f5 rotate" /></div>
+        <div data-depth="0.5"><img src={f6} alt="flower 6" class="f6" /></div>
+        <div data-depth="0.4"><img src={f7} alt="flower 7" class="f7 rotate" /></div>
+        <div data-depth="0.4"><img src={f8} alt="flower 8" class="f8" /></div>
+        <div data-depth="0.5"><img src={f9} alt="flower 9" class="f9 rotate" /></div>
+        <div data-depth="0.5"><img src={f10} alt="flower 10" class="f10" /></div>
+        <div data-depth="0.7"><img src={f11} alt="flower 11" class="f11 rotate" /></div>
+        <div data-depth="0.7"><img src={f12} alt="flower 12" class="f12" /></div>
+        <div data-depth="0.9"><img src={f13} alt="flower 13" class="f13 rotate" /></div>
     </div>
 )
+
+window.onload = function () { 
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+};
 
 export default Flowers

@@ -30,3 +30,11 @@
     margin-top: 5rem;
     position: relative;
 }
+
+.place-image {
+    -ms-flex: 0 0 18%;
+    flex: 0 0 18%;
+    max-width: 18%;
+    position: relative;
+    flex-grow: 1;
+}
