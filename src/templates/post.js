@@ -12,8 +12,8 @@ export default function Template({data}) {
                 <React.Fragment>
                 <Nav />
                 <div class="container">
-                    <div class="row blog-header--margin">
-                        <div class="col-12 header-mb__foods">
+                    <div class="row blog-header--margin justify-content-center">
+                        <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-right"><span class="blog-header--title">{post.frontmatter.title}</span></h4>
                         </div>
                     </div>
@@ -41,16 +41,16 @@ export default function Template({data}) {
                 <React.Fragment>
                 <Nav />
                 <div class="container">
-                    <div class="row blog-header--margin">
-                        <div class="col-12 header-mb__foods">
+                    <div class="row blog-header--margin justify-content-center">
+                        <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-right"><span class="blog-header--title">{post.frontmatter.title}</span></h4>
                         </div>
                         <div class="col-12">
-                            <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">blog</span></h2>
+                            <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">Tradition</span></h2>
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                             
                         </div>
-                        <div class="col-12 blog-main">
+                        <div class="col-10 blog-main2">
                             <p class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                     </div>

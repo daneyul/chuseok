@@ -9,7 +9,7 @@ import Placeimages from "./places";
 
 const Landing = ({data}) => (
   
-    <div class="container">
+    <div class="container nav-space">
       
       <div class="row justify-content-end">
         <div class="col-12">
@@ -21,7 +21,7 @@ const Landing = ({data}) => (
 
       <div class="row justify-content-end landing-title3--margin">
         <div class="col-12">
-          <h4 class="leader--first text-right"><span class="landing-title3">Celebrate the Korean Harvest Festival and learn about what it is, what is <br class="landing-title3--break"/>eaten, or the elaborate table settings during these special three days.</span></h4>
+          <h4 class="leader--first text-right"><span class="landing-title3">Celebrate the Korean Harvest Festival and learn about <Link to="tradition" activeStyle={{ textDecoration: "underline" }}>what it is</Link><br class="landing-title3--break"/> and <Link to="" activeStyle={{ textDecoration: "underline" }}>what's happening during this time.</Link></span></h4>
         </div>
       </div>
 

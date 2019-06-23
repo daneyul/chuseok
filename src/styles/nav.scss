@@ -3,20 +3,24 @@ $nav-spacing: 8rem;
 nav {
     font-weight: 300;
     font-family: "Lato", sans-serif;
-    color: rgba(0,0,0,0.7);
-    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: white;
 }
 
 .nav-top {
-    position: sticky;
-    margin-top: 1rem;
+    padding-top: 1rem;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
+.nav-space {
+    margin-top: 3rem;
+}
+
 .nav-item {
-    text-transform: uppercase;
     display: flex;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.05em;
 }
 
 .nav-item--center {

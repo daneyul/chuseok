@@ -6,21 +6,24 @@ import "../styles/nav.scss"
 const Nav = () => (
   <nav class="container-fluid nav-top">
     <div class="container">
-    <div class="row">
-        <ul class="col-4 nav-item justify-content-start">
-          <li class="nav-item--left"><Link to="">Tradition</Link></li>
+    <div id="nav-list" class="row">
+        <ul class="col-4 nav-item justify-content-between">
+          <li><Link to="tradition">Tradition</Link></li>
           <li><Link to="foods">Foods</Link></li>
+          <li><Link to="drinks">Drinks</Link></li>
         </ul>
         <ul class="col-4 nav-item justify-content-center">
           <li class="nav-item--center"><Link to="/">Chuseok 2019</Link></li>
         </ul>
-        <ul class="col-4 nav-item justify-content-end">
+        <ul class="col-4 nav-item justify-content-between">
           <li><Link to="">Table</Link></li>
-          <li class="nav-item--right"><Link to="">Events</Link></li>
+          <li><Link to="">Places</Link></li>
+          <li><Link to="">Media</Link></li>
         </ul>
       </div>
     </div>
   </nav>
+
 )
 
 export default Nav
