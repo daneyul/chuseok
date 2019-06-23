@@ -30,12 +30,16 @@ const Foodimages = () => (
     <React.Fragment>
         <div class="food-image--drink">
             <h3 class="landing-recipes">Need Recipes?</h3>
-            <Img fluid={data.foodTwo.childImageSharp.fluid} />
-            <h3 class="food-header food-header--drink">Traditional Drinks</h3>
+            <Link to="drinks">
+              <Img fluid={data.foodTwo.childImageSharp.fluid} class="fest-image--box" />
+              <h3 class="food-header food-header--drink">Traditional Drinks</h3>
+            </Link>
         </div>
-        <div class="food-image--food">
-            <Img fluid={data.foodOne.childImageSharp.fluid} />
-            <h3 class="food-header food-header--food">Typical Chuseok Foods</h3>
+          <div class="food-image--food">
+            <Link to="foods">
+              <Img fluid={data.foodOne.childImageSharp.fluid} class="fest-image--box" />
+              <h3 class="food-header food-header--food">Typical Chuseok Foods</h3>
+            </Link>
         </div>
     </React.Fragment>
 

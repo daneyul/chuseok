@@ -90,7 +90,6 @@ const Landing = ({data}) => (
 
   )
 
+
   export default Landing
-
-
   

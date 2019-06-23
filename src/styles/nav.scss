@@ -2,10 +2,13 @@ $nav-spacing: 8rem;
 
 nav {
     font-weight: 300;
-    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
 }
 
 .nav-top {
+    position: sticky;
     margin-top: 1rem;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -14,6 +17,11 @@ nav {
     text-transform: uppercase;
     display: flex;
     letter-spacing: 0.15em;
+}
+
+.nav-item--center {
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .nav-item--left {

@@ -1,15 +1,63 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import {graphql} from "gatsby";
+import Nav from "../components/nav";
+import '../styles/blog.scss';
 
 export default function Template({data}) {
     const {markdownRemark: post} = data;
-    return (
-        <div>
-            <h1>{post.frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{__html: post.html}} />
-        </div>
-    )
+    if (post.frontmatter.side == true) {
+          const sidebar = post.frontmatter.sidebar;
+            return (
+                <React.Fragment>
+                <Nav />
+                <div class="container">
+                    <div class="row blog-header--margin">
+                        <div class="col-12 header-mb__foods">
+                            <h4 class="blog-leader--first blog-header text-right"><span class="blog-header--title">{post.frontmatter.title}</span></h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">blog</span></h2>
+                            <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-blog--main blog-main">
+                            <p class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
+                        </div>
+                        <ul class="col-blog blog-sidebar">
+                                {sidebar.map( (value) => { return <li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li> } ) }
+                        </ul>
+                    </div>
+                </div>
+                </React.Fragment>
+            )
+        }
+        else {
+            return (
+                <React.Fragment>
+                <Nav />
+                <div class="container">
+                    <div class="row blog-header--margin">
+                        <div class="col-12 header-mb__foods">
+                            <h4 class="blog-leader--first blog-header text-right"><span class="blog-header--title">{post.frontmatter.title}</span></h4>
+                        </div>
+                        <div class="col-12">
+                            <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">blog</span></h2>
+                            <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
+                            
+                        </div>
+                        <div class="col-12 blog-main">
+                            <p class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
+                        </div>
+                    </div>
+                </div>
+                </React.Fragment>
+            )
+        }
 }
 
 export const postQuery = graphql`
@@ -19,6 +67,9 @@ export const postQuery = graphql`
             frontmatter {
                 path
                 title
+                side
+                tagline
+                sidebar
             }
         }
     }

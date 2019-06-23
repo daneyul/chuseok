@@ -24,7 +24,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Nav siteTitle={data.site.siteMetadata.title} />
+        <Nav />
         <main>
           <Landing />
         </main>

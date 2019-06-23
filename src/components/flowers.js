@@ -16,7 +16,7 @@ import f11 from "../images/landing/f11.svg"
 import f12 from "../images/landing/f12.svg"
 import f13 from "../images/landing/f13.svg"
 
-const Parallax = require('parallax-js')
+
 
 const Flowers = () => (
     <div class="landing-flowers" id="scene">
@@ -36,9 +36,6 @@ const Flowers = () => (
     </div>
 )
 
-window.onload = function () { 
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene);
-};
+
 
 export default Flowers
