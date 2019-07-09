@@ -1,10 +1,14 @@
 
 .fest-image {
-    -ms-flex: 0 0 23%;
-    flex: 0 0 23%;
-    max-width: 23%;
+    -ms-flex: 0 0 22%;
+    flex: 0 0 22%;
+    max-width: 22%;
     margin-top: 7rem;
     position: relative;
+}
+
+.img-padding {
+    padding: 0 15px;
 }
 
 .food-image--drink {

@@ -4,7 +4,7 @@ import React from "react"
 import "../styles/nav.scss"
 
 const Nav = () => (
-  <nav class="container-fluid nav-top">
+  <nav class="container-fluid nav-top" id="navbar">
     <div class="container">
     <div id="nav-list" class="row">
         <ul class="col-4 nav-item justify-content-between">

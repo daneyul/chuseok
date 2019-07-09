@@ -5,10 +5,11 @@
     max-width: 1200px;
 }
 
-body {
+body, span {
     font-family: "Lato", sans-serif;
     color: rgba(0,0,0,0.8);
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 0.01rem;
 }
 
 

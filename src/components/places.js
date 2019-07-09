@@ -77,7 +77,7 @@ const Placeimages = () => (
     render ={data => (
         
     <React.Fragment>
-        <div class="row justify-content-between flex-wrap header-mb">
+        <div class="row justify-content-between flex-wrap header-mb img-padding">
             <div class="place-image">
                 <Img fluid={data.placeOne.childImageSharp.fluid} />
                 <h4 class="place-title">Gyeongbokgung Palace<br />경복궁</h4>

@@ -11,35 +11,39 @@ const Landing = ({data}) => (
   
     <div class="container nav-space">
       
-      <div class="row justify-content-end">
+      <div class="row justify-content-start">
         <div class="col-12">
           <Flowers />
-          <h1 class="landing-title text-right">추석<br />Chuseok</h1>
-          <h1 class="landing-title2 text-right">September 12-14, 2019</h1>
+          <h1 class="landing-title text-left">추석<br />Chuseok</h1>
+          <h1 class="landing-title2 text-left">September 12-14, 2019</h1>
         </div>
       </div>
 
-      <div class="row justify-content-end landing-title3--margin">
+      <div class="row justify-content-start landing-title3--margin">
         <div class="col-12">
-          <h4 class="leader--first text-right"><span class="landing-title3">Celebrate the Korean Harvest Festival and learn about <Link to="tradition" activeStyle={{ textDecoration: "underline" }}>what it is</Link><br class="landing-title3--break"/> and <Link to="" activeStyle={{ textDecoration: "underline" }}>what's happening during this time.</Link></span></h4>
+          <h4 class="leader--first text-left"><span class="landing-title3">Celebrate the Korean Harvest Festival and learn about <Link to="tradition" activeStyle={{ textDecoration: "underline" }}>what it is</Link><br class="landing-title3--break"/> and <Link to="" activeStyle={{ textDecoration: "underline" }}>what's happening during this time.</Link></span></h4>
         </div>
       </div>
 
       <div class="row justify-content-start header-mt">
-        <h2 class="landing-category--first">Tradition</h2>
+        <div class="col-12">
+          <h2 class="landing-category--first">Tradition</h2>
+        </div>
       </div>
-      <div class="row justify-content-between header-mb">
-        <div class="header-col-1 box">
-          <h3 class="landing-header__one">What is Chuseok?</h3>
-          <p class="landing-header--description">Chuseok (추석) is one of the biggest holidays in Korea. It is sometimes referred to as “Korean Thanksgiving” because it’s a special time for family, friends, and food.</p>
-        </div>
-        <div class="header-col-2 box">
-          <h3 class="landing-header__two">Customs & Ceremonies</h3>
-          <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
-        </div>
-        <div class="header-col-2 box">
-          <h3 class="landing-header__two">The Moon Rabbit</h3>
-          <p class="landing-header__two--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="row header-mb">
+        <div class="col-12 d-flex justify-content-between">
+          <div class="header-col-1">
+            <h3 class="landing-header__one">What is Chuseok?</h3>
+            <p class="landing-header--description">Chuseok (추석) is one of the biggest holidays in Korea. It is sometimes referred to as “Korean Thanksgiving” because it’s a special time for family, friends, and food.</p>
+          </div>
+          <div class="header-col-2 box">
+            <h3 class="landing-header__two">Customs & Ceremonies</h3>
+            <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
+          </div>
+          <div class="header-col-2 box">
+            <h3 class="landing-header__two">The Moon Rabbit</h3>
+            <p class="landing-header__two--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
       </div>
 
@@ -48,7 +52,7 @@ const Landing = ({data}) => (
           <h2 class="leader--second text-left"><span class="landing-category--second">Festivities</span></h2>
         </div>
       </div>
-      <div class="row justify-content-between header-mb flex-wrap">
+      <div class="row justify-content-between header-mb flex-wrap img-padding">
         <Festimages />
       </div>
 
@@ -57,7 +61,7 @@ const Landing = ({data}) => (
           <h2 class="leader--third text-left"><span class="landing-category--third">Food</span></h2>
         </div>
       </div>
-      <div class="row justify-content-between header-mb">
+      <div class="row justify-content-between header-mb img-padding">
         <Foodimages />
       </div>
 
@@ -80,10 +84,9 @@ const Landing = ({data}) => (
         </div>
       </div>
 
-      <div class="row justify-content-start">
+      <div class="row justify-content-start img-padding">
         <p class="landing-festivities--header">Check out some events in Seoul during Chuseok.</p>
       </div>
-
       <Placeimages />
 
     </div>

@@ -33,6 +33,8 @@ const Flowers = () => (
         <div data-depth="0.7"><img src={f11} alt="flower 11" class="f11 rotate" /></div>
         <div data-depth="0.7"><img src={f12} alt="flower 12" class="f12" /></div>
         <div data-depth="0.9"><img src={f13} alt="flower 13" class="f13 rotate" /></div>
+        <div data-depth="0.9"><img src={f11} alt="flower 14" class="f14 rotate" /></div>
+        <div data-depth="0.4"><img src={f8} alt="flower 8" class="f15" /></div>
     </div>
 )
 
