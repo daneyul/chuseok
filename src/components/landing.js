@@ -37,7 +37,7 @@ const Landing = ({data}) => (
             <p class="landing-header--description">Chuseok (추석) is one of the biggest holidays in Korea. It is sometimes referred to as “Korean Thanksgiving” because it’s a special time for family, friends, and food.</p>
           </div>
           <div class="header-col-2 box">
-            <h3 class="landing-header__two">Customs & Ceremonies</h3>
+            <h3 class="landing-header__two">The Traditions</h3>
             <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
           </div>
           <div class="header-col-2 box">
@@ -49,7 +49,7 @@ const Landing = ({data}) => (
 
       <div class="row justify-content-start">
         <div class="landing-category--col">
-          <h2 class="leader--second text-left"><span class="landing-category--second">Festivities</span></h2>
+          <h2 class="leader--third text-left"><span class="landing-category--third">Festivities</span></h2>
         </div>
       </div>
       <div class="row justify-content-between header-mb flex-wrap img-padding">
@@ -85,9 +85,26 @@ const Landing = ({data}) => (
       </div>
 
       <div class="row justify-content-start img-padding">
-        <p class="landing-festivities--header">Check out some events in Seoul during Chuseok.</p>
+        <p class="landing-festivities--header">Palace admissions are free during the holidays and amusement parks have specials! </p>
       </div>
       <Placeimages />
+
+      <div class="row justify-content-start">
+        <div class="landing-category--col">
+          <h2 class="leader--third text-left"><span class="landing-category--third">Media</span></h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-start">
+        <div class="col-12">
+          <h3 class="landing-header__one">2019 media</h3>
+          <p>(This will be updated as schedules are released)</p>
+          <h3 class="landing-header__one">2018 media</h3>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </div>
 
     </div>
 
