@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/landing.scss";
+import "../styles/custom.scss";
 import "../styles/images.scss";
 import { Link, graphql, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
@@ -42,22 +43,22 @@ const Festimages = () => (
     render ={data => (
         
     <React.Fragment>
-        <div class="fest-image fest-image--box">
+        <a href="/hanbok" class="fest-image fest-image--box">
             <Img fluid={data.festOne.childImageSharp.fluid} />
             <h3 class="fest-header">Wearing a Hanbok</h3>
-        </div>
-        <div class="fest-image fest-image--box">
+        </a>
+        <a href="/gift-sets" class="fest-image fest-image--box">
             <Img fluid={data.festTwo.childImageSharp.fluid} />
             <h3 class="fest-header">Gift Sets</h3>
-        </div>
-        <div class="fest-image fest-image--box">
+        </a>
+        <a href="/greetings" class="fest-image fest-image--box">
             <Img fluid={data.festThree.childImageSharp.fluid} />
             <h3 class="fest-header">How to Greet in Korean</h3>
-        </div>
-        <div class="fest-image fest-image--box">
+        </a>
+        <a href="/folk-games" class="fest-image fest-image--box">
             <Img fluid={data.festFour.childImageSharp.fluid} />
             <h3 class="fest-header">Folk Games</h3>
-        </div>
+        </a>
     </React.Fragment>
 
     )}

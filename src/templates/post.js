@@ -2,7 +2,9 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import {graphql} from "gatsby";
 import Nav from "../components/nav";
+import Footer from "../components/footer";
 import '../styles/blog.scss';
+import '../styles/landing.scss';
 
 export default function Template({data}) {
     const {markdownRemark: post} = data;
@@ -12,9 +14,9 @@ export default function Template({data}) {
                 <React.Fragment>
                 <Nav />
                 <div class="container">
-                    <div class="row blog-header--margin justify-content-center">
+                    <div class="row blog-header--margin justify-content-start">
                         <div class="col-12 header-mb__foods nav-space">
-                            <h4 class="blog-leader--first blog-header text-right"><span class="blog-header--title">{post.frontmatter.title}</span></h4>
+                            <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
                         </div>
                     </div>
                     <div class="row">
@@ -33,6 +35,7 @@ export default function Template({data}) {
                         </ul>
                     </div>
                 </div>
+                <Footer />
                 </React.Fragment>
             )
         }
@@ -43,7 +46,7 @@ export default function Template({data}) {
                 <div class="container">
                     <div class="row blog-header--margin justify-content-center">
                         <div class="col-12 header-mb__foods nav-space">
-                            <h4 class="blog-leader--first blog-header text-right"><span class="blog-header--title">{post.frontmatter.title}</span></h4>
+                            <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
                         </div>
                         <div class="col-12">
                             <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">Tradition</span></h2>
@@ -55,6 +58,7 @@ export default function Template({data}) {
                         </div>
                     </div>
                 </div>
+                <Footer />
                 </React.Fragment>
             )
         }

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/landing.scss";
 import "../styles/images.scss";
+import "../styles/custom.scss";
 import { Link, graphql, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
@@ -104,15 +105,15 @@ const Placeimages = () => (
             </div>
             <div class="place-image">
                 <Img fluid={data.placeSeven.childImageSharp.fluid} />
-                <h4 class="place-title">Lotte World</h4>
+                <h4 class="place-title">Lotte World<br />롯데월드 어드벤처</h4>
             </div>
             <div class="place-image">
                 <Img fluid={data.placeEight.childImageSharp.fluid} />
-                <h4 class="place-title">Everland</h4>
+                <h4 class="place-title">Everland<br />	에버랜드</h4>
             </div>
             <div class="place-image">
                 <Img fluid={data.placeNine.childImageSharp.fluid} />
-                <h4 class="place-title">Seoul Land</h4>
+                <h4 class="place-title">Seoul Land<br />서울랜드</h4>
             </div>
             <div class="place-image">
             </div>

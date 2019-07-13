@@ -1,6 +1,7 @@
 import { Link, graphql, StaticQuery } from "gatsby";
 import React from "react";
 import "../styles/landing.scss";
+import "../styles/custom.scss";
 import Flowers from "./flowers";
 import Festimages from "./festimages";
 import Foodimages from "./foodimages";
@@ -21,7 +22,7 @@ const Landing = ({data}) => (
 
       <div class="row justify-content-start landing-title3--margin">
         <div class="col-12">
-          <h4 class="leader--first text-left"><span class="landing-title3">Celebrate the Korean Harvest Festival and learn about <Link to="tradition" activeStyle={{ textDecoration: "underline" }}>what it is</Link><br class="landing-title3--break"/> and <Link to="" activeStyle={{ textDecoration: "underline" }}>what's happening during this time.</Link></span></h4>
+          <h4 class="leader--first text-left"><span class="landing-title3">Celebrate the Korean Harvest Festival and learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
         </div>
       </div>
 
@@ -36,14 +37,14 @@ const Landing = ({data}) => (
             <h3 class="landing-header__one">What is Chuseok?</h3>
             <p class="landing-header--description">Chuseok (추석) is one of the biggest holidays in Korea. It is sometimes referred to as “Korean Thanksgiving” because it’s a special time for family, friends, and food.</p>
           </div>
-          <div class="header-col-2 box">
-            <h3 class="landing-header__two">The Traditions</h3>
-            <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
-          </div>
-          <div class="header-col-2 box">
-            <h3 class="landing-header__two">The Moon Rabbit</h3>
-            <p class="landing-header__two--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+          <a href="/tradition" class="header-col-2 box">
+              <h3 class="landing-header__two">Ceremonies</h3>
+              <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
+          </a>
+          <a href="/moon-rabbit" class="header-col-2 box">
+            <h3 class="landing-header__two">Moon Rabbit</h3>
+            <p class="landing-header__two--description">If you look closely at the moon, you'll see a rabbit making rice cakes beneath a tree.</p>
+          </a>
         </div>
       </div>
 
@@ -78,7 +79,7 @@ const Landing = ({data}) => (
           </p>
       </div>
 
-      <div class="row justify-content-start">
+      <div class="row justify-content-start" id="places">
         <div class="landing-category--col">
           <h2 class="leader--third text-left"><span class="landing-category--third">Festivities</span></h2>
         </div>
@@ -89,7 +90,7 @@ const Landing = ({data}) => (
       </div>
       <Placeimages />
 
-      <div class="row justify-content-start">
+      <div class="row justify-content-start" id="media">
         <div class="landing-category--col">
           <h2 class="leader--third text-left"><span class="landing-category--third">Media</span></h2>
         </div>

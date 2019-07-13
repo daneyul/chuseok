@@ -24,6 +24,7 @@
 .landing-title3 {
     position: relative;
     background: #fff;
+    line-height: 24px;
 
 }
 
@@ -39,12 +40,13 @@
     -ms-flex: 0 0 35%;
     flex: 0 0 35%;
     max-width: 35%;
+    margin-right: 1rem;
 }
 
 .header-col-2 {
-    -ms-flex: 0 0 32%;
-    flex: 0 0 32%;
-    max-width: 32%;
+    -ms-flex: 0 0 31%;
+    flex: 0 0 31%;
+    max-width: 31%;
 }
 
 .header-mb {
@@ -90,7 +92,7 @@
     line-height: 36px;
     text-align: right;
     letter-spacing: 0.1em;
-    text-decoration-line: underline;
+
     text-transform: uppercase;
     margin-bottom: 8.5rem;
 }
@@ -209,7 +211,7 @@
         content: '';
         display: block;
         position: absolute;
-        top: 20px;
+        top: 24px;
         width: 78%;
         height: 1px;
         background: rgba(0,0,0,0.2);
@@ -279,3 +281,4 @@
 .fest-image:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
 }
+

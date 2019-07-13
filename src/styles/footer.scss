@@ -1,0 +1,43 @@
+
+.footer-bg {
+    background: #3C3C3C;
+    width: 100%;
+}
+
+.footer-color {
+    color: rgba(255,255,255,0.8);
+}
+
+.footer-top {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.footer-title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.footer-font {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.footer-category {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    margin-bottom: 4rem;
+}
