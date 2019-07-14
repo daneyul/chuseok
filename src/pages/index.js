@@ -22,10 +22,8 @@ window.onload = function () {
   const Parallax = require('parallax-js')
   var scene = document.getElementById('scene');
   var parallaxInstance = new Parallax(scene);
-};
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
+  var prevScrollpos = window.pageYOffset;
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
@@ -33,7 +31,8 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "-80px";
   }
   prevScrollpos = currentScrollPos;
-}
+};
+
 
 }
 
