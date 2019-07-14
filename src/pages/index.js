@@ -23,7 +23,12 @@ window.onload = function () {
   var scene = document.getElementById('scene');
   var parallaxInstance = new Parallax(scene);
 
-  var prevScrollpos = window.pageYOffset;
+};
+}
+
+if (typeof window !== 'undefined') {
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
@@ -31,8 +36,7 @@ window.onload = function () {
     document.getElementById("navbar").style.top = "-80px";
   }
   prevScrollpos = currentScrollPos;
-};
-
+}
 
 }
 
