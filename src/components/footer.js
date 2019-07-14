@@ -8,7 +8,7 @@ const Footer = () => (
     <div class="container">
     <div class="row footer-color justify-content-between">
         <div class="col-12 footer-top">
-            <h3 class="footer-title">Chuseok 2019</h3>
+            <a href="/" onClick="window.location.reload();"><h3 class="footer-title">Chuseok 2019</h3></a>
             <h4 class="footer-font">&copy; 2019 All Rights Reserved <a href="/privacy" class="footer-font footer-color footer-underline">Privacy Policy</a></h4>
         </div>
         <div class="col-4">

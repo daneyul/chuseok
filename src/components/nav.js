@@ -13,7 +13,7 @@ const Nav = () => (
           <li><Link to="/drinks">Drinks</Link></li>
         </ul>
         <ul class="col-4 nav-item justify-content-center">
-          <li class="nav-item--center"><Link to="/">Chuseok 2019</Link></li>
+          <li class="nav-item--center"><a href="/" onClick="window.location.reload();">Chuseok 2019</a></li>
         </ul>
         <ul class="col-4 nav-item justify-content-between">
           <li><Link to="/table">Table</Link></li>
