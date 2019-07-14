@@ -16,7 +16,7 @@ const IndexPage = () => (
 
 export default IndexPage
 
-if (window !== 'undefined') {
+if (typeof window !== 'undefined') {
 
 window.onload = function () { 
   const Parallax = require('parallax-js')
