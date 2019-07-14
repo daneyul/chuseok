@@ -16,11 +16,13 @@ const IndexPage = () => (
 
 export default IndexPage
 
-// window.onload = function () { 
-//   const Parallax = require('parallax-js')
-//   var scene = document.getElementById('scene');
-//   var parallaxInstance = new Parallax(scene);
-// };
+if (window !== undefined) {
+
+window.onload = function () { 
+  const Parallax = require('parallax-js')
+  var scene = document.getElementById('scene');
+  var parallaxInstance = new Parallax(scene);
+};
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -31,5 +33,7 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "-80px";
   }
   prevScrollpos = currentScrollPos;
+}
+
 }
 

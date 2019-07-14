@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/landing.scss";
 import "../styles/images.scss";
-import { Link, graphql, StaticQuery } from "gatsby";
+import { a, graphql, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
 const Foodimages = () => (
@@ -29,17 +29,19 @@ const Foodimages = () => (
         
     <React.Fragment>
         <div class="food-image--drink">
-            <h3 class="landing-recipes">Need Recipes?</h3>
-            <Link to="drinks">
-              <Img fluid={data.foodTwo.childImageSharp.fluid} class="fest-image--box" />
+            <a href="recipes">
+              <h3 class="landing-recipes">Need Recipes?</h3>
+            </a>
+            <a href="drinks" class="food-image food-image--box">
+              <Img fluid={data.foodTwo.childImageSharp.fluid} />
               <h3 class="food-header food-header--drink">Traditional Drinks</h3>
-            </Link>
+            </a>
         </div>
           <div class="food-image--food">
-            <Link to="foods">
-              <Img fluid={data.foodOne.childImageSharp.fluid} class="fest-image--box" />
+            <a href="foods" class="food-image food-image--box">
+              <Img fluid={data.foodOne.childImageSharp.fluid}/>
               <h3 class="food-header food-header--food">Typical Chuseok Foods</h3>
-            </Link>
+            </a>
         </div>
     </React.Fragment>
 

@@ -17,8 +17,8 @@ const Nav = () => (
         </ul>
         <ul class="col-4 nav-item justify-content-between">
           <li><Link to="/table">Table</Link></li>
-          <li><Link to="">Places</Link></li>
-          <li><Link to="">Media</Link></li>
+          <li><Link to="#places">Places</Link></li>
+          <li><Link to="#media">Media</Link></li>
         </ul>
       </div>
     </div>

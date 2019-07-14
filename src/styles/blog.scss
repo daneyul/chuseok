@@ -10,6 +10,51 @@
     text-transform: uppercase;
 }
 
+.blog-header--2 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-header--greetings0 {
+    font-family: "Oswald";
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-header--greetings1 {
+    font-family: "Oswald";
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+.blog-header--greetings2 {
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.blog-header--greetings3 {
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+}
+
 .blog-header--margin {
     margin-top: 8rem;
 }
@@ -99,7 +144,7 @@
     transition: box-shadow .3s;
     border-radius:10px;
     background: #fff;
-    padding: 4px 16px;
+    padding: 8px 16px;
     margin-right: -16px;
 }
 
