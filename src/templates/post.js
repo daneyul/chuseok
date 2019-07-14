@@ -31,7 +31,7 @@ export default function Template({data}) {
                             <p class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                         <ul class="col-blog blog-sidebar">
-                                {sidebar.map( (value) => { return <li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li> } ) }
+                                {sidebar.map( (value) => { return <li class="blog-sidebar__list blog-box"><a href={value[2]}>{value[0]}<br />{value[1]}</a></li> } ) }
                         </ul>
                     </div>
                 </div>
