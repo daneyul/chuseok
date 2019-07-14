@@ -17,8 +17,8 @@ const Nav = () => (
         </ul>
         <ul class="col-4 nav-item justify-content-between">
           <li><a href="/table" onClick="window.location.reload();">Table</a></li>
-          <li><a href="#places" onClick="window.location.reload();">Places</a></li>
-          <li><a href="#media" onClick="window.location.reload();">Media</a></li>
+          <li><a href="/#places" onClick="window.location.reload();">Places</a></li>
+          <li><a href="/#media" onClick="window.location.reload();">Media</a></li>
         </ul>
       </div>
     </div>

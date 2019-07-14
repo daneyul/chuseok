@@ -9,7 +9,7 @@ const Footer = () => (
     <div class="row footer-color justify-content-between">
         <div class="col-12 footer-top">
             <a href="/" onClick="window.location.reload();"><h3 class="footer-title footer-color">Chuseok 2019</h3></a>
-            <h4 class="footer-font">&copy; 2019 All Rights Reserved <a href="/privacy" class="footer-font footer-color footer-underline">Privacy Policy</a></h4>
+            <h4 class="footer-font">&copy; 2019 All Rights Reserved <a href="/privacy" class="footer-font footer-color footer-underline footer-link">Privacy Policy</a></h4>
         </div>
         <div class="col-4">
             <h5 class="footer-category footer-font">About</h5>
@@ -18,28 +18,28 @@ const Footer = () => (
         <div class="col-2">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Traditions</span></h5>
             <ul>
-                <li><a href="/tradition" onClick="window.location.reload();" class="footer-font footer-color">Customs & Ceremonies</a></li>
-                <li><a href="/moon-rabbit" onClick="window.location.reload();" class="footer-font footer-color">The Moon Rabbit</a></li>
-                <li><a href="/table" onClick="window.location.reload();" class="footer-font footer-color">Table Setting</a></li>
+                <li><a href="/tradition" onClick="window.location.reload();" class="footer-font footer-color footer-link">Customs & Ceremonies</a></li>
+                <li><a href="/moon-rabbit" onClick="window.location.reload();" class="footer-font footer-color footer-link">The Moon Rabbit</a></li>
+                <li><a href="/table" onClick="window.location.reload();" class="footer-font footer-color footer-link">Table Setting</a></li>
             </ul>
         </div>
         <div class="col-2">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Food & Drinks</span></h5>
             <ul>
-                <li><a href="/foods" onClick="window.location.reload();" class="footer-font footer-color">Chuseok Foods</a></li>
-                <li><a href="/drinks" onClick="window.location.reload();" class="footer-font footer-color">Chuseok Drinks</a></li>
-                <li><a href="/recipes" onClick="window.location.reload();" class="footer-font footer-color">Chuseok Recipes</a></li>
+                <li><a href="/foods" onClick="window.location.reload();" class="footer-font footer-color footer-link">Chuseok Foods</a></li>
+                <li><a href="/drinks" onClick="window.location.reload();" class="footer-font footer-color footer-link">Chuseok Drinks</a></li>
+                <li><a href="/recipes" onClick="window.location.reload();" class="footer-font footer-color footer-link">Chuseok Recipes</a></li>
             </ul>
         </div>
         <div class="col-2 footer-bottom">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Festivities</span></h5>
             <ul>
-                <li><a href="#places" class="footer-font footer-color">Places to Visit</a></li>
-                <li><a href="#media" class="footer-font footer-color">Shows & Media</a></li>
-                <li><a href="/hanbok" onClick="window.location.reload();" class="footer-font footer-color">Hanbok</a></li>
-                <li><a href="/gifts" onClick="window.location.reload();" class="footer-font footer-color">Gifts</a></li>
-                <li><a href="/greetings" onClick="window.location.reload();" class="footer-font footer-color">Greetings</a></li>
-                <li><a href="/folk-games" onClick="window.location.reload();" class="footer-font footer-color">Folk Games</a></li>
+                <li><a href="#places" class="footer-font footer-color footer-link">Places to Visit</a></li>
+                <li><a href="#media" class="footer-font footer-color footer-link">Shows & Media</a></li>
+                <li><a href="/hanbok" onClick="window.location.reload();" class="footer-font footer-color footer-link">Hanbok</a></li>
+                <li><a href="/gifts" onClick="window.location.reload();" class="footer-font footer-color footer-link">Gifts</a></li>
+                <li><a href="/greetings" onClick="window.location.reload();" class="footer-font footer-color footer-link">Greetings</a></li>
+                <li><a href="/folk-games" onClick="window.location.reload();" class="footer-font footer-color footer-link">Folk Games</a></li>
             </ul>
         </div>
     </div>
