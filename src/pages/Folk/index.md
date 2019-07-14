@@ -2,6 +2,7 @@
 path: "/folk-games"
 title: "Folk Games"
 tagline: "Traditional activities"
+type: "Festivities"
 side: false
 ---
 

@@ -28,7 +28,7 @@ export default function Template({data}) {
                     </div>
                     <div class="row justify-content-between">
                         <div class="col-blog--main blog-main">
-                            <p class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
+                            <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                         <ul class="col-blog blog-sidebar">
                                 {sidebar.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
@@ -54,7 +54,7 @@ export default function Template({data}) {
                             
                         </div>
                         <div class="col-10 blog-main2">
-                            <p dangerouslySetInnerHTML={{__html: post.html}} />
+                            <div dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ export default function Template({data}) {
                             
                         </div>
                         <div class="col-10 blog-main2">
-                            <p class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
+                            <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                     </div>
                 </div>

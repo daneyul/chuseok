@@ -2,6 +2,7 @@
 path: "/hanbok"
 title: "Hanbok"
 tagline: "What they are and how to wear one"
+type: "Festivities"
 side: false
 ---
 

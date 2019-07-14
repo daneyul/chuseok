@@ -3,6 +3,7 @@ path: "/foods"
 title: "Typical Chuseok Foods"
 tagline: "What's on the menu during Chuseok"
 side: true
+type: "Food & Drinks"
 sidebar: [["Songpyeon", "송편", "#songpyeon"],  ["Jeon", "전", "#jeon"], ["Galbi Jjim", "갈비찜", "#galbijjim"], ["Toranguk", "토란국", "#toranguk"], ["Fruits", "과일", "#fruits"], ["Sanjeok", "산적", "#sanjeok"], ["Hangwa", "한과", "#hangwa"], ["Saengseontwigim", "생선튀김", "#saengseontwigim"], ["Japchae", "잡채", "#japchae"], ["Namul", "나물", "#namul"]]
 
 ---

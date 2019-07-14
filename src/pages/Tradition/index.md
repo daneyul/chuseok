@@ -2,6 +2,7 @@
 path: "/tradition"
 title: "Customs & Ceremonies"
 tagline: "What usually happens during Chuseok"
+type: "Traditions"
 side: false
 ---
 
