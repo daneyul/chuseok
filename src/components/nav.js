@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import "../styles/nav.scss"
-import "../styles/custom.scss"
 
 const Nav = () => (
   <nav class="container-fluid nav-top" id="navbar">

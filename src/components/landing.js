@@ -1,7 +1,6 @@
 import { Link, graphql, StaticQuery } from "gatsby";
 import React from "react";
 import "../styles/landing.scss";
-import "../styles/custom.scss";
 import Flowers from "./flowers";
 import Festimages from "./festimages";
 import Foodimages from "./foodimages";

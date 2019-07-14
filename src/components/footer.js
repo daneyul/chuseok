@@ -2,7 +2,6 @@ import { Link, graphql, StaticQuery } from "gatsby";
 import React from "react";
 import "../styles/footer.scss";
 import "../styles/landing.scss";
-import "../styles/custom.scss";
 
 const Footer = () => (
 <div class="footer-bg footer-font">
