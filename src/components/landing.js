@@ -109,7 +109,16 @@ const Landing = ({data}) => (
     </div>
 
   )
+  
+  if (typeof window !== 'undefined') {
 
+    window.onload = function () { 
+      const Parallax = require('parallax-js')
+      var scene = document.getElementById('scene');
+      var parallaxInstance = new Parallax(scene);
+    
+    };
+    }
 
   export default Landing
   
