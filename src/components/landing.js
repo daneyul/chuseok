@@ -36,11 +36,11 @@ const Landing = ({data}) => (
             <h3 class="landing-header__one">What is Chuseok?</h3>
             <p class="landing-header--description">Chuseok (추석) is one of the biggest holidays in Korea. It is sometimes referred to as “Korean Thanksgiving” because it’s a special time for family, friends, and food.</p>
           </div>
-          <a href="/tradition" class="header-col-2 box">
+          <a href="/tradition" onClick="window.location.reload();" class="header-col-2 box">
               <h3 class="landing-header__two">Ceremonies</h3>
               <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
           </a>
-          <a href="/moon-rabbit" class="header-col-2 box">
+          <a href="/moon-rabbit" onClick="window.location.reload();" class="header-col-2 box">
             <h3 class="landing-header__two">Moon Rabbit</h3>
             <p class="landing-header__two--description">If you look closely at the moon, you'll see a rabbit making rice cakes beneath a tree.</p>
           </a>
