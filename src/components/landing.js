@@ -12,7 +12,7 @@ const Landing = ({data}) => (
     <div class="container nav-space">
       
       <div class="row justify-content-start">
-        <div class="col-12">
+        <div class="col-12 slide-in-bottom">
           <Flowers />
           <h1 class="landing-title text-left">추석<br />Chuseok</h1>
           <h1 class="landing-title2 text-left">September 12-14, 2019</h1>
@@ -20,7 +20,7 @@ const Landing = ({data}) => (
       </div>
 
       <div class="row justify-content-start landing-title3--margin">
-        <div class="col-12">
+        <div class="col-12 slide-in-bottom">
           <h4 class="leader--first text-left"><span class="landing-title3">Celebrate the Korean Harvest Festival and learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
         </div>
       </div>
@@ -83,20 +83,19 @@ const Landing = ({data}) => (
       </div>
       <Placeimages />
 
-      <div class="row justify-content-start" id="media">
+      <div class="row justify-content-start header-mb--media" id="media">
         <div class="landing-category--col">
           <h2 class="leader--third text-left"><span class="landing-category--third">Media</span></h2>
         </div>
       </div>
 
       <div class="row justify-content-start">
-        <div class="col-12">
-          <h3 class="landing-header__one">2019 media</h3>
-          <p>(This will be updated as schedules are released)</p>
-          <h3 class="landing-header__one">2018 media</h3>
-          <ul>
-            <li></li>
-          </ul>
+        <div class="col-6">
+            <h3 class="landing-header__one">2019 media</h3>
+        </div>
+        <div class="col-6">
+            <h3 class="landing-header__one">2018 media</h3>
+            <p>Last year's popular events included </p>
         </div>
       </div>
 
@@ -105,15 +104,15 @@ const Landing = ({data}) => (
 
   )
   
-  // if (typeof window !== 'undefined') {
+  if (typeof window !== 'undefined') {
 
-  //   window.onload = function () { 
-  //     const Parallax = require('parallax-js')
-  //     var scene = document.getElementById('scene');
-  //     var parallaxInstance = new Parallax(scene);
+    window.onload = function () { 
+      const Parallax = require('parallax-js')
+      var scene = document.getElementById('scene');
+      var parallaxInstance = new Parallax(scene);
     
-  //   };
-  //   }
+    };
+    }
 
   export default Landing
   

@@ -7,7 +7,7 @@ import s2 from "../images/landing/facebook.svg"
 import s3 from "../images/landing/linkedin.svg"
 
 const Nav = () => (
-  <nav class="container-fluid nav-top" id="navbar">
+  <nav class="container-fluid nav-top slide-in-top" id="navbar">
     <div class="container">
       <div id="nav-list" class="row">
 
@@ -35,8 +35,8 @@ const Nav = () => (
         <ul class="col-4 nav-item justify-content-between">
           <li class="nav-dropdown--parent"><a href="#">Festivities</a>
             <ul class="nav-dropdown nav-box slide-in-top">
-              <li class="nav-dropdown--item"><a href="/places">Places to Visit</a></li>
-              <li class="nav-dropdown--item"><a href="/media">Shows & Media</a></li>
+              <li class="nav-dropdown--item"><a href="/#places">Places to Visit</a></li>
+              <li class="nav-dropdown--item"><a href="/#media">Shows & Media</a></li>
               <li class="nav-dropdown--item"><a href="/hanbok">Hanbok</a></li>
               <li class="nav-dropdown--item"><a href="/gifts">Gifts</a></li>
               <li class="nav-dropdown--item"><a href="/greetings">Greetings</a></li>
