@@ -2,9 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import "../styles/nav.scss"
-import s1 from "../images/landing/twitter.svg"
-import s2 from "../images/landing/facebook.svg"
-import s3 from "../images/landing/linkedin.svg"
+import s1 from "../images/landing/twitter-icon.svg"
+import s2 from "../images/landing/facebook-icon.svg"
+import s3 from "../images/landing/linkedin-icon.svg"
 
 const Nav = () => (
   <nav class="container-fluid nav-top" id="navbar">
