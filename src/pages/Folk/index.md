@@ -1,5 +1,5 @@
 ---
-path: "/folk-games"
+path: "/games"
 title: "Folk Games"
 tagline: "Traditional activities"
 type: "Festivities"

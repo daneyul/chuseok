@@ -54,7 +54,7 @@ const Festimages = () => (
             <Img fluid={data.festThree.childImageSharp.fluid} />
             <h3 class="fest-header">How to Greet in Korean</h3>
         </a>
-        <a href="/folk-games" onClick="window.location.reload();" class="fest-image fest-image--box">
+        <a href="/games" onClick="window.location.reload();" class="fest-image fest-image--box">
             <Img fluid={data.festFour.childImageSharp.fluid} />
             <h3 class="fest-header">Folk Games</h3>
         </a>

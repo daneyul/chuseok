@@ -39,7 +39,7 @@ const Footer = () => (
                 <li><a href="/hanbok" onClick="window.location.reload();" class="footer-font footer-color footer-link">Hanbok</a></li>
                 <li><a href="/gifts" onClick="window.location.reload();" class="footer-font footer-color footer-link">Gifts</a></li>
                 <li><a href="/greetings" onClick="window.location.reload();" class="footer-font footer-color footer-link">Greetings</a></li>
-                <li><a href="/folk-games" onClick="window.location.reload();" class="footer-font footer-color footer-link">Folk Games</a></li>
+                <li><a href="/games" onClick="window.location.reload();" class="footer-font footer-color footer-link">Folk Games</a></li>
             </ul>
         </div>
     </div>

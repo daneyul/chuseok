@@ -31,9 +31,9 @@ export default function Template({data}) {
                         <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                     </div>
                     <ul class="col-blog blog-sidebar">
-                            <li class="blog-sidebar__list">Alcoholic</li>
+                            <li class="blog-sidebar__list blog-header--3">Alcoholic</li>
                             {sidebar1.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
-                            <li class="blog-sidebar__list">Non-alcoholic</li>
+                            <li class="blog-sidebar__list blog-header--3">Non-alcoholic</li>
                             {sidebar2.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
                     </ul>
                 </div>
@@ -93,7 +93,35 @@ export default function Template({data}) {
                 <Footer />
                 </React.Fragment>
             )
+        } else if (post.frontmatter.path == "/greetings"){
+            return (
+                <React.Fragment>
+                <Nav />
+                <div class="container">
+                    <div class="row blog-header--margin justify-content-start">
+                        <div class="col-12 header-mb__foods nav-space">
+                            <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
+                            <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-blog--main blog-main">
+                            <div dangerouslySetInnerHTML={{__html: post.html}} />
+                        </div>
+                        <ul class="col-blog blog-sidebar">
+                        </ul>
+                    </div>
+                </div>
+                <Footer />
+                </React.Fragment>
+            )
         }
+
         else {
             return (
                 <React.Fragment>
