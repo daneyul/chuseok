@@ -4,7 +4,24 @@ title: "Traditional Korean Drinks"
 tagline: "What to drink during Chuseok"
 type: "Food & Drinks"
 side: true
-sidebar: [["Soju", "소주", "#soju"],  ["Sikhye", "식혜", "#sikhye"], ["Banana milk", "바나나맛 우유", "#banana-milk"], ["Omija tea", "오미자차", "#omija"], ["Makgeolli", "막걸리", "#makgeoli"], ["Cheongju", "청주", "#cheongju"], ["Baekseju", "백세주", "#baekseju"], ["Yuja tea", "유자차", "#yuja"], ["Jujubes tea", "대추차", "#jujubes"], ["Corn tea", "옥수수차", "#corn-tea"], ["Green Plum tea", "매실차", "#green-plum"], ["Barley tea", "보리차", "#barley"], ["Sujeonggwa", "수정과", "#sujeonggwa"], ["Maekju", "맥주", "#maekju"]]
+sidebar1: [
+    ["Soju", "소주", "#soju"], 
+    ["Makgeolli", "막걸리", "#makgeoli"], 
+    ["Maekju", "맥주", "#maekju"], 
+    ["Cheongju", "청주", "#cheongju"], 
+    ["Baekseju", "백세주", "#baekseju"]
+    ]
+sidebar2: [
+    ["Sikhye", "식혜", "#sikhye"], 
+    ["Banana milk", "바나나맛 우유", "#banana-milk"], 
+    ["Omija tea", "오미자차", "#omija"], 
+    ["Yuja tea", "유자차", "#yuja"], 
+    ["Jujubes tea", "대추차", "#jujubes"], 
+    ["Corn tea", "옥수수차", "#corn-tea"], 
+    ["Green Plum tea", "매실차", "#green-plum"], 
+    ["Barley tea", "보리차", "#barley"], 
+    ["Sujeonggwa", "수정과", "#sujeonggwa"]
+    ]
 
 ---
 

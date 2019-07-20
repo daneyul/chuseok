@@ -1,5 +1,5 @@
 ---
-path: "/tradition"
+path: "/ceremonies"
 title: "Customs & Ceremonies"
 tagline: "What usually happens during Chuseok"
 type: "Traditions"

@@ -8,8 +8,41 @@ import '../styles/landing.scss';
 
 export default function Template({data}) {
     const {markdownRemark: post} = data;
-    if (post.frontmatter.side == true) {
-          const sidebar = post.frontmatter.sidebar;
+    if (post.frontmatter.path == "/drinks" ) {
+        const sidebar1 = post.frontmatter.sidebar1;
+        const sidebar2 = post.frontmatter.sidebar2;
+        return (
+            <React.Fragment>
+            <Nav />
+            <div class="container">
+                <div class="row blog-header--margin justify-content-start">
+                    <div class="col-12 header-mb__foods nav-space">
+                        <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
+                        <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-blog--main blog-main">
+                        <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
+                    </div>
+                    <ul class="col-blog blog-sidebar">
+                            <li class="blog-sidebar__list">Alcoholic</li>
+                            {sidebar1.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
+                            <li class="blog-sidebar__list">Non-alcoholic</li>
+                            {sidebar2.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
+                    </ul>
+                </div>
+            </div>
+            <Footer />
+            </React.Fragment>
+        )
+        } else if (post.frontmatter.side == true){
+            const sidebar = post.frontmatter.sidebar;
             return (
                 <React.Fragment>
                 <Nav />
@@ -23,7 +56,6 @@ export default function Template({data}) {
                         <div class="col-12">
                             <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
-                            
                         </div>
                     </div>
                     <div class="row justify-content-between">
@@ -39,7 +71,7 @@ export default function Template({data}) {
                 </React.Fragment>
             )
         }
-        else if (post.frontmatter.path == "/greetings" || post.frontmatter.path == "/recipes" || post.frontmatter.path == "/privacy"){
+        else if (post.frontmatter.path == "/privacy"){
             return (
                 <React.Fragment>
                 <Nav />
@@ -67,18 +99,23 @@ export default function Template({data}) {
                 <React.Fragment>
                 <Nav />
                 <div class="container">
-                    <div class="row blog-header--margin justify-content-center">
+                    <div class="row blog-header--margin justify-content-start">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-12">
                             <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
-                            
                         </div>
-                        <div class="col-10 blog-main2">
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-blog--main blog-main">
                             <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
+                        <ul class="col-blog blog-sidebar">
+                        </ul>
                     </div>
                 </div>
                 <Footer />
@@ -97,6 +134,8 @@ export const postQuery = graphql`
                 side
                 tagline
                 sidebar
+                sidebar1
+                sidebar2
                 type
             }
         }

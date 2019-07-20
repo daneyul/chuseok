@@ -207,6 +207,16 @@
     padding-left: 1rem;
 }
 
+.table-header {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 27px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.08em;
+}
+
 .leader--first {
     &:before {
         content: '';
@@ -272,6 +282,21 @@
 }
 
 .box:hover {
+    box-shadow: 0 0 8px rgba(33,33,33,.2); 
+}
+
+.table-box {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 2rem;
+    margin-left: -1.5rem;
+    background: #fff;
+}
+
+.table-box:hover {
     box-shadow: 0 0 8px rgba(33,33,33,.2); 
 }
 

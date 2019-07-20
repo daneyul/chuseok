@@ -67,16 +67,10 @@ const Landing = ({data}) => (
 
       <div class="row justify-content-end">
         <div class="landing-category--col">
-          <h2 class="leader--fourth text-right"><span class="landing-category--fourth">Did you know that food is traditionally laid out a certain way?</span></h2>
+          <h2 class="leader--fourth text-right header-mb"><span class="landing-category--fourth">Did you know that food is traditionally laid out a certain way?</span></h2>
         </div>
       </div>
-
-      <div class="row justify-content-center header-mb">
-          <Tableimage />
-          <p class="mt-4 text-center">
-          Here are some guidelines to placing food on the table. <br /> Although, setting up the table the right way isn’t so crucial these days.
-          </p>
-      </div>
+      <Tableimage />
 
       <div class="row justify-content-start" id="places">
         <div class="landing-category--col">
@@ -107,6 +101,7 @@ const Landing = ({data}) => (
       </div>
 
     </div>
+
 
   )
   

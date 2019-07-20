@@ -1,5 +1,5 @@
 ---
-path: "/moon-rabbit"
+path: "/rabbit"
 title: "The Story of the Moon Rabbit"
 tagline: "The Mid-Autumn harvest folklore"
 type: "Traditions"

@@ -30,7 +30,7 @@ const Foodimages = () => (
     <React.Fragment>
         <div class="food-image--drink">
             <a href="recipes" onClick="window.location.reload();">
-              <h3 class="landing-recipes">Need Recipes?</h3>
+              <h3 class="landing-recipes"><span class="landing-recipes box">Need Recipes?</span></h3>
             </a>
             <a href="drinks" onClick="window.location.reload();" class="food-image food-image--box">
               <Img fluid={data.foodTwo.childImageSharp.fluid} />

@@ -6,20 +6,35 @@ import "../styles/nav.scss"
 const Nav = () => (
   <nav class="container-fluid nav-top" id="navbar">
     <div class="container">
-    <div id="nav-list" class="row">
+      <div id="nav-list" class="row">
+
         <ul class="col-4 nav-item justify-content-between">
-          <li><a href="/tradition" onClick="window.location.reload();">Tradition</a></li>
-          <li><a href="/foods" onClick="window.location.reload();">Foods</a></li>
-          <li><a href="/drinks" onClick="window.location.reload();">Drinks</a></li>
+          <li class="nav-dropdown--parent"><a href="#">Traditions</a>
+            <ul class="nav-dropdown">
+              <li class="nav-dropdown--item"><a href="/ceremonies">Customs & Ceremonies</a></li>
+              <li class="nav-dropdown--item"><a href="/rabbit">The Moon Rabbit</a></li>
+              <li class="nav-dropdown--item"><a href="/table">Table Setting</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Foods & Drinks</a>
+            <ul class="nav-dropdown">
+              <li class="nav-dropdown--item"><a href="/foods">Chuseok Foods</a></li>
+              <li class="nav-dropdown--item"><a href="/drinks">Chuseok Drinks</a></li>
+              <li class="nav-dropdown--item"><a href="/recipes">Chuseok Recipes</a></li>
+            </ul>
+          </li>
         </ul>
+
         <ul class="col-4 nav-item justify-content-center">
           <li class="nav-item--center"><a href="/" onClick="window.location.reload();">Chuseok 2019</a></li>
         </ul>
+
         <ul class="col-4 nav-item justify-content-between">
           <li><a href="/table" onClick="window.location.reload();">Table</a></li>
           <li><a href="/#places" onClick="window.location.reload();">Places</a></li>
           <li><a href="/#media" onClick="window.location.reload();">Media</a></li>
         </ul>
+
       </div>
     </div>
   </nav>

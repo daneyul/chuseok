@@ -18,6 +18,8 @@ exports.createPages = ({actions, graphql}) => {
                         side
                         tagline
                         sidebar
+                        sidebar1
+                        sidebar2
                         type
                     }
                 }

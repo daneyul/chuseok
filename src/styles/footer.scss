@@ -31,7 +31,9 @@
 }
 
 .footer-link:hover {
-    color: rgba(255,255,255,0.8);
+    color: white;
+    transition: linear 0.25s;
+    text-decoration: underline;
 }
 
 .footer-font {
@@ -52,5 +54,9 @@
 }
 
 .footer-underline {
+    text-decoration: underline;
+}
+
+.footer-underline:hover {
     text-decoration: underline;
 }

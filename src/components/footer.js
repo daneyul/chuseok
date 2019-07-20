@@ -18,8 +18,8 @@ const Footer = () => (
         <div class="col-2">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Traditions</span></h5>
             <ul>
-                <li><a href="/tradition" onClick="window.location.reload();" class="footer-font footer-color footer-link">Customs & Ceremonies</a></li>
-                <li><a href="/moon-rabbit" onClick="window.location.reload();" class="footer-font footer-color footer-link">The Moon Rabbit</a></li>
+                <li><a href="/ceremonies" onClick="window.location.reload();" class="footer-font footer-color footer-link">Customs & Ceremonies</a></li>
+                <li><a href="/rabbit" onClick="window.location.reload();" class="footer-font footer-color footer-link">The Moon Rabbit</a></li>
                 <li><a href="/table" onClick="window.location.reload();" class="footer-font footer-color footer-link">Table Setting</a></li>
             </ul>
         </div>
@@ -34,8 +34,8 @@ const Footer = () => (
         <div class="col-2 footer-bottom">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Festivities</span></h5>
             <ul>
-                <li><a href="/#places" class="footer-font footer-color footer-link">Places to Visit</a></li>
-                <li><a href="/#media" class="footer-font footer-color footer-link">Shows & Media</a></li>
+                <li><a href="/#places" onClick="window.location.reload();" class="footer-font footer-color footer-link">Places to Visit</a></li>
+                <li><a href="/#media" onClick="window.location.reload();" class="footer-font footer-color footer-link">Shows & Media</a></li>
                 <li><a href="/hanbok" onClick="window.location.reload();" class="footer-font footer-color footer-link">Hanbok</a></li>
                 <li><a href="/gifts" onClick="window.location.reload();" class="footer-font footer-color footer-link">Gifts</a></li>
                 <li><a href="/greetings" onClick="window.location.reload();" class="footer-font footer-color footer-link">Greetings</a></li>
