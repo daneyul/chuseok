@@ -17,7 +17,7 @@ const Tableimage = () => (
     </div>
     <div class="col-7 justify-content-end">
       <a href="/table" onClick="window.location.reload();">
-      <img src={table} alt="table" />
+        <img src={table} class="img-fluid" alt="table" />
       </a>
     </div>
   </div>

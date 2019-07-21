@@ -23,7 +23,7 @@ import f17 from "../images/landing/f17.svg"
 
 
 const Flowers = () => (
-    <div class="landing-flowers" id="scene">
+    <React.Fragment>
         <div data-depth="0.9"><img src={f1} alt="flower 1" class="f1 rotate"/></div>
         <div data-depth="0.9"><img src={f2} alt="flower 2" class="f2 rotate-opp"/></div>
         <div data-depth="0.7"><img src={f3} alt="flower 3" class="f3 rotate"/></div>
@@ -41,7 +41,7 @@ const Flowers = () => (
         <div data-depth="0.7"><img src={f15} alt="flower 15" class="f15 rotate" /></div>
         <div data-depth="0.7"><img src={f16} alt="flower 16" class="f16 rotate-opp" /></div>
         <div data-depth="0.5"><img src={f17} alt="flower 17" class="f17 rotate" /></div>
-    </div>
+    </React.Fragment>
 )
 
 

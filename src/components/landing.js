@@ -12,8 +12,10 @@ const Landing = ({data}) => (
     <div class="container nav-space">
       
       <div class="row justify-content-start">
-        <div class="col-12 slide-in-bottom">
+        <div class="col-12 landing-flowers slide-in-bottom img-fluid" id="scene">
           <Flowers />
+        </div>
+        <div class="col-12 slide-in-bottom">
           <h1 class="landing-title text-left">추석<br />Chuseok</h1>
           <h1 class="landing-title2 text-left">September 12-14, 2019</h1>
         </div>
@@ -21,7 +23,7 @@ const Landing = ({data}) => (
 
       <div class="row justify-content-start landing-title3--margin">
         <div class="col-12 slide-in-bottom">
-          <h4 class="leader--first text-left"><span class="landing-title3">Celebrate the Korean Harvest Festival and learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
+          <h4 class="leader--first text-left"><span class="landing-title3">Celebrate the Korean Harvest Festival! Learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
         </div>
       </div>
 
@@ -58,7 +60,7 @@ const Landing = ({data}) => (
 
       <div class="row justify-content-start">
         <div class="landing-category--col">
-          <h2 class="leader--third text-left"><span class="landing-category--third">Food</span></h2>
+          <h2 class="leader--fourth text-left"><span class="landing-category--third">Food</span></h2>
         </div>
       </div>
       <div class="row justify-content-between header-mb img-padding">
@@ -67,14 +69,14 @@ const Landing = ({data}) => (
 
       <div class="row justify-content-end">
         <div class="landing-category--col">
-          <h2 class="leader--fourth text-right header-mb"><span class="landing-category--fourth">Did you know that food is traditionally laid out a certain way?</span></h2>
+          <h2 class="leader--fifth text-right header-mb"><span class="landing-category--fourth">Did you know that food is traditionally laid out a certain way?</span></h2>
         </div>
       </div>
       <Tableimage />
 
       <div class="row justify-content-start" id="places">
         <div class="landing-category--col">
-          <h2 class="leader--third text-left"><span class="landing-category--third">Festivities</span></h2>
+          <h2 class="leader--sixth text-left"><span class="landing-category--third">Festivities</span></h2>
         </div>
       </div>
 
@@ -85,7 +87,7 @@ const Landing = ({data}) => (
 
       <div class="row justify-content-start header-mb--media" id="media">
         <div class="landing-category--col">
-          <h2 class="leader--third text-left"><span class="landing-category--third">Media</span></h2>
+          <h2 class="leader--seventh text-left"><span class="landing-category--third">Media</span></h2>
         </div>
       </div>
 
@@ -104,15 +106,15 @@ const Landing = ({data}) => (
 
   )
   
-  if (typeof window !== 'undefined') {
+  // if (typeof window !== 'undefined') {
 
-    window.onload = function () { 
-      const Parallax = require('parallax-js')
-      var scene = document.getElementById('scene');
-      var parallaxInstance = new Parallax(scene);
+  //   window.onload = function () { 
+  //     const Parallax = require('parallax-js')
+  //     var scene = document.getElementById('scene');
+  //     var parallaxInstance = new Parallax(scene);
     
-    };
-    }
+  //   };
+  //   }
 
   export default Landing
   
