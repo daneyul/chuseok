@@ -3,6 +3,8 @@ path: "/foods"
 title: "Typical Chuseok Foods"
 tagline: "What's on the menu during Chuseok"
 side: true
+featuredImage: "food-hero.jpg"
+cap: "Republic of Korea - Flickr"
 type: "Food & Drinks"
 sidebar: [
     ["Songpyeon", "송편", "#songpyeon"],  

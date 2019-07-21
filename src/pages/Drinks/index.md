@@ -4,6 +4,8 @@ title: "Traditional Korean Drinks"
 tagline: "What to drink during Chuseok"
 type: "Food & Drinks"
 side: true
+featuredImage: "drink-hero.jpg"
+cap: "Republic of Korea - Flickr"
 sidebar1: [
     ["Soju", "소주", "#soju"], 
     ["Makgeolli", "막걸리", "#makgeoli"], 
@@ -27,8 +29,11 @@ sidebar2: [
 
 ---
 
-<p class="blog-p">
+<p>
 South Korea’s drinking culture has been popularized by music videos and tv shows, but aside from the soju and beer, there are plenty of drinks that contribute to Korea’s rich food culture.
+</p>
+<p class="blog-p">
+From distilled liquors, wines, teas, and punches, drinking in Korea is valued with a long tradition.
 </p>
 
 

@@ -21,6 +21,7 @@ exports.createPages = ({actions, graphql}) => {
                         sidebar1
                         sidebar2
                         type
+                        cap
                     }
                 }
             }

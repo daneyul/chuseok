@@ -2,6 +2,8 @@
 path: "/greetings"
 title: "Chuseok Greetings"
 tagline: "What to say to your friends and family for Chuseok"
+featureImage: ""
+cap: ""
 type: "Festivities"
 side: false
 ---

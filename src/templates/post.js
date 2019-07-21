@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import {graphql} from "gatsby";
+import Img from "gatsby-image";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import '../styles/blog.scss';
@@ -8,6 +9,8 @@ import '../styles/landing.scss';
 
 export default function Template({data}) {
     const {markdownRemark: post} = data;
+    const featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
+
     if (post.frontmatter.path == "/drinks" ) {
         const sidebar1 = post.frontmatter.sidebar1;
         const sidebar2 = post.frontmatter.sidebar2;
@@ -26,6 +29,12 @@ export default function Template({data}) {
                         <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                     </div>
                 </div>
+                <div class="row header-mb">
+                    <div class="col-12">
+                        <Img fluid={featuredImgFluid} />
+                        <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
+                    </div>
+                </div>
                 <div class="row justify-content-between">
                     <div class="col-blog--main blog-main">
                         <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
@@ -41,7 +50,7 @@ export default function Template({data}) {
             <Footer />
             </React.Fragment>
         )
-        } else if (post.frontmatter.side == true){
+        } else if (post.frontmatter.path == "/foods"){
             const sidebar = post.frontmatter.sidebar;
             return (
                 <React.Fragment>
@@ -58,6 +67,12 @@ export default function Template({data}) {
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                         </div>
                     </div>
+                    <div class="row header-mb">
+                        <div class="col-12">
+                            <Img fluid={featuredImgFluid} />
+                            <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
+                        </div>
+                    </div>
                     <div class="row justify-content-between">
                         <div class="col-blog--main blog-main">
                             <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
@@ -70,30 +85,7 @@ export default function Template({data}) {
                 <Footer />
                 </React.Fragment>
             )
-        }
-        else if (post.frontmatter.path == "/privacy"){
-            return (
-                <React.Fragment>
-                <Nav />
-                <div class="container">
-                    <div class="row blog-header--margin justify-content-center">
-                        <div class="col-12 header-mb__foods nav-space">
-                            <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
-                        </div>
-                        <div class="col-12">
-                            <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
-                            <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
-                            
-                        </div>
-                        <div class="col-10 blog-main2">
-                            <div dangerouslySetInnerHTML={{__html: post.html}} />
-                        </div>
-                    </div>
-                </div>
-                <Footer />
-                </React.Fragment>
-            )
-        } else if (post.frontmatter.path == "/greetings"){
+        } else {
             return (
                 <React.Fragment>
                 <Nav />
@@ -109,33 +101,10 @@ export default function Template({data}) {
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                         </div>
                     </div>
-                    <div class="row justify-content-between">
-                        <div class="col-blog--main blog-main">
-                            <div dangerouslySetInnerHTML={{__html: post.html}} />
-                        </div>
-                        <ul class="col-blog blog-sidebar">
-                        </ul>
-                    </div>
-                </div>
-                <Footer />
-                </React.Fragment>
-            )
-        }
-
-        else {
-            return (
-                <React.Fragment>
-                <Nav />
-                <div class="container">
-                    <div class="row blog-header--margin justify-content-start">
-                        <div class="col-12 header-mb__foods nav-space">
-                            <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
-                        </div>
-                    </div>
-                    <div class="row">
+                    <div class="row header-mb">
                         <div class="col-12">
-                            <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
-                            <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
+                            <Img fluid={featuredImgFluid} />
+                            <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
                         </div>
                     </div>
                     <div class="row justify-content-between">
@@ -165,6 +134,14 @@ export const postQuery = graphql`
                 sidebar1
                 sidebar2
                 type
+                featuredImage {
+                    childImageSharp {
+                      fluid(maxWidth: 1200) {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                  }
+                cap
             }
         }
     }

@@ -7,7 +7,6 @@ side: false
 ---
 
 </br>
-<div class="text-center">
 
 <div>
 <a href="http://www.beyondkimchee.com" target="_blank" style="text-decoration:underline;">Beyond Kimchee</a>
@@ -39,4 +38,3 @@ side: false
 </br>
 </div>
 
-</div>

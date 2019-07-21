@@ -3,6 +3,8 @@ path: "/table"
 title: "Charye Table Setting"
 tagline: "Where to place food and drink on the table"
 type: "Traditions"
+featuredImage: "table-charye.jpg"
+cap: "Republic of Korea - Flickr"
 side: false
 ---
 
@@ -10,13 +12,8 @@ side: false
 Traditionally, there are general guidelines to follow when setting up the table for charye (차례). The reason is similar to Feng Shui, but for the relationship between the ancestral offering and the ancestors. It differs slightly from house to house and from region to region. For example, a house in Busan may have much more fish on the table than a house from Seoul.
 </p>
 
-</br></br>
 
 ![Table](table.png)
-
-</br>
-
-
 <h2 class="blog-header--2">Guidelines</h2></br>
 <h3 class="blog-header--3">1st row</h3>
 <p>Utensils, cups, and Ddeokguk 떡국 (rice cake soup).</p>
