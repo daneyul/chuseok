@@ -22,7 +22,7 @@ Today, hanbok are not usually worn outside of special occasions, like weddings o
 </p>
 
 ![Hanbok-2](hanbok-2.jpg)
-<p class="blog-cap">Republic of Korea - Flickr</p>
+<p class="blog-cap">Pauline Mae De Leon - Unsplash</p>
 <h2 class="blog-header--2">Fun fact</h2>
 <p>
 In modern times, a Hanbok can be considered a type of bim (빔). Bim refers to clothing that is worn on special occasions in Korea. There are two types that are typically referred to - Seolbim(설빔) and Chuseokbim (추석빔). They each mean clothes that are worn for Seollal and Chuseok respectively. In each case, a Hanbok is the occasional attire. 
@@ -32,7 +32,7 @@ The contemporary take on hanbok can be seen in fashion shows, especially on Hanb
 </p>
 
 ![Hanbok-1](hanbok-1.jpg)
-<p class="blog-cap">Republic of Korea - Flickr</p>
+<p class="blog-cap">Kseniya Petukhova - Unsplash</p>
 <h2 class="blog-header--2">Wearing one</h2>
 <p>
 For women, an underskirt is typically worn underneath the visible skirt which is called chima (치마). For men, this is called a baji (바지). Once wrapped, the end of the skirt should be placed on a woman’s left side so that she can move and sit down easily. Modern chimas have shoulder straps, however traditionally the malgi (upper part) of the skirt would be wrapped tightly around a woman’s chest. For both male and female, the jeogori (저고리) is worn on top with a ribbon on the chest. There are many hats to wear and hair accessories that can be used to tie up hair into a bun like a binyeo (비녀). The main difference between male and female hanbok is that females have more intricate patterns, seams, and cloth while men have simpler components and often wear an overcoat called po.

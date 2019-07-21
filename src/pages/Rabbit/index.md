@@ -3,6 +3,8 @@ path: "/rabbit"
 title: "The Story of the Moon Rabbit"
 tagline: "The Mid-Autumn harvest folklore"
 type: "Traditions"
+featuredImage: "rabbit-hero.jpg"
+cap: "Arianna Giavardi - Unsplash"
 side: false
 ---
 

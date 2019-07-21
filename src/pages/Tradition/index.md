@@ -3,6 +3,8 @@ path: "/ceremonies"
 title: "Customs & Ceremonies"
 tagline: "What usually happens during Chuseok"
 type: "Traditions"
+featuredImage: "ceremonies-hero.jpg"
+cap: "Cait Ellis - Unsplash"
 side: false
 ---
 
