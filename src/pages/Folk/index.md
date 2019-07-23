@@ -2,6 +2,8 @@
 path: "/games"
 title: "Folk Games"
 tagline: "Traditional activities"
+featuredImage: "./folk-hero.jpg"
+cap: "Republic of Korea - Flickr"
 type: "Festivities"
 side: false
 ---
