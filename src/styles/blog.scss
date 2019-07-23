@@ -1,13 +1,21 @@
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+
 .blog-header {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
-    line-height: 53px;
+    line-height: 72px;
     display: flex;
     align-items: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    @media only screen and (min-width: $lg){
+        line-height: 53px;
+    }
+    
 }
 
 .blog-header--2 {
@@ -17,9 +25,11 @@
     font-size: 32px;
     line-height: 36px;
     letter-spacing: 0.1em;
-
+    margin-top: 1.5rem;
     text-transform: uppercase;
+    @media only screen and (min-width: $lg){
     margin-top: 2rem;
+    }
 }
 
 u:hover {
@@ -71,6 +81,13 @@ u:hover {
     font-style: normal;
 }
 
+.blog-header-mb {
+    margin-bottom: 3rem;
+    @media only screen and (min-width: $lg){
+        margin-bottom: 7rem;
+    }
+}
+
 .blog-header--margin {
     margin-top: 8rem;
 }
@@ -105,17 +122,24 @@ u:hover {
 }
 
 .col-blog {
-    -ms-flex: 0 0 22%;
-    flex: 0 0 22%;
-    max-width: 22%;
-    padding: 0 15px;
+    @media only screen and (min-width: $lg){
+        -ms-flex: 0 0 22%;
+        flex: 0 0 22%;
+        max-width: 22%;
+        padding: 0 15px;
+    }
 }
 
 .col-blog--main {
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     padding: 0 15px;
+    @media only screen and (min-width:$lg){
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
 }
 
 .blog-tagline {
@@ -123,11 +147,13 @@ u:hover {
 }
 
 .blog-main {
-    border-right: 1px solid rgba(0,0,0,0.2);
-    padding-right: 5rem;
     font-size: 1.25rem;
     line-height: 2rem;
     letter-spacing: 0.05rem;
+    @media only screen and (min-width:$lg){
+        border-right: 1px solid rgba(0,0,0,0.2);
+        padding-right: 5rem;
+    }
 }
 
 .blog-main2 {
@@ -150,6 +176,9 @@ u:hover {
     font-size: 1rem;
     letter-spacing: 0.05rem;
     color: rgba(0,0,0,0.8);
+    @media only screen and (max-width: $sm){
+        display: none;
+    }
 }
 
 .blog-sidebar__list {
@@ -169,7 +198,10 @@ u:hover {
 }
 
 .blog-p {
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
+    @media only screen and (min-width: $lg){
+        margin-bottom: 6rem;
+    }
 }
 
 .blog-cap {

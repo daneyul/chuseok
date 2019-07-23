@@ -4,7 +4,7 @@ title: "Traditional Korean Drinks"
 tagline: "What to drink during Chuseok"
 type: "Food & Drinks"
 side: true
-featuredImage: "drink-hero.jpg"
+featuredImage: "./drink-hero.jpg"
 cap: "Republic of Korea - Flickr"
 sidebar1: [
     ["Soju", "소주", "#soju"], 

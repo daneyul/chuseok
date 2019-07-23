@@ -3,7 +3,7 @@ path: "/ceremonies"
 title: "Customs & Ceremonies"
 tagline: "What usually happens during Chuseok"
 type: "Traditions"
-featuredImage: "ceremonies-hero.jpg"
+featuredImage: "./ceremonies-hero.jpg"
 cap: "Cait Ellis - Unsplash"
 side: false
 ---
@@ -32,6 +32,8 @@ Traditionally, the women of the family were the ones who were tasked with cookin
 People often take advantage of food markets, like Banchan markets 반찬가계. They sell traditional Chuseok foods during and around the Chuseok holidays, so not everything needs to be cooked at home.
 </p>
 
+![Seongmyo](ceremonies-1.jpg)
+<p class="blog-cap">Byung Jun Kim - Flickr</p>
 <h2 class="blog-header--2">Charye 차레, Beolcho 벌초, and Seongmyo 성묘</h2></br>
 <p>
 Traditionally, there are things that you’re supposed to do when you go back home: Charye 차레, an ancestral ritual, has many different types of foods and drinks. Once the food is prepared and laid on the table, you typically bow twice for the deceased and once towards the living (kneeling down with your forehead to the floor). By doing this, you’re offering food to the ancestors. After, either the food from the table and is eaten, or a separate table is prepared with the same kinds of foods for breakfast. That food on the table is specially referred to as Eumbok 음복.

@@ -5,8 +5,8 @@ import table from "../images/landing/table.svg"
 
 const Tableimage = () => (
 
-  <div class="row justify-content-between header-mb">
-    <div class="col-5 justify-content-start">
+  <div class="row justify-content-between-lg flex-wrap header-mb">
+    <div class="col-sm-12 col-lg-5 justify-content-start">
       <a href="/table" onClick="window.location.reload();">
       <div class="table-box">
         <h2 class="table-header">Set up the table</h2>
@@ -15,7 +15,7 @@ const Tableimage = () => (
       </div>
       </a>
     </div>
-    <div class="col-7 justify-content-end">
+    <div class="col-sm-12 col-lg-7 justify-content-end">
       <a href="/table" onClick="window.location.reload();">
         <img src={table} class="img-fluid" alt="table" />
       </a>

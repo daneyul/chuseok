@@ -42,19 +42,19 @@ const Festimages = () => (
     render ={data => (
         
     <React.Fragment>
-        <a href="/hanbok" onClick="window.location.reload();" class="fest-image fest-image--box">
+        <a href="/hanbok" onClick="window.location.reload();" class="fest-image fest-image--top fest-image--box">
             <Img fluid={data.festOne.childImageSharp.fluid} />
             <h3 class="fest-header">Wearing a Hanbok</h3>
         </a>
-        <a href="/gifts" onClick="window.location.reload();" class="fest-image fest-image--box">
+        <a href="/gifts" onClick="window.location.reload();" class="fest-image fest-image--top fest-image--box">
             <Img fluid={data.festTwo.childImageSharp.fluid} />
             <h3 class="fest-header">Gift Sets</h3>
         </a>
-        <a href="/greetings" onClick="window.location.reload();" class="fest-image fest-image--box">
+        <a href="/greetings" onClick="window.location.reload();" class="fest-image fest-image--bottom fest-image--box">
             <Img fluid={data.festThree.childImageSharp.fluid} />
-            <h3 class="fest-header">How to Greet in Korean</h3>
+            <h3 class="fest-header">Greeting in Korean</h3>
         </a>
-        <a href="/games" onClick="window.location.reload();" class="fest-image fest-image--box">
+        <a href="/games" onClick="window.location.reload();" class="fest-image fest-image--bottom fest-image--box">
             <Img fluid={data.festFour.childImageSharp.fluid} />
             <h3 class="fest-header">Folk Games</h3>
         </a>

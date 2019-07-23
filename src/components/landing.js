@@ -23,17 +23,17 @@ const Landing = ({data}) => (
 
       <div class="row justify-content-start landing-title3--margin">
         <div class="col-12 slide-in-bottom">
-          <h4 class="leader--first text-left"><span class="landing-title3">Celebrate the Korean Harvest Festival! Learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
+          <h4 class="leader--first text-left landing-title3"><span>Celebrate the Korean Harvest Festival! Learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
         </div>
       </div>
 
       <div class="row justify-content-start header-mt">
         <div class="col-12">
-          <h2 class="landing-category--first">Tradition</h2>
+          <h2 class="landing-category--first ">Tradition</h2>
         </div>
       </div>
       <div class="row header-mb">
-        <div class="col-12 d-flex justify-content-between">
+        <div class="col-12 d-flex justify-content-between flex-wrap">
           <div class="header-col-1">
             <h3 class="landing-header__one">What is Chuseok?</h3>
             <p class="landing-header--description">Chuseok (추석) is one of the biggest holidays in Korea. It is sometimes referred to as “Korean Thanksgiving” because it’s a special time for family, friends, and food.</p>
@@ -63,13 +63,13 @@ const Landing = ({data}) => (
           <h2 class="leader--fourth text-left"><span class="landing-category--third">Food</span></h2>
         </div>
       </div>
-      <div class="row justify-content-between header-mb img-padding">
+      <div class="row justify-content-sm-center justify-content-lg-between header-mb flex-wrap img-padding">
         <Foodimages />
       </div>
 
-      <div class="row justify-content-end">
+      <div class="row justify-content-lg-end">
         <div class="landing-category--col">
-          <h2 class="leader--fifth text-right header-mb"><span class="landing-category--fourth">Did you know that food is traditionally laid out a certain way?</span></h2>
+          <h2 class="leader--fifth text-lg-right header-mb"><span class="landing-category--fourth">Did you know that food is traditionally laid out a certain way?</span></h2>
         </div>
       </div>
       <Tableimage />
@@ -95,10 +95,6 @@ const Landing = ({data}) => (
         <div class="col-6">
             <h3 class="landing-header__one">2019 media</h3>
         </div>
-        <div class="col-6">
-            <h3 class="landing-header__one">2018 media</h3>
-            <p>Last year's popular events included </p>
-        </div>
       </div>
 
     </div>
@@ -106,15 +102,15 @@ const Landing = ({data}) => (
 
   )
   
-  if (typeof window !== 'undefined') {
+  // if (typeof window !== 'undefined') {
 
-    window.onload = function () { 
-      const Parallax = require('parallax-js')
-      var scene = document.getElementById('scene');
-      var parallaxInstance = new Parallax(scene);
+  //   window.onload = function () { 
+  //     const Parallax = require('parallax-js')
+  //     var scene = document.getElementById('scene');
+  //     var parallaxInstance = new Parallax(scene);
     
-    };
-    }
+  //   };
+  //   }
 
   export default Landing
   

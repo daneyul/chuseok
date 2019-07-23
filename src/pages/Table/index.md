@@ -3,7 +3,7 @@ path: "/table"
 title: "Charye Table Setting"
 tagline: "Where to place food and drink on the table"
 type: "Traditions"
-featuredImage: "table-charye.jpg"
+featuredImage: "./table-charye.jpg"
 cap: "Republic of Korea - Flickr"
 side: false
 ---

@@ -80,7 +80,7 @@ const Placeimages = () => (
         <div class="row justify-content-between flex-wrap header-mb img-padding">
             <div class="place-container">
               <div class="place-image fest-image--box">
-                <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264337" target="_blank">
+                <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264337" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeOne.childImageSharp.fluid} />
                 </a>
               </div>
@@ -88,7 +88,7 @@ const Placeimages = () => (
             </div>
             <div class="place-container">
               <div class="place-image fest-image--box">
-                <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264316" target="_blank">
+                <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264316" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeTwo.childImageSharp.fluid} />
                 </a>
               </div>
@@ -96,7 +96,7 @@ const Placeimages = () => (
             </div>
             <div class="place-container">
               <div class="place-image fest-image--box">
-                <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264316" target="_blank">
+                <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264316" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeThree.childImageSharp.fluid} />
                 </a>
               </div>
@@ -104,7 +104,7 @@ const Placeimages = () => (
             </div>
             <div class="place-container">
               <div class="place-image fest-image--box">
-                <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264348" target="_blank">
+                <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264348" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeFour.childImageSharp.fluid} />
                 </a>
               </div>
@@ -112,7 +112,7 @@ const Placeimages = () => (
             </div>
             <div class="place-container">
               <div class="place-image fest-image--box">
-                <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264106" target="_blank">
+                <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264106" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeFive.childImageSharp.fluid} />
                 </a>
               </div>
@@ -120,7 +120,7 @@ const Placeimages = () => (
             </div>
             <div class="place-container">
               <div class="place-image fest-image--box">
-                <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264351" target="_blank">
+                <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264351" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeSix.childImageSharp.fluid} />
                 </a>
               </div>
@@ -128,7 +128,7 @@ const Placeimages = () => (
             </div>
             <div class="place-container">
               <div class="place-image fest-image--box">
-                <a href="http://adventure.lotteworld.com" target="_blank">
+                <a href="http://adventure.lotteworld.com" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeSeven.childImageSharp.fluid} />
                 </a>
               </div>
@@ -136,7 +136,7 @@ const Placeimages = () => (
             </div>
             <div class="place-container">
               <div class="place-image fest-image--box">
-                <a href="https://www.everland.com/web/multi/english/everland/main.html?m" target="_blank">
+                <a href="https://www.everland.com/web/multi/english/everland/main.html?m" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeEight.childImageSharp.fluid} />
                 </a>
               </div>
@@ -144,7 +144,7 @@ const Placeimages = () => (
             </div>
             <div class="place-container">
               <div class="place-image fest-image--box">
-                <a href="http://eng.seoulland.co.kr/eng/index.asp" target="_blank">
+                <a href="http://eng.seoulland.co.kr/eng/index.asp" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeNine.childImageSharp.fluid} />
                 </a>
               </div>

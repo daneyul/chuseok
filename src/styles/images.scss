@@ -1,10 +1,30 @@
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
 
 .fest-image {
-    -ms-flex: 0 0 22%;
-    flex: 0 0 22%;
-    max-width: 22%;
-    margin-top: 7rem;
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
     position: relative;
+    @media only screen and (min-width: $lg){
+        -ms-flex: 0 0 22%;
+        flex: 0 0 22%;
+        max-width: 22%;
+        margin-top: 7rem;
+    }
+}
+
+.fest-image--top {
+    @media only screen and (max-width:$sm){
+        margin-top: 3rem;
+    }
+}
+
+.fest-image--bottom {
+    @media only screen and (max-width:$sm){
+        margin-top: 1rem;
+    }
 }
 
 .img-padding {
@@ -12,19 +32,32 @@
 }
 
 .food-image--drink {
-    -ms-flex: 0 0 38%;
-    flex: 0 0 38%;
-    max-width: 38%;
-    margin-top: 7rem;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 2rem;
     position: relative;
+
+    @media only screen and (min-width: $lg){
+        -ms-flex: 0 0 38%;
+        flex: 0 0 38%;
+        max-width: 38%;
+        margin-top: 7rem;
+    }
 }
 
 .food-image--food {
-    -ms-flex: 0 0 58%;
-    flex: 0 0 58%;
-    max-width: 58%;
-    margin-top: 6rem;
-    position: relative;
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 1rem;
+        position: relative;
+    @media only screen and (min-width: $lg){
+        -ms-flex: 0 0 58%;
+        flex: 0 0 58%;
+        max-width: 58%;
+        margin-top: 6rem;
+    }
 }
 
 .table-image {
@@ -36,20 +69,42 @@
 }
 
 .place-container {
-    -ms-flex: 0 0 18%;
-    flex: 0 0 18%;
-    max-width: 18%;
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
     position: relative;
     flex-grow: 1;
+    @media only screen and (min-width: $lg){
+        -ms-flex: 0 0 18%;
+        flex: 0 0 18%;
+        max-width: 18%;
+        position: relative;
+        flex-grow: 1;
+    }
 }
 
-.recipes-box {
-    transition: box-shadow .3s;
-    border-radius:10px;
-    padding: 1.5rem 1.25rem;
-    background: #fff;
+.recipes-box-sm {
+    @media only screen and (max-width:$sm){
+        box-shadow: 0 0 8px rgba(33,33,33,.2); 
+        transition: box-shadow .3s;
+        border-radius:10px;
+        background: #fff;
+        padding: 1.5rem 1rem;
+    }
 }
 
-.recipes-box:hover {
-    box-shadow: 0 0 8px rgba(33,33,33,.2); 
+.recipes-box-lg {
+    @media only screen and (min-width: $lg){
+        padding: 1.5rem 1.25rem;
+        transition: box-shadow .3s;
+        border-radius:10px;
+        background: #fff;
+    }
+}
+
+
+.recipes-box-lg:hover {
+    @media only screen and (min-width:$lg){
+        box-shadow: 0 0 8px rgba(33,33,33,.2); 
+    }
 }

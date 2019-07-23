@@ -3,7 +3,7 @@ path: "/hanbok"
 title: "Hanbok"
 tagline: "What they are and how to wear one"
 type: "Festivities"
-featuredImage: "hanbok-3.jpg"
+featuredImage: "./hanbok-3.jpg"
 cap: "Republic of Korea - Flickr"
 side: false
 ---

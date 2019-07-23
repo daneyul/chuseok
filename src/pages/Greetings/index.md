@@ -2,7 +2,7 @@
 path: "/greetings"
 title: "Chuseok Greetings"
 tagline: "What to say to your friends and family for Chuseok"
-featureImage: "greetings-hero.jpg"
+featureImage: "./greetings-hero.jpg"
 cap: "Daniel Kim - Unsplash"
 type: "Festivities"
 side: false

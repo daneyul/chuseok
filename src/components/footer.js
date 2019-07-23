@@ -6,16 +6,16 @@ import "../styles/landing.scss";
 const Footer = () => (
 <div class="footer-bg footer-font">
     <div class="container">
-    <div class="row footer-color justify-content-between">
+    <div class="row footer-color justify-content-lg-between flex-wrap">
         <div class="col-12 footer-top">
             <a href="/" onClick="window.location.reload();"><h3 class="footer-title footer-color">Chuseok 2019</h3></a>
             <h4 class="footer-font">&copy; 2019 All Rights Reserved <a href="/privacy" class="footer-font footer-color footer-underline footer-link">Privacy Policy</a></h4>
         </div>
-        <div class="col-4">
+        <div class="col-sm-12 col-lg-4">
             <h5 class="footer-category footer-font">About</h5>
             <p>Happy Chuseok! We’ve put together just about everything you’ll need to know to make your Chuseok special. Have a suggestion? Want to chat? Send us a note.</p>
         </div>
-        <div class="col-2">
+        <div class="col-6 col-lg-2">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Traditions</span></h5>
             <ul>
                 <li><a href="/ceremonies" onClick="window.location.reload();" class="footer-font footer-color footer-link">Customs & Ceremonies</a></li>
@@ -23,7 +23,7 @@ const Footer = () => (
                 <li><a href="/table" onClick="window.location.reload();" class="footer-font footer-color footer-link">Table Setting</a></li>
             </ul>
         </div>
-        <div class="col-2">
+        <div class="col-6 col-lg-2">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Food & Drinks</span></h5>
             <ul>
                 <li><a href="/foods" onClick="window.location.reload();" class="footer-font footer-color footer-link">Chuseok Foods</a></li>
@@ -31,7 +31,7 @@ const Footer = () => (
                 <li><a href="/recipes" onClick="window.location.reload();" class="footer-font footer-color footer-link">Chuseok Recipes</a></li>
             </ul>
         </div>
-        <div class="col-2 footer-bottom">
+        <div class="col-6 col-lg-2 footer-bottom">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Festivities</span></h5>
             <ul>
                 <li><a href="/#places" onClick="window.location.reload();" class="footer-font footer-color footer-link">Places to Visit</a></li>

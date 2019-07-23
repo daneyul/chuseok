@@ -16,6 +16,10 @@ $lg: 1200px;
     letter-spacing: 0.1em;
 
     margin-top: 16rem;
+    padding-left: 1rem;;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
 }
 
 .landing-title2 {
@@ -23,17 +27,27 @@ $lg: 1200px;
     letter-spacing: 0.1em;
     font-weight: 600;
     margin-top: 2rem;
+    padding-left: 1rem;;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
 }
 
 .landing-title3 {
     position: relative;
     background: #fff;
     line-height: 24px;
-
+    padding-left: 1rem;;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
 }
 
 .landing-title3--margin {
-    margin-top: 7.25rem;
+    margin-top: 2rem;
+    @media only screen and (min-width: $lg){
+        margin-top: 7.25rem;
+    }
 }
 
 .landing-title3--break {
@@ -43,28 +57,51 @@ $lg: 1200px;
 }
 
 .header-mt {
-    margin-top: 7.25rem;
+    margin-top: 6rem;
+    @media only screen and (min-width: $lg){
+        margin-top: 7.25rem;
+    }
 }
 
 .header-col-1 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    @media only screen and (min-width: $lg){
     -ms-flex: 0 0 35%;
     flex: 0 0 35%;
     max-width: 35%;
     margin-right: 1rem;
+    }
 }
 
 .header-col-2 {
-    -ms-flex: 0 0 31%;
-    flex: 0 0 31%;
-    max-width: 31%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+
+    @media only screen and (min-width: $lg){
+        -ms-flex: 0 0 31%;
+        flex: 0 0 31%;
+        max-width: 31%;
+        margin-left: 0;
+        margin-top: 0;
+    }
 }
 
 .header-mb {
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
+    @media only screen and (min-width: $lg){
+        margin-bottom: 7rem;
+    }
 }
 
 .header-mb--media {
-    margin-bottom: 5.5rem;
+    @media only screen and (min-width: $lg){
+        margin-bottom: 5.5rem;
+    }
 }
 
 .landing-header__one {
@@ -75,6 +112,10 @@ $lg: 1200px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-top: 2rem;
+    padding-left: 1rem;;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
 }
 
 .landing-media {
@@ -84,6 +125,10 @@ $lg: 1200px;
 .landing-header--description {
     margin-top: 1rem;
     line-height: 24px;
+    padding-left: 1rem;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
 }
 
 .landing-header__two {
@@ -95,11 +140,19 @@ $lg: 1200px;
     text-decoration: underline;
     margin-top: 3rem;
     letter-spacing: 0.08em;
+    padding-left: .5rem;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
 }
 
 .landing-header__two--description {
     line-height: 24px;
     margin-top: 1.6rem;
+    padding-left: .5rem;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
 }
 
 .landing-recipes {
@@ -108,11 +161,16 @@ $lg: 1200px;
     font-weight: normal;
     font-size: 32px;
     line-height: 36px;
-    text-align: right;
     letter-spacing: 0.1em;
     text-decoration: underline;
     text-transform: uppercase;
-    margin-bottom: 8.25rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    @media only screen and (min-width: $lg){
+        margin-bottom: 8.25rem;
+        text-align: right;
+        padding-left: 0;
+    }
 }
 
 .fest-header {
@@ -126,34 +184,44 @@ $lg: 1200px;
     font-family: "Oswald";
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.1em;
     text-decoration-line: underline;
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+
+    @media only screen and (min-width: $lg){
+        font-size: 32px;
+    }
 }
 
 .food-header {
     font-family: "Oswald";
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.1em;
     text-decoration-line: underline;
     text-transform: uppercase;
-    padding-left: 1.5rem;
     color: white;
+    padding-left: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    @media only screen and (min-width: $lg){
+        font-size: 32px;
+    }
 }
 
 .food-header--drink {
     position: absolute; 
-    top: 180px; 
-    left: 0; 
-    width: 100%; 
+    top: 145px; 
+    width: 100%;
+    @media only screen and (min-width: $lg){
+        top: 180px; 
+        left: 0; 
+    }
 }
 
 .food-header--food {
@@ -170,7 +238,10 @@ $lg: 1200px;
 }
 
 .landing-festivities--header {
-    margin: 4rem 0;
+    margin: 2rem 0;
+    @media only screen and (min-width: $lg){
+        margin: 4rem 0;
+    }
 }
 
 .landing-category--col {
@@ -222,7 +293,9 @@ $lg: 1200px;
     font-size: 16px;
     position: relative;
     background: #fff;
-    padding-left: 1rem;
+    @media only screen and (min-width: $lg){
+        padding-left: 1rem;
+    }
 }
 
 .table-header {
@@ -236,10 +309,16 @@ $lg: 1200px;
 }
 
 .leader--first {
-    @media only screen and (max-width: $sm){
-        &:before {
-        }
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 7.5rem;
+        width: 100%;
+        height: 0.5px;
+        background: rgba(0,0,0,0.2);
     }
+
     @media only screen and (min-width: $lg){
         &:before {
             content: '';
@@ -256,17 +335,14 @@ $lg: 1200px;
 
 
 .leader--third {
-    @media only screen and (min-width: $sm){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 9px;
-            width: 145%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            left: -50%;
-        }
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 8px;
+        width: 95%;
+        height: 0.5px;
+        background: rgba(0,0,0,0.2);
     }
     @media only screen and (min-width: $lg){
         &:before {
@@ -283,17 +359,14 @@ $lg: 1200px;
 }
 
 .leader--fourth {
-    @media only screen and (min-width: $sm){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 8px;
-            width: 145%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            left: -50%;
-        }
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 8px;
+        width: 95%;
+        height: 0.5px;
+        background: rgba(0,0,0,0.2);
     }
     @media only screen and (min-width: $lg){
         &:before {
@@ -310,18 +383,6 @@ $lg: 1200px;
 }
 
 .leader--fifth {
-    @media only screen and (max-width: $sm){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 8px;
-            width: 25%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            left: -20%;
-        }
-    }
     @media only screen and (min-width: $lg){
         &:before {
             content: '';
@@ -342,10 +403,21 @@ $lg: 1200px;
         display: block;
         position: absolute;
         top: 8px;
-        width: 170%;
+        width: 95%;
         height: 1px;
         background: rgba(0,0,0,0.2);
-        left: -50%;
+    }
+    @media only screen and (min-width: $lg){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 8px;
+            width: 170%;
+            height: 1px;
+            background: rgba(0,0,0,0.2);
+            left: -50%;
+        }
     }
 }
 
@@ -355,10 +427,21 @@ $lg: 1200px;
         display: block;
         position: absolute;
         top: 8px;
-        width: 170%;
-        height: 1px;
+        width: 95%;
+        height: 0.5px;
         background: rgba(0,0,0,0.2);
-        left: -50%;
+    }
+    @media only screen and (min-width: $lg){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 8px;
+            width: 170%;
+            height: 1px;
+            background: rgba(0,0,0,0.2);
+            left: -50%;
+        }
     }
 }
 
@@ -367,10 +450,18 @@ $lg: 1200px;
 .box {
     transition: box-shadow .3s;
     border-radius:10px;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    padding-bottom: 1.5rem;
     background: #fff;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 1rem;
+    @media only screen and (max-width: $sm){
+        box-shadow: 0 0 8px rgba(33,33,33,.2); 
+    }
+    @media only screen and (min-width:$lg){
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        padding-bottom: 1.5rem;
+    }
 }
 
 .box:hover {
@@ -380,12 +471,21 @@ $lg: 1200px;
 .table-box {
     transition: box-shadow .3s;
     border-radius:10px;
-    padding-top: 2rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-bottom: 2rem;
-    margin-left: -1.5rem;
+    padding-top: 3rem;
     background: #fff;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    @media only screen and (max-width: $sm){
+        box-shadow: 0 0 8px rgba(33,33,33,.2); 
+        margin-bottom: 1.5rem;
+    }
+    @media only screen and (min-width: $lg){
+        margin-top: -1rem;
+        margin-left: -1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 2rem;
+    }
 }
 
 .table-box:hover {

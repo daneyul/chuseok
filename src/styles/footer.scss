@@ -1,3 +1,6 @@
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
 
 .footer-bg {
     background: #3C3C3C;
@@ -10,8 +13,11 @@
 }
 
 .footer-top {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    @media only screen and (min-width:$lg){
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
 }
 
 .footer-title {
@@ -47,6 +53,9 @@
     text-transform: uppercase;
     letter-spacing: 0.12em;
     margin-bottom: 1rem;
+    @media only screen and (max-width:$sm){
+        margin-top: 2rem;
+    }
 }
 
 .footer-bottom {

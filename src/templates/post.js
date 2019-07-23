@@ -29,7 +29,7 @@ export default function Template({data}) {
                         <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                     </div>
                 </div>
-                <div class="row header-mb">
+                <div class="row blog-header-mb">
                     <div class="col-12">
                         <Img fluid={featuredImgFluid} />
                         <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
@@ -67,7 +67,7 @@ export default function Template({data}) {
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                         </div>
                     </div>
-                    <div class="row header-mb">
+                    <div class="row blog-header-mb">
                         <div class="col-12">
                             <Img fluid={featuredImgFluid} />
                             <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
@@ -101,7 +101,7 @@ export default function Template({data}) {
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                         </div>
                     </div>
-                    <div class="row header-mb">
+                    <div class="row blog-header-mb">
                         <div class="col-12">
                             <Img fluid={featuredImgFluid} />
                             <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>

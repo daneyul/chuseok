@@ -3,7 +3,7 @@ path: "/gifts"
 title: "Gift Sets"
 tagline: "What to give your loved ones on Chuseok"
 type: "Festivities"
-featuredImage: "gifts-hero.jpg"
+featuredImage: "./gifts-hero.jpg"
 cap: "Republic of Korea - Flickr"
 side: false
 ---

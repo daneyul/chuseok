@@ -30,7 +30,7 @@ const Foodimages = () => (
     <React.Fragment>
         <div class="food-image--drink">
             <a href="recipes">
-              <h3 class="landing-recipes"><span class="landing-recipes recipes-box">Need Recipes?</span></h3>
+              <h3 class="landing-recipes recipes-box-sm"><span class="landing-recipes recipes-box-lg">Need Recipes?</span></h3>
             </a>
             <div class="food-image fest-image--box">
               <a href="drinks">
@@ -39,6 +39,7 @@ const Foodimages = () => (
               </a>
             </div>
         </div>
+
           <div class="food-image--food food-image fest-image--box">
             <a href="foods">
               <Img fluid={data.foodOne.childImageSharp.fluid}/>
