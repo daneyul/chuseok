@@ -1,6 +1,7 @@
-$sm: 768px;
-$md: 992px;
-$lg: 1200px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 .landing-flowers {
         z-index: -2;
@@ -16,10 +17,7 @@ $lg: 1200px;
     letter-spacing: 0.1em;
 
     margin-top: 16rem;
-    padding-left: 1rem;;
-    @media only screen and (min-width: $lg){
-        padding-left: 0;
-    }
+    padding-left: 0;
 }
 
 .landing-title2 {
@@ -27,20 +25,12 @@ $lg: 1200px;
     letter-spacing: 0.1em;
     font-weight: 600;
     margin-top: 2rem;
-    padding-left: 1rem;;
-    @media only screen and (min-width: $lg){
-        padding-left: 0;
-    }
 }
 
 .landing-title3 {
     position: relative;
     background: #fff;
     line-height: 24px;
-    padding-left: 1rem;;
-    @media only screen and (min-width: $lg){
-        padding-left: 0;
-    }
 }
 
 .landing-title3--margin {
@@ -51,13 +41,16 @@ $lg: 1200px;
 }
 
 .landing-title3--break {
-    @media only screen and (max-width: $sm){
+    @media only screen and (max-width: $md){
         display: none;
     }
 }
 
 .header-mt {
     margin-top: 6rem;
+    @media only screen and (min-width: $md){
+        margin-top: 8rem;
+    }
     @media only screen and (min-width: $lg){
         margin-top: 7.25rem;
     }
@@ -81,7 +74,12 @@ $lg: 1200px;
     flex: 0 0 100%;
     max-width: 100%;
     margin-top: 1rem;
-
+    @media only screen and (min-width: $md){
+        -ms-flex: 0 0 49%;
+        flex: 0 0 49%;
+        max-width: 49%;
+        margin-top: 0;
+    }
     @media only screen and (min-width: $lg){
         -ms-flex: 0 0 31%;
         flex: 0 0 31%;
@@ -112,10 +110,6 @@ $lg: 1200px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-top: 2rem;
-    padding-left: 1rem;;
-    @media only screen and (min-width: $lg){
-        padding-left: 0;
-    }
 }
 
 .landing-media {
@@ -125,9 +119,11 @@ $lg: 1200px;
 .landing-header--description {
     margin-top: 1rem;
     line-height: 24px;
-    padding-left: 1rem;
+    @media only screen and (min-width: $md){
+        margin-bottom: 4rem;
+    }
     @media only screen and (min-width: $lg){
-        padding-left: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -167,7 +163,7 @@ $lg: 1200px;
     margin-top: 1rem;
     margin-bottom: 2rem;
     @media only screen and (min-width: $lg){
-        margin-bottom: 8.25rem;
+        margin-bottom: 6.75rem;
         text-align: right;
         padding-left: 0;
     }
@@ -192,7 +188,7 @@ $lg: 1200px;
     color: #FFFFFF;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 
-    @media only screen and (min-width: $lg){
+    @media only screen and (min-width: $md){
         font-size: 32px;
     }
 }
@@ -209,7 +205,7 @@ $lg: 1200px;
     color: white;
     padding-left: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-    @media only screen and (min-width: $lg){
+    @media only screen and (min-width: $md){
         font-size: 32px;
     }
 }
@@ -219,7 +215,7 @@ $lg: 1200px;
     top: 145px; 
     width: 100%;
     @media only screen and (min-width: $lg){
-        top: 180px; 
+        top: 220px; 
         left: 0; 
     }
 }
@@ -309,16 +305,18 @@ $lg: 1200px;
 }
 
 .leader--first {
-    &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 7.5rem;
-        width: 100%;
-        height: 0.5px;
-        background: rgba(0,0,0,0.2);
-    }
 
+    @media only screen and (max-width: $md){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 7.5rem;
+            width: 100%;
+            height: 0.5px;
+            background: rgba(0,0,0,0.2);
+        }
+    }
     @media only screen and (min-width: $lg){
         &:before {
             content: '';
@@ -383,6 +381,17 @@ $lg: 1200px;
 }
 
 .leader--fifth {
+    @media only screen and (min-width: $md){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 12px;
+            width: 95%;
+            height: 0.5px;
+            background: rgba(0,0,0,0.2);
+        }
+    }
     @media only screen and (min-width: $lg){
         &:before {
             content: '';
@@ -454,7 +463,7 @@ $lg: 1200px;
     padding-left: .5rem;
     padding-right: .5rem;
     padding-bottom: 1rem;
-    @media only screen and (max-width: $sm){
+    @media only screen and (max-width: $md){
         box-shadow: 0 0 8px rgba(33,33,33,.2); 
     }
     @media only screen and (min-width:$lg){
@@ -475,9 +484,9 @@ $lg: 1200px;
     background: #fff;
     padding-left: 1rem;
     padding-bottom: 1rem;
-    @media only screen and (max-width: $sm){
+    @media only screen and (max-width: $md){
         box-shadow: 0 0 8px rgba(33,33,33,.2); 
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
     @media only screen and (min-width: $lg){
         margin-top: -1rem;

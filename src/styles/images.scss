@@ -1,12 +1,19 @@
-$sm: 768px;
-$md: 992px;
-$lg: 1200px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 .fest-image {
     -ms-flex: 0 0 48%;
     flex: 0 0 48%;
     max-width: 48%;
     position: relative;
+    @media only screen and (min-width: $md){
+        -ms-flex: 0 0 49%;
+        flex: 0 0 49%;
+        max-width: 49%;
+        margin-top: 3rem;
+    }
     @media only screen and (min-width: $lg){
         -ms-flex: 0 0 22%;
         flex: 0 0 22%;
@@ -22,8 +29,12 @@ $lg: 1200px;
 }
 
 .fest-image--bottom {
-    @media only screen and (max-width:$sm){
-        margin-top: 1rem;
+    margin-top: 1rem;
+    @media only screen and (max-width:$md){
+        margin-top: .75rem;
+    }
+    @media only screen and (min-width:$lg){
+        margin-top: 7rem;
     }
 }
 
@@ -42,7 +53,7 @@ $lg: 1200px;
         -ms-flex: 0 0 38%;
         flex: 0 0 38%;
         max-width: 38%;
-        margin-top: 7rem;
+        margin-top: 4.5rem;
     }
 }
 
@@ -74,22 +85,28 @@ $lg: 1200px;
     max-width: 48%;
     position: relative;
     flex-grow: 1;
+    @media only screen and (min-width: $md){
+        -ms-flex: 0 0 49%;
+        flex: 0 0 49%;
+        max-width: 49%;
+    }
     @media only screen and (min-width: $lg){
         -ms-flex: 0 0 18%;
         flex: 0 0 18%;
         max-width: 18%;
-        position: relative;
-        flex-grow: 1;
     }
 }
 
 .recipes-box-sm {
-    @media only screen and (max-width:$sm){
+    @media only screen and (max-width:$md){
         box-shadow: 0 0 8px rgba(33,33,33,.2); 
         transition: box-shadow .3s;
         border-radius:10px;
         background: #fff;
         padding: 1.5rem 1rem;
+    }
+    @media only screen and (min-width: $md){
+        padding: 1.5rem 1.5rem;
     }
 }
 
