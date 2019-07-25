@@ -9,7 +9,6 @@ import '../styles/landing.scss';
 
 export default function Template({data}) {
     const {markdownRemark: post} = data;
-    const featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
     if (post.frontmatter.path == "/drinks" ) {
         const sidebar1 = post.frontmatter.sidebar1;
@@ -18,24 +17,27 @@ export default function Template({data}) {
             <React.Fragment>
             <Nav />
             <div class="container">
-                <div class="row blog-header--margin justify-content-start">
+                <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                     <div class="col-12 header-mb__foods nav-space">
                         <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row slide-in-bottom--1">
                     <div class="col-12">
                         <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
                         <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                     </div>
                 </div>
-                <div class="row blog-header-mb">
+                <div class="row blog-header-mb slide-in-bottom--2">
                     <div class="col-12">
-                        <Img fluid={featuredImgFluid} />
+                        {post.frontmatter.featuredImage
+                        && (
+                            <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+                        )}
                         <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
                     </div>
                 </div>
-                <div class="row justify-content-between">
+                <div class="row justify-content-between slide-in-bottom--2">
                     <div class="col-blog--main blog-main">
                         <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                     </div>
@@ -56,24 +58,27 @@ export default function Template({data}) {
                 <React.Fragment>
                 <Nav />
                 <div class="container">
-                    <div class="row blog-header--margin justify-content-start">
+                    <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row slide-in-bottom--1">
                         <div class="col-12">
                             <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                         </div>
                     </div>
-                    <div class="row blog-header-mb">
+                    <div class="row blog-header-mb slide-in-bottom--2">
                         <div class="col-12">
-                            <Img fluid={featuredImgFluid} />
+                        {post.frontmatter.featuredImage
+                        && (
+                            <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+                        )}
                             <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
                         </div>
                     </div>
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between slide-in-bottom--2">
                         <div class="col-blog--main blog-main">
                             <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
@@ -85,31 +90,70 @@ export default function Template({data}) {
                 <Footer />
                 </React.Fragment>
             )
-        } else {
+        } else if (post.frontmatter.path == "/greetings"){
+            return (
+            <React.Fragment>
+            <Nav />
+            <div class="container">
+                <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
+                    <div class="col-12 header-mb__foods nav-space">
+                        <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
+                    </div>
+                </div>
+                <div class="row slide-in-bottom--1">
+                    <div class="col-12">
+                        <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
+                        <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
+                    </div>
+                </div>
+                <div class="row blog-header-mb slide-in-bottom--2">
+                    <div class="col-12">
+                    {post.frontmatter.featuredImage
+                    && (
+                        <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+                    )}
+                        <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-blog--main blog-main">
+                        <div class="slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
+                    </div>
+                    <ul class="col-blog blog-sidebar">
+                    </ul>
+                </div>
+            </div>
+            <Footer />
+            </React.Fragment>
+        )}
+        else {
             return (
                 <React.Fragment>
                 <Nav />
                 <div class="container">
-                    <div class="row blog-header--margin justify-content-start">
+                    <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row slide-in-bottom--1">
                         <div class="col-12">
                             <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">{post.frontmatter.type}</span></h2>
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                         </div>
                     </div>
-                    <div class="row blog-header-mb">
+                    <div class="row blog-header-mb slide-in-bottom--2">
                         <div class="col-12">
-                            <Img fluid={featuredImgFluid} />
+                        {post.frontmatter.featuredImage
+                        && (
+                            <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+                        )}
                             <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
                         </div>
                     </div>
                     <div class="row justify-content-between">
                         <div class="col-blog--main blog-main">
-                            <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
+                            <div class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                         <ul class="col-blog blog-sidebar">
                         </ul>

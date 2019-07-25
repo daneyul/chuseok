@@ -421,7 +421,7 @@ $xl: 1200px;
             content: '';
             display: block;
             position: absolute;
-            top: 8px;
+            top: 9px;
             width: 170%;
             height: 1px;
             background: rgba(0,0,0,0.2);
@@ -549,9 +549,21 @@ $xl: 1200px;
 }
 }
 
-.slide-in-bottom {
+.slide-in-bottom--1 {
 	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-in-bottom--2 {
+	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation-delay: 0.2s;
+}
+
+.slide-in-bottom--3 {
+	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation-delay: 0.4s;
 }
 
 @-webkit-keyframes slide-in-bottom {

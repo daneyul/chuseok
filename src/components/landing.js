@@ -1,5 +1,7 @@
 import { Link, graphql, StaticQuery } from "gatsby";
 import React from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import "../styles/landing.scss";
 import Flowers from "./flowers";
 import Festimages from "./festimages";
@@ -7,26 +9,29 @@ import Foodimages from "./foodimages";
 import Tableimage from "./table";
 import Placeimages from "./places";
 
+
+AOS.init();
 const Landing = ({data}) => (
   
     <div class="container nav-space">
       
       <div class="row justify-content-start">
-        <div class="col-12 landing-flowers slide-in-bottom img-fluid" id="scene">
+        <div class="col-12 landing-flowers slide-in-bottom--1 img-fluid" id="scene">
           <Flowers />
         </div>
-        <div class="col-12 slide-in-bottom">
+        <div class="col-12 slide-in-bottom--2">
           <h1 class="landing-title text-left">추석<br />Chuseok</h1>
           <h1 class="landing-title2 text-left">September 12-14, 2019</h1>
         </div>
       </div>
 
       <div class="row justify-content-start landing-title3--margin">
-        <div class="col-12 slide-in-bottom">
+        <div class="col-12 slide-in-bottom--3">
           <h4 class="leader--first text-left landing-title3"><span>Celebrate the Korean Harvest Festival! Learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
         </div>
       </div>
 
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-duration="600">
       <div class="row justify-content-start header-mt">
         <div class="col-12">
           <h2 class="landing-category--first ">Tradition</h2>
@@ -48,53 +53,76 @@ const Landing = ({data}) => (
           </a>
         </div>
       </div>
+      </div>
 
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start">
         <div class="landing-category--col">
           <h2 class="leader--third text-left"><span class="landing-category--third">Festivities</span></h2>
         </div>
       </div>
+      </div>
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="150" data-aos-duration="600">
       <div class="row justify-content-between header-mb flex-wrap img-padding">
         <Festimages />
       </div>
+      </div>
 
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start">
         <div class="landing-category--col">
           <h2 class="leader--fourth text-left"><span class="landing-category--third">Food</span></h2>
         </div>
       </div>
+      </div>
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="150" data-aos-duration="600">
       <div class="row justify-content-sm-center justify-content-lg-between header-mb flex-wrap img-padding">
         <Foodimages />
       </div>
+      </div>
 
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-lg-end">
         <div class="landing-category--col">
           <h2 class="leader--fifth text-lg-right header-mb"><span class="landing-category--fourth">Did you know that food is traditionally laid out a certain way?</span></h2>
         </div>
       </div>
+      </div>
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="100" data-aos-duration="600">
       <Tableimage />
+      </div>
 
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start" id="places">
         <div class="landing-category--col">
           <h2 class="leader--sixth text-left"><span class="landing-category--third">Festivities</span></h2>
         </div>
       </div>
+      </div>
 
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start img-padding">
         <p class="landing-festivities--header">Palace admissions are free during the holidays and amusement parks have specials! </p>
       </div>
+      </div>
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <Placeimages />
+      </div>
 
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start header-mb--media" id="media">
         <div class="landing-category--col">
           <h2 class="leader--seventh text-left"><span class="landing-category--third">Media</span></h2>
         </div>
       </div>
-
+      </div>
+      
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start">
         <div class="col-6">
             <h3 class="landing-header__one">2019 media</h3>
         </div>
+      </div>
       </div>
 
     </div>
