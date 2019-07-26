@@ -16,10 +16,10 @@ const Landing = ({data}) => (
     <div class="container nav-space">
       
       <div class="row justify-content-start">
-        <div class="col-12 landing-flowers slide-in-bottom--1 img-fluid" id="scene">
+        <div class="landing-flowers" id="scene">
           <Flowers />
         </div>
-        <div class="col-12 slide-in-bottom--2">
+        <div class="col-12 landing-top slide-in-bottom--2">
           <h1 class="landing-title text-left">추석<br />Chuseok</h1>
           <h1 class="landing-title2 text-left">September 12-14, 2019</h1>
         </div>
