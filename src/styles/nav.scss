@@ -2,6 +2,7 @@ $nav-spacing: 8rem;
 $sm: 576px;
 $md: 768px;
 $lg: 992px;
+$ip: 1024px;
 $xl: 1200px;
 
 nav {
@@ -22,6 +23,10 @@ nav {
 
 #nav-list {
     @media only screen and (max-width: $md){
+        display: none;
+    }
+
+    @media only screen and (width: $ip){
         display: none;
     }
 }
@@ -145,6 +150,11 @@ ul li ul:hover {
 	        animation: slide-in-top 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+.slide-from-bottom {
+    -webkit-animation: slide-from-bottom 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-from-bottom 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 @-webkit-keyframes slide-in-top {
     0% {
       -webkit-transform: translateY(-25px);
@@ -158,6 +168,31 @@ ul li ul:hover {
     }
   }
   @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-25px);
+              transform: translateY(-25px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes slide-from-bottom {
+    0% {
+      -webkit-transform: translateY(-25px);
+              transform: translateY(-25px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-from-bottom {
     0% {
       -webkit-transform: translateY(-25px);
               transform: translateY(-25px);

@@ -1,16 +1,16 @@
 import { Link, graphql, StaticQuery } from "gatsby";
 import React from "react";
-import AOS from "aos";
-import 'aos/dist/aos.css';
 import "../styles/landing.scss";
 import Flowers from "./flowers";
 import Festimages from "./festimages";
 import Foodimages from "./foodimages";
 import Tableimage from "./table";
 import Placeimages from "./places";
+import 'aos/dist/aos.css';
+var AOS = require('aos');
 
 
-AOS.init();
+
 const Landing = ({data}) => (
   
     <div class="container nav-space">
@@ -116,7 +116,7 @@ const Landing = ({data}) => (
         </div>
       </div>
       </div>
-      
+
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start">
         <div class="col-6">
@@ -130,15 +130,15 @@ const Landing = ({data}) => (
 
   )
   
-  // if (typeof window !== 'undefined') {
+  if (typeof window !== 'undefined') {
 
-  //   window.onload = function () { 
-  //     const Parallax = require('parallax-js')
-  //     var scene = document.getElementById('scene');
-  //     var parallaxInstance = new Parallax(scene);
-    
-  //   };
-  //   }
+    window.onload = function () { 
+      const Parallax = require('parallax-js')
+      var scene = document.getElementById('scene');
+      var parallaxInstance = new Parallax(scene);
+      AOS.init();
+    };
+    }
 
   export default Landing
   

@@ -7,7 +7,7 @@ import s2 from "../images/landing/facebook-icon.svg"
 import s3 from "../images/landing/linkedin-icon.svg"
 
 const Nav = () => (
-  <nav class="container-fluid nav-top" id="navbar">
+  <nav class="container-fluid nav-top slide-from-bottom" id="navbar">
     <div class="container">
       <div id="nav-list" class="row">
 
