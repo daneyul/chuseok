@@ -6,9 +6,6 @@ $ip: 1024px;
 $xl: 1200px;
 
 nav {
-    @media only screen and (min-width: $sm) {
-        
-    }
     @media only screen and (min-width: $md) {
         font-weight: 300;
         font-size: 16px;
@@ -21,22 +18,14 @@ nav {
     }
 }
 
-#nav-list {
-    @media only screen and (max-width: $md){
-        display: none;
-    }
-
-    @media only screen and (width: $ip){
-        display: none;
-    }
-}
-
 .nav-top {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .nav-space {
+  @media only screen and (min-width: $lg){
     margin-top: 3rem;
+  }
 }
 
 .nav-item {
@@ -48,6 +37,15 @@ nav {
     font-weight: 700;
     text-decoration: none;
     padding: 1rem 0;
+    text-align: left;
+}
+
+.nav-middle {
+  @media only screen and (max-width: $lg){
+    text-align: left;
+    justify-content: start;
+    margin-left: -15px;
+  }
 }
 
 .nav-item--center:before {
@@ -101,6 +99,15 @@ nav {
     cursor: pointer;
 }
 
+.nav-sides {
+  @media only screen and (width: $ip){
+    display: none;
+  }
+  @media only screen and (max-width: $md){
+    display: none;
+  }
+}
+
 .nav-dropdown {
     visibility: hidden;
     opacity: 0;
@@ -143,6 +150,13 @@ ul li ul:hover {
     background: #fff;
     box-shadow: 0 0 8px rgba(33,33,33,.2); 
     margin-left: -1.25rem;
+}
+
+
+.icon {
+  @media only screen and (min-width: $lg){
+    display: none;
+  }
 }
 
 .slide-in-top {

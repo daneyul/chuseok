@@ -1,20 +1,12 @@
-import { Link, graphql, StaticQuery } from "gatsby";
-import React from "react";
+import { Link } from "gatsby"
+import PropTypes from "prop-types"
+import React from "react"
+import "../styles/nav.scss"
 import "../styles/footer.scss";
-import "../styles/landing.scss";
 
-const Footer = () => (
-<div class="footer-bg footer-font">
-    <div class="container">
+const HamburgerMenu = () => (
+<div class="ham-bg footer-font container " id="js-menu">
     <div class="row footer-color justify-content-lg-between flex-wrap">
-        <div class="col-12 footer-top">
-            <h3 class="footer-title footer-color">Chuseok 2019</h3>
-            <h4 class="footer-font">&copy; 2019 All Rights Reserved <a href="/privacy" class="footer-font footer-color footer-underline footer-link">Privacy Policy</a></h4>
-        </div>
-        <div class="col-sm-12 col-lg-4">
-            <h5 class="footer-category footer-font">About</h5>
-            <p>Happy Chuseok! We’ve put together just about everything you’ll need to know to make your Chuseok special. Have a suggestion? Want to chat? Send us a note.</p>
-        </div>
         <div class="col-6 col-lg-2">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Traditions</span></h5>
             <ul>
@@ -44,7 +36,6 @@ const Footer = () => (
         </div>
     </div>
     </div>
-</div>
 )
 
-export default Footer
+export default HamburgerMenu

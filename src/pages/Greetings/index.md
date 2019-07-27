@@ -2,9 +2,9 @@
 path: "/greetings"
 title: "Chuseok Greetings"
 tagline: "What to say to your friends and family for Chuseok"
-featureImage: "./greetings-hero.jpg"
-cap: "Daniel Kim - Unsplash"
 type: "Festivities"
+featuredImage: "./greetings-hero.jpg"
+cap: "Daniel Kim - Unsplash"
 side: false
 ---
 <div class="justify-content-center">

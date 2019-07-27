@@ -47,7 +47,7 @@ const Landing = ({data}) => (
               <h3 class="landing-header__two">Ceremonies</h3>
               <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
           </a>
-          <a href="/moon-rabbit" onClick="window.location.reload();" class="header-col-2 box">
+          <a href="/rabbit" onClick="window.location.reload();" class="header-col-2 box">
             <h3 class="landing-header__two">Moon Rabbit</h3>
             <p class="landing-header__two--description">If you look closely at the moon, you'll see a rabbit making rice cakes beneath a tree.</p>
           </a>
@@ -133,10 +133,10 @@ const Landing = ({data}) => (
   if (typeof window !== 'undefined') {
 
     window.onload = function () { 
-      const Parallax = require('parallax-js')
-      var scene = document.getElementById('scene');
-      var parallaxInstance = new Parallax(scene);
-      AOS.init();
+      // const Parallax = require('parallax-js')
+      // var scene = document.getElementById('scene');
+      // var parallaxInstance = new Parallax(scene);
+      AOS.init({once: true});
     };
     }
 

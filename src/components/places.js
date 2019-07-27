@@ -71,6 +71,13 @@ const Placeimages = () => (
               }
             }
           },
+        placeTen: file(relativePath: { eq: "landing/bongeunsa-thumb.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        },
       }
     `}
 
@@ -120,6 +127,14 @@ const Placeimages = () => (
             </div>
             <div class="place-container">
               <div class="place-image fest-image--box">
+                <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264594" target="_blank" rel="noopener noreferrer">
+                  <Img fluid={data.placeTen.childImageSharp.fluid} />
+                </a>
+              </div>
+                <h4 class="place-title">Bongeunsa Temple<br />봉은사</h4>
+            </div>
+            <div class="place-container">
+              <div class="place-image fest-image--box">
                 <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264351" target="_blank" rel="noopener noreferrer">
                   <Img fluid={data.placeSix.childImageSharp.fluid} />
                 </a>
@@ -149,8 +164,6 @@ const Placeimages = () => (
                 </a>
               </div>
                 <h4 class="place-title">Seoul Land<br />서울랜드</h4>
-            </div>
-            <div class="place-container">
             </div>
         </div>
     </React.Fragment>

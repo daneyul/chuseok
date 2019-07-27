@@ -1,6 +1,6 @@
 ---
 path: "/ceremonies"
-title: "Customs & Ceremonies"
+title: "Customs"
 tagline: "What usually happens during Chuseok"
 type: "Traditions"
 featuredImage: "./ceremonies-hero.jpg"

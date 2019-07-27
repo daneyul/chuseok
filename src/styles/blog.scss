@@ -90,19 +90,13 @@ u:hover {
 }
 
 .blog-header--margin {
-    margin-top: 8rem;
+    margin-top: 4rem;
+    @media only screen and (min-width: $md){
+        margin-top: 8rem;
+    }
 }
 
 .blog-leader--first {
-    &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 25px;
-        width: 95%;
-        height: 1px;
-        background: rgba(0,0,0,0.2);
-    }
     @media only screen and (min-width: $lg){
         &:before {
             content: '';
@@ -169,10 +163,12 @@ u:hover {
 }
 
 .blog-main2 {
-    padding-right: 5rem;
     font-size: 1.25rem;
     line-height: 2rem;
     letter-spacing: 0.05rem;
+    @media only screen and (min-width:$lg){
+        padding-right: 5rem;
+    }
 }
 
 .drop-cap::first-letter {
