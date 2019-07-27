@@ -87,11 +87,7 @@ if (typeof window !== 'undefined') {
     }
   }
 
-  window.onload = function(){
-    let navBarToggle = document.getElementById('js-navbar-toggle');
-    navBarToggle.addEventListener('click', function () {
-    navBarToggle.classList.toggle('active')});
-  }
+
 
   
 
