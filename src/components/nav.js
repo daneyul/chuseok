@@ -55,7 +55,7 @@ const Nav = () => (
           </li>
         </ul>
 
-          <button className="hamburger hamburger--slider" id="js-navbar-toggle" type="button" aria-label="Menu" aria-controls="navigation">
+          <button className="hamburger hamburger--slider ham-button" id="js-navbar-toggle" type="button" aria-label="Menu" aria-controls="navigation">
             <span className="hamburger-box">
               <span className="hamburger-inner"></span>
             </span>

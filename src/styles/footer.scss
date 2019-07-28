@@ -16,14 +16,13 @@ $xl: 1200px;
     display: none;
 }
 
-.ham-big.is-active {
+.ham-bg.is-active {
     display: block;
 }
 
 .ham-button {
     @media only screen and (min-width: $md){
         display: none;
-        
     }
 }
 
