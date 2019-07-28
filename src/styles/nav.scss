@@ -54,7 +54,6 @@ nav {
     content: "";
     position: absolute;
     width: 50%;
-    left: 25%;
     height: 2px;
     bottom: 0;
     background-color: #000;
@@ -63,6 +62,9 @@ nav {
     transform: scaleX(0);
     -webkit-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
+    @media only screen and (min-width: $lg){
+      left: 25%;
+    }
 }
 
 .nav-item--center:hover:before {
