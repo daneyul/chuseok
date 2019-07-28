@@ -119,7 +119,7 @@ if (typeof window !== 'undefined') {
   var hamburgerMenu = document.querySelector(".ham-bg");
   var body = document.querySelector("main");
   var foot = document.querySelector(".footer-bg");
-  var blog = document.querySelector("#blog");
+  var blog = document.querySelector(".blog-hide");
   // On click
   hamburger.addEventListener("click", function() {
     // Toggle class "is-active"

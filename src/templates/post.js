@@ -7,6 +7,7 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 import '../styles/blog.scss';
 import '../styles/landing.scss';
+import '../styles/footer.scss';
 
 export default function Template({data}) {
     const {markdownRemark: post} = data;
@@ -18,7 +19,7 @@ export default function Template({data}) {
             <React.Fragment>
             <Nav />
             <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
-            <div class="container" id="blog">
+            <div class="container blog-hide">
                 <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                     <div class="col-12 header-mb__foods nav-space">
                         <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -60,7 +61,7 @@ export default function Template({data}) {
                 <React.Fragment>
                 <Nav />
                 <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
-                <div class="container"id="blog">
+                <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -98,7 +99,7 @@ export default function Template({data}) {
                 <React.Fragment>
                 <Nav />
                 <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
-                <div class="container"id="blog">
+                <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -136,7 +137,7 @@ export default function Template({data}) {
                 <React.Fragment>
                 <Nav />
                 <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
-                <div class="container"id="blog">
+                <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
