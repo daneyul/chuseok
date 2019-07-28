@@ -14,6 +14,9 @@ $xl: 1200px;
     background: #3C3C3C;
     display: none;
     height: calc(100vh - 60px);
+    @media only screen and (min-width: $lg){
+        height: calc(30vh - 60px);
+    }
 }
 
 .ham-is-active {
@@ -26,6 +29,10 @@ $xl: 1200px;
     @media only screen and (min-width: $xl){
         display: none;
     }
+}
+
+.main-hide {
+    display: none;
 }
 
 
@@ -63,6 +70,13 @@ $xl: 1200px;
     text-decoration: underline;
 }
 
+.footer-link--ham {
+    @media only screen and (min-width: $lg){
+        padding-top: .75rem;
+    }
+
+}
+
 .footer-font {
     font-family: Lato;
     font-style: normal;
@@ -79,9 +93,19 @@ $xl: 1200px;
     }
 }
 
+.footer-category--ham {
+    @media only screen and (min-width: $lg){
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+    }
+}
+
 .footer-bottom {
     margin-bottom: 4rem;
 }
+
 
 .footer-underline {
     text-decoration: underline;
