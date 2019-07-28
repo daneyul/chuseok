@@ -12,7 +12,6 @@ var AOS = require('aos');
 
 
 const Landing = ({data}) => (
-  
     <div class="container nav-space">
       
       <div class="row justify-content-start">
@@ -133,9 +132,9 @@ const Landing = ({data}) => (
   if (typeof window !== 'undefined') {
 
     window.onload = function () { 
-      const Parallax = require('parallax-js')
-      var scene = document.getElementById('scene');
-      var parallaxInstance = new Parallax(scene);
+      // const Parallax = require('parallax-js')
+      // var scene = document.getElementById('scene');
+      // var parallaxInstance = new Parallax(scene);
       AOS.init({once: true});
     };
     }

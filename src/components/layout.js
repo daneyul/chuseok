@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import SEO from "../components/seo"
 import Nav from "./nav"
 import Landing from "./landing"
 import Footer from "./footer"
@@ -25,6 +26,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
         <Nav />
         <main>
           <Landing />

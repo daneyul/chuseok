@@ -12,7 +12,7 @@ import "../styles/custom.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Chuseok 2019" keywords={[`gatsby`, `application`, `react`]} />
   </Layout>
 )
 

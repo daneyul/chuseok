@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import {graphql} from "gatsby";
 import Img from "gatsby-image";
+import SEO from "../components/seo"
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import '../styles/blog.scss';
@@ -16,6 +17,7 @@ export default function Template({data}) {
         return (
             <React.Fragment>
             <Nav />
+            <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
             <div class="container" id="blog">
                 <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                     <div class="col-12 header-mb__foods nav-space">
@@ -57,6 +59,7 @@ export default function Template({data}) {
             return (
                 <React.Fragment>
                 <Nav />
+                <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
                 <div class="container"id="blog">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
@@ -94,6 +97,7 @@ export default function Template({data}) {
             return (
                 <React.Fragment>
                 <Nav />
+                <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
                 <div class="container"id="blog">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
@@ -131,6 +135,7 @@ export default function Template({data}) {
             return (
                 <React.Fragment>
                 <Nav />
+                <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
                 <div class="container"id="blog">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
