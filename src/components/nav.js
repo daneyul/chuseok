@@ -117,12 +117,14 @@ if (typeof window !== 'undefined') {
       // Look for .hamburger
   var hamburger = document.querySelector(".hamburger");
   var hamburgerMenu = document.querySelector(".ham-bg");
+  var body = document.querySelector("main")
   // On click
   hamburger.addEventListener("click", function() {
     // Toggle class "is-active"
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
     hamburgerMenu.classList.toggle("ham-is-active");
+    
 
   });
 

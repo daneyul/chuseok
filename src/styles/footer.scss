@@ -12,22 +12,20 @@ $xl: 1200px;
 .ham-bg {
     z-index: -1;
     background: #3C3C3C;
-    height: calc(100vh - 60px);
     display: none;
+    height: calc(100vh - 60px);
 }
 
 .ham-is-active {
     display: block;
+    -webkit-animation: nav-slide 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: nav-slide 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 #js-navbar-toggle {
-    -webkit-animation: nav-slide 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: nav-slide 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     @media only screen and (min-width: $xl){
         display: none;
     }
-
-
 }
 
 
