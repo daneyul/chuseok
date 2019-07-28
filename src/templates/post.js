@@ -16,7 +16,7 @@ export default function Template({data}) {
         return (
             <React.Fragment>
             <Nav />
-            <div class="container">
+            <div class="container" id="blog">
                 <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                     <div class="col-12 header-mb__foods nav-space">
                         <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -57,7 +57,7 @@ export default function Template({data}) {
             return (
                 <React.Fragment>
                 <Nav />
-                <div class="container">
+                <div class="container"id="blog">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -94,7 +94,7 @@ export default function Template({data}) {
             return (
                 <React.Fragment>
                 <Nav />
-                <div class="container">
+                <div class="container"id="blog">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -131,7 +131,7 @@ export default function Template({data}) {
             return (
                 <React.Fragment>
                 <Nav />
-                <div class="container">
+                <div class="container"id="blog">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>

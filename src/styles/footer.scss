@@ -94,12 +94,10 @@ $xl: 1200px;
 }
 
 .footer-category--ham {
-    @media only screen and (min-width: $lg){
-        text-transform: uppercase;
-        letter-spacing: 0.12em;
-        margin-bottom: 1rem;
-        margin-top: 3rem;
-    }
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 
 .footer-bottom {
