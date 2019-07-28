@@ -1,12 +1,13 @@
-$sm: 768px;
-$md: 992px;
-$lg: 1200px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 .f1 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 40px;
     height: 40px;
@@ -16,10 +17,10 @@ $lg: 1200px;
 }
 
 .f2 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 80px;
     height: 80px;
@@ -29,10 +30,10 @@ $lg: 1200px;
 }
 
 .f3 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 40px;
     height: 40px;
@@ -42,10 +43,10 @@ $lg: 1200px;
 }
 
 .f4 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 30px;
     height: 30px;
@@ -55,10 +56,10 @@ $lg: 1200px;
 }
 
 .f5 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 65px;
     height: 65px;
@@ -68,10 +69,10 @@ $lg: 1200px;
 }
 
 .f6 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 65px;
     height: 65px;
@@ -81,10 +82,10 @@ $lg: 1200px;
 }
 
 .f7 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 85px;
     height: 85px;
@@ -94,10 +95,10 @@ $lg: 1200px;
 }
 
 .f8 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 60px;
     height: 60px;
@@ -107,10 +108,10 @@ $lg: 1200px;
 }
 
 .f9 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 55px;
     height: 55px;
@@ -120,10 +121,10 @@ $lg: 1200px;
 }
 
 .f10 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 55px;
     height: 55px;
@@ -133,10 +134,10 @@ $lg: 1200px;
 }
 
 .f11 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 40px;
     height: 40px;
@@ -146,10 +147,10 @@ $lg: 1200px;
 }
 
 .f12 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 65px;
     height: 65px;
@@ -159,10 +160,10 @@ $lg: 1200px;
 }
 
 .f13 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 40px;
     height: 40px;
@@ -172,10 +173,10 @@ $lg: 1200px;
 }
 
 .f14 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 50px;
     height: 50px;
@@ -185,10 +186,10 @@ $lg: 1200px;
 }
 
 .f15 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 45px;
     height: 45px;
@@ -198,10 +199,10 @@ $lg: 1200px;
 }
 
 .f16 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 30px;
     height: 30px;
@@ -211,10 +212,10 @@ $lg: 1200px;
 }
 
 .f17 {
-  @media only screen and (max-width: $lg){
+  @media only screen and (max-width: $xl){
     display: none;
   }
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     position: absolute;
     width: 60px;
     height: 60px;

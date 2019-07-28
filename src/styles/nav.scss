@@ -2,11 +2,10 @@ $nav-spacing: 8rem;
 $sm: 576px;
 $md: 768px;
 $lg: 992px;
-$ip: 1024px;
 $xl: 1200px;
 
 nav {
-    @media only screen and (min-width: $md) {
+    @media only screen and (min-width: $xl) {
         font-weight: 300;
         font-size: 16px;
         font-family: "Lato", sans-serif;
@@ -23,7 +22,7 @@ nav {
 }
 
 .nav-space {
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     margin-top: 3rem;
   }
 }
@@ -41,7 +40,10 @@ nav {
 }
 
 .nav-middle {
-  @media only screen and (max-width: $lg){
+  @media only screen and (min-width: $xl){
+    justify-content: center;
+  }
+  @media only screen and (max-width: $xl){
     text-align: left;
     justify-content: start;
     margin-left: -15px;
@@ -100,10 +102,7 @@ nav {
 }
 
 .nav-sides {
-  @media only screen and (width: $ip){
-    display: none;
-  }
-  @media only screen and (max-width: $md){
+  @media only screen and (max-width: $xl){
     display: none;
   }
 }
@@ -145,7 +144,7 @@ ul li ul:hover {
 
 .nav-box {
     transition: box-shadow .3s;
-    border-radius:10px;
+    border-radius: 4px;
     padding: 1rem 1.25rem;
     background: #fff;
     box-shadow: 0 0 8px rgba(33,33,33,.2); 
@@ -154,7 +153,7 @@ ul li ul:hover {
 
 
 .icon {
-  @media only screen and (min-width: $lg){
+  @media only screen and (min-width: $xl){
     display: none;
   }
 }

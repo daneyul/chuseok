@@ -31,14 +31,14 @@ const Nav = () => (
           </li>
         </ul>
 
-        <ul className="col-6 col-md-4 nav-item nav-middle justify-content-center active">
+        <ul className="col-6 col-md-4 nav-item nav-middle active">
           <a href="/" onClick="window.location.reload();"><li className="nav-item--center">Chuseok 2019</li></a>
         </ul>
 
         <ul className="col-4 nav-item justify-content-between nav-sides">
           <li className="nav-dropdown--parent"><a href="#">Festivities</a>
             <ul className="nav-dropdown nav-box slide-in-top">
-              <li className="nav-dropdown--item"><a href="/#places">Places to Visit</a></li>
+              <li className="nav-dropdown--item"><a href="chuseok.info/#places">Places to Visit</a></li>
               <li className="nav-dropdown--item"><a href="/#media">Shows & Media</a></li>
               <li className="nav-dropdown--item"><a href="/hanbok">Hanbok</a></li>
               <li className="nav-dropdown--item"><a href="/gifts">Gifts</a></li>

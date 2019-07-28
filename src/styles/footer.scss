@@ -21,14 +21,15 @@ $xl: 1200px;
 }
 
 #js-navbar-toggle {
-    @media only screen and (min-width: $md){
+    -webkit-animation: nav-slide 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: nav-slide 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    @media only screen and (min-width: $xl){
         display: none;
     }
+
+
 }
 
-.ham-active {
-    display: block;
-}
 
 .footer-color {
     color: rgba(255,255,255,0.8);
@@ -91,3 +92,28 @@ $xl: 1200px;
 .footer-underline:hover {
     text-decoration: underline;
 }
+
+@-webkit-keyframes nav-slide {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes nav-slide {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }

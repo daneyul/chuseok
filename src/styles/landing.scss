@@ -7,7 +7,7 @@ $xl: 1200px;
 .landing-flowers {
         z-index: -2;
         position: absolute;
-        @media only screen and (min-width: $lg){
+        @media only screen and (min-width: $xl){
             width: 1200px;
             height: 1200px;
         }
@@ -326,6 +326,18 @@ $xl: 1200px;
             display: block;
             position: absolute;
             top: 24px;
+            width: 50%;
+            height: 1px;
+            background: rgba(0,0,0,0.2);
+            right: -10px;
+        }
+    }
+    @media only screen and (min-width: $xl){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 24px;
             width: 82%;
             height: 1px;
             background: rgba(0,0,0,0.2);
@@ -351,6 +363,17 @@ $xl: 1200px;
             display: block;
             position: absolute;
             top: 8px;
+            width: 98%;
+            height: 1px;
+            background: rgba(0,0,0,0.2);
+        }
+    }
+    @media only screen and (min-width: $xl){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 8px;
             width: 170%;
             height: 1px;
             background: rgba(0,0,0,0.2);
@@ -370,6 +393,17 @@ $xl: 1200px;
         background: rgba(0,0,0,0.2);
     }
     @media only screen and (min-width: $lg){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 8px;
+            width: 98%;
+            height: 1px;
+            background: rgba(0,0,0,0.2);
+        }
+    }
+    @media only screen and (min-width: $xl){
         &:before {
             content: '';
             display: block;
@@ -401,6 +435,17 @@ $xl: 1200px;
             display: block;
             position: absolute;
             top: 7px;
+            width: 98%;
+            height: 1px;
+            background: rgba(0,0,0,0.2);
+        }
+    }
+    @media only screen and (min-width: $xl){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 7px;
             width: 100%;
             height: 1px;
             background: rgba(0,0,0,0.2);
@@ -425,6 +470,17 @@ $xl: 1200px;
             display: block;
             position: absolute;
             top: 9px;
+            width: 98%;
+            height: 1px;
+            background: rgba(0,0,0,0.2);
+        }
+    }
+    @media only screen and (min-width: $xl){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 9px;
             width: 170%;
             height: 1px;
             background: rgba(0,0,0,0.2);
@@ -444,6 +500,17 @@ $xl: 1200px;
         background: rgba(0,0,0,0.2);
     }
     @media only screen and (min-width: $lg){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 8px;
+            width: 98%;
+            height: 1px;
+            background: rgba(0,0,0,0.2);
+        }
+    }
+    @media only screen and (min-width: $xl){
         &:before {
             content: '';
             display: block;
