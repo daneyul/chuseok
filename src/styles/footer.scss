@@ -16,11 +16,11 @@ $xl: 1200px;
     display: none;
 }
 
-.ham-bg.is-active {
+.ham-is-active {
     display: block;
 }
 
-.ham-button {
+#js-navbar-toggle {
     @media only screen and (min-width: $md){
         display: none;
     }

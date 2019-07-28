@@ -122,15 +122,8 @@ if (typeof window !== 'undefined') {
     // Toggle class "is-active"
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
-    hamburgerMenu.classList.toggle("is-active");
+    hamburgerMenu.classList.toggle("ham-is-active");
 
   });
+
   }
-
-
-  
-
-
-
-
-  

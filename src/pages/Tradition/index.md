@@ -32,7 +32,7 @@ Traditionally, the women of the family were the ones who were tasked with cookin
 People often take advantage of food markets, like Banchan markets 반찬가계. They sell traditional Chuseok foods during and around the Chuseok holidays, so not everything needs to be cooked at home.
 </p>
 
-![Seongmyo](ceremonies-1.jpg)
+![Seongmyo](ceremonies-seongmyo.jpg)
 <p class="blog-cap">Byung Jun Kim - Flickr</p>
 <h2 class="blog-header--2">Charye 차레, Beolcho 벌초, and Seongmyo 성묘</h2></br>
 <p>
