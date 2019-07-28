@@ -29,11 +29,8 @@ sidebar2: [
 
 ---
 
-<p>
-South Korea’s drinking culture has been popularized by music videos and tv shows, but aside from the soju and beer, there are plenty of drinks that contribute to Korea’s rich food culture.
-</p>
 <p class="blog-p">
-From distilled liquors, wines, teas, and punches, drinking in Korea is valued with a long tradition.
+South Korea’s drinking culture has been popularized by music videos and tv shows, but aside from the soju and beer, there are plenty of drinks that contribute to Korea’s rich food culture. From distilled liquors, wines, teas, and punches, drinking in Korea is valued with a long tradition.
 </p>
 
 
