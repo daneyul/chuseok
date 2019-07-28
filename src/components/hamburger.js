@@ -5,7 +5,7 @@ import "../styles/nav.scss"
 import "../styles/footer.scss";
 
 const HamburgerMenu = () => (
-<div class="ham-bg footer-font container " id="js-menu">
+<div class="ham-bg footer-font container ham-display">
     <div class="row footer-color justify-content-lg-between flex-wrap">
         <div class="col-6 col-lg-2">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Traditions</span></h5>

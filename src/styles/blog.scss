@@ -26,11 +26,8 @@ $xl: 1200px;
     font-size: 32px;
     line-height: 36px;
     letter-spacing: 0.1em;
-    margin-top: 1.5rem;
-    text-transform: uppercase;
-    @media only screen and (min-width: $md){
     margin-top: 3rem;
-    }
+    text-transform: uppercase;
 }
 
 u:hover {
@@ -153,21 +150,23 @@ u:hover {
 }
 
 .blog-main {
-    font-size: 1.25rem;
     line-height: 2rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.01rem;
     @media only screen and (min-width:$lg){
         border-right: 1px solid rgba(0,0,0,0.2);
         padding-right: 5rem;
+        font-size: 1.25rem;
+        letter-spacing: 0.05rem;
     }
 }
 
 .blog-main2 {
-    font-size: 1.25rem;
     line-height: 2rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.01rem;
     @media only screen and (min-width:$lg){
         padding-right: 5rem;
+        font-size: 1.25rem;
+        letter-spacing: 0.05rem;
     }
 }
 
