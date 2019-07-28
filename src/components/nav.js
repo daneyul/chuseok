@@ -38,7 +38,7 @@ const Nav = () => (
         <ul className="col-4 nav-item justify-content-between nav-sides">
           <li className="nav-dropdown--parent"><a href="#">Festivities</a>
             <ul className="nav-dropdown nav-box slide-in-top">
-              <li className="nav-dropdown--item"><a href="chuseok.info/#places">Places to Visit</a></li>
+              <li className="nav-dropdown--item"><a href="/#places">Places to Visit</a></li>
               <li className="nav-dropdown--item"><a href="/#media">Shows & Media</a></li>
               <li className="nav-dropdown--item"><a href="/hanbok">Hanbok</a></li>
               <li className="nav-dropdown--item"><a href="/gifts">Gifts</a></li>
@@ -85,7 +85,7 @@ const Nav = () => (
         <div class="col-6 col-lg-4 footer-bottom">
             <h5 class="footer-category--ham"><span class="footer-color footer-font landing-category--dotted footer-category">Festivities</span></h5>
             <ul>
-                <li class ="footer-link--ham"><a href="chuseok.info/#places" onClick="window.location.reload();" class="footer-font footer-color">Places to Visit</a></li>
+                <li class ="footer-link--ham"><a href="/#places" onClick="window.location.reload();" class="footer-font footer-color">Places to Visit</a></li>
                 <li class ="footer-link--ham"><a href="/#media" onClick="window.location.reload();" class="footer-font footer-color">Shows & Media</a></li>
                 <li class ="footer-link--ham"><a href="/hanbok" onClick="window.location.reload();" class="footer-font footer-color">Hanbok</a></li>
                 <li class ="footer-link--ham"><a href="/gifts" onClick="window.location.reload();" class="footer-font footer-color">Gifts</a></li>

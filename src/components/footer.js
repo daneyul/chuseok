@@ -13,7 +13,7 @@ const Footer = () => (
         </div>
         <div class="col-sm-12 col-lg-4">
             <h5 class="footer-category footer-font">About</h5>
-            <p>Happy Chuseok! We’ve put together just about everything you’ll need to know to make your Chuseok special. Have a suggestion? Want to chat? Send us a note.</p>
+            <p>Happy Chuseok! We’ve put together just about everything you’ll need to know to make your Chuseok special. Have a suggestion? Want to chat? <a href="mailto:hangawi@chuseok.info" class ="footer-font footer-color footer-underline footer-link" target="_blank">Send us a note.</a></p>
         </div>
         <div class="col-6 col-lg-2">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Traditions</span></h5>

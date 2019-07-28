@@ -120,7 +120,7 @@ const Landing = ({data}) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start">
         <div class="col-6">
-            <h3 class="landing-header__one">2019 media</h3>
+           
         </div>
       </div>
       </div>

@@ -3,7 +3,7 @@ path: "/recipes"
 title: "Traditional Korean Recipes"
 type: "Food & Drinks"
 tagline: "Some popular blogs for Korean recipes"
-featuredImage: "./recipes-hero"
+featuredImage: "./recipes-hero.jpg"
 cap: "Republic of Korea - Flickr"
 side: false
 ---

@@ -7,12 +7,17 @@ $xl: 1200px;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
-    line-height: 72px;
     display: flex;
     align-items: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    @media only screen and (max-width: $sm){
+        font-size: 3rem;
+    }
+    @media only screen and (min-width: $sm){
+        font-size: 72px;
+        line-height: 72px;
+    }
     @media only screen and (min-width: $lg){
         line-height: 53px;
     }
@@ -95,6 +100,17 @@ u:hover {
 
 .blog-leader--first {
     @media only screen and (min-width: $lg){
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 25px;
+            width: 98%;
+            height: 1px;
+            background: rgba(0,0,0,0.2);
+        }
+    }
+    @media only screen and (min-width: $xl){
         &:before {
             content: '';
             display: block;
