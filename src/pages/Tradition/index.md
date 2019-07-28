@@ -27,8 +27,7 @@ If you’re living in Korea, you may find Chuseok gift sets all around. It isn�
 <h2 class="blog-header--2">Chuseok syndrome</h2>
 <p>
 Traditionally, the women of the family were the ones who were tasked with cooking all the food. The physical labor that goes into Chuseok preparations have led to reports of migraines, backaches, muscle pain, nausea, carpal tunnel, and other conditions. The phenomenon is known as the post-holiday syndrome.
-</p>
-<p>
+
 People often take advantage of food markets, like Banchan markets 반찬가계. They sell traditional Chuseok foods during and around the Chuseok holidays, so not everything needs to be cooked at home.
 </p>
 
