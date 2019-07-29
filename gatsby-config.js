@@ -5,6 +5,7 @@ module.exports = {
     title: `Chuseok 2019`,
     description: `Celebrate and learn about the Korean Harvest Festival.`,
     author: `Daniel Nguyen`,
+    siteUrl: `https://www.chuseok.info`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,6 +14,8 @@ module.exports = {
     `gatsby-transformer-yaml`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -55,6 +58,14 @@ module.exports = {
         icon: `src/images/chuseok-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.chuseok.info',
+        sitemap: 'https://www.chuseok.info/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
 
 
   ]
