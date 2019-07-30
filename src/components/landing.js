@@ -108,7 +108,7 @@ const Landing = ({data}) => (
       <Placeimages />
       </div>
 
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
+      {/* <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start header-mb--media" id="media">
         <div class="landing-category--col">
           <h2 class="leader--seventh text-left"><span class="landing-category--third">Media</span></h2>
@@ -122,7 +122,7 @@ const Landing = ({data}) => (
            
         </div>
       </div>
-      </div>
+      </div> */}
 
     </div>
 
@@ -132,9 +132,9 @@ const Landing = ({data}) => (
   if (typeof window !== 'undefined') {
 
     window.onload = function () { 
-      // const Parallax = require('parallax-js')
-      // var scene = document.getElementById('scene');
-      // var parallaxInstance = new Parallax(scene);
+      const Parallax = require('parallax-js')
+      var scene = document.getElementById('scene');
+      var parallaxInstance = new Parallax(scene);
       AOS.init({once: true});
     };
     }
