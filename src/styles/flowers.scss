@@ -3,225 +3,478 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 
+
 .f1 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
+  
     position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 425px;
+    width: 10px;
+    height: 10px;
+    left: 395px;
     top: 300px;
-  }
+    @media only screen and (min-width: $md){
+      width: 20px;
+      height: 20px;
+      left: 405px;
+      top: 300px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 25px;
+      height: 25px;
+      left: 360px;
+      top: 330px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 40px;
+      height: 40px;
+      left: 425px;
+      top: 300px;
+    }
 }
 
 .f2 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 425px;
-    top: 100px;
-  }
-}
-
-.f3 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 620px;
-    top: 420px;
-  }
-}
-
-.f4 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 640px;
-    top: 440px;
-  }
-}
-
-.f5 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    left: 660px;
-    top: 230px;
-  }
-}
-
-.f6 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    left: 710px;
-    top: 50px;
-  }
-}
-
-.f7 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    left: 810px;
-    top: 220px;
-  }
-}
-
-.f8 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 840px;
-    top: 350px;
-  }
-}
-
-.f9 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 55px;
-    height: 55px;
-    left: 880px;
-    top: 90px;
-  }
-}
-
-.f10 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 55px;
-    height: 55px;
-    left: 980px;
-    top: 180px;
-  }
-}
-
-.f11 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 1050px;
-    top: 450px;
-  }
-}
-
-.f12 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    left: 1150px;
-    top: 100px;
-  }
-}
-
-.f13 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 1250px;
-    top: 350px;
-  }
-}
-
-.f14 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
+  
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 250px;
-    top: 50px;
-  }
+    left: 395px;
+    top: 100px;
+    @media only screen and (min-width: $md){
+      width: 60px;
+      height: 60px;
+      left: 405px;
+      top: 100px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 65px;
+      height: 65px;
+      left: 350px;
+      top: 160px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 80px;
+      height: 80px;
+      left: 425px;
+      top: 100px;
+    }
+  
 }
 
-.f15 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
+.f3 {
+  
     position: absolute;
-    width: 45px;
-    height: 45px;
-    left: 100px;
-    top: 150px;
-  }
+    width: 10px;
+    height: 10px;
+    left: 590px;
+    top: 390px;
+    @media only screen and (min-width: $md){
+      width: 20px;
+      height: 20px;
+      left: 600px;
+      top: 400px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 25px;
+      height: 25px;
+      left: 530px;
+      top: 420px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 40px;
+      height: 40px;
+      left: 620px;
+      top: 420px;
+    }
+  
 }
 
-.f16 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
+.f4 {
+  
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 610px;
+    top: 410px;
+    @media only screen and (min-width: $md){
+      width: 20px;
+      height: 20px;
+      left: 620px;
+      top: 420px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 25px;
+      height: 25px;
+      left: 540px;
+      top: 435px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 40px;
+      height: 40px;
+      left: 640px;
+      top: 440px;
+    }
+  
+}
+
+.f5 {
+  
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 630px;
+    top: 200px;
+    @media only screen and (min-width: $md){
+      width: 45px;
+      height: 45px;
+      left: 640px;
+      top: 210px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 50px;
+      height: 50px;
+      left: 550px;
+      top: 240px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 65px;
+      height: 65px;
+      left: 660px;
+      top: 230px;
+    }
+  
+}
+
+.f6 {
+  
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 680px;
+    top: 20px;
+    @media only screen and (min-width: $md){
+      width: 45px;
+      height: 45px;
+      left: 690px;
+      top: 30px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 45px;
+      height: 45px;
+      left: 580px;
+      top: 100px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 65px;
+      height: 65px;
+      left: 710px;
+      top: 50px;
+    }
+  
+}
+
+.f7 {
+  
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 780px;
+    top: 190px;
+    @media only screen and (min-width: $md){
+      width: 65px;
+      height: 65px;
+      left: 790px;
+      top: 200px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 65px;
+      height: 65px;
+      left: 700px;
+      top: 220px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 85px;
+      height: 85px;
+      left: 810px;
+      top: 220px;
+    }
+  
+}
+
+.f8 {
+  
     position: absolute;
     width: 30px;
     height: 30px;
-    left: -50px;
-    top: 60px;
-  }
+    left: 810px;
+    top: 320px;
+    @media only screen and (min-width: $md){
+      width: 40px;
+      height: 40px;
+      left: 820px;
+      top: 330px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 45px;
+      height: 45px;
+      left: 730px;
+      top: 340px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 60px;
+      height: 60px;
+      left: 840px;
+      top: 350px;
+    }
+  
+}
+
+.f9 {
+  
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 860px;
+    top: 70px;
+    @media only screen and (min-width: $md){
+      width: 35px;
+      height: 35px;
+      left: 870px;
+      top: 80px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 40px;
+      height: 40px;
+      left: 750px;
+      top: 130px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 55px;
+      height: 55px;
+      left: 880px;
+      top: 90px;
+    }
+  
+}
+
+.f10 {
+  
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 950px;
+    top: 150px;
+    @media only screen and (min-width: $md){
+      width: 35px;
+      height: 35px;
+      left: 960px;
+      top: 160px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 35px;
+      height: 35px;
+      left: 820px;
+      top: 180px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 55px;
+      height: 55px;
+      left: 980px;
+      top: 180px;
+    }
+  
+}
+
+.f11 {
+  
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 1020px;
+    top: 420px;
+    @media only screen and (min-width: $md){
+      width: 20px;
+      height: 20px;
+      left: 1030px;
+      top: 430px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 30px;
+      height: 30px;
+      left: 830px;
+      top: 420px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 40px;
+      height: 40px;
+      left: 1050px;
+      top: 450px;
+    }
+  
+}
+
+.f12 {
+  
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1120px;
+    top: 70px;
+    @media only screen and (min-width: $md){
+      width: 45px;
+      height: 45px;
+      left: 1130px;
+      top: 80px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 50px;
+      height: 50px;
+      left: 890px;
+      top: 90px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 65px;
+      height: 65px;
+      left: 1150px;
+      top: 100px;
+    }
+  
+}
+
+.f13 {
+  
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 1220px;
+    top: 320px;
+    @media only screen and (min-width: $md){
+      width: 20px;
+      height: 20px;
+      left: 1230px;
+      top: 330px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 30px;
+      height: 30px;
+      left: 940px;
+      top: 340px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 40px;
+      height: 40px;
+      left: 1250px;
+      top: 350px;
+    }
+  
+}
+
+.f14 {
+  
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 220px;
+    top: 20px;
+    @media only screen and (min-width: $md){
+      width: 30px;
+      height: 30px;
+      left: 230px;
+      top: 30px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 35px;
+      height: 35px;
+      left: 240px;
+      top: 50px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 50px;
+      height: 50px;
+      left: 250px;
+      top: 50px;
+    }
+  
+}
+
+.f15 {
+  
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 70px;
+    top: 120px;
+    @media only screen and (min-width: $md){
+      width: 25px;
+      height: 25px;
+      left: 80px;
+      top: 130px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 30px;
+      height: 30px;
+      left: 90px;
+      top: 140px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 45px;
+      height: 45px;
+      left: 100px;
+      top: 150px;
+    }
+  
+}
+
+.f16 {
+  
+    position: absolute;
+    left: -80px;
+    top: 30px;
+    @media only screen and (min-width: $md){
+      width: 10px;
+      height: 10px;
+      left: -70px;
+      top: 40px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 20px;
+      height: 20px;
+      left: 10px;
+      top: 50px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 30px;
+      height: 30px;
+      left: -50px;
+      top: 60px;
+    }
+  
 }
 
 .f17 {
-  @media only screen and (max-width: $xl){
-    display: none;
-  }
-  @media only screen and (min-width: $xl){
+
     position: absolute;
-    width: 60px;
-    height: 60px;
-    left: -125px;
-    top: 300px;
-  }
+    width: 30px;
+    height: 30px;
+    left: -155px;
+    top: 270px;
+    @media only screen and (min-width: $md){
+      width: 40px;
+      height: 40px;
+      left: -145px;
+      top: 280px;
+    }
+    @media only screen and (min-width: $lg){
+      width: 25px;
+      height: 25px;
+      left: 10px;
+      top: 200px;
+    }
+    @media only screen and (min-width: $xl){
+      width: 60px;
+      height: 60px;
+      left: -125px;
+      top: 300px;
+    }
+  
 }
 
 .rotate {

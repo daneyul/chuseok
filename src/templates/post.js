@@ -42,7 +42,7 @@ export default function Template({data}) {
                 </div>
                 <div class="row justify-content-between slide-in-bottom--2">
                     <div class="col-blog--main blog-main">
-                        <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
+                        <article class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                     </div>
                     <ul class="col-blog blog-sidebar">
                             <li class="blog-sidebar__list blog-header--3">Alcoholic</li>
@@ -84,7 +84,7 @@ export default function Template({data}) {
                     </div>
                     <div class="row justify-content-between slide-in-bottom--2">
                         <div class="col-blog--main blog-main">
-                            <div class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
+                            <article class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                         <ul class="col-blog blog-sidebar">
                                 {sidebar.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
@@ -122,7 +122,7 @@ export default function Template({data}) {
                     </div>
                     <div class="row justify-content-between">
                         <div class="col-blog--main blog-main">
-                            <div class="slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
+                            <article class="slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                         <ul class="col-blog blog-sidebar">
                         </ul>
@@ -160,7 +160,7 @@ export default function Template({data}) {
                     </div>
                     <div class="row justify-content-between">
                         <div class="col-blog--main blog-main">
-                            <div class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
+                            <article class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                         <ul class="col-blog blog-sidebar">
                         </ul>

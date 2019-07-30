@@ -1,12 +1,14 @@
 $sm: 576px;
 $md: 768px;
 $lg: 992px;
-$ip: 1024px;
 $xl: 1200px;
 
 .landing-flowers {
         z-index: -2;
         position: absolute;
+        @media only screen and (min-width: $lg){
+            width: 992px;
+        }
         @media only screen and (min-width: $xl){
             width: 1200px;
             height: 1200px;
