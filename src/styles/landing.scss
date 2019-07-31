@@ -6,8 +6,15 @@ $xl: 1200px;
 .landing-flowers {
         z-index: -2;
         position: absolute;
+        width: 375px; 
+        height: 800px;
+        @media only screen and (min-width: $md){
+            width: 768px;
+            height: 800px;
+        }
         @media only screen and (min-width: $lg){
             width: 992px;
+            height: 1000px;
         }
         @media only screen and (min-width: $xl){
             width: 1200px;
