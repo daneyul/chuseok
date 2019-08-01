@@ -24,10 +24,12 @@ const Landing = ({data}) => (
         </div>
       </div>
 
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-duration="600">
       <div class="row justify-content-start landing-title3--margin">
-        <div class="col-12 slide-in-bottom--3">
+        <div class="col-12">
           <h4 class="leader--first text-left landing-title3"><span>Celebrate the Korean Harvest Festival! Learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
         </div>
+      </div>
       </div>
 
       <div data-aos="fade-up" data-aos-offset="10" data-aos-duration="600">
@@ -132,9 +134,9 @@ const Landing = ({data}) => (
   if (typeof window !== 'undefined') {
 
     window.onload = function () { 
-      const Parallax = require('parallax-js')
-      var scene = document.getElementById('scene');
-      var parallaxInstance = new Parallax(scene);
+      // const Parallax = require('parallax-js')
+      // var scene = document.getElementById('scene');
+      // var parallaxInstance = new Parallax(scene);
       AOS.init({once: true});
     };
     }
