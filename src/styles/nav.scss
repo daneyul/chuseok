@@ -5,14 +5,14 @@ $lg: 992px;
 $xl: 1200px;
 
 nav {
+  background: white;
+  z-index: 1;
     @media only screen and (min-width: $xl) {
         font-weight: 300;
         font-size: 16px;
         font-family: "Lato", sans-serif;
         position: fixed;
         top: 0;
-        z-index: 1;
-        background: white;
         transition: top 0.4s;
     }
 }

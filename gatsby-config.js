@@ -3,9 +3,10 @@ const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: `Chuseok 2019`,
-    description: `Celebrate and learn about the Korean Harvest Festival.`,
+    description: `Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok.`,
     author: `Daniel Nguyen`,
     siteUrl: `https://www.chuseok.info`,
+    image: "src/images/landing/food-thumb.png"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
