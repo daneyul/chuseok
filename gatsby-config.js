@@ -6,7 +6,7 @@ module.exports = {
     description: `Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok.`,
     author: `Daniel Nguyen`,
     siteUrl: `https://www.chuseok.info`,
-    image: "src/images/meta-thumbnail.png"
+    image: `${__dirname}/src/images/meta-thumbnail.png`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
