@@ -107,7 +107,7 @@ const Landing = ({data}) => (
         <a href="/media" onClick="window.location.reload();">
           <div class="table-box">
             <h2 class="table-header">Broadcasting</h2>
-            <p class="landing-header--description">Television broadcast schedules are some of the most searched terms during Chuseok. Movies, TV dramas, and variety shows play all throughout the holiday. Watching TV is an informal Chuseok event.</p>
+            <p class="mt-4">Television broadcast schedules are some of the most searched terms during Chuseok. Movies, TV dramas, and variety shows play all throughout the holiday. Watching TV is an informal Chuseok event.</p>
           </div>
         </a>
         </div>
