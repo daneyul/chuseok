@@ -1,7 +1,7 @@
 ---
 path: "/media"
 keywords: ["chuseok", "chuseok tv", "chuseok tv specials", "chuseok media", "chuseok shows", "추석방송편성표"]
-title: "Chuseok Television Specials"
+title: "TV During Chuseok"
 tagline: "Why Chuseok is also a time for television"
 type: "Festivities"
 featuredImage: "./media-hero.jpg"
