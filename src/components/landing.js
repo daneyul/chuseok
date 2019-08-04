@@ -103,7 +103,7 @@ const Landing = ({data}) => (
 
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start header-mb">
-        <div class="col-6">
+        <div class="col-lg-6">
         <a href="/media" onClick="window.location.reload();">
           <div class="table-box">
             <h2 class="table-header">Broadcasting</h2>

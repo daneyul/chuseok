@@ -109,6 +109,7 @@ $xl: 1200px;
 }
 
 .header-mb--media {
+    margin-bottom: 3rem;
     @media only screen and (min-width: $lg){
         margin-bottom: 5.5rem;
     }
