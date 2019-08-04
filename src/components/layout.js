@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO keywords={[`chuseok`, `chuseok info`, `chuseok foods`, `chuseok drinks`, `chuseok traditions`, `korean holidays`, `chuseok greetings`, `charye`, `beolcho`, `songmyo`, `chuseok gifts`, `hanbok`, `korean folk games`, `chuseok shows`]} />
         <Nav />
         <main>
           <Landing />
