@@ -10,7 +10,7 @@ const Tableimage = () => (
       <a href="/table" onClick="window.location.reload();">
       <div class="table-box">
         <h2 class="table-header">Set up the table</h2>
-        <p class="mt-4">Here are some guidelines to placing food on the table.</p> 
+        <p class="mt-4">Here are some guidelines to placing food on the table.</p>
         <p>Although, setting up the table the right way isn’t so crucial these days.</p>
       </div>
       </a>

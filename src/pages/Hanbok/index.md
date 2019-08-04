@@ -1,5 +1,6 @@
 ---
 path: "/hanbok"
+keywords: ["chuseok", "hanbok", "한복"]
 title: "Hanbok"
 tagline: "What they are and how to wear one"
 type: "Festivities"

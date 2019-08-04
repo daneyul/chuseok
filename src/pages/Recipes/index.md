@@ -1,5 +1,6 @@
 ---
 path: "/recipes"
+keywords: ["chuseok", "recipes", "chuseok recipes"]
 title: "Traditional Korean Recipes"
 type: "Food & Drinks"
 tagline: "Some popular blogs for Korean recipes"

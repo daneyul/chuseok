@@ -94,6 +94,30 @@ const Landing = ({data}) => (
       </div>
 
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
+      <div class="row justify-content-start header-mb--media" id="media">
+        <div class="landing-category--col">
+          <h2 class="leader--seventh text-left"><span class="landing-category--third">Media</span></h2>
+        </div>
+      </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
+      <div class="row justify-content-start header-mb">
+        <div class="col-6">
+        <a href="/media" onClick="window.location.reload();">
+          <div class="table-box">
+            <h2 class="table-header">Broadcasting</h2>
+            <p class="landing-header--description">Television broadcast schedules are some of the most searched terms during Chuseok. Movies, TV dramas, and variety shows play all throughout the holiday. Watching TV is an informal Chuseok event.</p>
+          </div>
+        </a>
+        </div>
+        <div class="col-6">
+
+        </div>
+      </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start" id="places">
         <div class="landing-category--col">
           <h2 class="leader--sixth text-left"><span class="landing-category--third">Festivities</span></h2>
@@ -110,21 +134,6 @@ const Landing = ({data}) => (
       <Placeimages />
       </div>
 
-      {/* <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <div class="row justify-content-start header-mb--media" id="media">
-        <div class="landing-category--col">
-          <h2 class="leader--seventh text-left"><span class="landing-category--third">Media</span></h2>
-        </div>
-      </div>
-      </div>
-
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <div class="row justify-content-start">
-        <div class="col-6">
-           
-        </div>
-      </div>
-      </div> */}
 
     </div>
 
@@ -134,9 +143,9 @@ const Landing = ({data}) => (
   if (typeof window !== 'undefined') {
 
     window.onload = function () { 
-      const Parallax = require('parallax-js')
-      var scene = document.getElementById('scene');
-      var parallaxInstance = new Parallax(scene);
+      // const Parallax = require('parallax-js')
+      // var scene = document.getElementById('scene');
+      // var parallaxInstance = new Parallax(scene);
       AOS.init({once: true});
     };
     }

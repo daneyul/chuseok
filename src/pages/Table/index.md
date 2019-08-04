@@ -1,5 +1,6 @@
 ---
 path: "/table"
+keywords: ["chuseok", "chuseok table", "charye", "charye table"]
 title: "Charye Table Setting"
 tagline: "Where to place food and drink on the table"
 type: "Traditions"

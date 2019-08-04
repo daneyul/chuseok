@@ -1,5 +1,6 @@
 ---
 path: "/rabbit"
+keywords: ["chuseok", "moon rabbit", "chuseok folklore"]
 title: "The Story of the Moon Rabbit"
 tagline: "The Mid-Autumn harvest folklore"
 type: "Traditions"

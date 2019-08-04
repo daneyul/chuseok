@@ -1,5 +1,6 @@
 ---
 path: "/drinks"
+keywords: ["chuseok", "drinks", "chuseok drinks"]
 title: "Traditional Korean Drinks"
 tagline: "What to drink during Chuseok"
 type: "Food & Drinks"

@@ -1,5 +1,6 @@
 ---
 path: "/games"
+keywords: ["chuseok", "chuseok activities", "chuseok folk games", "강강술래", "ganggansullae", "전통놀이", "jeontongnori", "juldarigi", "ssireum", "dalkssaum", "go stop"]
 title: "Folk Games"
 tagline: "Traditional activities"
 featuredImage: "./folk-hero.jpg"

@@ -1,5 +1,6 @@
 ---
 path: "/foods"
+keywords: ["chuseok", "chuseok foods", "chuseok recipes"]
 title: "Typical Chuseok Foods"
 tagline: "What's on the menu during Chuseok"
 side: true

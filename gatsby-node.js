@@ -14,6 +14,7 @@ exports.createPages = ({actions, graphql}) => {
                     id
                     frontmatter {
                         path
+                        keywords
                         title
                         side
                         tagline

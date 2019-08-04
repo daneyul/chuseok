@@ -15,10 +15,11 @@ export default function Template({data}) {
     if (post.frontmatter.path == "/drinks" ) {
         const sidebar1 = post.frontmatter.sidebar1;
         const sidebar2 = post.frontmatter.sidebar2;
+        const keywords = post.frontmatter.keywords;
         return (
             <React.Fragment>
             <Nav />
-            <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
+            <SEO title={post.frontmatter.title} keywords={keywords} />
             <div class="container blog-hide">
                 <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                     <div class="col-12 header-mb__foods nav-space">
@@ -57,10 +58,11 @@ export default function Template({data}) {
         )
         } else if (post.frontmatter.path == "/foods"){
             const sidebar = post.frontmatter.sidebar;
+            const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
                 <Nav />
-                <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
+                <SEO title={post.frontmatter.title} keywords={keywords} />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
@@ -95,10 +97,11 @@ export default function Template({data}) {
                 </React.Fragment>
             )
         } else if (post.frontmatter.path == "/greetings"){
+            const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
                 <Nav />
-                <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
+                <SEO title={post.frontmatter.title} keywords={keywords} />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
@@ -133,10 +136,11 @@ export default function Template({data}) {
             )
         }
         else {
+            const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
                 <Nav />
-                <SEO title={post.frontmatter.title} keywords={[`gatsby`, `application`, `react`]} />
+                <SEO title={post.frontmatter.title} keywords={keywords} />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
@@ -178,6 +182,7 @@ export const postQuery = graphql`
             html
             frontmatter {
                 path
+                keywords
                 title
                 side
                 tagline

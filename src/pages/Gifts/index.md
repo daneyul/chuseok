@@ -1,5 +1,6 @@
 ---
 path: "/gifts"
+keywords: ["chuseok", "gift sets", "chuseok gifts", "chuseok gift sets", "추석선물세트"]
 title: "Gift Sets"
 tagline: "What to give your loved ones on Chuseok"
 type: "Festivities"

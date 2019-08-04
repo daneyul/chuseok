@@ -39,7 +39,7 @@ const Nav = () => (
           <li className="nav-dropdown--parent"><a href="#">Festivities</a>
             <ul className="nav-dropdown nav-box slide-in-top">
               <li className="nav-dropdown--item"><a href="/#places">Places to Visit</a></li>
-              <li className="nav-dropdown--item"><a href="/#media">Shows & Media</a></li>
+              <li className="nav-dropdown--item"><a href="/media">Shows & Media</a></li>
               <li className="nav-dropdown--item"><a href="/hanbok">Hanbok</a></li>
               <li className="nav-dropdown--item"><a href="/gifts">Gifts</a></li>
               <li className="nav-dropdown--item"><a href="/greetings">Greetings</a></li>
@@ -86,7 +86,7 @@ const Nav = () => (
             <h5 class="footer-category--ham"><span class="footer-color footer-font landing-category--dotted footer-category">Festivities</span></h5>
             <ul>
                 <li class ="footer-link--ham"><a href="/#places" onClick="window.location.reload();" class="footer-font footer-color">Places to Visit</a></li>
-                <li class ="footer-link--ham"><a href="/#media" onClick="window.location.reload();" class="footer-font footer-color">Shows & Media</a></li>
+                <li class ="footer-link--ham"><a href="/media" onClick="window.location.reload();" class="footer-font footer-color">Shows & Media</a></li>
                 <li class ="footer-link--ham"><a href="/hanbok" onClick="window.location.reload();" class="footer-font footer-color">Hanbok</a></li>
                 <li class ="footer-link--ham"><a href="/gifts" onClick="window.location.reload();" class="footer-font footer-color">Gifts</a></li>
                 <li class ="footer-link--ham"><a href="/greetings" onClick="window.location.reload();" class="footer-font footer-color">Greetings</a></li>
@@ -121,14 +121,14 @@ if (typeof window !== 'undefined') {
   var foot = document.querySelector(".footer-bg");
   var blog = document.querySelector(".blog-hide");
   // On click
-  hamburger.addEventListener("click", function() {
-    // Toggle class "is-active"
-    hamburger.classList.toggle("is-active");
-    // Do something else, like open/close menu
-    hamburgerMenu.classList.toggle("ham-is-active");
-    body.classList.toggle("main-hide");
-    foot.classList.toggle("main-hide");
-    blog.classList.toggle("main-hide");
-  });
+  // hamburger.addEventListener("click", function() {
+  //   // Toggle class "is-active"
+  //   hamburger.classList.toggle("is-active");
+  //   // Do something else, like open/close menu
+  //   hamburgerMenu.classList.toggle("ham-is-active");
+  //   body.classList.toggle("main-hide");
+  //   foot.classList.toggle("main-hide");
+  //   blog.classList.toggle("main-hide");
+  // });
 
   }
