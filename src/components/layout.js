@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-      <SEO keywords={[`chuseok`, `chuseok 2019`, `chuseok korea`, `what is chuseok`, `chuseok holiday`, `chuseok info`, `chuseok foods`, `chuseok drinks`, `chuseok traditions`, `korean holidays`, `chuseok greetings`, `charye`, `beolcho`, `songmyo`, `chuseok gifts`, `hanbok`, `korean folk games`, `chuseok shows`]} />
+      <SEO title="2019"  keywords={[`chuseok`, `chuseok 2019`, `chuseok korea`, `what is chuseok`, `chuseok holiday`, `chuseok info`, `chuseok foods`, `chuseok drinks`, `chuseok traditions`, `korean holidays`, `chuseok greetings`, `charye`, `beolcho`, `songmyo`, `chuseok gifts`, `hanbok`, `korean folk games`, `chuseok shows`]} />
         <Nav />
         <main>
           <Landing />

@@ -12,7 +12,7 @@ import "../styles/custom.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Chuseok 2019" keywords={[`chuseok`, `chuseok 2019`, `chuseok korea`, `what is chuseok`, `chuseok holiday`, `chuseok info`, `chuseok foods`, `chuseok drinks`, `chuseok traditions`, `korean holidays`, `chuseok greetings`, `charye`, `beolcho`, `songmyo`, `chuseok gifts`, `hanbok`, `korean folk games`, `chuseok shows`]} />
+    <SEO keywords={[`chuseok`, `chuseok 2019`, `chuseok korea`, `what is chuseok`, `chuseok holiday`, `chuseok info`, `chuseok foods`, `chuseok drinks`, `chuseok traditions`, `korean holidays`, `chuseok greetings`, `charye`, `beolcho`, `songmyo`, `chuseok gifts`, `hanbok`, `korean folk games`, `chuseok shows`]} />
   </Layout>
 )
 
