@@ -26,12 +26,12 @@ In general, travelling abroad from Korea is quite expensive during this time. Ho
 <p class="blog-cap">Byung Jun Kim - Flickr</p>
 <h2 class="blog-header--2">Chuseok gifts</h2>
 <p class="blog-p">
-If you’re living in Korea, you may find Chuseok gift sets all around. It isn’t necessary to give gifts during Chuseok, but it is a polite gesture in some cases. You can find spam sets, olive oil + tuna sets, coffee sets, the list goes on! 
+If you’re living in Korea, you may find Chuseok gift sets all around. It isn’t necessary to give gifts during Chuseok, but it is a polite gesture. You can find spam sets, olive oil + tuna sets, coffee sets, the list goes on! 
 </p>
 
 <h2 class="blog-header--2">Chuseok syndrome</h2>
 <p>
-Traditionally, the women of the family were the ones who were tasked with cooking all the food. The physical labor that goes into Chuseok preparations have led to reports of migraines, backaches, muscle pain, nausea, carpal tunnel, and other conditions. The phenomenon is known as the post-holiday syndrome.</p>
+Traditionally, the women of the family were the ones tasked with cooking all the food. The physical labor that goes into Chuseok preparations have led to reports of migraines, backaches, muscle pain, nausea, carpal tunnel, and other conditions. The phenomenon is known as the post-holiday syndrome.</p>
 <p class="blog-p">
 People often take advantage of food markets, like Banchan markets 반찬가계. They sell traditional Chuseok foods during and around the Chuseok holidays, so not everything needs to be cooked at home.
 </p>
@@ -54,5 +54,5 @@ It’s also customary for Beolcho 벌초 on the day before and Seongmyo 성묘 o
 
 <h2 class="blog-header--2">Did you know?</h2>
 <p>
-The celebration of Chuseok in modern times is breaking away from tradition. The table set-up doesn’t matter too much. People are starting to take vacations instead of going back to their parents homes. 
+The celebration of Chuseok in modern times is breaking away from tradition. For example, the table set-up doesn’t matter too much these days and people are going on vacations instead of going back to their parents homes. 
 </p>
