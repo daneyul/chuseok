@@ -18,7 +18,7 @@ const Footer = () => (
         <div class="col-6 col-lg-2">
             <h5 class="footer-category"><span class="footer-color footer-font landing-category--dotted footer-category">Traditions</span></h5>
             <ul>
-                <li><a href="/ceremonies" onClick="window.location.reload();" class="footer-font footer-color footer-link">Customs</a></li>
+                <li><a href="/customs" onClick="window.location.reload();" class="footer-font footer-color footer-link">Customs</a></li>
                 <li><a href="/rabbit" onClick="window.location.reload();" class="footer-font footer-color footer-link">The Moon Rabbit</a></li>
                 <li><a href="/table" onClick="window.location.reload();" class="footer-font footer-color footer-link">Table Setting</a></li>
             </ul>

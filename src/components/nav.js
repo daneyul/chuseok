@@ -17,7 +17,7 @@ const Nav = () => (
         <ul className="col-4 nav-item justify-content-between nav-sides">
           <li className="nav-dropdown--parent"><a href="#">Traditions</a>
             <ul className="nav-dropdown nav-box slide-in-top">
-              <li className="nav-dropdown--item"><a href="/ceremonies">Customs</a></li>
+              <li className="nav-dropdown--item"><a href="/customs">Customs</a></li>
               <li className="nav-dropdown--item"><a href="/rabbit">The Moon Rabbit</a></li>
               <li className="nav-dropdown--item"><a href="/table">Table Setting</a></li>
             </ul>
@@ -69,7 +69,7 @@ const Nav = () => (
         <div class="col-6 col-lg-4">
             <h5 class="footer-category--ham"><span class="footer-color footer-font landing-category--dotted footer-category">Traditions</span></h5>
             <ul>
-                <li class ="footer-link--ham"><a href="/ceremonies" onClick="window.location.reload();" class="footer-font footer-color">Customs</a></li>
+                <li class ="footer-link--ham"><a href="/customs" onClick="window.location.reload();" class="footer-font footer-color">Customs</a></li>
                 <li class ="footer-link--ham"><a href="/rabbit" onClick="window.location.reload();" class="footer-font footer-color">The Moon Rabbit</a></li>
                 <li class ="footer-link--ham"><a href="/table" onClick="window.location.reload();" class="footer-font footer-color">Table Setting</a></li>
             </ul>
