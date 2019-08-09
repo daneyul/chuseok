@@ -72,7 +72,7 @@ const Landing = ({data}) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start">
         <div class="landing-category--col">
-          <h2 class="leader--fourth text-left"><span class="landing-category--third">Food</span></h2>
+          <h2 class="leader--fourth text-left"><span class="landing-category--third">Food & Drinks</span></h2>
         </div>
       </div>
       </div>
@@ -96,7 +96,7 @@ const Landing = ({data}) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-start header-mb--media" id="media">
         <div class="landing-category--col">
-          <h2 class="leader--seventh text-left"><span class="landing-category--third">Media</span></h2>
+          <h2 class="leader--seventh text-left"><span class="landing-category--third">Festivities</span></h2>
         </div>
       </div>
       </div>

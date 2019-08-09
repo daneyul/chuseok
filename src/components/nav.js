@@ -17,7 +17,7 @@ const Nav = () => (
         <ul className="col-4 nav-item justify-content-between nav-sides">
           <li className="nav-dropdown--parent"><a href="#">Traditions</a>
             <ul className="nav-dropdown nav-box slide-in-top">
-              <li className="nav-dropdown--item"><a href="/ceremonies">Customs & Ceremonies</a></li>
+              <li className="nav-dropdown--item"><a href="/ceremonies">Customs</a></li>
               <li className="nav-dropdown--item"><a href="/rabbit">The Moon Rabbit</a></li>
               <li className="nav-dropdown--item"><a href="/table">Table Setting</a></li>
             </ul>

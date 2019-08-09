@@ -1,5 +1,5 @@
 ---
-path: "/ceremonies"
+path: "/customs"
 keywords: ["chuseok", "customs", "ceremonies", "charye", "beolcho", "songmyo", "chuseok syndrome"]
 title: "Customs"
 tagline: "What usually happens during Chuseok"
