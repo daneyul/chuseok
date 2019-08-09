@@ -22,8 +22,8 @@ Traditionally, there are general guidelines to follow when setting up the table 
 
 <h3 class="blog-header--3">2nd row</h3>
 <p>From West to East:</br>
- Guksu 국수 noodles, Yukjeon 육전 meat pancakes, Sojeon 소전 beef pancakes, Eojeok 어적 fish, and Siluddeok시루떡 rice cake.</p> 
-<p class="blog-p">Eodongyuseo 어동유서 refers to placing fish on the east side and meat on west side, while Dongduseomi 동두서미 refers to placing the fish head oriented to the east and tail oriented to the west.</p>
+ Guksu 국수 (noodles), Yukjeon 육전 (meat pancakes), Sojeon 소전 (beef pancakes), Eojeok 어적 (fish), and Siluddeok 시루떡 (rice cakes).</p> 
+<p class="blog-p">Eodongyuseo (어동유서) refers to placing fish on the east side and meat on west side, while Dongduseomi (동두서미) refers to placing the fish head oriented to the east and tail oriented to the west.</p>
 
 <h3 class="blog-header--3">3rd row</h3>
 <p class="blog-p">Meat soup, beef soup, and fish soup.</p>
@@ -34,4 +34,4 @@ Traditionally, there are general guidelines to follow when setting up the table 
 
 <h3 class="blog-header--3">5th row</h3>
 <p>Fruits and desserts.</p> 
-<p class="blog-p">Hodongbaekseo 홓동백서 refers to white-colored foods placed on the east side while white-colored food goes on the west side.</br>Joyoolissi 조율이시 is a term that refers to jujubes, chestnuts, pears, and dried persimmons.</p>
+<p class="blog-p">Hodongbaekseo (홓동백서) refers to white-colored foods placed on the east side while white-colored food goes on the west side.</br>Joyoolissi (조율이시) is a term that refers to jujubes, chestnuts, pears, and dried persimmons.</p>
