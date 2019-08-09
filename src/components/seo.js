@@ -93,7 +93,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: [],
+  keywords: ['chuseok'],
   description: ``,
 }
 
