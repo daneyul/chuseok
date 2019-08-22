@@ -5,6 +5,9 @@ import Img from "gatsby-image";
 import SEO from "../components/seo"
 import Nav from "../components/nav";
 import Footer from "../components/footer";
+import Adv from "../components/vertical";
+import Adh from "../components/horizontal";
+import Ads from "../components/square";
 import '../styles/blog.scss';
 import '../styles/landing.scss';
 import '../styles/footer.scss';
@@ -50,6 +53,7 @@ export default function Template({data}) {
                             {sidebar1.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
                             <li class="blog-sidebar__list blog-header--3">Non-alcoholic</li>
                             {sidebar2.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
+                            <Adv />
                     </ul>
                 </div>
             </div>
@@ -90,6 +94,7 @@ export default function Template({data}) {
                         </div>
                         <ul class="col-blog blog-sidebar">
                                 {sidebar.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
+                                <Adv />
                         </ul>
                     </div>
                 </div>
@@ -127,8 +132,9 @@ export default function Template({data}) {
                         <div class="col-blog--main blog-main">
                             <article class="slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
-                        <ul class="col-blog blog-sidebar">
-                        </ul>
+                        <div class="col-blog blog-sidebar">
+                            <Adv />
+                        </div>
                     </div>
                 </div>
                 <Footer />
@@ -166,8 +172,9 @@ export default function Template({data}) {
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
-                        <ul class="col-blog blog-sidebar">
-                        </ul>
+                        <div class="col-blog blog-sidebar">
+                            <Adv />
+                        </div>
                     </div>
                 </div>
                 <Footer />

@@ -121,14 +121,14 @@ if (typeof window !== 'undefined') {
   var foot = document.querySelector(".footer-bg");
   var blog = document.querySelector(".blog-hide");
   // On click
-  hamburger.addEventListener("click", function() {
-    // Toggle class "is-active"
-    hamburger.classList.toggle("is-active");
-    // Do something else, like open/close menu
-    hamburgerMenu.classList.toggle("ham-is-active");
-    body.classList.toggle("main-hide");
-    foot.classList.toggle("main-hide");
-    blog.classList.toggle("main-hide");
-  });
+  // hamburger.addEventListener("click", function() {
+  //   // Toggle class "is-active"
+  //   hamburger.classList.toggle("is-active");
+  //   // Do something else, like open/close menu
+  //   hamburgerMenu.classList.toggle("ham-is-active");
+  //   body.classList.toggle("main-hide");
+  //   foot.classList.toggle("main-hide");
+  //   blog.classList.toggle("main-hide");
+  // });
 
   }

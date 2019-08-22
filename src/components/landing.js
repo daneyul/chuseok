@@ -6,6 +6,9 @@ import Festimages from "./festimages";
 import Foodimages from "./foodimages";
 import Tableimage from "./table";
 import Placeimages from "./places";
+import Ads from "./square";
+import Adv from "./vertical";
+import Adh from "./horizontal";
 import 'aos/dist/aos.css';
 var AOS = require('aos');
 
@@ -110,6 +113,7 @@ const Landing = ({data}) => (
             <p class="mt-4">Television broadcast schedules are some of the most searched terms during Chuseok. Movies, TV dramas, and variety shows play all throughout the holiday. Watching TV is an informal Chuseok event.</p>
           </div>
         </a>
+          <Ads />
         </div>
         <div class="col-6">
 
@@ -143,9 +147,9 @@ const Landing = ({data}) => (
   if (typeof window !== 'undefined') {
 
     window.onload = function () { 
-      const Parallax = require('parallax-js')
-      var scene = document.getElementById('scene');
-      var parallaxInstance = new Parallax(scene);
+      // const Parallax = require('parallax-js')
+      // var scene = document.getElementById('scene');
+      // var parallaxInstance = new Parallax(scene);
       AOS.init({once: true});
     };
     }
