@@ -1,8 +1,5 @@
 import React from 'react';
 
-if(typeof window != "undefined"){
-  (window.adsbygoogle = window.adsbygoogle || []).push({});
-}
 
 const Ads = () => (
   <React.Fragment>

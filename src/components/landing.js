@@ -145,7 +145,7 @@ const Landing = ({data}) => (
   )
   
   if (typeof window !== 'undefined') {
-
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
     window.onload = function () { 
       const Parallax = require('parallax-js')
       var scene = document.getElementById('scene');
@@ -155,4 +155,3 @@ const Landing = ({data}) => (
     }
 
   export default Landing
-  

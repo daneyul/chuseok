@@ -1,8 +1,5 @@
 import React from 'react';
 
-if(typeof window != "undefined"){
-  (window.adsbygoogle = window.adsbygoogle || []).push({});
-}
 const Adh = () => (
   <React.Fragment>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

@@ -209,3 +209,7 @@ export const postQuery = graphql`
         }
     }
 `
+
+if(typeof window != "undefined"){
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }
