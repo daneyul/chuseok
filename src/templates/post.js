@@ -183,6 +183,10 @@ export default function Template({data}) {
         }
 }
 
+if (typeof window !== 'undefined') {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
 export const postQuery = graphql`
     query BlogPostByPath($path: String!) {
         markdownRemark(frontmatter: { path: { eq: $path} }) {
