@@ -8,6 +8,9 @@ const Adh = () => (
     data-ad-slot='9548852695'
     data-ad-format='auto'
     data-full-width-responsive="true" />
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>   
     </React.Fragment>
 )
 
