@@ -14,3 +14,5 @@ const Ads = () => (
     </script>   
   </React.Fragment>
 )
+
+export default Ads
