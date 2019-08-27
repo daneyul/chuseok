@@ -15,7 +15,7 @@ const Tableimage = () => (
         <p>Although, setting up the table the right way isn’t so crucial these days.</p>
       </div>
       </a>
-     
+      
     </div>
     <div class="col-sm-12 col-lg-7 justify-content-end">
       <a href="/table" onClick="window.location.reload();">
