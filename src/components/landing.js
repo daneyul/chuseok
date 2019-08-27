@@ -107,16 +107,14 @@ const Landing = ({data}) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <div class="row justify-content-between header-mb">
         <div class="col-lg-6">
-        <a href="/media" onClick="window.location.reload();">
-          <div class="table-box">
-            <h2 class="table-header">Broadcasting</h2>
-            <p class="mt-4">Television broadcast schedules are some of the most searched terms during Chuseok. Movies, TV dramas, and variety shows play all throughout the holiday. Watching TV is an informal Chuseok event.</p>
-          </div>
-        </a>
+          <a href="/media" onClick="window.location.reload();">
+            <div class="table-box">
+              <h2 class="table-header">Broadcasting</h2>
+              <p class="mt-4">Television broadcast schedules are some of the most searched terms during Chuseok. Movies, TV dramas, and variety shows play all throughout the holiday. Watching TV is an informal Chuseok event.</p>
+            </div>
+          </a>
         </div>
-        <div class="col-6">
-         <Ads />
-        </div>
+        
       </div>
       </div>
 

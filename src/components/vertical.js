@@ -8,7 +8,7 @@ export default class Adv extends React.Component {
     return (
       <React.Fragment>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle"
+        <ins class="adsbygoogle ad-vert"
             data-ad-client="ca-pub-2932074618261080"
             data-ad-slot="5332321809"
             data-ad-format="auto"
