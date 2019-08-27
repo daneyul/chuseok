@@ -53,15 +53,7 @@ export default function Template({data}) {
                             {sidebar1.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
                             <li class="blog-sidebar__list blog-header--3">Non-alcoholic</li>
                             {sidebar2.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
-                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <ins class="adsbygoogle"
-        data-ad-client="ca-pub-2932074618261080"
-        data-ad-slot="5332321809"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+                            <Adv />
                     </ul>
                 </div>
             </div>
