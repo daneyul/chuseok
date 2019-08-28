@@ -38,7 +38,7 @@ export default function Template({data}) {
         <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
         <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
         <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-            <div class="container blog-hide mb-4">
+            <div class="container blog-hide">
                 <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                     <div class="col-12 header-mb__foods nav-space">
                         <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -56,11 +56,11 @@ export default function Template({data}) {
                         && (
                             <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                         )}
-                        <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
+                        <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
                         <Adh /> 
                     </div>
                 </div>
-                <div class="row justify-content-between slide-in-bottom--2">
+                <div class="row justify-content-between slide-in-bottom--2 blog-p">
                     <div class="col-blog--main blog-main">
                         <article class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                     </div>
@@ -99,7 +99,7 @@ export default function Template({data}) {
         <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
         <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
         <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-                <div class="container blog-hide mb-4">
+                <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -117,11 +117,11 @@ export default function Template({data}) {
                         && (
                             <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                         )}
-                            <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
+                            <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
                             <Adh /> 
                         </div>
                     </div>
-                    <div class="row justify-content-between slide-in-bottom--2">
+                    <div class="row justify-content-between slide-in-bottom--2 blog-p">
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
@@ -156,7 +156,7 @@ export default function Template({data}) {
         <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
         <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
         <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-                <div class="container blog-hide mb-4">
+                <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -174,11 +174,11 @@ export default function Template({data}) {
                         && (
                             <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                         )}
-                            <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
+                            <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
                             <Adh /> 
                         </div>
                     </div>
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between blog-p">
                         <div class="col-blog--main blog-main">
                             <article class="slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
@@ -213,7 +213,7 @@ export default function Template({data}) {
         <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
         <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
         <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-                <div class="container blog-hide mb-4">
+                <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -231,11 +231,11 @@ export default function Template({data}) {
                         && (
                             <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                         )}
-                            <p class="blog-cap blog-main mt-3">{post.frontmatter.cap}</p>
+                            <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
                             <Adh /> 
                         </div>
                     </div>
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between blog-p">
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>

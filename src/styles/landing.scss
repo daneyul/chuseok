@@ -7,29 +7,6 @@ $xl: 1200px;
     display: block;
 }
 
-.ad-sq-table {
-    @media only screen and (min-width: $lg) {
-        display: none;
-    }
-}
-
-.ad-hr-table {
-    @media only screen and (max-width: $lg) {
-        display: none;
-    }
-}
-
-.ad-sq-land {
-    @media only screen and (max-width: $lg) {
-        display: none;
-    }
-}
-
-.ad-hr-land {
-    @media only screen and (min-width: $lg) {
-        display: none;
-    }
-}
 
 .landing-flowers {
         z-index: -2;
