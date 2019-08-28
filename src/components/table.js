@@ -3,6 +3,7 @@ import "../styles/landing.scss";
 import "../styles/images.scss";
 import table from "../images/landing/table.svg"
 import Ads from "./square"
+import Adh from "./horizontal"
 
 const Tableimage = () => (
 
