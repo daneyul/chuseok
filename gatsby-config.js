@@ -44,10 +44,6 @@ module.exports = {
               maxWidth: 1000,
             },
           },
-          {
-            resolve: "gatsby-remark-component",
-            options: { plugins: ["gatsby-remark-component"] }
-          },
         ],
       },
     },
