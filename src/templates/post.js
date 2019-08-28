@@ -38,7 +38,7 @@ export default function Template({data}) {
         <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
         <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
         <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-            <div class="container blog-hide">
+            <div class="container blog-hide mb-4">
                 <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                     <div class="col-12 header-mb__foods nav-space">
                         <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -99,7 +99,7 @@ export default function Template({data}) {
         <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
         <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
         <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-                <div class="container blog-hide">
+                <div class="container blog-hide mb-4">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -156,7 +156,7 @@ export default function Template({data}) {
         <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
         <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
         <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-                <div class="container blog-hide">
+                <div class="container blog-hide mb-4">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>
@@ -213,7 +213,7 @@ export default function Template({data}) {
         <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
         <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
         <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-                <div class="container blog-hide">
+                <div class="container blog-hide mb-4">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
                             <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">{post.frontmatter.title}</span></h4>

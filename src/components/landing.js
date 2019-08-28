@@ -70,6 +70,9 @@ const Landing = ({data}) => (
       <div class="row justify-content-between header-mb flex-wrap img-padding">
         <Festimages />
       </div>
+      <div class="header-mb">
+        <Adh />
+      </div>
       </div>
 
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
@@ -135,6 +138,9 @@ const Landing = ({data}) => (
       </div>
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <Placeimages />
+      </div>
+      <div>
+        <Adh />
       </div>
 
 
