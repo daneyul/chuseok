@@ -16,11 +16,8 @@ const Tableimage = () => (
         <p>Although, setting up the table the right way isn’t so crucial these days.</p>
       </div>
       </a>
-      <div class="ad-sq-table">
+      <div>
        <Ads />
-      </div>
-      <div class="ad-hr-table">
-       <Adh />
       </div>
     </div>
     <div class="col-sm-12 col-lg-7 justify-content-end">
