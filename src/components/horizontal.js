@@ -8,7 +8,7 @@ export default class Adh extends React.Component {
     return (
       <React.Fragment>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle ad-hor"
+        <ins class="adsbygoogle"
             data-ad-client="ca-pub-2932074618261080"
             data-ad-slot="9548852695"
             data-ad-format="auto"
