@@ -26,7 +26,23 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-      <SEO title="Korean Thanksgiving"  keywords={[`chuseok`, `chuseok 2019`, `chuseok korea`, `what is chuseok`, `chuseok holiday`, `chuseok info`, `chuseok foods`, `chuseok drinks`, `chuseok traditions`, `korean holidays`, `chuseok greetings`, `charye`, `beolcho`, `songmyo`, `chuseok gifts`, `hanbok`, `korean folk games`, `chuseok shows`]} />
+
+        <title>Chuseok 2019 - Korean Thanksgiving</title>
+        <meta name="title" content="Chuseok 2019 - Korean Thanksgiving"/>
+        <meta name="description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
+
+
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.chuseok.info/"/>
+        <meta property="og:title" content="Chuseok 2019 - Korean Thanksgiving"/>
+        <meta property="og:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
+        <meta property="og:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
+
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:url" content="https://www.chuseok.info/"/>
+        <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
+        <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
+        <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
         <Nav />
         <main>
           <Landing />

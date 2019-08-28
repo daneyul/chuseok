@@ -115,9 +115,11 @@ const Landing = ({data}) => (
           </a>
         </div>
         <div class="col-lg-6 ad-sq-land">
- 
+         <Ads />
         </div>
-      
+        <div class="col-sm-12 ad-hr-land">
+         <Adh />
+        </div>
       </div>
       </div>
 
