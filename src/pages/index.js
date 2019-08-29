@@ -12,7 +12,7 @@ import "../styles/custom.scss"
 
 const IndexPage = () => (
   <Layout>
-    
+    <SEO />
   </Layout>
   
 )

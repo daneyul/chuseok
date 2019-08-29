@@ -16,7 +16,6 @@ var AOS = require('aos');
 
 const Landing = ({data}) => (
     <div class="container nav-space">
-      
       <div class="row justify-content-start">
         <div class="landing-flowers" id="scene">
           <Flowers />
@@ -70,7 +69,7 @@ const Landing = ({data}) => (
       <div class="row justify-content-between header-mb flex-wrap img-padding">
         <Festimages />
       </div>
-      <div class="header-mb">
+      <div class="col-8 header-mb">
         <Adh />
       </div>
       </div>
@@ -139,7 +138,7 @@ const Landing = ({data}) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <Placeimages />
       </div>
-      <div>
+      <div class="col-8">
         <Adh />
       </div>
 

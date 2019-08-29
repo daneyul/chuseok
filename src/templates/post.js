@@ -21,23 +21,8 @@ export default function Template({data}) {
         const keywords = post.frontmatter.keywords;
         return (
             <React.Fragment>
+            <SEO />
             <Nav />
-            <title>Chuseok 2019 - Korean Thanksgiving</title>
-        <meta name="title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta name="description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-
-
-        <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://www.chuseok.info/"/>
-        <meta property="og:title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta property="og:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-        <meta property="og:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-
-        <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:url" content="https://www.chuseok.info/"/>
-        <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-        <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
             <div class="container blog-hide">
                 <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                     <div class="col-12 header-mb__foods nav-space">
@@ -50,15 +35,15 @@ export default function Template({data}) {
                         <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                     </div>
                 </div>
-                <div class="row blog-header-mb slide-in-bottom--2">
+                <div class="row justify-content-center blog-header-mb slide-in-bottom--2">
                     <div class="col-12">
                         {post.frontmatter.featuredImage
                         && (
                             <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                         )}
                         <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
-                        <Adh /> 
                     </div>
+                    <div class="col-8"><Adh /></div>
                 </div>
                 <div class="row justify-content-between slide-in-bottom--2 blog-p">
                     <div class="col-blog--main blog-main">
@@ -72,7 +57,7 @@ export default function Template({data}) {
                             
                     </ul>
                 </div>
-                <Adh /> 
+                <div class="col-8 mx-auto"><Adh /></div>
             </div>
             <Footer />
             </React.Fragment>
@@ -82,23 +67,8 @@ export default function Template({data}) {
             const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
+                <SEO />
                 <Nav />
-                <title>Chuseok 2019 - Korean Thanksgiving</title>
-        <meta name="title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta name="description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-
-
-        <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://www.chuseok.info/"/>
-        <meta property="og:title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta property="og:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-        <meta property="og:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-
-        <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:url" content="https://www.chuseok.info/"/>
-        <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-        <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
@@ -111,15 +81,15 @@ export default function Template({data}) {
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                         </div>
                     </div>
-                    <div class="row blog-header-mb slide-in-bottom--2">
+                    <div class="row justify-content-center blog-header-mb slide-in-bottom--2">
                         <div class="col-12">
                         {post.frontmatter.featuredImage
                         && (
                             <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                         )}
                             <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
-                            <Adh /> 
                         </div>
+                        <div class="col-8"><Adh /></div>
                     </div>
                     <div class="row justify-content-between slide-in-bottom--2 blog-p">
                         <div class="col-blog--main blog-main">
@@ -130,7 +100,7 @@ export default function Template({data}) {
                                 
                         </ul>
                     </div>
-                    <Adh /> 
+                    <div class="col-8 mx-auto"><Adh /></div>
                 </div>
                 <Footer />
                 </React.Fragment>
@@ -139,23 +109,8 @@ export default function Template({data}) {
             const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
+                <SEO />
                 <Nav />
-                <title>Chuseok 2019 - Korean Thanksgiving</title>
-        <meta name="title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta name="description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-
-
-        <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://www.chuseok.info/"/>
-        <meta property="og:title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta property="og:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-        <meta property="og:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-
-        <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:url" content="https://www.chuseok.info/"/>
-        <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-        <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
@@ -168,15 +123,15 @@ export default function Template({data}) {
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                         </div>
                     </div>
-                    <div class="row blog-header-mb slide-in-bottom--2">
+                    <div class="row justify-content-center blog-header-mb slide-in-bottom--2">
                         <div class="col-12">
                         {post.frontmatter.featuredImage
                         && (
                             <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                         )}
                             <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
-                            <Adh /> 
                         </div>
+                        <div class="col-8"><Adh /></div>
                     </div>
                     <div class="row justify-content-between blog-p">
                         <div class="col-blog--main blog-main">
@@ -186,7 +141,7 @@ export default function Template({data}) {
                             
                         </ul>
                     </div>
-                    <Adh /> 
+                    <div class="col-8 mx-auto"><Adh /></div>
                 </div>
                 <Footer />
                 </React.Fragment>
@@ -196,23 +151,8 @@ export default function Template({data}) {
             const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
+                <SEO />
                 <Nav />
-                <title>Chuseok 2019 - Korean Thanksgiving</title>
-        <meta name="title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta name="description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-
-
-        <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://www.chuseok.info/"/>
-        <meta property="og:title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta property="og:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-        <meta property="og:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
-
-        <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:url" content="https://www.chuseok.info/"/>
-        <meta property="twitter:title" content="Chuseok 2019 - Korean Thanksgiving"/>
-        <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
-        <meta property="twitter:image" content="/opt/build/repo/src/images/meta-thumbnail.png"/>
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
                         <div class="col-12 header-mb__foods nav-space">
@@ -225,15 +165,15 @@ export default function Template({data}) {
                             <h2 class="landing-category--first header-mb__foods-2 blog-tagline">{post.frontmatter.tagline}</h2>
                         </div>
                     </div>
-                    <div class="row blog-header-mb slide-in-bottom--2">
+                    <div class="row justify-content-center blog-header-mb slide-in-bottom--2">
                         <div class="col-12">
                         {post.frontmatter.featuredImage
                         && (
                             <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                         )}
-                            <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
-                            <Adh /> 
+                            <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p> 
                         </div>
+                        <div class="col-8 mx-auto"><Adh /></div>
                     </div>
                     <div class="row justify-content-between blog-p">
                         <div class="col-blog--main blog-main">

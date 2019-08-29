@@ -4,9 +4,8 @@ module.exports = {
   siteMetadata: {
     title: `Chuseok 2019`,
     description: `Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok.`,
-    author: `Daniel Nguyen`,
     siteUrl: `https://www.chuseok.info`,
-    image: `${__dirname}/src/images/meta-thumbnail.png`
+    image: "/images/snape.jpg"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
