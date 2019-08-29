@@ -70,7 +70,7 @@ const Landing = ({data}) => (
         <Festimages />
       </div>
       <div class="justify-content-center header-mb">
-        <div class="Col-8">
+        <div class="col-lg-6">
         <Adh />
         </div>
       </div>
