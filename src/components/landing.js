@@ -69,8 +69,10 @@ const Landing = ({data}) => (
       <div class="row justify-content-between header-mb flex-wrap img-padding">
         <Festimages />
       </div>
-      <div class="col-8 header-mb">
+      <div class="justify-content-center header-mb">
+        <div class="Col-8">
         <Adh />
+        </div>
       </div>
       </div>
 
