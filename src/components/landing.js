@@ -70,7 +70,7 @@ const Landing = ({data}) => (
         <Festimages />
       </div>
       <div class="row justify-content-center header-mb">
-        <div class="col-lg-6">
+        <div class="col-10 col-lg-8">
         <Adh />
         </div>
       </div>
@@ -141,7 +141,7 @@ const Landing = ({data}) => (
       <Placeimages />
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-6">
+        <div class="col-10 col-lg-8">
           <Adh />
         </div>
       </div>
