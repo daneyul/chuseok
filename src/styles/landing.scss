@@ -3,13 +3,21 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 
-.adsbygoogle {
+.adh {
+    @media only screen and (max-width: $lg) {
+        width: auto;
+        height: 60px;
+    }
+}
+
+.ads, .adh {
     display: block;
 }
 
-.advert {
-    @media only screen and (max-width: $lg){
-        display: none;
+.adv {
+    display: none;
+    @media only screen and (min-width: $lg){
+        display: block;
     }
 }
 
