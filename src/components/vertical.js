@@ -11,7 +11,6 @@ export default class Adv extends React.Component {
         <ins class="adsbygoogle adv"
             data-ad-client="ca-pub-2932074618261080"
             data-ad-slot="5332321809"
-            data-ad-format="auto"
             data-full-width-responsive="true"></ins>
       </React.Fragment>
     )
