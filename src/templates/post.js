@@ -185,7 +185,7 @@ export default function Template({data}) {
                         )}
                             <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p> 
                         </div>
-                        <div class="col-10 col-lg-6 mx-auto"><Adh /></div>
+                        <div class="col-10 col-lg-8"><Adh /></div>
                     </div>
                     <div class="row justify-content-between blog-p">
                         <div class="col-blog--main blog-main">
