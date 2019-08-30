@@ -58,7 +58,7 @@ export default function Template({data}) {
                     </ul>
                 </div>
                 <div class="row justify-content-center">
-                        <div class="col-10 col-lg-6">
+                        <div class="col-10 col-lg-8">
                             <Adh />
                         </div>
                     </div>
@@ -105,7 +105,7 @@ export default function Template({data}) {
                         </ul>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-10 col-lg-6">
+                        <div class="col-10 col-lg-8">
                             <Adh />
                         </div>
                     </div>
@@ -150,7 +150,7 @@ export default function Template({data}) {
                         </ul>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-10 col-lg-6">
+                        <div class="col-10 col-lg-8">
                             <Adh />
                         </div>
                     </div>
@@ -196,7 +196,7 @@ export default function Template({data}) {
                         </ul>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-10 col-lg-6">
+                        <div class="col-10 col-lg-8">
                             <Adh />
                         </div>
                     </div>

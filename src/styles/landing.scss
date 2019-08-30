@@ -15,9 +15,7 @@ $xl: 1200px;
 }
 
 .adv {
-    @media only screen and (max-width: $lg){
-        display: none;
-    }
+    display: none;
     @media only screen and (min-width: $lg){
         display: block;
     }
