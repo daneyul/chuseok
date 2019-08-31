@@ -21,7 +21,7 @@ export default function Template({data}) {
         const keywords = post.frontmatter.keywords;
         return (
             <React.Fragment>
-            <SEO />
+            <SEO title={post.frontmatter.title}/>
             <Nav />
             <div class="container blog-hide">
                 <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
@@ -72,7 +72,7 @@ export default function Template({data}) {
             const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
-                <SEO />
+                <SEO title={post.frontmatter.title}/>
                 <Nav />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
@@ -119,7 +119,7 @@ export default function Template({data}) {
             const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
-                <SEO />
+                <SEO title={post.frontmatter.title} />
                 <Nav />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
@@ -166,7 +166,7 @@ export default function Template({data}) {
             const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
-                <SEO />
+                <SEO title={post.frontmatter.title} />
                 <Nav />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-start slide-in-bottom--1">

@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
 
-        <SEO />
+        <SEO title={post.frontmatter.title}/>
         <Nav />
         <main>
           <Landing />
