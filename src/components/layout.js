@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
 
-        <SEO title={post.frontmatter.title}/>
+        <SEO title="Korean Thanksgiving"/>
         <Nav />
         <main>
           <Landing />
