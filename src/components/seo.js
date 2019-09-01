@@ -1,79 +1,108 @@
+/**
+ * SEO component that queries for data with
+ *  Gatsby's useStaticQuery React hook
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
+
 import React from "react"
-import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
-const SEO = ({ title, description, image, pathname, article }) => (
-  <StaticQuery
-    query={query}
-    render={({
-      site: {
-        siteMetadata: {
-          title,
-          titleTemplate,
-          description,
-          siteUrl,
-          image,
+import Helmet from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
+
+function SEO({ description, lang, meta, keywords, title, image }) {
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+            description
+            author
+            image
+          }
+        }
+      }
+    `
+  )
+
+  const metaDescription = description || site.siteMetadata.description
+
+  return (
+    <Helmet
+      htmlAttributes={{
+        lang,
+      }}
+      title={title}
+      titleTemplate={`${site.siteMetadata.title} - %s`}
+      meta={[
+        {
+          name: `description`,
+          content: metaDescription,
         },
-      },
-    }) => {
-      const seo = {
-        title: title,
-        description: description,
-        image: `${siteUrl}${image || defaultImage}`,
-        siteUrl: `${siteUrl}${pathname || "/"}`,
-      }
-      return (
-        <>
-          <Helmet title={seo.title} titleTemplate={seo.titleTemplate}>
-            <meta name="description" content={seo.description} />
-            <meta name="image" content={seo.image} />
-            {seo.url && <meta property="og:url" content={seo.url} />}
-            {(article ? true : null) && (
-              <meta property="og:type" content="article" />
-            )}
-            {seo.title && <meta property="og:title" content={seo.title} />}
-            {seo.description && (
-              <meta property="og:description" content={seo.description} />
-            )}
-            {seo.image && <meta property="og:image" content={seo.image} />}
-            <meta name="twitter:card" content="summary_large_image" />
-            
-            {seo.title && <meta name="twitter:title" content={seo.title} />}
-            {seo.description && (
-              <meta name="twitter:description" content={seo.description} />
-            )}
-            {seo.image && <meta name="twitter:image" content={seo.image} />}
-          </Helmet>
-        </>
-      )
-    }}
-  />
-)
-export default SEO
-SEO.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  image: PropTypes.string,
-  pathname: PropTypes.string,
-  article: PropTypes.bool,
+        {
+          property: `og:title`,
+          content: title,
+        },
+        {
+          property: `og:image`,
+          content: site.siteMetadata.image,
+        },
+        {
+          property: `og:description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:type`,
+          content: `website`,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
+          property: `twitter:image`,
+          content: site.siteMetadata.image,
+        },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:title`,
+          content: title,
+        },
+        {
+          name: `twitter:description`,
+          content: metaDescription,
+        },
+      ]
+        .concat(
+          keywords.length > 0
+            ? {
+                name: `keywords`,
+                content: keywords.join(`, `),
+              }
+            : []
+        )
+        .concat(meta)}
+    />
+  )
 }
+
 SEO.defaultProps = {
-  title: null,
-  description: null,
-  image: null,
-  pathname: null,
-  article: false,
+  lang: `en`,
+  meta: [],
+  keywords: ['chuseok'],
+  description: ``,
 }
-const query = graphql`
-  query SEO {
-    site {
-      siteMetadata {
-        title
-        titleTemplate
-        description
-        siteUrl
-        image
-      }
-    }
-  }
-`
+
+SEO.propTypes = {
+  description: PropTypes.string,
+  lang: PropTypes.string,
+  meta: PropTypes.arrayOf(PropTypes.object),
+  keywords: PropTypes.arrayOf(PropTypes.string),
+  title: PropTypes.string.isRequired,
+}
+
+export default SEO
