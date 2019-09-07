@@ -56,3 +56,12 @@ It’s also customary for Beolcho (벌초) on the day before and Seongmyo (성�
 <p>
 The celebration of Chuseok in modern times is breaking away from tradition. For example, the table set-up doesn’t matter too much these days and people are going on vacations instead of going back to their parents homes. 
 </p>
+
+<div class="blog-link__box">
+    <h3 class="blog-link__header">Learn more</h3>
+    <div class="blog-link__body">
+        <p class="blog-link"><u><b><a href="https://food52.com/blog/23068-chuseok-korean-thanksgiving-autumn-harvest-foods-and-rituals" target="_blank" rel="noopener noreferrer">This Is How We Celebrate Chuseok, Korean Thanksgiving</a></b></u> - Food 52</p>
+        <p class="blog-link"><u><b><a href="https://theculturetrip.com/asia/south-korea/articles/what-to-do-in-seoul-during-chuseok/" target="_blank" rel="noopener noreferrer">What to Do in Seoul During Chuseok</a></b></u> - Culture Trip</p>
+        <p class="blog-link"><u><b><a href="https://www.youtube.com/watch?v=vCaPQJvYwTI" target="_blank" rel="noopener noreferrer">A Beginner's Guide to 추석 (Chuseok)</a></b></u> - Talk to Me in Korean</p>
+    </div>
+</div>

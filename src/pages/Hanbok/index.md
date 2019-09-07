@@ -33,12 +33,12 @@ The contemporary take on hanbok can be seen in fashion shows, especially on Hanb
 </p>
 
 <div class="blog-link__box">
-<h3 class="blog-link__header">Learn more</h3>
-<div class="blog-link__body">
-    <p class="blog-link"><u><b><a href="https://www.youtube.com/watch?v=jue7fPFEq-0" target="_blank" rel="noopener noreferrer">Royal Hanbok - What Korean Kings and Queens Used to Wear (왕과 왕비가 입었던 한복)</a></b></u> - Talk to Me in Korean, YouTube</p>
-    <p class="blog-link"><u><b><a href="https://hauteculturefashion.com/where-to-rent-and-buy-a-hanbok-in-seoul/" target="_blank" rel="noopener noreferrer">The Handsome Hanbok and Where to Buy One in Seoul</a></b></u> - Haute Culture Fashion</p>
-    <p class="blog-link"><u><b><a href="https://www.elle.com/fashion/a23315975/the-hanboks-tale-crystal-hana-kim/" target="_blank" rel="noopener noreferrer">Why I Wear My Hanbok</a></b></u> - Crystal Hana Kim, Elle Magazine</p>
-</div>
+    <h3 class="blog-link__header">Learn more</h3>
+    <div class="blog-link__body">
+        <p class="blog-link"><u><b><a href="https://www.youtube.com/watch?v=jue7fPFEq-0" target="_blank" rel="noopener noreferrer">Royal Hanbok - What Korean Kings and Queens Used to Wear (왕과 왕비가 입었던 한복)</a></b></u> - Talk to Me in Korean</p>
+        <p class="blog-link"><u><b><a href="https://hauteculturefashion.com/where-to-rent-and-buy-a-hanbok-in-seoul/" target="_blank" rel="noopener noreferrer">The Handsome Hanbok and Where to Buy One in Seoul</a></b></u> - Haute Culture Fashion</p>
+        <p class="blog-link"><u><b><a href="https://www.elle.com/fashion/a23315975/the-hanboks-tale-crystal-hana-kim/" target="_blank" rel="noopener noreferrer">Why I Wear My Hanbok</a></b></u> - Elle Magazine</p>
+    </div>
 </div>
 
 ![Hanbok-1](hanbok-1.jpg)
