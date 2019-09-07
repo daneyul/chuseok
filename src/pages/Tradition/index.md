@@ -53,7 +53,7 @@ It’s also customary for Beolcho (벌초) on the day before and Seongmyo (성�
 </p>
 
 <h2 class="blog-header--2">Did you know?</h2>
-<p>
+<p class="blog-p">
 The celebration of Chuseok in modern times is breaking away from tradition. For example, the table set-up doesn’t matter too much these days and people are going on vacations instead of going back to their parents homes. 
 </p>
 

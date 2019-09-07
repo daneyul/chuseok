@@ -104,7 +104,7 @@ Japchae is a stir-fry dish using noodles made from sweet potato starch, otherwis
 ![Namul](food-namul.jpg)
 <p class="blog-cap">Republic of Korea - Flickr</p>
 <h2 class="blog-header--2" id="namul">Namul 나물</h2>
-<p>
+<p class="blog-p">
 Namul generally refers to a variety of side dishes, or banchan (반찬), made mainly with vegetables. There are many kinds of namul, such as chwi-namul (취나물), dot-namul (돋나물), doraji-namul (도라지 나물), sukju-namul (숙주나물), and sigeumchi-namul (시금치 나물). Any type of vegetable, herb, or greens, can work as namul and they’re often mixed with other meats or vegetables.
 </p>
 

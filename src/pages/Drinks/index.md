@@ -107,7 +107,7 @@ Barley tea isn’t particularly a traditional Korean drink, but it’s popular i
 This is a traditional Korea tea made with jujubes, or “daechu 대추”. Jujubes can be eaten fresh and whole, but it has more uses in cooking after it’s dried.</p>
 
 <h2 class="blog-header--2" id="yuja">Yuja tea 유자차</h2>
-<p>
+<p class="blog-p">
 A traditional Korean tea made with yuja, citron, or yuzu. It’s made by curing the fruit into a syrup/marmalade which is then mixed with hot water to make tea. This syrup has a variety of other uses in cooking as well. </p>
 
 <div class="blog-link__box">

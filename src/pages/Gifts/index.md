@@ -19,7 +19,7 @@ Today, gift sets are usually sold with items as traditional as fruits or ginseng
 ![Gift Set](gifts-1.jpg)
 <p class="blog-cap">Republic of Korea - Flickr</p>
 <h2 class="blog-header--2">Fun Fact</h2>
-<p>
+<p class="blog-p">
 Recently, an anti-corruption law has been passed to limit the prices of Chuseok gift sets to prevent bribery and limit the amount of money those in civil service, media, or education can spend and receive. This act states a ₩30,000 limit on meals, ₩50,000 on gifts, and ₩100,000 on cash that public officials can accept at closed events. 
 </p>
 
