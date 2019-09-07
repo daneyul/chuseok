@@ -110,5 +110,12 @@ This is a traditional Korea tea made with jujubes, or “daechu 대추”. Jujub
 <p>
 A traditional Korean tea made with yuja, citron, or yuzu. It’s made by curing the fruit into a syrup/marmalade which is then mixed with hot water to make tea. This syrup has a variety of other uses in cooking as well. </p>
 
-
+<div class="blog-link__box">
+    <h3 class="blog-link__header">Learn more</h3>
+    <div class="blog-link__body">
+        <p class="blog-link"><u><b><a href="https://www.esquire.com/food-drink/drinks/a15050863/korean-rice-alcohol/" target="_blank" rel="noopener noreferrer">A Guide to Traditional Korean Rice Alcohol</a></b></u> - Esquire</p>
+        <p class="blog-link"><u><b><a href="https://vinepair.com/articles/soju-koreas-national-drink/" target="_blank" rel="noopener noreferrer">Soju: Everything You Need to Know About Korea’s National Drink</a></b></u> - Vinepair</p>
+        <p class="blog-link"><u><b><a href="https://www.vice.com/en_us/article/8qkm4z/makgeolli-is-the-drink-of-choice-for-farmers-korean-rappers-and-old-people" target="_blank" rel="noopener noreferrer">Makgeolli Is the Drink of Choice for Farmers, Korean Rappers, and Old People</a></b></u> - Vice</p>
+    </div>
+</div>
 
