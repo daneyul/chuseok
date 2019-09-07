@@ -235,3 +235,24 @@ u:hover {
     line-height: 6px;
 }
 
+.blog-link__box {
+    border: 1px solid rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.blog-link__header { 
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.blog-link__body {
+    font-size: 14px;
+}

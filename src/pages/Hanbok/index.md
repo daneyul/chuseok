@@ -32,6 +32,15 @@ In modern times, a Hanbok can be considered a type of bim (빔). Bim refers to c
 The contemporary take on hanbok can be seen in fashion shows, especially on Hanbok Day (October 21). Designers take the traditional attire and make stylish variations that fit a modern look.
 </p>
 
+<div class="blog-link__box">
+<h3 class="blog-link__header">More info</h3>
+<div class="blog-link__body">
+    <p><u><a href="https://www.youtube.com/watch?v=jue7fPFEq-0" target="_blank" rel="noopener noreferrer">Royal Hanbok - What Korean Kings and Queens Used to Wear (왕과 왕비가 입었던 한복)</a></u> - Talk to Me in Korean, YouTube</p>
+    <p><u><a href="https://hauteculturefashion.com/where-to-rent-and-buy-a-hanbok-in-seoul/" target="_blank" rel="noopener noreferrer">The Handsome Hanbok and Where to Buy One in Seoul</a></u> - Haute Culture Fashion</p>
+    <p><u><a href="https://www.elle.com/fashion/a23315975/the-hanboks-tale-crystal-hana-kim/" target="_blank" rel="noopener noreferrer">Why I Wear My Hanbok</a></u> - Crystal Hana Kim - Elle Magazine</p>
+</div>
+</div>
+
 ![Hanbok-1](hanbok-1.jpg)
 <p class="blog-cap">Kseniya Petukhova - Unsplash</p>
 <h2 class="blog-header--2">Wearing one</h2>
