@@ -141,7 +141,7 @@ const Landing = ({data}) => (
       <Placeimages />
       </div>
       <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-12 col-lg-10">
           <Adh />
         </div>
       </div>
