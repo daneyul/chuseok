@@ -619,17 +619,8 @@ $xl: 1200px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
 }
 
-.header-box {
-    @media only screen and (max-width: $lg){
-        box-shadow: 0 0 8px rgba(33,33,33,.2); 
-        transition: box-shadow .3s;
-        border-radius:10px;
-        background: #fff;
-        padding: 1.5rem 1rem;
-        margin-left: -1.25rem;
-    }
+.header-box-lg {
     @media only screen and (min-width: $lg) {
-        box-shadow: none;
         margin-left: -1.25rem;
         padding: 1.5rem 1.25rem;
         transition: box-shadow .3s;
@@ -638,9 +629,20 @@ $xl: 1200px;
     }
 }
 
-.header-box:hover {
+.header-box-lg:hover {
     @media only screen and (min-width: $lg) {
         box-shadow: 0 0 8px rgba(33,33,33,.2); 
+    }
+}
+
+.header-box-sm {
+    @media only screen and (max-width: $lg){
+        box-shadow: 0 0 8px rgba(33,33,33,.2); 
+        transition: box-shadow .3s;
+        border-radius:10px;
+        background: #fff;
+        padding: 1.5rem 1rem;
+        margin-left: -1.25rem;
     }
 }
 
