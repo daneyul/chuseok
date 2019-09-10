@@ -30,6 +30,7 @@ const Landing = ({data}) => (
       <div class="row justify-content-start landing-title3--margin">
         <div class="col-12">
           <h4 class="leader--first text-left landing-title3"><span>Celebrate the Korean Harvest Festival! Learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
+          <h4 class="text-left landing-title3 header-box"><a href="https://english.visitkorea.or.kr/enu/AKR/FU_EN_15.jsp?cid=2615334" target="_blank" rel="noopener noreferrer">Looking for KTX and SRT railway dates during Chuseok? Click here!</a></h4>
         </div>
       </div>
       </div>
