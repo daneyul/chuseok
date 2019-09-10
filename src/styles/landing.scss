@@ -621,13 +621,15 @@ $xl: 1200px;
 
 .header-box {
     margin-top: 4rem;
-}
-
-.header-box:hover {
+    margin-left: -1.25rem;
     padding: 1.5rem 1.25rem;
     transition: box-shadow .3s;
     border-radius:10px;
     background: #fff;
+}
+
+.header-box:hover {
+    box-shadow: 0 0 8px rgba(33,33,33,.2); 
 }
 
 // Loading-animations
