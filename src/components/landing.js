@@ -72,7 +72,6 @@ const Landing = ({data}) => (
       </div>
       <div class="row justify-content-center header-mb">
         <div class="col-10">
-        <Adh />
         </div>
       </div>
       </div>
@@ -143,7 +142,6 @@ const Landing = ({data}) => (
       </div>
       <div class="row justify-content-center">
         <div class="col-12 col-lg-10">
-          <Adh />
         </div>
       </div>
 
