@@ -8,7 +8,6 @@ import Tableimage from "./table";
 import Placeimages from "./places";
 import Ads from "./square";
 import Adv from "./vertical";
-import Adh from "./horizontal";
 import 'aos/dist/aos.css';
 var AOS = require('aos');
 
