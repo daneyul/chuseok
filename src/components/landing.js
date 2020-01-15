@@ -140,10 +140,6 @@ const Landing = ({data}) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
       <Placeimages />
       </div>
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-10">
-        </div>
-      </div>
 
 
     </div>
