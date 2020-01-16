@@ -7,7 +7,6 @@ import Foodimages from "./foodimages";
 import Tableimage from "./table";
 import Placeimages from "./places";
 import Ads from "./square";
-import Adv from "./vertical";
 import 'aos/dist/aos.css';
 var AOS = require('aos');
 
