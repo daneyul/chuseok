@@ -68,10 +68,6 @@ const Landing = ({data}) => (
       <div class="row justify-content-between header-mb flex-wrap img-padding">
         <Festimages />
       </div>
-      <div class="row justify-content-center header-mb">
-        <div class="col-10">
-        </div>
-      </div>
       </div>
 
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
