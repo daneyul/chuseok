@@ -20,7 +20,7 @@ const Landing = ({data}) => (
         </div>
         <div class="col-12 landing-top slide-in-bottom--2">
           <h1 class="landing-title text-left">추석<br />Chuseok</h1>
-          <h1 class="landing-title2 text-left">September 30 - October 2, 2019</h1>
+          <h1 class="landing-title2 text-left">September 30 - October 2, 2020</h1>
         </div>
       </div>
 
