@@ -32,7 +32,7 @@ const Nav = () => (
         </ul>
 
         <ul className="col-6 col-md-4 nav-item nav-middle active">
-          <a href="/" onClick="window.location.reload();"><li className="nav-item--center">Chuseok 2019</li></a>
+          <a href="/" onClick="window.location.reload();"><li className="nav-item--center">Chuseok 2020</li></a>
         </ul>
 
         <ul className="col-4 nav-item justify-content-between nav-sides">
