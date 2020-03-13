@@ -48,7 +48,7 @@ const Nav = () => (
           </li>
           <li className="nav-dropdown--parent">
             <span>
-              <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fchuseok.info&text=Celebrate%20Chuseok%202019%21%20Learn%20about%20the%20Korean%20harvest%20festival." target="_blank" rel="noopener noreferrer"><img src={s1} alt="Share on Twitter" className="social-icons--first"/></a>
+              <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fchuseok.info&text=Celebrate%20Chuseok%202020%21%20Learn%20about%20the%20Korean%20harvest%20festival." target="_blank" rel="noopener noreferrer"><img src={s1} alt="Share on Twitter" className="social-icons--first"/></a>
               <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchuseok.info%2F&amp;src=sdkpreparse" target="_blank" rel="noopener noreferrer"><img src={s2} alt="Share on Facebook" className="social-icons--second"/></a>
               <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fchuseok.info" target="_blank" rel="noopener noreferrer"><img src={s3} alt="Share on LinkedIn" className="social-icons--third"/></a>
             </span>
