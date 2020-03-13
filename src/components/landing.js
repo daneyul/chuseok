@@ -20,7 +20,7 @@ const Landing = ({data}) => (
         </div>
         <div class="col-12 landing-top slide-in-bottom--2">
           <h1 class="landing-title text-left">추석<br />Chuseok</h1>
-          <h1 class="landing-title2 text-left">September 12-14, 2019</h1>
+          <h1 class="landing-title2 text-left">September 30 - October 2, 2019</h1>
         </div>
       </div>
 
@@ -28,7 +28,7 @@ const Landing = ({data}) => (
       <div class="row justify-content-start landing-title3--margin">
         <div class="col-12">
           <h4 class="leader--first text-left landing-title3"><span>Celebrate the Korean Harvest Festival! Learn about what it is<br class="landing-title3--break"/> and what's happening during this time.</span></h4>
-          <h4 class="text-left landing-title3 header-mt header-box-sm"><a href="https://english.visitkorea.or.kr/enu/AKR/FU_EN_15.jsp?cid=2615334" target="_blank" rel="noopener noreferrer" class="header-box-lg">Looking for KTX and SRT railway dates during Chuseok? Click here!</a></h4>
+ 
         </div>
       </div>
       </div>
