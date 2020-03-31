@@ -23,6 +23,12 @@ $xl: 1200px;
     }
 }
 
+#hero {
+    background: #152555;
+    width: 100vw;
+    height: 70vh;
+}
+
 .landing-flowers {
         z-index: -2;
         position: absolute;
@@ -42,27 +48,34 @@ $xl: 1200px;
         }
 }
 
-.landing-title {
-    font-family: "Oswald", sans-serif;
-    font-size: 72px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+.landing-kr {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 200px;
+    font-weight: 900;
+    color: #E9796F;
+}
 
-    margin-top: 16rem;
+.landing-title {
+    font-family: "GT Eesti Display-Bold", sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 2rem;
     padding-left: 0;
+    color: white;
 }
 
 .landing-title2 {
+    font-family: "GT Eesti Display-Bold", sans-serif;
+    font-size: 24px;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: 600;
-    margin-top: 2rem;
+    color: white;
 }
 
 .landing-title3 {
     position: relative;
-    background: #fff;
     line-height: 24px;
+    color: white;
+    margin-top: 2rem;
 }
 
 .landing-title3--margin {
@@ -94,9 +107,9 @@ $xl: 1200px;
     max-width: 100%;
 
     @media only screen and (min-width: $lg){
-    -ms-flex: 0 0 35%;
-    flex: 0 0 35%;
-    max-width: 35%;
+    -ms-flex: 0 0 34%;
+    flex: 0 0 34%;
+    max-width: 34%;
     margin-right: 1rem;
     }
 }
@@ -113,9 +126,9 @@ $xl: 1200px;
         margin-top: 0;
     }
     @media only screen and (min-width: $lg){
-        -ms-flex: 0 0 31%;
-        flex: 0 0 31%;
-        max-width: 31%;
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
         margin-left: 0;
         margin-top: 0;
     }
@@ -136,13 +149,8 @@ $xl: 1200px;
 }
 
 .landing-header__one {
-    font-family: "Oswald", sans-serif;
     font-style: normal;
-    font-size: 42px;
-    line-height: 53px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-top: 2rem;
+    font-size: 24px;
 }
 
 .landing-media {
@@ -150,8 +158,6 @@ $xl: 1200px;
 }
 
 .landing-header--description {
-    margin-top: 1rem;
-    line-height: 24px;
     @media only screen and (min-width: $md){
         margin-bottom: 4rem;
     }
@@ -161,13 +167,8 @@ $xl: 1200px;
 }
 
 .landing-header__two {
-    font-family: "Oswald", sans-serif;
-    font-style: normal;
-    font-size: 32px;
-    line-height: 27px;
-    text-transform: uppercase;
+    font-size: 24px;
     text-decoration: underline;
-    margin-top: 3rem;
     letter-spacing: 0.08em;
     padding-left: .5rem;
     @media only screen and (min-width: $lg){
@@ -176,8 +177,6 @@ $xl: 1200px;
 }
 
 .landing-header__two--description {
-    line-height: 24px;
-    margin-top: 1.6rem;
     padding-left: .5rem;
     @media only screen and (min-width: $lg){
         padding-left: 0;
@@ -185,14 +184,10 @@ $xl: 1200px;
 }
 
 .landing-recipes {
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: normal;
     font-size: 32px;
     line-height: 36px;
     letter-spacing: 0.1em;
     text-decoration: underline;
-    text-transform: uppercase;
     margin-top: 1rem;
     margin-bottom: 2rem;
     @media only screen and (min-width: $lg){
@@ -289,44 +284,22 @@ $xl: 1200px;
 }
 
 .landing-category--first {
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 0.12em;
     position: relative;
     padding: 0 1rem 0 0;
-    background: #fff;
+    font-family: 'Centra-Light';
+    font-size: 14px;
+    color: #0C1C66;
+    margin-top: 3rem;
 }
 
-.landing-category--second {
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 0.12em;
+.landing-category {
     position: relative;
     padding: 0 1rem 0 0;
-    background: #fff;
+    font-family: 'Centra-Light';
+    font-size: 14px;
+    color: #0C1C66;
 }
 
-.landing-category--third {
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 0.12em;
-    position: relative;
-    padding: 0 1rem 0 1rem;
-    background: #fff;
-    right: 1rem;
-}
-
-.landing-category--fourth {
-    font-family: "Lato";
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16px;
-    position: relative;
-    background: #fff;
-    @media only screen and (min-width: $lg){
-        padding-left: 1rem;
-    }
-}
 
 .table-header {
     font-family: "Oswald", sans-serif;
@@ -336,223 +309,6 @@ $xl: 1200px;
     text-transform: uppercase;
     text-decoration: underline;
     letter-spacing: 0.08em;
-}
-
-.leader--first {
-
-    @media only screen and (max-width: $md){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 7.5rem;
-            width: 100%;
-            height: 0.5px;
-            background: rgba(0,0,0,0.2);
-        }
-    }
-    @media only screen and (min-width: $lg){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 24px;
-            width: 50%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            right: -10px;
-        }
-    }
-    @media only screen and (min-width: $xl){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 24px;
-            width: 82%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            right: -255px;
-        }
-    }
-}
-
-
-.leader--third {
-    &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 8px;
-        width: 95%;
-        height: 0.5px;
-        background: rgba(0,0,0,0.2);
-    }
-    @media only screen and (min-width: $lg){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 8px;
-            width: 98%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-        }
-    }
-    @media only screen and (min-width: $xl){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 8px;
-            width: 170%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            left: -50%;
-        }
-    }
-}
-
-.leader--fourth {
-    &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 8px;
-        width: 95%;
-        height: 0.5px;
-        background: rgba(0,0,0,0.2);
-    }
-    @media only screen and (min-width: $lg){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 8px;
-            width: 98%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-        }
-    }
-    @media only screen and (min-width: $xl){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 8px;
-            width: 170%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            left: -50%;
-        }
-    }
-}
-
-.leader--fifth {
-    @media only screen and (min-width: $md){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 12px;
-            width: 95%;
-            height: 0.5px;
-            background: rgba(0,0,0,0.2);
-        }
-    }
-    @media only screen and (min-width: $lg){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 7px;
-            width: 98%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-        }
-    }
-    @media only screen and (min-width: $xl){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 7px;
-            width: 100%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            left: -20%;
-        }
-    }
-}
-
-.leader--sixth {
-    &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 8px;
-        width: 95%;
-        height: 1px;
-        background: rgba(0,0,0,0.2);
-    }
-    @media only screen and (min-width: $lg){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 9px;
-            width: 98%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-        }
-    }
-    @media only screen and (min-width: $xl){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 9px;
-            width: 170%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            left: -50%;
-        }
-    }
-}
-
-.leader--seventh {
-    &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 8px;
-        width: 95%;
-        height: 0.5px;
-        background: rgba(0,0,0,0.2);
-    }
-    @media only screen and (min-width: $lg){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 8px;
-            width: 98%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-        }
-    }
-    @media only screen and (min-width: $xl){
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 9px;
-            width: 170%;
-            height: 1px;
-            background: rgba(0,0,0,0.2);
-            left: -50%;
-        }
-    }
 }
 
 // Hover effects

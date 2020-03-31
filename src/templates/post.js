@@ -5,9 +5,6 @@ import Img from "gatsby-image";
 import SEO from "../components/seo"
 import Nav from "../components/nav";
 import Footer from "../components/footer";
-import Adv from "../components/vertical";
-import Adh from "../components/horizontal";
-import Ads from "../components/square";
 import '../styles/blog.scss';
 import '../styles/landing.scss';
 import '../styles/footer.scss';
@@ -18,7 +15,6 @@ export default function Template({data}) {
     if (post.frontmatter.path == "/drinks" ) {
         const sidebar1 = post.frontmatter.sidebar1;
         const sidebar2 = post.frontmatter.sidebar2;
-        const keywords = post.frontmatter.keywords;
         return (
             <React.Fragment>
             <SEO title={post.frontmatter.title}/>
@@ -54,8 +50,6 @@ export default function Template({data}) {
                             {sidebar1.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
                             <li class="blog-sidebar__list blog-header--3">Non-alcoholic</li>
                             {sidebar2.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
-                            <li><Adv /></li>
-                            <li><Adv /></li>
                     </ul>
                 </div>
                 
@@ -65,7 +59,6 @@ export default function Template({data}) {
         )
         } else if (post.frontmatter.path == "/foods"){
             const sidebar = post.frontmatter.sidebar;
-            const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
                 <SEO title={post.frontmatter.title}/>
@@ -98,8 +91,6 @@ export default function Template({data}) {
                         </div>
                         <ul class="col-blog blog-sidebar">
                                 {sidebar.map( (value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> } ) }
-                                <li><Adv /></li>
-                                <li><Adv /></li>
                         </ul>
                     </div>
                    
@@ -108,7 +99,6 @@ export default function Template({data}) {
                 </React.Fragment>
             )
         } else if (post.frontmatter.path == "/greetings"){
-            const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
                 <SEO title={post.frontmatter.title} />
@@ -140,8 +130,6 @@ export default function Template({data}) {
                             <article class="slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                         <ul class="col-blog blog-sidebar">
-                        <li><Adv /></li>
-                        <li><Adv /></li>
                         </ul>
                     </div>
                    
@@ -151,7 +139,6 @@ export default function Template({data}) {
             )
         }
         else {
-            const keywords = post.frontmatter.keywords;
             return (
                 <React.Fragment>
                 <SEO title={post.frontmatter.title} />
@@ -183,8 +170,6 @@ export default function Template({data}) {
                             <article class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                         <ul class="col-blog blog-sidebar">
-                        <li><Adv /></li>
-                        <li><Adv /></li>
                         </ul>
                     </div>
                    

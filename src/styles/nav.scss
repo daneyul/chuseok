@@ -10,11 +10,19 @@ nav {
     @media only screen and (min-width: $xl) {
         font-weight: 300;
         font-size: 16px;
-        font-family: "Lato", sans-serif;
+        font-family: "Centra", sans-serif;
         position: fixed;
         top: 0;
         transition: top 0.4s;
     }
+}
+
+nav a {
+  color: #D32739;
+}
+
+nav a:hover {
+  color: #D32739;
 }
 
 .nav-top {
@@ -22,6 +30,7 @@ nav {
 }
 
 .nav-space {
+  height: 65vh;
   @media only screen and (min-width: $xl){
     margin-top: 3rem;
   }
@@ -56,7 +65,7 @@ nav {
     width: 75%;
     height: 2px;
     bottom: 0;
-    background-color: #000;
+    background-color: #D32739;;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
