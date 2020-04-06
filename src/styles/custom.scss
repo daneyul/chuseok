@@ -51,7 +51,14 @@ $xl: 1200px;
 body, span {
     font-family: "Centra-Light", sans-serif;
     font-size: 16px;
-    letter-spacing: 0.01rem;
+}
+
+main a {
+    color: black;
+}
+
+main a:hover {
+    color: black;
 }
 
 
@@ -76,6 +83,7 @@ h3 {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {

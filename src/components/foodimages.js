@@ -8,14 +8,21 @@ const Foodimages = () => (
     <StaticQuery
     query={graphql`
     query {
-        foodOne: file(relativePath: { eq: "landing/food-thumb.png" }) {
+        foodOne: file(relativePath: { eq: "landing/recipes-thumb.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid
             }
           }
         },
-        foodTwo: file(relativePath: { eq: "landing/drink-thumb.png" }) {
+        foodTwo: file(relativePath: { eq: "landing/food-thumb.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        },
+        foodThree: file(relativePath: { eq: "landing/drink-thumb.png" }) {
             childImageSharp {
               fluid(maxWidth: 800) {
                 ...GatsbyImageSharpFluid
@@ -28,24 +35,24 @@ const Foodimages = () => (
     render ={data => (
         
     <React.Fragment>
-        <div class="food-image--drink">
-            <a href="recipes">
-              <h3 class="landing-recipes recipes-box-sm"><span class="landing-recipes recipes-box-lg">Need Recipes?</span></h3>
-            </a>
-            <div class="food-image fest-image--box">
-              <a href="drinks">
-                <Img fluid={data.foodTwo.childImageSharp.fluid} />
-                <h3 class="food-header food-header--drink">Traditional Drinks</h3>
-              </a>
-            </div>
-        </div>
-
-          <div class="food-image--food food-image fest-image--box">
-            <a href="foods">
-              <Img fluid={data.foodOne.childImageSharp.fluid}/>
-              <h3 class="food-header food-header--food">Typical Chuseok Foods</h3>
-            </a>
-        </div>
+        <a href="/recipes" onClick="window.location.reload();" class="food-image">
+            <Img fluid={data.foodOne.childImageSharp.fluid} />
+            <h2 class="landing-category landing-category__fest">Foods & Drinks</h2>
+            <h3 class="landing-header__two">Need Recipes?</h3>
+            <p>We’ve curated a list of food blogs for you to make your own delicious Korean meals for any occasion. </p>
+        </a>
+        <a href="/foods" onClick="window.location.reload();" class="food-image">
+          <Img fluid={data.foodTwo.childImageSharp.fluid} />
+          <h2 class="landing-category landing-category__fest">Foods & Drinks</h2>
+          <h3 class="landing-header__two">Chuseok Foods</h3>
+          <p>The classic dishes prepared on the first day of the Chuseok holiday.</p>
+        </a>
+        <a href="/drinks" onClick="window.location.reload();" class="food-image">
+            <Img fluid={data.foodThree.childImageSharp.fluid} />
+            <h2 class="landing-category landing-category__fest">Foods & Drinks</h2>
+            <h3 class="landing-header__two">Traditional Korean Drinks</h3>
+            <p>Beer, soju, and makgeolli are just a few of the many varieties of Korean alcohols.</p>
+        </a>
     </React.Fragment>
 
     )}

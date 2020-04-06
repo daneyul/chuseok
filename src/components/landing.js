@@ -4,7 +4,7 @@ import "../styles/landing.scss";
 import Flowers from "./flowers";
 import Festimages from "./festimages";
 import Foodimages from "./foodimages";
-import Tableimage from "./table";
+import TableMedia from "./table";
 import Placeimages from "./places";
 import 'aos/dist/aos.css';
 var AOS = require('aos');
@@ -21,7 +21,7 @@ const Landing = ({data}) => (
         <div class="landing-flowers" id="scene">
           <Flowers />
         </div>
-        <div class="col-12 landing-top slide-in-bottom--2">
+        <div class="col-6 landing-top slide-in-bottom--2">
           <h1 class="landing-kr text-left">추석</h1>
           <h1 class="landing-title text-left">Chuseok 2020</h1>
           <h1 class="landing-title2 text-left">September 30 - October 2</h1>
@@ -34,9 +34,7 @@ const Landing = ({data}) => (
   
     <div class="container">
       <div data-aos="fade-up" data-aos-offset="10" data-aos-duration="600">
-      <div class="row justify-content-start header-mt">
-      </div>
-      <div class="row header-mb">
+      <div id="tradition" class="row header-mb">
         <div class="col-12 d-flex justify-content-between flex-wrap">
           <div class="header-col-1">
             <h2 class="landing-category--first">Tradition</h2>
@@ -45,93 +43,52 @@ const Landing = ({data}) => (
           </div>
           <a href="/customs" onClick="window.location.reload();" class="header-col-2 box">
             <h2 class="landing-category--first">Tradition</h2>
-              <h3 class="landing-header__two">Customs</h3>
-              <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
+            <h3 class="landing-header__two">Customs</h3>
+            <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
+            <p class="landing-learn">Learn more</p>
           </a>
           <a href="/rabbit" onClick="window.location.reload();" class="header-col-2 box">
             <h2 class="landing-category--first">Tradition</h2>
             <h3 class="landing-header__two">Moon Rabbit</h3>
             <p class="landing-header__two--description">If you look closely at the moon, you'll see a rabbit making rice cakes beneath a tree.</p>
+            <p class="landing-learn">Learn more</p>
           </a>
         </div>
       </div>
       </div>
+    </div>
 
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <div class="row justify-content-start">
-        <div class="landing-category--col">
-          <h2 class="leader--third text-left"><span class="landing-category--third">Festivities</span></h2>
-        </div>
-      </div>
-      </div>
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="150" data-aos-duration="600">
-      <div class="row justify-content-between header-mb flex-wrap img-padding">
-        <Festimages />
-      </div>
-      </div>
+    <div class="pink-border"></div>
 
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <div class="row justify-content-start">
-        <div class="landing-category--col">
-          <h2 class="leader--fourth text-left"><span class="landing-category--third">Food & Drinks</span></h2>
-        </div>
-      </div>
-      </div>
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="150" data-aos-duration="600">
-      <div class="row justify-content-sm-center justify-content-lg-between header-mb flex-wrap img-padding">
+    <div class="container">
+
+    <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="150" data-aos-duration="600">
+      <div id="food" class="row justify-content-sm-center justify-content-lg-between flex-wrap img-padding">
         <Foodimages />
       </div>
       </div>
 
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <div class="row justify-content-lg-end">
-        <div class="landing-category--col">
-          <h2 class="leader--fifth text-lg-right header-mb"><span class="landing-category--fourth">Did you know that food is traditionally laid out a certain way?</span></h2>
-        </div>
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="150" data-aos-duration="600">
+      <div class="row justify-content-between flex-wrap img-padding fest-margin">
+        <Festimages />
       </div>
       </div>
+
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="100" data-aos-duration="600">
-      <Tableimage />
+        <div class="row justify-content-between flex-wrap img-padding misc-margin">
+          <TableMedia />
+        </div>
       </div>
 
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <div class="row justify-content-start header-mb--media" id="media">
-        <div class="landing-category--col">
-          <h2 class="leader--seventh text-left"><span class="landing-category--third">Festivities</span></h2>
+        <div class="places-row img-padding misc-margin">
+          <h2 class="landing-category landing-category__fest">Festivities</h2>
+          <h3 class="landing-header__two">Places to Visit</h3>
+          <p>Palace admissions are free during the holidays and amusement parks have specials!</p>
         </div>
       </div>
-      </div>
-
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <div class="row justify-content-between header-mb">
-        <div class="col-lg-6">
-          <a href="/media" onClick="window.location.reload();">
-            <div class="table-box">
-              <h2 class="table-header">Broadcasting</h2>
-              <p class="mt-4">Television broadcast schedules are some of the most searched terms during Chuseok. Movies, TV dramas, and variety shows play all throughout the holiday. Watching TV is an informal Chuseok event.</p>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-6">
-        </div>
-      </div>
-      </div>
-
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <div class="row justify-content-start" id="places">
-        <div class="landing-category--col">
-          <h2 class="leader--sixth text-left"><span class="landing-category--third">Festivities</span></h2>
-        </div>
-      </div>
-      </div>
-
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <div class="row justify-content-start img-padding">
-        <p class="landing-festivities--header">Palace admissions are free during the holidays and amusement parks have specials! </p>
-      </div>
-      </div>
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-      <Placeimages />
+      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600" class="places-margin">
+        <Placeimages />
       </div>
 
     </div>
@@ -147,5 +104,6 @@ const Landing = ({data}) => (
       AOS.init({once: true});
     };
     }
+
 
   export default Landing

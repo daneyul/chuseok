@@ -26,7 +26,33 @@ $xl: 1200px;
 #hero {
     background: #152555;
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
+}
+
+#scene {
+    z-index: 1;
+    height: 80vh;
+}
+
+#tradition {
+    margin-top: 2rem;
+}
+
+#food {
+    margin-top: 3rem;
+}
+
+.pink-border {
+    border-bottom: 2px solid #E9796F;
+}
+
+.places-row {
+    display: column;
+    margin-left: -14px;
+}
+
+.places-margin {
+    margin-top: 3.5rem;
 }
 
 .landing-flowers {
@@ -48,11 +74,21 @@ $xl: 1200px;
         }
 }
 
+.landing-learn {
+    color: #D32739;
+    font-family: "Centra";
+}
+
 .landing-kr {
     font-family: "Noto Sans KR", sans-serif;
     font-size: 200px;
     font-weight: 900;
     color: #E9796F;
+}
+
+.landing-top {
+    margin-left: 14rem;
+    margin-top: 4rem;
 }
 
 .landing-title {
@@ -137,7 +173,7 @@ $xl: 1200px;
 .header-mb {
     margin-bottom: 6rem;
     @media only screen and (min-width: $lg){
-        margin-bottom: 7rem;
+        margin-bottom: 4rem;
     }
 }
 
@@ -197,48 +233,6 @@ $xl: 1200px;
     }
 }
 
-.fest-header {
-    position: absolute; 
-    top: 10px; 
-    left: 0; 
-    width: 100%; 
-    padding-left: 1rem;
-    padding-right: 1rem;
-
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.1em;
-    text-decoration-line: underline;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-
-    @media only screen and (min-width: $md){
-        font-size: 32px;
-    }
-}
-
-.food-header {
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.1em;
-    text-decoration-line: underline;
-    text-transform: uppercase;
-    color: white;
-    padding-left: 1rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-    @media only screen and (min-width: $md){
-        font-size: 32px;
-        padding-left: 1.5rem;
-    }
-}
-
 .food-header--drink {
     position: absolute; 
     top: 145px; 
@@ -278,11 +272,6 @@ $xl: 1200px;
     padding: 0 15px;
 }
 
-.landing-category--dotted {
-    border-bottom: 1px dotted;
-    letter-spacing: 0.12rem;
-}
-
 .landing-category--first {
     position: relative;
     padding: 0 1rem 0 0;
@@ -298,6 +287,10 @@ $xl: 1200px;
     font-family: 'Centra-Light';
     font-size: 14px;
     color: #0C1C66;
+}
+
+.landing-category__fest {
+    margin-top: 1rem;
 }
 
 
@@ -332,6 +325,7 @@ $xl: 1200px;
 
 .box:hover {
     box-shadow: 0 0 8px rgba(33,33,33,.2); 
+    cursor: pointer;
 }
 
 .table-box {
@@ -357,22 +351,6 @@ $xl: 1200px;
 
 .table-box:hover {
     box-shadow: 0 0 8px rgba(33,33,33,.2); 
-}
-
-.fest-image--box {
-    transition: box-shadow .3s;
-}
-
-.fest-image:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-}
-
-.food-image:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-}
-
-.place-image:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
 }
 
 .header-box-lg {

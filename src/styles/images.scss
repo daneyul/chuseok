@@ -3,6 +3,24 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 
+.fest-margin {
+    @media only screen and (min-width: $md){
+        margin-top: 3rem;
+    }
+    @media only screen and (min-width: $lg){
+        margin-top: 7rem;
+    }
+}
+
+.misc-margin {
+    @media only screen and (min-width: $md){
+        margin-top: 3rem;
+    }
+    @media only screen and (min-width: $lg){
+        margin-top: 5rem;
+    }
+}
+
 .fest-image {
     -ms-flex: 0 0 48%;
     flex: 0 0 48%;
@@ -12,21 +30,14 @@ $xl: 1200px;
         -ms-flex: 0 0 49%;
         flex: 0 0 49%;
         max-width: 49%;
-        margin-top: 3rem;
     }
     @media only screen and (min-width: $lg){
-        -ms-flex: 0 0 22%;
-        flex: 0 0 22%;
-        max-width: 22%;
-        margin-top: 7rem;
+        -ms-flex: 0 0 23%;
+        flex: 0 0 23%;
+        max-width: 23%;
     }
 }
 
-.fest-image--top {
-    @media only screen and (max-width:$sm){
-        margin-top: 3rem;
-    }
-}
 
 .fest-image--bottom {
     margin-top: 1rem;
@@ -42,42 +53,37 @@ $xl: 1200px;
     padding: 0 15px;
 }
 
-.food-image--drink {
+.food-image {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
     margin-top: 2rem;
     position: relative;
-
     @media only screen and (min-width: $lg){
-        -ms-flex: 0 0 38%;
-        flex: 0 0 38%;
-        max-width: 38%;
+        -ms-flex: 0 0 31%;
+        flex: 0 0 31%;
+        max-width: 31%;
         margin-top: 4.5rem;
     }
 }
 
-.food-image--food {
-    -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-top: 1rem;
-        position: relative;
-    @media only screen and (min-width: $lg){
-        -ms-flex: 0 0 58%;
-        flex: 0 0 58%;
-        max-width: 58%;
-        margin-top: 6rem;
-    }
-}
-
-.table-image {
-    -ms-flex: 0 0 60%;
-    flex: 0 0 60%;
-    max-width: 60%;
-    margin-top: 5rem;
+.misc-image {
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-top: 2rem;
     position: relative;
 }
+
+.fest-image img, .food-image img, .misc-image img, .place-image img {
+    border-radius: 6px;
+}
+
+.fest-image:hover, .food-image:hover, .misc-image:hover, .place-image:hover {
+    border-radius: 6px;
+    opacity: 0.5;
+}
+
 
 .place-container {
     -ms-flex: 0 0 48%;
@@ -94,34 +100,5 @@ $xl: 1200px;
         -ms-flex: 0 0 18%;
         flex: 0 0 18%;
         max-width: 18%;
-    }
-}
-
-.recipes-box-sm {
-    @media only screen and (max-width:$md){
-        box-shadow: 0 0 8px rgba(33,33,33,.2); 
-        transition: box-shadow .3s;
-        border-radius:10px;
-        background: #fff;
-        padding: 1.5rem 1rem;
-    }
-    @media only screen and (min-width: $md){
-        padding: 1.5rem 1.5rem;
-    }
-}
-
-.recipes-box-lg {
-    @media only screen and (min-width: $lg){
-        padding: 1.5rem 1.25rem;
-        transition: box-shadow .3s;
-        border-radius:10px;
-        background: #fff;
-    }
-}
-
-
-.recipes-box-lg:hover {
-    @media only screen and (min-width:$lg){
-        box-shadow: 0 0 8px rgba(33,33,33,.2); 
     }
 }

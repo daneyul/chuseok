@@ -2,29 +2,50 @@ import React from "react";
 import "../styles/landing.scss";
 import "../styles/images.scss";
 import table from "../images/landing/table.svg"
-import Ads from "./square"
-import Adh from "./horizontal"
+import { a, graphql, StaticQuery } from "gatsby";
+import Img from "gatsby-image";
 
-const Tableimage = () => (
+const TableMedia= () => (
+    <StaticQuery
+    query={graphql`
+    query {
+        miscOne: file(relativePath: { eq: "landing/table-thumb.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        },
+        miscTwo: file(relativePath: { eq: "landing/media-thumb.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+      }
+    `}
 
-  <div class="row justify-content-between-lg flex-wrap header-mb">
-    <div class="col-sm-12 col-lg-5 justify-content-start">
-      <a href="/table" onClick="window.location.reload();">
-      <div class="table-box mb-4">
-        <h2 class="table-header">Set up the table</h2>
-        <p class="mt-4">Here are some guidelines to placing food on the table.</p>
-        <p>Although, setting up the table the right way isn’t so crucial these days.</p>
-      </div>
-      </a>
-      
-    </div>
-    <div class="col-sm-12 col-lg-7 justify-content-end">
-      <a href="/table" onClick="window.location.reload();">
-        <img src={table} class="img-fluid" alt="table" />
-      </a>
-    </div>
-  </div>
+    render ={data => (
+        
+    <React.Fragment>
+        <a href="/table" onClick="window.location.reload();" class="misc-image">
+          <Img fluid={data.miscOne.childImageSharp.fluid} />
+          <h2 class="landing-category landing-category__fest">Tradition</h2>
+          <h3 class="landing-header__two">Table Setting</h3>
+          <p>Did you know that food is traditionally laid out a certain way? Here are some guidelines to placing food on the table for Charye, although it isn't so crucial these days.</p>
+        </a>
+        <a href="/foods" onClick="window.location.reload();" class="misc-image">
+          <Img fluid={data.miscTwo.childImageSharp.fluid} />
+          <h2 class="landing-category landing-category__fest">Tradition</h2>
+          <h3 class="landing-header__two">TV & Movies</h3>
+          <p>Television broadcast schedules are some of the most searched terms during Chuseok. Movies, TV dramas, and variety shows play all throughout the holiday - watching TV has become an informal Chuseok event in itself.</p>
+        </a>
+    </React.Fragment>
 
+    )}
+
+    />
 )
 
-export default Tableimage
+export default TableMedia

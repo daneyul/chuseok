@@ -4,9 +4,10 @@ $lg: 992px;
 $xl: 1200px;
 
 .footer-bg {
-    background: #3C3C3C;
+    background: #FBF5EB;
     width: 100%;
     margin-top: 10rem;
+    border-top: 2px solid #E9796F;
 }
 
 .ham-bg {
@@ -37,7 +38,7 @@ $xl: 1200px;
 
 
 .footer-color {
-    color: rgba(255,255,255,0.8);
+    color: #0C1C66;
 }
 
 .footer-top {
@@ -49,24 +50,14 @@ $xl: 1200px;
 }
 
 .footer-title {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 27px;
+    font-family: "GT Eesti Display-Bold";
+    font-size: 24px;
     display: flex;
     align-items: flex-end;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
 }
 
-.footer-title:hover {
-    color: rgba(255,255,255,0.8);
-}
-
-.footer-link:hover {
-    color: white;
-    transition: linear 0.2s;
+.footer-link {
+    color: #0C1C66;
     text-decoration: underline;
 }
 
@@ -78,15 +69,11 @@ $xl: 1200px;
 }
 
 .footer-font {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 24px;
+    font-family: "GT Eesti Display-Light";
 }
 
 .footer-category {
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
+    font-family: "GT Eesti Display-Bold";
     margin-bottom: 1rem;
     @media only screen and (max-width:$sm){
         margin-top: 2rem;
@@ -104,14 +91,6 @@ $xl: 1200px;
     margin-bottom: 4rem;
 }
 
-
-.footer-underline {
-    text-decoration: underline;
-}
-
-.footer-underline:hover {
-    text-decoration: underline;
-}
 
 @-webkit-keyframes nav-slide {
     0% {

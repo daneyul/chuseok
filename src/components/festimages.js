@@ -29,7 +29,7 @@ const Festimages = () => (
               }
             }
           },
-          festFour: file(relativePath: { eq: "landing/activity-thumb.png" }) {
+          festFour: file(relativePath: { eq: "landing/activity-thumb.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 400) {
                 ...GatsbyImageSharpFluid
@@ -42,21 +42,27 @@ const Festimages = () => (
     render ={data => (
         
     <React.Fragment>
-        <a href="/hanbok" onClick="window.location.reload();" class="fest-image fest-image--top fest-image--box">
-            <Img fluid={data.festOne.childImageSharp.fluid} />
-            <h3 class="fest-header">Wearing a Hanbok</h3>
+        <a href="/gifts" onClick="window.location.reload();" class="fest-image">
+            <Img fluid={data.festTwo.childImageSharp.fluid}/>
+            <h2 class="landing-category landing-category__fest">Festivities</h2>
+            <h3 class="landing-header__two">Gift Sets</h3>
+            <p>Learn more about the varieties of Chuseok gift sets.</p>
         </a>
-        <a href="/gifts" onClick="window.location.reload();" class="fest-image fest-image--top fest-image--box">
-            <Img fluid={data.festTwo.childImageSharp.fluid} />
-            <h3 class="fest-header">Gift Sets</h3>
+        <a href="/hanbok" onClick="window.location.reload();" class="fest-image">
+            <Img fluid={data.festOne.childImageSharp.fluid}/>
+            <h2 class="landing-category landing-category__fest">Festivities</h2>
+            <h3 class="landing-header__two">Wearing a Hanbok</h3>
+            <p>A Hanbok is Korea's traditional clothing.</p>
         </a>
-        <a href="/greetings" onClick="window.location.reload();" class="fest-image fest-image--bottom fest-image--box">
-            <Img fluid={data.festThree.childImageSharp.fluid} />
-            <h3 class="fest-header">Greeting in Korean</h3>
+        <a href="/greetings" onClick="window.location.reload();" class="fest-image">
+            <Img fluid={data.festThree.childImageSharp.fluid}/>
+            <h2 class="landing-category landing-category__fest">Festivities</h2>
+            <h3 class="landing-header__two">Greeting in Korean</h3>
         </a>
-        <a href="/games" onClick="window.location.reload();" class="fest-image fest-image--bottom fest-image--box">
-            <Img fluid={data.festFour.childImageSharp.fluid} />
-            <h3 class="fest-header">Folk Games</h3>
+        <a href="/games" onClick="window.location.reload();" class="fest-image">
+            <Img fluid={data.festFour.childImageSharp.fluid}/>
+            <h2 class="landing-category landing-category__fest">Festivities</h2>
+            <h3 class="landing-header__two">Folk Games</h3>
         </a>
     </React.Fragment>
 
