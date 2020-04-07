@@ -6,8 +6,10 @@ $xl: 1200px;
 .footer-bg {
     background: #FBF5EB;
     width: 100%;
-    margin-top: 10rem;
     border-top: 2px solid #E9796F;
+    @media only screen and (min-width: $lg){
+        margin-top: 10rem;
+    }
 }
 
 .ham-bg {
@@ -89,6 +91,10 @@ $xl: 1200px;
 
 .footer-bottom {
     margin-bottom: 4rem;
+    margin-top: 2rem;
+    @media only screen and (min-width: $md){
+        margin-top: 0;
+    }
 }
 
 

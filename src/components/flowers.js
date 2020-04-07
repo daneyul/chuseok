@@ -30,10 +30,11 @@ const Flowers = () => (
         <div data-depth="0.4"><img src={f8} alt="flower 8" class="f8 rotate-opp" /></div>
         <div data-depth="0.5"><img src={f9} alt="flower 9" class="f9 rotate" /></div>
         <div data-depth="0.5"><img src={f10} alt="flower 10" class="f10 rotate-opp" /></div>
-        <div><img src={c1} alt="circle 1" class="c1 rotate-in-2-cw" /></div>
-        <div><img src={c2} alt="circle 2" class="c2 rotate-in-2-cw" /></div>
         <div><img src={c3} alt="circle 3" class="c3 rotate-in-2-cw" /></div>
         <div><img src={c4} alt="circle 4" class="c4 rotate-in-2-cw" /></div>
+        <div><img src={c1} alt="circle 1" class="c1 rotate-in-2-cw" /></div>
+        <div><img src={c2} alt="circle 2" class="c2 rotate-in-2-cw" /></div>
+
     </React.Fragment>
 )
 

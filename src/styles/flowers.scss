@@ -5,89 +5,154 @@ $xl: 1200px;
 
 .c1 {
   position: absolute;
-  left: 650px;
-  top: 40px;
+  width: 154.59px;
+  height: 139.95px;
+  left: 175px;
+  top: 65px;
+  @media only screen and (min-width:$lg){
+    width: 278.37px;
+    height: 252px;
+    left: 45vw;
+    top: 3vw;
+  }
 }
 
 .c2 {
   position: absolute;
-  left: 650px;
-  top: 260px;
+  width: 99.67px;
+  height: 99.67px;
+  left: 175px;
+  top: 175px;
+  @media only screen and (min-width:$lg){
+    width: 179.47px;
+    height: 179.47px;
+    left: 650px;
+    top: 260px;
+  }
 }
 
 .c3 {
-  z-index: -1;
   position: absolute;
-  left: 810px;
-  top: 260px;
+  width: 52px;
+  height: 51px;
+  left: 265px;
+  top: 175px;
+  @media only screen and (min-width:$lg){
+    width: 92px;
+    height: 92px;
+    left: 810px;
+    top: 260px;
+  }
 }
 
 .c4 {
-  z-index: -1;
   position: absolute;
-  left: 770px;
-  top: 375px;
+  width: 90.11px;
+  height: 90.11px;
+  left: 240px;
+  top: 235px;
+  @media only screen and (min-width:$lg){
+    width: 162.26px;
+    height: 162.26px;
+    left: 770px;
+    top: 375px;
+  }
 }
 
 .f1 {
     position: absolute;
-    left: 100px;
     top: 150px;
+    left: 50px;
+    @media only screen and (min-width:$lg){
+      left: 100px;
+    }
 }
 
 .f2 {
     position: absolute;
-    left: 200px;
     top: 250px;
+    left: 130px;
+    @media only screen and (min-width:$lg){
+      left: 200px;
+    }
   
 }
 
 .f3 {
     position: absolute;
-    left: 100px;
     top: 300px;
+    left: 210px;
+    @media only screen and (min-width:$lg){
+      left: 100px;
+    }
 }
 
 .f4 {
     position: absolute;
-    left: 200px;
+    left: 302.04px;
     top: 400px;
+    @media only screen and (min-width:$lg){
+      left: 200px;
+    }
 }
 
 .f5 {
     position: absolute;
-    left: 150px;
+    left: 257.04px;
     top: 500px;
+    @media only screen and (min-width:$lg){
+      left: 150px;
+    }
 }
 
 .f6 {
+  display: none;
+  @media only screen and (min-width: $lg){
+    display: block;
     position: absolute;
     left: 1100px;
     top: 40px;
+  }
 }
 
 .f7 {
-  position: absolute;
-  left: 975px;
-  top: 220px;
+  display: none;
+  @media only screen and (min-width: $lg){
+    display: block;
+    position: absolute;
+    left: 975px;
+    top: 220px;
+  }
 }
 
 .f8 {
+  display: none;
+  @media only screen and (min-width: $lg){
+    display: block;
     position: absolute;
     left: 950px;
     top: 350px;
+  }
 }
 
 .f9 {
+  display: none;
+  @media only screen and (min-width: $lg){
+    display: block;
     position: absolute;
     left: 1075px;
     top: 180px;
+  }
 }
 
 .f10 {
+  display: none;
+  @media only screen and (min-width: $lg){
+    display: block;
     position: absolute;
     left: 920px;
     top: 100px;
+  }
 }
 
 

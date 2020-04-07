@@ -35,11 +35,40 @@ $xl: 1200px;
 }
 
 #tradition {
-    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 #food {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    @media only screen and (min-width: $md){
+        margin-top: 3rem;
+    }
+}
+
+#fest {
+    margin-bottom: 2rem;
     margin-top: 3rem;
+    @media only screen and (min-width: $md){
+        margin-top: 5rem;
+    }
+}
+
+#misc {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    @media only screen and (min-width: $md){
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+}
+
+#places {
+    margin-top: 3rem;
+    @media only screen and (min-width: $md){
+        margin-top: 5rem;
+    }
 }
 
 .pink-border {
@@ -56,7 +85,6 @@ $xl: 1200px;
 }
 
 .landing-flowers {
-        z-index: -2;
         position: absolute;
         width: 375px; 
         height: 800px;
@@ -77,34 +105,50 @@ $xl: 1200px;
 .landing-learn {
     color: #D32739;
     font-family: "Centra";
+    padding-left: 0.5rem;
+    @media only screen and (min-width:$lg){
+        padding-left: 0;
+    }
 }
 
 .landing-kr {
     font-family: "Noto Sans KR", sans-serif;
-    font-size: 200px;
+    font-size: 100px;
     font-weight: 900;
     color: #E9796F;
+    @media only screen and (min-width:$md){
+        font-size: 200px;
+    }
 }
 
 .landing-top {
-    margin-left: 14rem;
-    margin-top: 4rem;
+    top: 80vw;
+    @media only screen and (min-width:$md){
+        margin-left: 14rem;
+        top: 4rem;
+    }
 }
 
 .landing-title {
     font-family: "GT Eesti Display-Bold", sans-serif;
-    font-size: 48px;
+    font-size: 24px;
     text-transform: uppercase;
     margin-top: 2rem;
     padding-left: 0;
     color: white;
+    @media only screen and (min-width:$md){
+        font-size: 48px;
+    }
 }
 
 .landing-title2 {
     font-family: "GT Eesti Display-Bold", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase;
     color: white;
+    @media only screen and (min-width:$md){
+        font-size: 24px;
+    }
 }
 
 .landing-title3 {
@@ -173,7 +217,7 @@ $xl: 1200px;
 .header-mb {
     margin-bottom: 6rem;
     @media only screen and (min-width: $lg){
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -202,14 +246,20 @@ $xl: 1200px;
     }
 }
 
+.landing-header__two-top {
+    font-size: 24px;
+    text-decoration: underline;
+    letter-spacing: 0.08em;
+    padding-left: 0.5rem;
+    @media only screen and (min-width:$md){
+        paddng-left: 0;
+    }
+}
+
 .landing-header__two {
     font-size: 24px;
     text-decoration: underline;
     letter-spacing: 0.08em;
-    padding-left: .5rem;
-    @media only screen and (min-width: $lg){
-        padding-left: 0;
-    }
 }
 
 .landing-header__two--description {
@@ -272,13 +322,27 @@ $xl: 1200px;
     padding: 0 15px;
 }
 
-.landing-category--first {
+.landing-category--top {
     position: relative;
-    padding: 0 1rem 0 0;
     font-family: 'Centra-Light';
     font-size: 14px;
     color: #0C1C66;
     margin-top: 3rem;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
+}
+
+.landing-category--first {
+    position: relative;
+    font-family: 'Centra-Light';
+    font-size: 14px;
+    color: #0C1C66;
+    margin-top: 3rem;
+    padding-left: .5rem;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
 }
 
 .landing-category {
