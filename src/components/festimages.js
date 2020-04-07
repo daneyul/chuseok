@@ -48,21 +48,23 @@ const Festimages = () => (
             <h3 class="landing-header__two">Gift Sets</h3>
             <p>Learn more about the varieties of Chuseok gift sets.</p>
         </a>
-        <a href="/hanbok" onClick="window.location.reload();" class="fest-image">
+        <a href="/hanbok" onClick="window.location.reload();" class="fest-image fest-image--second">
             <Img fluid={data.festOne.childImageSharp.fluid}/>
             <h2 class="landing-category landing-category__fest">Festivities</h2>
             <h3 class="landing-header__two">Wearing a Hanbok</h3>
             <p>A Hanbok is Korea's traditional clothing.</p>
         </a>
-        <a href="/greetings" onClick="window.location.reload();" class="fest-image">
+        <a href="/greetings" onClick="window.location.reload();" class="fest-image fest-image--second">
             <Img fluid={data.festThree.childImageSharp.fluid}/>
             <h2 class="landing-category landing-category__fest">Festivities</h2>
-            <h3 class="landing-header__two">Greeting in Korean</h3>
+            <h3 class="landing-header__two">Greetings in Korean</h3>
+            <p>Some Korean phrases, how to say them, and what they mean.</p>
         </a>
-        <a href="/games" onClick="window.location.reload();" class="fest-image">
+        <a href="/games" onClick="window.location.reload();" class="fest-image fest-image--second">
             <Img fluid={data.festFour.childImageSharp.fluid}/>
             <h2 class="landing-category landing-category__fest">Festivities</h2>
             <h3 class="landing-header__two">Folk Games</h3>
+            <p>Discover the traditional activities that took place in Korea.</p>
         </a>
     </React.Fragment>
 
