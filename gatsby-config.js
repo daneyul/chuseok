@@ -6,7 +6,7 @@ module.exports = {
     titleTemplate: `Chuseok - %s`,
     description: `Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok.`,
     siteUrl: `https://www.chuseok.info`,
-    image: "/images/meta.png"
+    image: "/images/meta.jpg"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
