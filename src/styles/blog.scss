@@ -3,37 +3,21 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 
+.blog-sidebar a {
+    color: black;
+}
+
 .blog-header {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: normal;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    @media only screen and (max-width: $sm){
-        font-size: 3rem;
-    }
-    @media only screen and (min-width: $sm){
-        font-size: 72px;
-        line-height: 72px;
-    }
-    @media only screen and (min-width: $lg){
-        line-height: 53px;
-    }
-    
+    font-family: 'GT Eesti Display-Regular';
+    font-size: 36px;
+    color: #0C1C66; 
 }
 
 .blog-header--2 {
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'GT Eesti Display-Regular';
     font-size: 32px;
-    line-height: 36px;
-    letter-spacing: 0.1em;
-    margin-top: 3rem;
     margin-bottom: 1rem;
-    text-transform: uppercase;
+    margin-top: 1rem;
 }
 
 u:hover {
@@ -42,33 +26,23 @@ u:hover {
 }
 
 .blog-header--3 {
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'GT Eesti Display-Bold';
     font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.1em;
-
-    text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
 .blog-header--greetings0 {
-    font-family: "Oswald";
+    font-family: 'GT Eesti Display-Bold';
     font-size: 36px;
-    letter-spacing: 0.1em;
     text-align: left;
-    text-transform: uppercase;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
 .blog-header--greetings1 {
-    font-family: "Oswald";
+    font-family: 'GT Eesti Display-Bold';
     font-size: 36px;
-    letter-spacing: 0.1em;
     text-align: left;
-    text-transform: uppercase;
     margin-top: 6rem;
     margin-bottom: 1rem;
 }
@@ -166,27 +140,26 @@ u:hover {
 }
 
 .blog-tagline {
-    opacity: 0.7;
+    font-family: "GT Eesti Display-Light";
+    font-size: 16px;
 }
 
 .blog-main {
-    line-height: 2rem;
-    letter-spacing: 0.01rem;
     @media only screen and (min-width:$lg){
         border-right: 1px solid rgba(0,0,0,0.2);
         padding-right: 5rem;
-        font-size: 1.25rem;
-        letter-spacing: 0.05rem;
+        font-size: 20px;
     }
 }
 
+.blog-main a{
+    color: black;
+}
+
 .blog-main2 {
-    line-height: 2rem;
-    letter-spacing: 0.01rem;
     @media only screen and (min-width:$lg){
         padding-right: 5rem;
-        font-size: 1.25rem;
-        letter-spacing: 0.05rem;
+        font-size: 20px;
     }
 }
 
@@ -200,8 +173,7 @@ u:hover {
 
 .blog-sidebar {
     padding-left: 2rem;
-    font-size: 1rem;
-    letter-spacing: 0.05rem;
+    font-size: 20px;
     color: rgba(0,0,0,0.8);
     @media only screen and (max-width: $lg){
         display: none;
@@ -225,15 +197,13 @@ u:hover {
 }
 
 .blog-p {
-    margin-bottom: 3rem;
-    @media only screen and (min-width: $lg){
-        margin-bottom: 8rem;
-    }
+    margin-bottom: 6rem;
+    font-family: "GT Eesti Text-Light";
 }
 
 .blog-cap {
     font-size: 12px;
-    line-height: 6px;
+    margin-top: .25rem;
 }
 
 .blog-link__box {
@@ -245,12 +215,8 @@ u:hover {
 }
 
 .blog-link__header { 
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
+    font-family: "GT Eesti Display-Regular";
     font-size: 32px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }

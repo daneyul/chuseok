@@ -238,6 +238,7 @@ $xl: 1200px;
 }
 
 .landing-header--description {
+    color: black;
     @media only screen and (min-width: $md){
         margin-bottom: 4rem;
     }
@@ -252,7 +253,7 @@ $xl: 1200px;
     letter-spacing: 0.08em;
     padding-left: 0.5rem;
     @media only screen and (min-width:$md){
-        paddng-left: 0;
+        padding-left: 0;
     }
 }
 
@@ -351,6 +352,10 @@ $xl: 1200px;
     font-family: 'Centra-Light';
     font-size: 14px;
     color: #0C1C66;
+}
+
+.landing-category--dotted {
+    font-size: 14px;
 }
 
 .landing-category__fest {

@@ -8,11 +8,11 @@ nav {
   background: white;
   z-index: 2;
   position: fixed;
+  top: 0;
     @media only screen and (min-width: $xl) {
         font-weight: 300;
         font-size: 16px;
         font-family: "Centra", sans-serif;
-        top: 0;
         transition: top 0.4s;
     }
 }
