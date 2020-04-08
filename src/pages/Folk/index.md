@@ -14,13 +14,15 @@ Traditional Korean games are referred to as Jeontongnori (전통놀이). There a
 Here is a list of some modern activities to enjoy with your loved ones.
 </p>
 
+<div class="blog-p">
 <img src="ganggangsullae.jpg" alt="Ganggangsullae"/>
 <p class="blog-cap">Commons - Wikipedia</p>
 <h2 class="blog-header--2 mt-5">Ganggangsullae 강강술래</h2>
 <p>
 This is the most representative folk activity during the full moon of Chuseok and reflects Korea’s agrarian roots. It is a 5,000 year-old dance recognized and described by UNESCO as a “seasonal harvest and fertility ritual.” During the dance, women wear hanbok and gather in a circle and hold hands while playfully miming vignettes of rural life and repeating the name of the dance. The dance is preserved as a performing art today and taught in elementary schools. 
 </p>
-<a href="https://www.youtube.com/watch?v=6D73WBzzEG4" target="_blank"><u class="blog-p">Click here to watch it</u></a>
+<a href="https://www.youtube.com/watch?v=6D73WBzzEG4" target="_blank"><u>Click here to watch it</u></a>
+</div>
 
 <div class="blog-p">
 <img src="juldarigi.jpg" alt="Juldarigi"/>
