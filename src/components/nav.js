@@ -122,7 +122,6 @@ if (typeof window !== 'undefined') {
   var blog = document.querySelector(".blog-hide");
   // On click
   hamburger.addEventListener("click", function() {
-    console.log('blah')
     // Toggle class "is-active"
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
