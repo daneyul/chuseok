@@ -101,34 +101,34 @@ const Nav = () => (
 
 export default Nav
 
-// if (typeof window !== 'undefined') {
-//   var prevScrollpos = window.pageYOffset;
+if (typeof window !== 'undefined') {
+  var prevScrollpos = window.pageYOffset;
 
-//   window.onscroll = function() {
-//     var currentScrollPos = window.pageYOffset;
-//     if (prevScrollpos > currentScrollPos) {
-//       document.getElementById("navbar").style.top = "0";
-//     } else {
-//       document.getElementById("navbar").style.top = "-80px";
-//     }
-//     prevScrollpos = currentScrollPos;
-//     }
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-80px";
+    }
+    prevScrollpos = currentScrollPos;
+    }
 
-//       // Look for .hamburger
-//   var hamburger = document.querySelector(".hamburger");
-//   var hamburgerMenu = document.querySelector(".ham-bg");
-//   var body = document.querySelector("main");
-//   var foot = document.querySelector(".footer-bg");
-//   var blog = document.querySelector(".blog-hide");
-//   // On click
-//   hamburger.addEventListener("click", function() {
-//     // Toggle class "is-active"
-//     hamburger.classList.toggle("is-active");
-//     // Do something else, like open/close menu
-//     hamburgerMenu.classList.toggle("ham-is-active");
-//     body.classList.toggle("main-hide");
-//     foot.classList.toggle("main-hide");
-//     blog.classList.toggle("main-hide");
-//   });
+      // Look for .hamburger
+  var hamburger = document.querySelector(".hamburger");
+  var hamburgerMenu = document.querySelector(".ham-bg");
+  var body = document.querySelector("main");
+  var foot = document.querySelector(".footer-bg");
+  var blog = document.querySelector(".blog-hide");
+  // On click
+  hamburger.addEventListener("click", function() {
+    // Toggle class "is-active"
+    hamburger.classList.toggle("is-active");
+    // Do something else, like open/close menu
+    hamburgerMenu.classList.toggle("ham-is-active");
+    body.classList.toggle("main-hide");
+    foot.classList.toggle("main-hide");
+    blog.classList.toggle("main-hide");
+  });
 
-  // }
+  }
