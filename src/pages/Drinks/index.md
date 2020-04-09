@@ -14,7 +14,9 @@ sidebar1: [
     ["Sogokju", "소곡주", "#sogokju"],
     ["Baekseju", "백세주", "#baekseju"],
     ["Cheongju", "청주", "#cheongju"], 
-    ["Insamju", "인삼주", "#insamju"]
+    ["Insamju", "인삼주", "#insamju"],
+    ["Bokbunjaju", "복분자주", "#bokbunjaju"],
+    ["Maeksilju", "매실주", "#maeksilju"]
     ]
 sidebar2: [
     ["Banana milk", "바나나맛 우유", "#banana-milk"],
@@ -74,6 +76,17 @@ Cheongju means “clear liquor” and is the name for a rice wine. It uses the s
 <p>
 A type of medicinal wine made by fermenting ginseng in a rice and malt liquor. Insamju is usually bit expensive, but it’s popular among the elderly and is typically paired with samgyetang (a chicken soup).</p>
 
+<img src="drink-bokbunjaju.jpg" alt="Bokbunjaju"/>
+<h2 class="blog-header--2 mt-5" id="bokbunja">Bokbunjaju 복분자주</h2>
+<p>
+A wine made from fermented blackberries. The alcohol content is a bit higher than your typical grape wine - while grape wine usually sits at 11%-13% ABV (Alcohol by Volume), bokbunja is usually around 15-19% ABV.</p>
+
+<img src="drink-maeksilju.jpg" alt="Green Plum Wine"/>
+<p class="blog-cap">http://blog.daum.net/jirisan-food/92</p>
+<h2 class="blog-header--2 mt-5" id="maeksilju">Maeksilju 매실주</h2>
+<p>
+This wine is made by fermenting ripe green/yellow plums, soju, and sugar or honey for at least 3 months. It is a sweet drink that is refreshing for any occasion. </p>
+
 <h2 class="blog-header--2 mt-5" id="sikhye">Sikhye 식혜</h2>
 <p class="blog-p">
 Sikhye is a sweet cold drink made from cooked rice and malted barley. You can see grains of cooked rice and sometimes pine nuts floating around in the liquid. It’s usually served at the end of a meal as a dessert. Sikhye is a favorite for many because it’s non-alcoholic, so everyone can enjoy it! It takes a while to cook, but you can find it readily available in bottles or cans at grocery stores. </p>
@@ -106,9 +119,11 @@ Barley tea isn’t particularly a traditional Korean drink, but it’s popular i
 <p>
 “Oksusu cha” is corn tea in Korean. It’s a traditional Korean tea made from the kernels or the corn silk. “Oksusu suyeom cha” refers specifically to corn tea made from corn silk. It’s a popular winter drink in Korea and you’ll often find it sold in tea-bags at stores.</p> 
 
-<h2 class="blog-header--2 mt-5" id="green-plum">Green Plum tea 매실차</h2>
+<img src="drink-maeksilcha.jpg" alt="Maeksilcha"/>
+<p class="blog-cap">https://mykoreankitchen.com/korean-plum-tea-maesil-cha/</p>
+<h2 class="blog-header--2 mt-5" id="green-plum">Maeksilcha 매실차</h2>
 <p>
-“Maeksil cha” is a traditional Korean plum tea made by mixing hot/cold water with a fermented plum syrup/marmalade. It’s nutritious and is great after a meal to help with digestion and ease the bowels. </p>
+This is a traditional Korean plum tea made by mixing hot/cold water with a fermented plum syrup/marmalade. It’s nutritious and is great after a meal to help with digestion and ease the bowels. </p>
 
 <h2 class="blog-header--2 mt-5" id="jujubes">Jujubes tea 대추차</h2>
 <p>
