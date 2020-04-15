@@ -7,7 +7,7 @@ import Foodimages from "./foodimages";
 import TableMedia from "./table";
 import Placeimages from "./places";
 import 'aos/dist/aos.css';
-var AOS = require('aos');
+// var AOS = require('aos');
 
 
 
@@ -112,7 +112,7 @@ const Landing = ({data}) => (
       const Parallax = require('parallax-js')
       var scene = document.getElementById('scene');
       var parallaxInstance = new Parallax(scene);
-      AOS.init({once: true});
+      // AOS.init({once: true});
     };
     }
 
