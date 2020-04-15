@@ -6,7 +6,7 @@ import Festimages from "./festimages";
 import Foodimages from "./foodimages";
 import TableMedia from "./table";
 import Placeimages from "./places";
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css';
 // var AOS = require('aos');
 
 
