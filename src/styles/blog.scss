@@ -73,7 +73,7 @@ u:hover {
 
 .blog-header--margin {
     margin-top: 4rem;
-    @media only screen and (min-width: $md){
+    @media only screen and (min-width: $lg){
         margin-top: 8rem;
     }
 }
@@ -123,7 +123,9 @@ u:hover {
 }
 
 .header-mb__foods-2 {
-    margin-bottom: 3rem;
+    @media only screen and (min-width: $lg){
+        margin-bottom: 3rem;
+    }
 }
 
 .col-blog {
@@ -205,7 +207,10 @@ u:hover {
 }
 
 .blog-p {
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
+    @media only screen and (min-width:$lg){
+        margin-bottom: 6rem;
+    }
     font-family: "GT Eesti Text-Light";
 }
 
