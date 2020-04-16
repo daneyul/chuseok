@@ -16,7 +16,10 @@ $xl: 1200px;
     z-index: -1;
     background: #FBF5EB;
     display: none;
-    height: calc(100vh - 300px);
+    height: calc(100vh - 250px);
+    @media only screen and (min-width:$md){
+        height: calc(100vh - 500px)
+    }
     @media only screen and (min-width: $lg){
         height: calc(30vh - 60px);
     }
