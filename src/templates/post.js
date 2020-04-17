@@ -147,8 +147,6 @@ export default function Template({data}) {
                         <div class="col-blog--main blog-main--borderless">
                             <article class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
-                        <ul class="col-blog blog-sidebar">
-                        </ul>
                     </div>
                    
                 </div>
