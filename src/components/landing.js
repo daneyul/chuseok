@@ -105,7 +105,11 @@ const Landing = ({data}) => (
     </div>
 
     <div class="container">
-      <Adh/>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-12">
+          <Adh/>
+        </div>
+      </div>
     </div>
 
     </React.Fragment>
