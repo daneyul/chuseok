@@ -105,7 +105,7 @@ const Landing = ({data}) => (
     </div>
 
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center header-mb">
         <div class="col-lg-10 col-12">
           <Adh/>
         </div>
