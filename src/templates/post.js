@@ -110,12 +110,10 @@ export default function Template({data}) {
                             <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
                         </div>
                     </div>
-                    <div class="row justify-content-between blog-p">
-                        <div class="col-blog--main blog-main">
+                    <div class="row justify-content-center blog-p">
+                        <div class="col-blog--main blog-main--borderless">
                             <article class="slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
-                        <ul class="col-blog blog-sidebar">
-                        </ul>
                     </div>
                    
                 </div>
@@ -145,8 +143,8 @@ export default function Template({data}) {
                             <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
                         </div>
                     </div>
-                    <div class="row justify-content-between blog-p">
-                        <div class="col-blog--main blog-main">
+                    <div class="row justify-content-center blog-p">
+                        <div class="col-blog--main blog-main--borderless">
                             <article class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{__html: post.html}} />
                         </div>
                         <ul class="col-blog blog-sidebar">

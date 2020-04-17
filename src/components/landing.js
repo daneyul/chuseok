@@ -6,6 +6,7 @@ import Festimages from "./festimages";
 import Foodimages from "./foodimages";
 import TableMedia from "./table";
 import Placeimages from "./places";
+import Adh from "./horizontal";
 // import 'aos/dist/aos.css';
 // var AOS = require('aos');
 
@@ -101,6 +102,10 @@ const Landing = ({data}) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600" class="places-margin">
         <Placeimages />
       </div>
+    </div>
+
+    <div class="container">
+      <Adh/>
     </div>
 
     </React.Fragment>

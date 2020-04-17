@@ -162,6 +162,12 @@ u:hover {
     }
 }
 
+.blog-main--borderless {
+    @media only screen and (min-width:$lg){
+        font-size: 20px;
+    }
+}
+
 .blog-main a{
     color: black;
 }
@@ -224,7 +230,10 @@ u:hover {
     box-sizing: border-box;
     border-radius: 10px;
     padding: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
+    @media only screen and (min-width: $lg){
+        margin-bottom: 6rem;
+    }
 }
 
 .blog-link__header { 
