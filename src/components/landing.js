@@ -6,7 +6,7 @@ import Festimages from "./festimages";
 import Foodimages from "./foodimages";
 import TableMedia from "./table";
 import Placeimages from "./places";
-import Adh from "./horizontal";
+
 // import 'aos/dist/aos.css';
 // var AOS = require('aos');
 
@@ -104,13 +104,7 @@ const Landing = ({data}) => (
       </div>
     </div>
 
-    <div class="container">
-      <div class="row justify-content-center header-mb">
-        <div class="col-lg-10 col-12">
-          <Adh/>
-        </div>
-      </div>
-    </div>
+
 
     </React.Fragment>
 
