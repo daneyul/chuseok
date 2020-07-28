@@ -95,7 +95,7 @@ const Landing = ({data}) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
         <div id="places" class="places-row img-padding misc-margin">
           <h2 class="landing-category landing-category__fest">Festivities</h2>
-          <h3 class="landing-header__two">Places to Visit</h3>
+          <h3 class="landing-header__three">Places to Visit</h3>
           <p>Palace admissions are free during the holidays and amusement parks have specials!</p>
         </div>
       </div>
