@@ -6,14 +6,12 @@ export default class Adh extends React.Component {
   }
   render() {
     return (
-      <>
-        <ins class="adsbygoogle adh"
-          style={{ display: 'block' }}
-          data-ad-client="ca-pub-2932074618261080"
-          data-ad-slot="9548852695"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      </>
+      <ins class="adsbygoogle adh"
+        style={{ display: 'block' }}
+        data-ad-client="ca-pub-2932074618261080"
+        data-ad-slot="9548852695"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
     )
   }
 }

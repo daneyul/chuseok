@@ -29,10 +29,9 @@ const SEO = () => {
       <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok." />
       <meta property="twitter:image" content="../images/meta.jpg" />
 
-
-
       <meta name="google-site-verification" content="uBCJmhGIikyn42LWcE7snU_HuWbhpcgKnb41RyvER40" />
 
+      <script data-ad-client="ca-pub-2932074618261080" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Helmet>
 
   )

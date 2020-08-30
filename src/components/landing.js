@@ -103,7 +103,7 @@ const Landing = ({ data }) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600" class="places-margin">
         <Placeimages />
       </div>
-      <div class="container">
+      <div class="col-10 mx-auto">
         <Adh />
       </div>
     </div>
@@ -114,14 +114,14 @@ const Landing = ({ data }) => (
 
 )
 
-if (typeof window !== 'undefined') {
-  window.onload = function () {
-    const Parallax = require('parallax-js')
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene);
-    // AOS.init({once: true});
-  };
-}
+// if (typeof window !== 'undefined') {
+//   window.onload = function () {
+//     const Parallax = require('parallax-js')
+//     var scene = document.getElementById('scene');
+//     var parallaxInstance = new Parallax(scene);
+//     // AOS.init({once: true});
+//   };
+// }
 
 
 export default Landing
