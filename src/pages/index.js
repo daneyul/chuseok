@@ -14,7 +14,6 @@ const IndexPage = () => (
   <Layout>
     <SEO />
   </Layout>
-  
 )
 
 export default IndexPage

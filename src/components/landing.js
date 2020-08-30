@@ -103,7 +103,9 @@ const Landing = ({ data }) => (
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600" class="places-margin">
         <Placeimages />
       </div>
-      <Adh />
+      <div class="container">
+        <Adh />
+      </div>
     </div>
 
 

@@ -4,17 +4,16 @@ export default class Adh extends React.Component {
   componentDidMount() {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   }
-
   render() {
     return (
-      <div className='ad'>
-        <ins className='adsbygoogle adh'
+      <>
+        <ins class="adsbygoogle adh"
           style={{ display: 'block' }}
-          data-ad-client='ca-pub-2932074618261080'
-          data-ad-slot='9548852695'
-          data-ad-format='auto'
-          data-full-width-responsive="true" />
-      </div>
-    );
+          data-ad-client="ca-pub-2932074618261080"
+          data-ad-slot="9548852695"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      </>
+    )
   }
 }
