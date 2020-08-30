@@ -6,102 +6,39 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, keywords, title, image }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            image
-          }
-        }
-      }
-    `
-  )
-
-  const metaDescription = description || site.siteMetadata.description
+const SEO = () => {
 
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={`${site.siteMetadata.title} - %s`}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:image`,
-          content: site.siteMetadata.image,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          property: `twitter:image`,
-          content: site.siteMetadata.image,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ]
-        .concat(
-          keywords.length > 0
-            ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
-            : []
-        )
-        .concat(meta)}
-    />
+
+    <Helmet>
+      <title>Chuseok 2020 - Korean Thanksgiving</title>
+      <meta name="title" content="Chuseok 2020 - Korean Thanksgiving" />
+      <meta name="description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok." />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.chuseok.info/" />
+      <meta property="og:title" content="Chuseok 2020 - Korean Thanksgiving" />
+      <meta property="og:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok." />
+      <meta property="og:image" content="../images/meta.jpg" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.chuseok.info/" />
+      <meta property="twitter:title" content="Chuseok 2020 - Korean Thanksgiving" />
+      <meta property="twitter:description" content="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok." />
+      <meta property="twitter:image" content="../images/meta.jpg" />
+
+
+
+      <meta name="google-site-verification" content="uBCJmhGIikyn42LWcE7snU_HuWbhpcgKnb41RyvER40" />
+
+      <script data-ad-client="ca-pub-2932074618261080" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    </Helmet>
+
   )
 }
 
-SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
-  keywords: ['chuseok'],
-  description: ``,
-}
-
-SEO.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired,
-}
 
 export default SEO
