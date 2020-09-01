@@ -4,6 +4,8 @@ $lg: 992px;
 $xl: 1200px;
 
 .adh {
+    width: 100vw;
+    height: 120px;
     @media only screen and (max-width: $lg) {
         width: auto;
         height: 120px;
