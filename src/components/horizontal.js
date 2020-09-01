@@ -10,7 +10,6 @@ export default class Adh extends React.Component {
         style={{ display: 'block' }}
         data-ad-client="ca-pub-2932074618261080"
         data-ad-slot="9548852695"
-        data-ad-format="auto"
         data-full-width-responsive="true"></ins>
     )
   }

@@ -6,7 +6,7 @@ $xl: 1200px;
 .adh {
     @media only screen and (max-width: $lg) {
         width: auto;
-        height: 60px;
+        height: 120px;
     }
 }
 
@@ -16,7 +16,7 @@ $xl: 1200px;
     @media only screen and (min-width: $lg){
         display: block;
         width: 150px;
-        height: 600px;
+        height: auto;
     }
 }
 
