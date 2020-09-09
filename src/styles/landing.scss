@@ -26,7 +26,12 @@ $xl: 1200px;
 #hero {
     background: #152555;
     width: 100vw;
-    height: 80vh;
+    @media only screen and (min-width: $md){
+        height: 90vh;
+    }
+    @media only screen and (min-width: $lg){
+        height: 90vh;
+    }
 }
 
 #scene {
