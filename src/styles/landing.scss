@@ -8,7 +8,7 @@ $xl: 1200px;
     width: 100%;
     height: 120px;
     @media only screen and (max-width: $lg) {
-        width: auto;
+        width: 100%;
         height: 120px;
     }
 }
@@ -326,6 +326,17 @@ $xl: 1200px;
     position: relative;
     width: 100%;
     padding: 0 15px;
+}
+
+.landing-category--notice {
+    position: relative;
+    font-family: 'Centra-Light';
+    font-size: 14px;
+    color: #0C1C66;
+    margin-top: 3rem;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
 }
 
 .landing-category--top {

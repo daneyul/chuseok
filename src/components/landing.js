@@ -27,12 +27,24 @@ const Landing = ({ data }) => (
             <h1 class="landing-kr text-left">추석</h1>
             <h1 class="landing-title text-left">Chuseok 2020</h1>
             <h1 class="landing-title2 text-left">September 30 - October 2</h1>
-            <h4 class="text-left landing-title3">Celebrate and learn about the Korean Mid-Autumn harvest festival!</h4>
+            <h4 class="text-left landing-title3">Celebrate and learn about the Korean Mid-Autumn harvest festival!<br />*Due to the global pandemic, some events and places may be restricted or closed until further notice.</h4>
           </div>
         </div>
       </div>
 
     </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-12 text-center">
+          <h2 class="landing-category--notice">Notice</h2>
+          <p class="landing-header--description mb-5">
+            If you or loved ones are in Korea, please check with your local cemeteries for closure dates. Many cemeteries may be closed during the Chuseok holidays, so please plan accordingly.
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pink-border"></div>
 
     <div class="container">
       <div data-aos="fade-up" data-aos-offset="10" data-aos-duration="600">
@@ -97,7 +109,7 @@ const Landing = ({ data }) => (
         <div id="places" class="places-row img-padding misc-margin">
           <h2 class="landing-category landing-category__fest">Festivities</h2>
           <h3 class="landing-header__three">Places to Visit</h3>
-          <p>Palace admissions are free during the holidays and amusement parks have specials!</p>
+          <p>Palace admissions are free during the holidays and amusement parks have specials!</p><p>*Due to the global pandemic, most places are closed until further notice.</p>
         </div>
       </div>
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600" class="places-margin">
@@ -114,14 +126,14 @@ const Landing = ({ data }) => (
 
 )
 
-if (typeof window !== 'undefined') {
-  window.onload = function () {
-    const Parallax = require('parallax-js')
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene);
-    // AOS.init({once: true});
-  };
-}
+// if (typeof window !== 'undefined') {
+//   window.onload = function () {
+//     const Parallax = require('parallax-js')
+//     var scene = document.getElementById('scene');
+//     var parallaxInstance = new Parallax(scene);
+//     // AOS.init({once: true});
+//   };
+// }
 
 
 export default Landing
