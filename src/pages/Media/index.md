@@ -5,7 +5,7 @@ title: "Broadcasting"
 tagline: "Why Chuseok is also a time for television"
 type: "Festivities"
 featuredImage: "./media-hero.jpg"
-cap: "Andres Jasso - Unsplash"
+cap: "2020 Idol Star Athletics Championships"
 side: false
 ---
 
