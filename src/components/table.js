@@ -35,7 +35,7 @@ const TableMedia= () => (
           <h3 class="landing-header__two">Table Setting</h3>
           <p>Did you know that food is traditionally laid out a certain way? Here are some guidelines to placing food on the table for Charye, although it isn't so crucial these days.</p>
         </a>
-        <a href="/foods" onClick="window.location.reload();" class="misc-image">
+        <a href="/media" onClick="window.location.reload();" class="misc-image">
           <Img fluid={data.miscTwo.childImageSharp.fluid} />
           <h2 class="landing-category landing-category__fest">Tradition</h2>
           <h3 class="landing-header__two">TV & Movies</h3>
