@@ -25,8 +25,8 @@ const Landing = ({ data }) => (
           </div>
           <div class="col-sm-12 col-md-6 landing-top slide-in-bottom--2">
             <h1 class="landing-kr text-left">추석</h1>
-            <h1 class="landing-title text-left">Chuseok 2020</h1>
-            <h1 class="landing-title2 text-left">September 30 - October 2</h1>
+            <h1 class="landing-title text-left">Chuseok 2021</h1>
+            <h1 class="landing-title2 text-left">September 20 - September 22</h1>
             <h4 class="text-left landing-title3">Celebrate and learn about the Korean Mid-Autumn harvest festival!<br />*Due to the global pandemic, some events and places may be restricted or closed until further notice.</h4>
           </div>
         </div>

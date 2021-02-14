@@ -19,7 +19,7 @@ const PrivacyPage = () => (
         <div class="row slide-in-bottom--1">
             <div class="col-12">
                 <h2 class="landing-category--first mb-4"><span class="landing-category--dotted">Legal</span></h2>
-                <h2 class="landing-category--first header-mb__foods-2 blog-tagline">Last updated August 1, 2019</h2>
+                <h2 class="landing-category--first header-mb__foods-2 blog-tagline">Last updated January 1, 2021</h2>
             </div>
         </div>
 
@@ -34,7 +34,7 @@ const PrivacyPage = () => (
                 <p>Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>
                 <p>You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.</p>
                 <p>Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
-                <p>This policy is effective as of August 1, 2019.</p>
+                <p>This policy is effective as of January 1, 2021.</p>
             </div>
             </div>
             </div>
