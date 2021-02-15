@@ -126,14 +126,14 @@ const Landing = ({ data }) => (
 
 )
 
-// if (typeof window !== 'undefined') {
-//   window.onload = function () {
-//     const Parallax = require('parallax-js')
-//     var scene = document.getElementById('scene');
-//     var parallaxInstance = new Parallax(scene);
-//     // AOS.init({once: true});
-//   };
-// }
+if (typeof window !== 'undefined') {
+  window.onload = function () {
+    const Parallax = require('parallax-js')
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+    // AOS.init({once: true});
+  };
+}
 
 
 export default Landing
