@@ -11,7 +11,7 @@ const PrivacyPage = () => (
     <div class="container">
 
         <div class="row blog-header--margin justify-content-start slide-in-bottom--1">
-            <div class="col-12 header-mb__foods nav-space">
+            <div class="col-12">
                 <h4 class="blog-leader--first blog-header text-left"><span class="blog-header blog-header--title">Privacy Policy</span></h4>
             </div>
         </div>
