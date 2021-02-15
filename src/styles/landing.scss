@@ -27,6 +27,11 @@ $xl: 1200px;
     background: #152555;
     width: 100vw;
     height: auto;
+    padding-bottom: 12rem;
+    padding-top: 3rem;
+    @media only screen and (min-width: $md){
+        padding: 3rem 0;
+    }
 }
 
 #scene {
@@ -122,9 +127,8 @@ $xl: 1200px;
 }
 
 .landing-top {
-    top: 35vh;
+    padding: 0 6rem;
     @media only screen and (min-width:$md){
-        margin-left: 14rem;
         top: 4rem;
     }
 }

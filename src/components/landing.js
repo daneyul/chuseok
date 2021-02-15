@@ -19,11 +19,11 @@ const Landing = ({ data }) => (
 
       <div class="container nav-space">
 
-        <div class="row justify-content-start">
+        <div class="row justify-content-sm-start justify-content-lg-start justify-content-md-center">
           <div class="landing-flowers" id="scene">
             <Flowers />
           </div>
-          <div class="col-sm-12 col-md-6 landing-top slide-in-bottom--2">
+          <div class="col-sm-12 col-md-8 col-lg-6 landing-top slide-in-bottom--2">
             <h1 class="landing-kr text-left">추석</h1>
             <h1 class="landing-title text-left">Chuseok 2021</h1>
             <h1 class="landing-title2 text-left">September 20 - September 22</h1>
