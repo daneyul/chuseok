@@ -7,6 +7,7 @@ import Foodimages from "./foodimages";
 import TableMedia from "./table";
 import Placeimages from "./places";
 import Adh from "./horizontal";
+import Timer from "./timer";
 
 // import 'aos/dist/aos.css';
 // var AOS = require('aos');
@@ -28,6 +29,7 @@ const Landing = ({ data }) => (
             <h1 class="landing-title text-left">Chuseok 2021</h1>
             <h1 class="landing-title2 text-left">September 20 - September 22</h1>
             <h4 class="text-left landing-title3">Celebrate and learn about the Korean Mid-Autumn harvest festival!<br />*Due to the global pandemic, some events and places may be restricted or closed until further notice.</h4>
+            <Timer />
           </div>
         </div>
       </div>
