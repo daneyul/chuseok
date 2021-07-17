@@ -13,6 +13,13 @@ $xl: 1200px;
     }
 }
 
+#progress {
+    height: 4px;
+    margin: 0 -15px;
+    transform-origin: 0%;
+    top: 60px;
+    background-color: #E9796F;
+}
 
 .adv {
     display: none;
@@ -24,10 +31,11 @@ $xl: 1200px;
 }
 
 #hero {
-    background: #152555;
+    background: #FBFAF5;
+    border-bottom: 2px solid #E9796F;
     width: 100vw;
-    height: 90vh;
-    padding-top: 3rem;
+    height: auto;
+    padding: 3rem 0;
     @media only screen and (max-width: $md){
         padding: 3rem 0;
     }
@@ -116,10 +124,10 @@ $xl: 1200px;
 }
 
 .landing-kr {
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Noto sans";
     font-size: 100px;
     font-weight: 900;
-    color: #E9796F;
+    color: #071F66;
     @media only screen and (min-width:$md){
         font-size: 200px;
     }
@@ -127,28 +135,27 @@ $xl: 1200px;
 
 .landing-top {
     padding: 0 6rem;
+    text-align: center;
     @media only screen and (min-width:$md){
-        top: 4rem;
+        margin-top: 4rem;
     }
 }
 
 .landing-title {
-    font-family: "GT Eesti Display-Bold", sans-serif;
+    font-family: "Arvo";
     font-size: 24px;
-    text-transform: uppercase;
     margin-top: 2rem;
     padding-left: 0;
-    color: white;
+    color: #071F66;
     @media only screen and (min-width:$md){
         font-size: 48px;
     }
 }
 
 .landing-title2 {
-    font-family: "GT Eesti Display-Bold", sans-serif;
+    font-family: "Arvo";
     font-size: 18px;
-    text-transform: uppercase;
-    color: white;
+    color: #071F66;
     @media only screen and (min-width:$md){
         font-size: 24px;
     }
@@ -157,12 +164,13 @@ $xl: 1200px;
 .landing-title3 {
     position: relative;
     line-height: 24px;
-    color: white;
     margin-top: 2rem;
+    font-size: 18px;
 }
 
 .landing-title4 {
     position: relative;
+    font-family: 'Arvo';
     font-size: 18px;
     color: #E9796F;
     margin-top: 2rem;
@@ -239,6 +247,7 @@ $xl: 1200px;
 }
 
 .landing-header__one {
+    font-family: 'Arvo';
     font-style: normal;
     font-size: 24px;
 }
@@ -258,8 +267,8 @@ $xl: 1200px;
 }
 
 .landing-header__two-top {
+    font-family: 'Arvo';
     font-size: 24px;
-    text-decoration: underline;
     letter-spacing: 0.08em;
     padding-left: 0.5rem;
     @media only screen and (min-width:$md){
@@ -268,6 +277,7 @@ $xl: 1200px;
 }
 
 .landing-header__two {
+    font-family: 'Arvo';
     font-size: 24px;
     text-decoration: underline;
     letter-spacing: 0.08em;
@@ -340,7 +350,7 @@ $xl: 1200px;
 
 .landing-category--notice {
     position: relative;
-    font-family: 'Centra-Light';
+    font-family: 'Poppins light';
     font-size: 14px;
     color: #0C1C66;
     margin-top: 3rem;
@@ -351,7 +361,7 @@ $xl: 1200px;
 
 .landing-category--top {
     position: relative;
-    font-family: 'Centra-Light';
+    font-family: 'Poppins light';
     font-size: 14px;
     color: #0C1C66;
     margin-top: 3rem;
@@ -362,7 +372,7 @@ $xl: 1200px;
 
 .landing-category--first {
     position: relative;
-    font-family: 'Centra-Light';
+    font-family: 'Poppins light';
     font-size: 14px;
     color: #0C1C66;
     margin-top: 3rem;
@@ -375,12 +385,13 @@ $xl: 1200px;
 .landing-category {
     position: relative;
     padding: 0 1rem 0 0;
-    font-family: 'Centra-Light';
+    font-family: 'Poppins light';
     font-size: 14px;
     color: #0C1C66;
 }
 
 .landing-category--dotted {
+    font-family: 'Poppins light';
     font-size: 14px;
 }
 

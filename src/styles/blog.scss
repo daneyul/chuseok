@@ -13,7 +13,7 @@ $xl: 1200px;
 }
 
 .blog-header {
-    font-family: 'GT Eesti Display-Regular';
+    font-family: 'Arvo';
     font-size: 36px;
     color: #0C1C66; 
 }
@@ -151,7 +151,7 @@ u:hover {
 }
 
 .blog-tagline {
-    font-family: "GT Eesti Display-Light";
+    font-family: "Noto serif";
     font-size: 16px;
 }
 
@@ -218,7 +218,7 @@ u:hover {
     @media only screen and (min-width:$lg){
         margin-bottom: 6rem;
     }
-    font-family: "GT Eesti Text-Light";
+    font-family: "Noto serif";
 }
 
 .blog-cap {

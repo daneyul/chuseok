@@ -7,12 +7,13 @@ $xl: 1200px;
 nav {
   background: white;
   z-index: 2;
+  height: 60px;
   position: fixed;
   top: 0;
     @media only screen and (min-width: $xl) {
         font-weight: 300;
         font-size: 16px;
-        font-family: "Centra", sans-serif;
+        font-family: "Poppins medium";
         transition: top 0.4s;
     }
 }
@@ -30,7 +31,7 @@ nav a:hover {
 }
 
 .nav-space {
-  height: 65vh;
+  height: auto;
   @media only screen and (min-width: $xl){
     margin-top: 3rem;
   }
@@ -42,7 +43,7 @@ nav a:hover {
 }
 
 .nav-item--center {
-    font-weight: 700;
+    font-family: "Arvo";
     text-decoration: none;
     padding: 1rem 0;
     text-align: left;

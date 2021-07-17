@@ -1,35 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 @font-face {
-    font-family: 'Centra';
-    src: url('../fonts/CentraNo2.woff');
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Bold.ttf');
 }
+
 @font-face {
-    font-family: 'Centra-Light';
-    src: url('../fonts/CentraNo2-Light.woff');
+    font-family: 'Poppins medium';
+    src: url('../fonts/Poppins-Medium.ttf');
 }
+
 @font-face {
-    font-family: 'Centra-Bold';
-    src: url('../fonts/CentraNo2-Bold.woff');
+    font-family: 'Poppins light';
+    src: url('../fonts/Poppins-Light.ttf');
 }
+
 @font-face {
-    font-family: 'GT Eesti Display-Regular';
-    src: url('../fonts/GTEestiProDisplay-Regular.woff');
+    font-family: 'Noto serif';
+    src: url('../fonts/NotoSerifKR-Regular.otf');
 }
+
 @font-face {
-    font-family: 'GT Eesti Display-Light';
-    src: url('../fonts/GTEestiProDisplay-Light.woff');
-}
-@font-face {
-    font-family: 'GT Eesti Display-Bold';
-    src: url('../fonts/GTEestiProDisplay-Bold.woff');
-}
-@font-face {
-    font-family: 'GT Eesti Text-Light';
-    src: url('../fonts/GTEestiProText-Light.woff');
-}
-@font-face {
-    font-family: 'Noto Sans KR';
+    font-family: 'Noto sans';
     src: url('../fonts/NotoSansKR-Black.otf');
 }
 
@@ -49,7 +41,7 @@ $xl: 1200px;
 }
 
 body, span {
-    font-family: "Centra-Light", sans-serif;
+    font-family: 'Noto serif';
     font-size: 16px;
 }
 
