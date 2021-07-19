@@ -47,7 +47,7 @@ $xl: 1200px;
 }
 
 #tradition {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     margin-top: 3rem;
 }
 
@@ -55,16 +55,13 @@ $xl: 1200px;
     margin-bottom: 2rem;
     margin-top: 1rem;
     @media only screen and (min-width: $md){
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 }
 
 #fest {
     margin-bottom: 2rem;
     margin-top: 3rem;
-    @media only screen and (min-width: $md){
-        margin-top: 5rem;
-    }
 }
 
 #misc {
@@ -85,6 +82,14 @@ $xl: 1200px;
 
 .pink-border {
     border-bottom: 2px solid #E9796F;
+}
+
+.food-section {
+    margin-bottom: 5rem;
+}
+
+.fest-section {
+    margin-bottom: 4rem;
 }
 
 .places-row {
@@ -269,7 +274,6 @@ $xl: 1200px;
 .landing-header__two-top {
     font-family: 'Arvo';
     font-size: 24px;
-    letter-spacing: 0.08em;
     padding-left: 0.5rem;
     @media only screen and (min-width:$md){
         padding-left: 0;
@@ -280,7 +284,11 @@ $xl: 1200px;
     font-family: 'Arvo';
     font-size: 24px;
     text-decoration: underline;
-    letter-spacing: 0.08em;
+}
+
+.landing-header__recipes {
+    font-family: 'Arvo';
+    font-size: 24px;
 }
 
 .landing-header__two--description {
@@ -292,13 +300,11 @@ $xl: 1200px;
 
 .landing-header__three {
     font-size: 24px;
-    letter-spacing: 0.08em;
 }
 
 .landing-recipes {
     font-size: 32px;
     line-height: 36px;
-    letter-spacing: 0.1em;
     text-decoration: underline;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -361,10 +367,22 @@ $xl: 1200px;
 
 .landing-category--top {
     position: relative;
-    font-family: 'Poppins light';
-    font-size: 14px;
+    font-family: 'Poppins medium';
+    font-size: 18px;
     color: #0C1C66;
     margin-top: 3rem;
+    @media only screen and (min-width: $lg){
+        padding-left: 0;
+    }
+}
+
+.landing-category--section {
+    text-align: center;
+    position: relative;
+    font-family: 'Arvo';
+    font-size: 24px;
+    color: #0C1C66;
+    margin-top: 5rem;
     @media only screen and (min-width: $lg){
         padding-left: 0;
     }
@@ -401,13 +419,12 @@ $xl: 1200px;
 
 
 .table-header {
-    font-family: "Oswald", sans-serif;
+    font-family: "Arvo";
     font-style: normal;
     font-size: 32px;
     line-height: 27px;
     text-transform: uppercase;
     text-decoration: underline;
-    letter-spacing: 0.08em;
 }
 
 // Hover effects

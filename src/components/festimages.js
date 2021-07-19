@@ -42,6 +42,8 @@ const Festimages = () => (
     render ={data => (
         
     <React.Fragment>
+      <h2 class="landing-category--section">The festivities of Chuseok</h2>
+      <div id="fest" class="row justify-content-between flex-wrap img-padding fest-margin">
         <a href="/gifts" onClick="window.location.reload();" class="fest-image">
             <Img fluid={data.festTwo.childImageSharp.fluid}/>
             <h2 class="landing-category landing-category__fest">Festivities</h2>
@@ -66,6 +68,7 @@ const Festimages = () => (
             <h3 class="landing-header__two">Folk Games</h3>
             <p>Discover the traditional activities that took place in Korea.</p>
         </a>
+      </div>
     </React.Fragment>
 
     )}

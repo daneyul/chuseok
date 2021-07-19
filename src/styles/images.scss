@@ -28,18 +28,12 @@ $xl: 1200px;
         -ms-flex: 0 0 49%;
         flex: 0 0 49%;
         max-width: 49%;
+        margin-top: 2rem;
     }
     @media only screen and (min-width: $lg){
-        -ms-flex: 0 0 23%;
-        flex: 0 0 23%;
-        max-width: 23%;
-    }
-}
-
-.fest-image--second {
-    margin-top: 2rem;
-    @media only screen and (min-width:$md){
-        margin-top: 0;
+        -ms-flex: 0 0 48.25%;
+        flex: 0 0 48.25%;
+        max-width: 48.25%;
     }
 }
 
@@ -52,31 +46,48 @@ $xl: 1200px;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
-    margin-top: 2rem;
+    margin-top: rem;
     position: relative;
     @media only screen and (min-width: $lg){
         -ms-flex: 0 0 31%;
         flex: 0 0 31%;
         max-width: 31%;
-        margin-top: 4.5rem;
+        margin-top: 3rem;
     }
+}
+
+.food-image--large {
+    -ms-flex: 0 0 64.5%;
+    flex: 0 0 64.5%;
+    max-width: 64.5%;
+    position: relative;
+    @media only screen and (min-width: $lg){
+        margin-top: 2rem;
+    }
+}
+
+.recipes-mt {
+    margin-top: 2rem;
+    -ms-flex: 0 0 31%;
+    flex: 0 0 31%;
+    max-width: 31%;
 }
 
 .misc-image {
     margin-top: 2rem;
     position: relative;
     @media only screen and (min-width: $md){
-        -ms-flex: 0 0 48%;
-        flex: 0 0 48%;
-        max-width: 48%;
+        -ms-flex: 0 0 31%;
+        flex: 0 0 31%;
+        max-width: 31%;
     }
 }
 
-.fest-image img, .food-image img, .misc-image img, .place-image img {
+.fest-image img, .food-image img, .misc-image img, .place-image img, .food-image--large img {
     border-radius: 6px;
 }
 
-.fest-image:hover, .food-image:hover, .misc-image:hover, .place-image:hover {
+.fest-image:hover, .food-image:hover, .misc-image:hover, .place-image:hover, .food-image--large:hover {
     border-radius: 6px;
     opacity: 0.5;
 }

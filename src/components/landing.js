@@ -28,6 +28,7 @@ const Landing = ({ data }) => (
             <Timer />
           </div>
         </div>
+        <Flowers />
       </div>
 
     </div>
@@ -37,22 +38,19 @@ const Landing = ({ data }) => (
         <div id="tradition" class="row header-mb">
           <div class="col-12 d-flex justify-content-between flex-wrap">
             <div class="header-col-1">
-              <h2 class="landing-category--top">Tradition</h2>
-              <h3 class="landing-header__one">What is Chuseok?</h3>
-              <p class="landing-header--description">Chuseok (추석) is one of the biggest holidays in Korea. It is sometimes referred to as “Korean Thanksgiving” because it’s a special time for family, friends, and food.</p>
+              <h2 class="landing-category--top">What is Chuseok?</h2>
+              <p class="landing-header--description">Chuseok ("choo-suhk") is one of the biggest holidays in Korea. It is sometimes referred to as “Korean Thanksgiving” because it’s a special time for family, friends, and food.</p>
             </div>
-            <a href="/customs" onClick="window.location.reload();" class="header-col-2 box">
-              <h2 class="landing-category--first">Tradition</h2>
-              <h3 class="landing-header__two-top">Customs</h3>
-              <p class="landing-header__two--description">Chuseok is a busy time and the customary way of celebrating it at home means lots of preparation.</p>
-              <p class="landing-learn">Learn more</p>
-            </a>
-            <a href="/rabbit" onClick="window.location.reload();" class="header-col-2 box">
-              <h2 class="landing-category--first">Tradition</h2>
-              <h3 class="landing-header__two-top">Moon Rabbit</h3>
-              <p class="landing-header__two--description">If you look closely at the moon, you'll see a rabbit making rice cakes beneath a tree.</p>
-              <p class="landing-learn">Learn more</p>
-            </a>
+            <div class="header-col-2">
+              <h2 class="landing-category--top">When is it?</h2>
+              <h3 class="landing-header__two-top">September 20, 2021</h3>
+              <p class="landing-header__two--description">This year, Chuseok is a week earlier than last years (September 30. 2020).</p>
+            </div>
+            <div class="header-col-2">
+              <h2 class="landing-category--top">For how long?</h2>
+              <h3 class="landing-header__two-top">3 Days!</h3>
+              <p class="landing-header__two--description">From September 20-22.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -60,53 +58,30 @@ const Landing = ({ data }) => (
 
     <div class="pink-border"></div>
 
-    <div class="container">
+    <div class="container food-section">
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="150" data-aos-duration="600">
-        <div id="food" class="row justify-content-sm-center justify-content-lg-between flex-wrap img-padding">
-          <Foodimages />
-        </div>
+        <Foodimages />
       </div>
     </div>
 
-    <div class="pink-border d-md-none"></div>
+    <div class="pink-border"></div>
 
-    <div class="container">
+    <div class="container fest-section">
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="150" data-aos-duration="600">
-        <div id="fest" class="row justify-content-between flex-wrap img-padding fest-margin">
-          <Festimages />
-        </div>
+        <Festimages />
       </div>
     </div>
 
-    <div class="pink-border d-md-none"></div>
+    <div class="pink-border"></div>
 
     <div class="container">
       <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="100" data-aos-duration="600">
         <div id="misc" class="row justify-content-between flex-wrap img-padding misc-margin">
           <TableMedia />
+          <Adh />
         </div>
       </div>
     </div>
-
-    <div class="pink-border d-md-none"></div>
-
-    <div class="container">
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600">
-        <div id="places" class="places-row img-padding misc-margin">
-          <h2 class="landing-category landing-category__fest">Festivities</h2>
-          <h3 class="landing-header__three">Places to Visit</h3>
-          <p>Palace admissions are free during the holidays and amusement parks have specials!</p><p>*Due to the global pandemic, most places are closed until further notice.</p>
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="600" class="places-margin">
-        <Placeimages />
-      </div>
-      <div class="col-10 mx-auto">
-        <Adh />
-      </div>
-    </div>
-
-
 
   </>
 
@@ -118,6 +93,11 @@ if (typeof window !== 'undefined') {
     // var scene = document.getElementById('scene');
     // var parallaxInstance = new Parallax(scene);
     // AOS.init({once: true});
+
+    let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let scrolled = (winScroll / height) * 100;
+    document.getElementById("progress").style.width = scrolled + "%";
   };
 }
 
