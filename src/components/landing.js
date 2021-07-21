@@ -94,10 +94,10 @@ if (typeof window !== 'undefined') {
     // var parallaxInstance = new Parallax(scene);
     // AOS.init({once: true});
 
-    let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    let scrolled = (winScroll / height) * 100;
-    document.getElementById("progress").style.width = scrolled + "%";
+    // let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    // let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    // let scrolled = (winScroll / height) * 100;
+    // document.getElementById("progress").style.width = scrolled + "%";
   };
 }
 

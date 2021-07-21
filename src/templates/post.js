@@ -58,7 +58,7 @@ export default function Template({ data }) {
                 <Footer />
             </React.Fragment>
         )
-    } else if (post.frontmatter.path == "/foods") {
+    } else if (post.frontmatter.path == "/foods" || post.frontmatter.path == "/places") {
         const sidebar = post.frontmatter.sidebar;
         return (
             <React.Fragment>
