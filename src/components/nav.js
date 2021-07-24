@@ -114,7 +114,7 @@ if (typeof window !== 'undefined') {
     prevScrollpos = currentScrollPos;
   }
 
-  Look for .hamburger
+  // Look for .hamburger
   var hamburger = document.querySelector(".hamburger");
   var hamburgerMenu = document.querySelector(".ham-bg");
   var body = document.querySelector("main");
