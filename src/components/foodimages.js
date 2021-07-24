@@ -73,7 +73,7 @@ const Foodimages = () => (
         </div>
         <div class="recipes-mt">
           <h2 class="landing-category">Foods & Drinks</h2>
-          <h3 class="landing-header__recipes">Need recipes?</h3>
+          <h3 class="landing-header__recipes"><a href="/recipes" class="food-image">Need recipes?</a></h3>
           <p>We’ve curated a list of food blogs for you to make your own delicious Korean meals for any occassion.</p>
         </div>
       </div>
