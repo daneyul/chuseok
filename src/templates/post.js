@@ -13,6 +13,11 @@ import SocialIcon from '../components/social';
 
 export default function Template({ data }) {
     const { markdownRemark: post } = data;
+    const isBrowser = typeof window !== "undefined"
+    const windowPath = '';
+    if (isBrowser) {
+        windowPath = window.location.href
+    }
 
     if (post.frontmatter.path === "/drinks") {
         const sidebar1 = post.frontmatter.sidebar1;
@@ -41,7 +46,7 @@ export default function Template({ data }) {
                                     </p>
                                     <div class="d-flex">
                                         <SocialIcon
-                                            path={window.location.href}
+                                            path={windowPath}
                                             title={post.frontmatter.tagline}
                                         />
                                     </div>
@@ -52,7 +57,7 @@ export default function Template({ data }) {
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap" dangerouslySetInnerHTML={{ __html: post.html }} />
                             <SocialIcon
-                                path={window.location.href}
+                                path={windowPath}
                                 title={post.frontmatter.tagline}
                             />
                         </div>
@@ -98,7 +103,7 @@ export default function Template({ data }) {
                                 </p>
                                 <div class="d-flex">
                                     <SocialIcon
-                                        path={window.location.href}
+                                        path={windowPath}
                                         title={post.frontmatter.tagline}
                                     />
                                 </div>
@@ -109,7 +114,7 @@ export default function Template({ data }) {
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap" dangerouslySetInnerHTML={{ __html: post.html }} />
                             <SocialIcon
-                                path={window.location.href}
+                                path={windowPath}
                                 title={post.frontmatter.tagline}
                             />
                         </div>
@@ -150,7 +155,7 @@ export default function Template({ data }) {
                                 </p>
                                 <div class="d-flex">
                                     <SocialIcon
-                                        path={window.location.href}
+                                        path={windowPath}
                                         title={post.frontmatter.tagline}
                                     />
                                 </div>
@@ -196,7 +201,7 @@ export default function Template({ data }) {
                                 </p>
                                 <div class="d-flex">
                                     <SocialIcon
-                                        path={window.location.href}
+                                        path={windowPath}
                                         title={post.frontmatter.tagline}
                                     />
                                 </div>
@@ -207,7 +212,7 @@ export default function Template({ data }) {
                         <div class="col-blog--main blog-main--borderless">
                             <article class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{ __html: post.html }} />
                             <SocialIcon
-                                path={window.location.href}
+                                path={windowPath}
                                 title={post.frontmatter.tagline}
                             />
                         </div>
