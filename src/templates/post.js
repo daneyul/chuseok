@@ -10,16 +10,15 @@ import '../styles/blog.scss';
 import '../styles/landing.scss';
 import '../styles/footer.scss';
 import SocialIcon from '../components/social';
+import { isBrowser } from '../components/browser';
 
 export default function Template({ data }) {
     const { markdownRemark: post } = data;
-    const windowPath = '';
-    if (typeof window !== 'undefined') {
-        window.onload = function () {
-          windowPath = window.location.href;
-        };
-      }
-
+    function windowPath(){
+        if (!isBrowser){
+            return window.location.href;
+        }
+    }
     if (post.frontmatter.path === "/drinks") {
         const sidebar1 = post.frontmatter.sidebar1;
         const sidebar2 = post.frontmatter.sidebar2;
@@ -47,7 +46,7 @@ export default function Template({ data }) {
                                     </p>
                                     <div class="d-flex">
                                         <SocialIcon
-                                            path={windowPath}
+                                            path={windowPath()}
                                             title={post.frontmatter.tagline}
                                         />
                                     </div>
@@ -58,7 +57,7 @@ export default function Template({ data }) {
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap" dangerouslySetInnerHTML={{ __html: post.html }} />
                             <SocialIcon
-                                path={windowPath}
+                                path={windowPath()}
                                 title={post.frontmatter.tagline}
                             />
                         </div>
@@ -104,7 +103,7 @@ export default function Template({ data }) {
                                 </p>
                                 <div class="d-flex">
                                     <SocialIcon
-                                        path={windowPath}
+                                        path={windowPath()}
                                         title={post.frontmatter.tagline}
                                     />
                                 </div>
@@ -115,7 +114,7 @@ export default function Template({ data }) {
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap" dangerouslySetInnerHTML={{ __html: post.html }} />
                             <SocialIcon
-                                path={windowPath}
+                                path={windowPath()}
                                 title={post.frontmatter.tagline}
                             />
                         </div>
@@ -156,7 +155,7 @@ export default function Template({ data }) {
                                 </p>
                                 <div class="d-flex">
                                     <SocialIcon
-                                        path={windowPath}
+                                        path={windowPath()}
                                         title={post.frontmatter.tagline}
                                     />
                                 </div>
@@ -202,7 +201,7 @@ export default function Template({ data }) {
                                 </p>
                                 <div class="d-flex">
                                     <SocialIcon
-                                        path={windowPath}
+                                        path={windowPath()}
                                         title={post.frontmatter.tagline}
                                     />
                                 </div>
@@ -213,7 +212,7 @@ export default function Template({ data }) {
                         <div class="col-blog--main blog-main--borderless">
                             <article class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{ __html: post.html }} />
                             <SocialIcon
-                                path={windowPath}
+                                path={windowPath()}
                                 title={post.frontmatter.tagline}
                             />
                         </div>
