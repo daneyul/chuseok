@@ -19,7 +19,7 @@ import c4 from "../images/landing/c4.svg"
 
 
 const Flowers = () => (
-    <React.Fragment>
+    <div id="scene">
         <div data-depth="0.9"><img src={f1} alt="flower 1" class="f1 rotate"/></div>
         <div data-depth="0.9"><img src={f2} alt="flower 2" class="f2 rotate-opp"/></div>
         <div data-depth="0.7"><img src={f3} alt="flower 3" class="f3 rotate"/></div>
@@ -35,7 +35,7 @@ const Flowers = () => (
         <div><img src={c1} alt="circle 1" class="c1 rotate-in-2-cw" /></div>
         <div><img src={c2} alt="circle 2" class="c2 rotate-in-2-cw" /></div>
 
-    </React.Fragment>
+    </div>
 )
 
 
