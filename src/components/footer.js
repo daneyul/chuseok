@@ -1,4 +1,3 @@
-import { Link, graphql, StaticQuery } from "gatsby";
 import React from "react";
 import "../styles/footer.scss";
 import "../styles/landing.scss";
@@ -13,7 +12,7 @@ const Footer = () => (
         </div>
         <div class="col-sm-12 col-lg-4">
             <h5 class="footer-category">About</h5>
-            <p class="footer-font">Happy Chuseok! We’ve put together just about everything you’ll need to know to make your Chuseok special. Have a suggestion? Want to chat? <a href="mailto:hangawi@chuseok.info" class ="footer-font footer-link" target="_blank">Send us a note.</a></p>
+            <p class="footer-font">Happy Chuseok! We’ve put together just about everything you’ll need to know to make your Chuseok special. Have a suggestion? Want to chat? <a href="mailto:hangawi@chuseok.info" class ="footer-font footer-link" target="_blank" rel="noopener noreferrer">Send us a note.</a></p>
         </div>
         <div class="col-6 col-lg-2">
             <h5><span class="footer-category">Traditions</span></h5>

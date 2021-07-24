@@ -5,7 +5,6 @@ import Flowers from "./flowers";
 import Festimages from "./festimages";
 import Foodimages from "./foodimages";
 import TableMedia from "./table";
-import Placeimages from "./places";
 import Adh from "./horizontal";
 import Timer from "./timer";
 

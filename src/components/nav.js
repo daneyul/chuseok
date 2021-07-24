@@ -1,5 +1,3 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import s1 from "../images/landing/twitter-icon.svg"
 import s2 from "../images/landing/facebook-icon.svg"
@@ -39,7 +37,7 @@ const Nav = () => (
           <ul className="col-4 nav-item justify-content-between nav-sides">
             <li className="nav-dropdown--parent"><a href="#">Festivities</a>
               <ul className="nav-dropdown nav-box slide-in-top">
-                <li className="nav-dropdown--item"><a href="/#places">Places to Visit</a></li>
+                <li className="nav-dropdown--item"><a href="/places">Places to Visit</a></li>
                 <li className="nav-dropdown--item"><a href="/media">Shows & Media</a></li>
                 <li className="nav-dropdown--item"><a href="/hanbok">Hanbok</a></li>
                 <li className="nav-dropdown--item"><a href="/gifts">Gifts</a></li>

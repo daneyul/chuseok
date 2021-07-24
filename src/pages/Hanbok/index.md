@@ -49,6 +49,6 @@ For women, an underskirt is typically worn underneath the visible skirt which is
 </p>
 
 <h2 class="blog-header--2 mt-5">Variety</h2>
-<p>
+<p class="blog-p">
 Aside from the traditional elite and commoner variations, there are also hanbok for weddings, children, and funerals. Weddings are where you may see them the most. Traditionally, there were hanbok specifically for the king, the queen, the princess, and the prince for formal ceremonies and daily wear. 
 </p>

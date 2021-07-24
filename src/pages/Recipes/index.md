@@ -37,7 +37,7 @@ side: false
 
 <div>
 <a class="blog-header--2" href="https://mykoreankitchen.com" target="_blank" rel="noopener noreferrer"><u>My Korean Kitchen</u></a>
-<p>"Easy Korean recipes."</p>
+<p class="blog-p">"Easy Korean recipes."</p>
 </br>
 </div>
 

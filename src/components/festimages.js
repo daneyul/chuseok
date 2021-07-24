@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/landing.scss";
 import "../styles/images.scss";
-import { Link, graphql, StaticQuery } from "gatsby";
+import { graphql, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
 const Festimages = () => (

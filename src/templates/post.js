@@ -1,5 +1,4 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
 import SEO from "../components/seo"
@@ -10,11 +9,12 @@ import Adh from "../components/horizontal";
 import '../styles/blog.scss';
 import '../styles/landing.scss';
 import '../styles/footer.scss';
+import SocialIcon from '../components/social';
 
 export default function Template({ data }) {
     const { markdownRemark: post } = data;
 
-    if (post.frontmatter.path == "/drinks") {
+    if (post.frontmatter.path === "/drinks") {
         const sidebar1 = post.frontmatter.sidebar1;
         const sidebar2 = post.frontmatter.sidebar2;
         return (
@@ -35,12 +35,26 @@ export default function Template({ data }) {
                                 && (
                                     <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                                 )}
-                            <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
+                                <div class="blog-p mt-3 d-flex justify-content-between">
+                                    <p class="blog-cap">
+                                        {post.frontmatter.cap}
+                                    </p>
+                                    <div class="d-flex">
+                                        <SocialIcon
+                                            path={window.location.href}
+                                            title={post.frontmatter.tagline}
+                                        />
+                                    </div>
+                                </div>
                         </div>
                     </div>
                     <div class="row justify-content-between slide-in-bottom--2 blog-p">
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap" dangerouslySetInnerHTML={{ __html: post.html }} />
+                            <SocialIcon
+                                path={window.location.href}
+                                title={post.frontmatter.tagline}
+                            />
                         </div>
                         <ul class="col-blog blog-sidebar">
                             <li class="blog-sidebar__list blog-header--3">Alcoholic</li>
@@ -58,7 +72,7 @@ export default function Template({ data }) {
                 <Footer />
             </React.Fragment>
         )
-    } else if (post.frontmatter.path == "/foods" || post.frontmatter.path == "/places" || post.frontmatter.path == "/snacks") {
+    } else if (post.frontmatter.path === "/foods" || post.frontmatter.path === "/places" || post.frontmatter.path === "/snacks") {
         const sidebar = post.frontmatter.sidebar;
         return (
             <React.Fragment>
@@ -78,19 +92,32 @@ export default function Template({ data }) {
                                 && (
                                     <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                                 )}
-                            <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
+                            <div class="blog-p mt-3 d-flex justify-content-between">
+                                <p class="blog-cap">
+                                    {post.frontmatter.cap}
+                                </p>
+                                <div class="d-flex">
+                                    <SocialIcon
+                                        path={window.location.href}
+                                        title={post.frontmatter.tagline}
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row justify-content-between slide-in-bottom--2 blog-p">
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap" dangerouslySetInnerHTML={{ __html: post.html }} />
+                            <SocialIcon
+                                path={window.location.href}
+                                title={post.frontmatter.tagline}
+                            />
                         </div>
                         <ul class="col-blog blog-sidebar">
                             {sidebar.map((value) => { return <a href={value[2]}><li class="blog-sidebar__list blog-box">{value[0]}<br />{value[1]}</li></a> })}
                             <Adv />
                         </ul>
                     </div>
-
                 </div>
                 <div class="col-10">
                     <Adh />
@@ -98,7 +125,7 @@ export default function Template({ data }) {
                 <Footer />
             </React.Fragment>
         )
-    } else if (post.frontmatter.path == "/greetings") {
+    } else if (post.frontmatter.path === "/greetings") {
         return (
             <React.Fragment>
                 <SEO title={post.frontmatter.title} />
@@ -117,7 +144,17 @@ export default function Template({ data }) {
                                 && (
                                     <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                                 )}
-                            <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
+                            <div class="blog-p mt-3 d-flex justify-content-between">
+                                <p class="blog-cap">
+                                    {post.frontmatter.cap}
+                                </p>
+                                <div class="d-flex">
+                                    <SocialIcon
+                                        path={window.location.href}
+                                        title={post.frontmatter.tagline}
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row justify-content-center blog-p">
@@ -153,12 +190,26 @@ export default function Template({ data }) {
                                 && (
                                     <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                                 )}
-                            <p class="blog-cap blog-main mt-3 blog-p">{post.frontmatter.cap}</p>
+                            <div class="blog-p mt-3 d-flex justify-content-between">
+                                <p class="blog-cap">
+                                    {post.frontmatter.cap}
+                                </p>
+                                <div class="d-flex">
+                                    <SocialIcon
+                                        path={window.location.href}
+                                        title={post.frontmatter.tagline}
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row justify-content-center blog-p">
                         <div class="col-blog--main blog-main--borderless">
                             <article class="drop-cap slide-in-bottom--2" dangerouslySetInnerHTML={{ __html: post.html }} />
+                            <SocialIcon
+                                path={window.location.href}
+                                title={post.frontmatter.tagline}
+                            />
                         </div>
                     </div>
 

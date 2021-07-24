@@ -57,7 +57,8 @@ Here is a clip from a Korean variety show in which they play Dalkssaum.</p>
 <p>
 A fast-paced game played with cards called Hwatu (화투). The rules to this game are not simple and it may take at least a few rounds before you first figure out how to play it. Surprisingly, Go-Stop has Japanese origins. But, that doesn’t make it any less popular than it is in Korea today. 
 </p>
-<a href="https://www.youtube.com/watch?v=hHfFPCKJ22o" target="_blank"><u>Here's how to play</u></a>
+<a href="https://www.youtube.com/watch?v=hHfFPCKJ22o" target="_blank" class="mb-5"><u>Here's how to play</u></a>
+<div class="blog-p"></div>
 </div>
 
  

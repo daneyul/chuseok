@@ -7,7 +7,7 @@ $xl: 1200px;
   position: absolute;
   width: 154.59px;
   height: 139.95px;
-  left: 300px;
+  left: 15vw;
   top: 100px;
   @media only screen and (min-width:$lg){
     width: 278.37px;
@@ -19,7 +19,7 @@ $xl: 1200px;
   position: absolute;
   width: 99.67px;
   height: 99.67px;
-  left: 1200px;
+  left: 70vw;
   top: 260px;
   @media only screen and (min-width:$lg){
     width: 179.47px;
@@ -31,7 +31,7 @@ $xl: 1200px;
   position: absolute;
   width: 52px;
   height: 51px;
-  left: 450px;
+  left: 25vw;
   top: 300px;
   @media only screen and (min-width:$lg){
     width: 92px;
@@ -43,7 +43,7 @@ $xl: 1200px;
   position: absolute;
   width: 90.11px;
   height: 90.11px;
-  left: 1150px;
+  left: 68vw;
   top: 375px;
   @media only screen and (min-width:$lg){
     width: 162.26px;
@@ -71,7 +71,7 @@ $xl: 1200px;
 .f3 {
     position: absolute;
     top: 300px;
-    left: 200px;
+    left: 10vw;
     @media only screen and (min-width:$lg){
     }
 }
@@ -79,7 +79,7 @@ $xl: 1200px;
 .f4 {
     position: absolute;
     top: 400px;
-    left: 300px;
+    left: 18vw;
     @media only screen and (min-width:$lg){
     }
 }
@@ -94,7 +94,7 @@ $xl: 1200px;
 
 .f6 {
   position: absolute;
-  left: 1100px;
+  left: 80vw;
   top: 100px;
 }
 
@@ -102,7 +102,7 @@ $xl: 1200px;
   @media only screen and (min-width: $xl){
     display: block;
     position: absolute;
-    left: 1000px;
+    left: 65vw;
     top: 220px;
   }
 }
@@ -111,7 +111,7 @@ $xl: 1200px;
   @media only screen and (min-width: $xl){
     display: block;
     position: absolute;
-    left: 1150px;
+    left: 85vw;
     top: 350px;
   }
 }
@@ -120,7 +120,7 @@ $xl: 1200px;
   @media only screen and (min-width: $xl){
     display: block;
     position: absolute;
-    left: 100px;
+    left: 7vw;
     top: 180px;
   }
 }
@@ -130,7 +130,7 @@ $xl: 1200px;
     display: block;
     position: absolute;
     left: 920px;
-    top: 100px;
+    top: 9vw;
   }
 }
 
