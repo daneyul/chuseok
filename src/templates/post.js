@@ -13,11 +13,12 @@ import SocialIcon from '../components/social';
 
 export default function Template({ data }) {
     const { markdownRemark: post } = data;
-    const isBrowser = typeof window !== "undefined"
     const windowPath = '';
-    if (isBrowser) {
-        windowPath = window.location.href
-    }
+    if (typeof window !== 'undefined') {
+        window.onload = function () {
+          windowPath = window.location.href;
+        };
+      }
 
     if (post.frontmatter.path === "/drinks") {
         const sidebar1 = post.frontmatter.sidebar1;
