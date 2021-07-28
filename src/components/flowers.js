@@ -24,7 +24,6 @@ const Flowers = () => (
         <div data-depth="0.9"><img src={f2} alt="flower 2" class="f2 rotate-opp"/></div>
         <div data-depth="0.7"><img src={f3} alt="flower 3" class="f3 rotate"/></div>
         <div data-depth="0.7"><img src={f4} alt="flower 4" class="f4 rotate-opp"/></div>
-        <div data-depth="0.5"><img src={f5} alt="flower 5" class="f5 rotate" /></div>
         <div data-depth="0.5"><img src={f6} alt="flower 6" class="f6 rotate-opp" /></div>
         <div data-depth="0.4"><img src={f7} alt="flower 7" class="f7 rotate" /></div>
         <div data-depth="0.4"><img src={f8} alt="flower 8" class="f8 rotate-opp" /></div>

@@ -44,7 +44,7 @@ const Foodimages = () => (
     <React.Fragment>
       <h2 class="landing-category--section">What to eat and drink</h2>
       <div id="food" class="row justify-content-sm-center justify-content-lg-between flex-wrap img-padding">
-        <div class="d-flex justify-content-between">
+        <div class="d-flex flex-wrap justify-content-between">
           <a href="/snacks" onClick="window.location.reload();" class="food-image">
               <Img fluid={data.foodFour.childImageSharp.fluid} />
               <h2 class="landing-category landing-category__fest">Foods & Drinks</h2>
@@ -65,7 +65,7 @@ const Foodimages = () => (
           </a>
         </div>
       </div>
-      <div class="d-flex justify-content-between">
+      <div class="d-flex flex-wrap justify-content-between">
         <div class="food-image--large">
           <a href="/recipes" onClick="window.location.reload();">
             <Img fluid={data.foodOne.childImageSharp.fluid} />

@@ -37,7 +37,7 @@ $xl: 1200px;
     height: auto;
     padding: 3rem 0;
     @media only screen and (max-width: $md){
-        padding: 3rem 0;
+        padding: 8rem 0 0 0;
     }
 }
 
@@ -136,6 +136,7 @@ $xl: 1200px;
 .landing-top {
     padding: 0 6rem;
     text-align: center;
+    z-index: 1;
     @media only screen and (min-width:$md){
         margin-top: 4rem;
     }
@@ -269,9 +270,8 @@ $xl: 1200px;
 .landing-header__two-top {
     font-family: 'Arvo';
     font-size: 24px;
-    padding-left: 0.5rem;
+    padding-left: 0;
     @media only screen and (min-width:$md){
-        padding-left: 0;
     }
 }
 
@@ -288,9 +288,8 @@ $xl: 1200px;
 }
 
 .landing-header__two--description {
-    padding-left: .5rem;
+    padding-left: 0;
     @media only screen and (min-width: $lg){
-        padding-left: 0;
     }
 }
 
