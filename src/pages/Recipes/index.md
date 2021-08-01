@@ -9,35 +9,31 @@ cap: "Republic of Korea - Flickr"
 side: false
 ---
 
-</br>
-
-<div>
-<a class="blog-header--2" href="http://www.beyondkimchee.com" target="_blank" rel="noopener noreferrer"><u>Beyond Kimchee</u></a>
-<p>"Real Korean food and beyond."</p>
-</br>
-</div>
-
-<div>
-<a class="blog-header--2" href="https://kimchimari.com/" target="_blank" rel="noopener noreferrer"><u>Kimchimari</u></a>
-<p>"Authentic Korean recipes."</p>
-</br>
-</div>
-
-<div>
-<a class="blog-header--2" href="https://www.koreanbapsang.com" target="_blank" rel="noopener noreferrer"><u>Korean Bapsang</u></a>
-<p>"A Korean mom's home cooking."</p>
-</br>
-</div>
-
-<div>
-<a class="blog-header--2" href="https://www.maangchi.com" target="_blank" rel="noopener noreferrer"><u>Maangchi</u></a>
-<p>"Cooking Korean food with Maangchi."</p>
-</br>
-</div>
-
-<div>
-<a class="blog-header--2" href="https://mykoreankitchen.com" target="_blank" rel="noopener noreferrer"><u>My Korean Kitchen</u></a>
-<p class="blog-p">"Easy Korean recipes."</p>
-</br>
+<div id="recipes" class="blog-p row justify-content-between flex-wrap img-padding fest-margin">
+  <a href="http://www.beyondkimchee.com" onClick="window.location.reload();" class="fest-image">
+      <img src="beyond-kimchee.jpg" alt=""/>
+      <h3 class="landing-header__two mt-4">Beyond Kimchee</h3>
+      <p>"Real Korean food and beyond."</p>
+  </a>
+  <a href="https://kimchimari.com/" onClick="window.location.reload();" class="fest-image fest-image--second">
+      <img src="kimchimari.jpg" alt=""/>
+      <h3 class="landing-header__two mt-4">Kimchimari</h3>
+      <p>"Authentic Korean recipes."</p>
+  </a>
+  <a href="https://www.koreanbapsang.com" onClick="window.location.reload();" class="fest-image fest-image--second">
+      <img src="korean-bapsang.jpg" alt=""/>
+      <h3 class="landing-header__two mt-4">Korean Bapsang</h3>
+      <p>"A Korean mom's home cooking."</p>
+  </a>
+  <a href="https://www.maangchi.com" onClick="window.location.reload();" class="fest-image fest-image--second">
+      <img src="maangchi.jpg" alt=""/>
+      <h3 class="landing-header__two mt-4">Maangchi</h3>
+      <p>"Cooking Korean food with Maangchi."</p>
+  </a>
+  <a href="https://mykoreankitchen.com" onClick="window.location.reload();" class="fest-image fest-image--second">
+      <img src="koreankitchen.jpg" alt=""/>
+      <h3 class="landing-header__two mt-4">My Korean Kitchen</h3>
+      <p>"Easy Korean recipes."</p>
+  </a>
 </div>
 

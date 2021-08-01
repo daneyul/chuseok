@@ -10,6 +10,10 @@ $xl: 1200px;
     }
 }
 
+.gatsby-resp-image-image {
+    box-shadow: rgba(0,0,0,0.25) 0 0 10px;
+}
+
 .misc-margin {
     @media only screen and (min-width: $md){
         margin-top: 3rem;
