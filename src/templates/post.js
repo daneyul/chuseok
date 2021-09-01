@@ -33,7 +33,7 @@ export default function Template({ data }) {
                         <div class="col-12">
                             {post.frontmatter.featuredImage
                                 && (
-                                    <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+                                    <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} alt="hero"/>
                                 )}
                                 <div class="blog-p mt-3 d-flex justify-content-between">
                                     <p class="blog-cap">
@@ -90,7 +90,7 @@ export default function Template({ data }) {
                         <div class="col-12">
                             {post.frontmatter.featuredImage
                                 && (
-                                    <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+                                    <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} alt="hero"/>
                                 )}
                             <div class="blog-p mt-3 d-flex justify-content-between">
                                 <p class="blog-cap">
@@ -142,7 +142,7 @@ export default function Template({ data }) {
                         <div class="col-12">
                             {post.frontmatter.featuredImage
                                 && (
-                                    <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+                                    <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} alt="hero"/>
                                 )}
                             <div class="blog-p mt-3 d-flex justify-content-between">
                                 <p class="blog-cap">
@@ -188,7 +188,7 @@ export default function Template({ data }) {
                         <div class="col-12">
                             {post.frontmatter.featuredImage
                                 && (
-                                    <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+                                    <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} alt="hero"/>
                                 )}
                             <div class="blog-p mt-3 d-flex justify-content-between">
                                 <p class="blog-cap">

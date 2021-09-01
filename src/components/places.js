@@ -88,7 +88,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264337" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeOne.childImageSharp.fluid} />
+                  <Img fluid={data.placeOne.childImageSharp.fluid} alt="gyeongbokgung"/>
                 </a>
               </div>
                 <h4 class="place-title">Gyeongbokgung Palace<br />경복궁</h4>
@@ -96,7 +96,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264316" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeTwo.childImageSharp.fluid} />
+                  <Img fluid={data.placeTwo.childImageSharp.fluid} alt="deoksugung"/>
                 </a>
               </div>
                 <h4 class="place-title">Deoksugung Palace<br />덕수궁</h4>
@@ -104,7 +104,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264316" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeThree.childImageSharp.fluid} />
+                  <Img fluid={data.placeThree.childImageSharp.fluid} alt="changgeyonggung"/>
                 </a>
               </div>
                 <h4 class="place-title">Changgyeonggung Palace<br />창경궁</h4>
@@ -112,7 +112,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264348" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeFour.childImageSharp.fluid} />
+                  <Img fluid={data.placeFour.childImageSharp.fluid} alt="changdeokgung"/>
                 </a>
               </div>
                 <h4 class="place-title">Changdeokgung Palace<br />창덕궁</h4>
@@ -120,7 +120,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264106" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeFive.childImageSharp.fluid} />
+                  <Img fluid={data.placeFive.childImageSharp.fluid} alt="seonjeongneung"/>
                 </a>
               </div>
                 <h4 class="place-title">Seonjeongneung Royal Tombs<br />선정릉</h4>
@@ -128,7 +128,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264594" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeTen.childImageSharp.fluid} />
+                  <Img fluid={data.placeTen.childImageSharp.fluid} alt="bongeunsa"/>
                 </a>
               </div>
                 <h4 class="place-title">Bongeunsa Temple<br />봉은사</h4>
@@ -136,7 +136,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264351" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeSix.childImageSharp.fluid} />
+                  <Img fluid={data.placeSix.childImageSharp.fluid} alt="jongmyo"/>
                 </a>
               </div>
                 <h4 class="place-title">Jongmyo Shrine<br />종묘</h4>
@@ -144,7 +144,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="http://adventure.lotteworld.com" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeSeven.childImageSharp.fluid} />
+                  <Img fluid={data.placeSeven.childImageSharp.fluid} alt="lotte-world"/>
                 </a>
               </div>
                 <h4 class="place-title">Lotte World<br />롯데월드 어드벤처</h4>
@@ -152,7 +152,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="https://www.everland.com/web/multi/english/everland/main.html?m" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeEight.childImageSharp.fluid} />
+                  <Img fluid={data.placeEight.childImageSharp.fluid} alt="everland"/>
                 </a>
               </div>
                 <h4 class="place-title">Everland<br />	에버랜드</h4>
@@ -160,7 +160,7 @@ const Placeimages = () => (
             <div class="place-container">
               <div class="place-image fest-image--box">
                 <a href="http://eng.seoulland.co.kr/eng/index.asp" target="_blank" rel="noopener noreferrer">
-                  <Img fluid={data.placeNine.childImageSharp.fluid} />
+                  <Img fluid={data.placeNine.childImageSharp.fluid} alt="seoul-land"/>
                 </a>
               </div>
                 <h4 class="place-title">Seoul Land<br />서울랜드</h4>

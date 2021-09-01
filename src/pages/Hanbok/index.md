@@ -41,7 +41,7 @@ The contemporary take on hanbok can be seen in fashion shows, especially on Hanb
     </div>
 </div>
 
-![Hanbok-1](hanbok-1.jpg)
+![Hanbok-1](hanbok-1.jpg "hanbok")
 <p class="blog-cap">Kseniya Petukhova - Unsplash</p>
 <h2 class="blog-header--2">Wearing one</h2>
 <p>

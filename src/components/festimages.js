@@ -45,25 +45,25 @@ const Festimages = () => (
       <h2 class="landing-category--section">The festivities of Chuseok</h2>
       <div id="fest" class="row justify-content-between flex-wrap img-padding fest-margin">
         <a href="/gifts" onClick="window.location.reload();" class="fest-image">
-            <Img fluid={data.festTwo.childImageSharp.fluid}/>
+            <Img fluid={data.festTwo.childImageSharp.fluid} alt="gift-sets"/>
             <h2 class="landing-category landing-category__fest">Festivities</h2>
             <h3 class="landing-header__two">Gift Sets</h3>
             <p>Learn more about the varieties of Chuseok gift sets.</p>
         </a>
         <a href="/hanbok" onClick="window.location.reload();" class="fest-image fest-image--second">
-            <Img fluid={data.festOne.childImageSharp.fluid}/>
+            <Img fluid={data.festOne.childImageSharp.fluid} alt="hanbok"/>
             <h2 class="landing-category landing-category__fest">Festivities</h2>
             <h3 class="landing-header__two">Wearing a Hanbok</h3>
             <p>A Hanbok is Korea's traditional clothing.</p>
         </a>
         <a href="/greetings" onClick="window.location.reload();" class="fest-image fest-image--second">
-            <Img fluid={data.festThree.childImageSharp.fluid}/>
+            <Img fluid={data.festThree.childImageSharp.fluid} alt="greetings"/>
             <h2 class="landing-category landing-category__fest">Festivities</h2>
             <h3 class="landing-header__two">Greetings in Korean</h3>
             <p>Some Korean phrases, how to say them, and what they mean.</p>
         </a>
         <a href="/games" onClick="window.location.reload();" class="fest-image fest-image--second">
-            <Img fluid={data.festFour.childImageSharp.fluid}/>
+            <Img fluid={data.festFour.childImageSharp.fluid} alt="folk-games"/>
             <h2 class="landing-category landing-category__fest">Festivities</h2>
             <h3 class="landing-header__two">Folk Games</h3>
             <p>Discover the traditional activities that took place in Korea.</p>

@@ -16,7 +16,7 @@ Although many stores are closed on the day of Chuseok, there are usually a myria
 Today, gift sets are usually sold with items as traditional as fruits or ginseng, to diverse sets including shampoo, soap, or even spam. If you’re not in Korea, check out your local Asian supermarket to see if there are any special foods for sale during this time - the harvest festival isn’t just limited to Korea! 
 </p>
 
-![Gift Set](gifts-1.jpg)
+![Gift Set](gifts-1.jpg "gift-set")
 <p class="blog-cap">Republic of Korea - Flickr</p>
 <h2 class="blog-header--2">Fun Fact</h2>
 <p class="blog-p">

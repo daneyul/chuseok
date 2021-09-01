@@ -13,7 +13,7 @@ side: false
 Chuseok occurs on the 15th day of the 8th month of the lunar calendar (usually around late September to early October) on the full moon - it lasts 3 days in total. Sometimes, like in 2017, the Chuseok days line up with National Foundation Day and Hangeul Day to make one long holiday break. It’s also known as Hangawi (the name, “Chuseok”, is derived from Chinese characters whereas Hangawi is more native. However, Hangawi is used mostly on media advertisements).
 </p>
 
-![Traffic](ceremonies-traffic.jpg)
+![Traffic](ceremonies-traffic.jpg "traffic")
 <p class="blog-cap">Jean Sabeth - Unsplash</p>
 <h2 class="blog-header--2">Lots of traffic</h2>
 <p>
@@ -22,7 +22,7 @@ In Korea, you can expect an alarming amount of traffic the day before and the da
 In general, travelling abroad from Korea is quite expensive during this time. However, you can expect many discounts in the country to encourage people to enjoy their time off. 
 </p>
 
-![Gifts](ceremonies-gifts.jpg)
+![Gifts](ceremonies-gifts.jpg "gifts")
 <p class="blog-cap">Republic of Korea - Flickr</p>
 <h2 class="blog-header--2">Chuseok gifts</h2>
 <p class="blog-p">
@@ -36,7 +36,7 @@ Traditionally, the women of the family were the ones tasked with cooking all the
 People often take advantage of food markets, like banchan markets (반찬가계). They sell traditional Chuseok foods during and around the Chuseok holidays, so not everything needs to be cooked at home.
 </p>
 
-![Seongmyo](ceremonies-seongmyo.jpg)
+![Seongmyo](ceremonies-seongmyo.jpg "seongmyo")
 <p class="blog-cap">Byung Jun Kim - Flickr</p>
 <h2 class="blog-header--2">Charye (차레), Beolcho (벌초), and Seongmyo (성묘)</h2>
 <p>

@@ -37,7 +37,7 @@ South Korea’s drinking culture has been popularized by music videos and televi
 </p>
 
 <div id="soju">
-<img src="drink-soju.jpg" alt=""/>
+<img src="drink-soju.jpg" alt="soju"/>
 <p class="blog-cap">Graham Hill - Flickr</p>
 <h2 class="blog-header--2">Soju 소주</h2>
 <p>

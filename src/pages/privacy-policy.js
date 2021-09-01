@@ -6,7 +6,8 @@ import '../styles/blog.scss';
 import '../styles/landing.scss';
 
 const PrivacyPage = () => (
-    <React.Fragment>
+    <>
+    <SEO title="Korean Thanksgiving"/>
     <Nav />
     <div class="container">
 
@@ -42,7 +43,7 @@ const PrivacyPage = () => (
         </div>
 
     <Footer />
-    </React.Fragment>
+    </>
 )
 
 export default PrivacyPage

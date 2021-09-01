@@ -14,7 +14,7 @@ Traditionally, there are general guidelines to follow when setting up the table 
 </p>
 
 
-![Table](table.png)
+![Table](table.png "table-layout")
 <h2 class="blog-header--2">Guidelines</h2></br>
 
 <h3 class="blog-header--3">1st row</h3>
