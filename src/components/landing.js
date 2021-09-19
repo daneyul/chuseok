@@ -24,7 +24,6 @@ const Landing = ({ data }) => (
             <h1 class="landing-kr text-center">추석</h1>
             <h1 class="landing-title text-center">Chuseok 2021</h1>
             <h4 class="text-center landing-title3">Celebrate and learn about the Korean Mid-Autumn harvest festival!</h4>
-            <Timer />
           </div>
         </div>
         <Flowers />
