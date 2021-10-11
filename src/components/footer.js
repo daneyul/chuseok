@@ -10,9 +10,14 @@ const Footer = () => (
             <h3 class="footer-title">Chuseok 2021</h3>
             <h4 class="footer-font">&copy; 2021 All Rights Reserved <a href="/privacy-policy" class="footer-font footer-color footer-underline footer-link">Privacy Policy</a></h4>
         </div>
-        <div class="col-sm-12 col-lg-4">
+        <div class="col-sm-12 col-lg-4 mb-5">
             <h5 class="footer-category">About</h5>
             <p class="footer-font">Happy Chuseok! We’ve put together just about everything you’ll need to know to make your Chuseok special. Have a suggestion? Want to chat? <a href="mailto:hangawi@chuseok.info" class ="footer-font footer-link" target="_blank" rel="noopener noreferrer">Send us a note.</a></p>
+            <h5 class="mt-5"><span class="footer-category">Partner Sites</span></h5>
+            <ul class="footer-font">
+                <li><a href="https://archdictionary.com" onClick="window.location.reload();" class="footer-font footer-color footer-link">Architecture Dictionary</a></li>
+                <li><a href="https://concretecalculator.tools" onClick="window.location.reload();" class="footer-font footer-color footer-link">Concrete Calculator</a></li>
+            </ul>
         </div>
         <div class="col-6 col-lg-2">
             <h5><span class="footer-category">Traditions</span></h5>
