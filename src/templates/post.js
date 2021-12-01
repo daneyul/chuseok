@@ -48,6 +48,9 @@ export default function Template({ data }) {
                                 </div>
                         </div>
                     </div>
+                    <div class="col-10">
+                        <Adh />
+                    </div>
                     <div class="row justify-content-between slide-in-bottom--2 blog-p">
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap" dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -105,6 +108,9 @@ export default function Template({ data }) {
                             </div>
                         </div>
                     </div>
+                    <div class="col-10">
+                        <Adh />
+                    </div>
                     <div class="row justify-content-between slide-in-bottom--2 blog-p">
                         <div class="col-blog--main blog-main">
                             <article class="drop-cap" dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -157,6 +163,9 @@ export default function Template({ data }) {
                             </div>
                         </div>
                     </div>
+                    <div class="col-10">
+                        <Adh />
+                    </div>
                     <div class="row justify-content-center blog-p">
                         <div class="col-blog--main blog-main--borderless">
                             <article class="slide-in-bottom--2" dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -202,6 +211,9 @@ export default function Template({ data }) {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-10">
+                        <Adh />
                     </div>
                     <div class="row justify-content-center blog-p">
                         <div class="col-blog--main blog-main--borderless">

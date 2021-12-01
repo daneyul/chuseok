@@ -62,6 +62,8 @@ const Landing = ({ data }) => (
       </div>
     </div>
 
+    <Adh />
+
     <div class="pink-border"></div>
 
     <div class="container fest-section">
@@ -69,6 +71,8 @@ const Landing = ({ data }) => (
         <Festimages />
       </div>
     </div>
+
+    <Adh />
 
     <div class="pink-border"></div>
 
