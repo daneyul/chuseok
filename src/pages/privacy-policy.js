@@ -8,7 +8,7 @@ import '../styles/landing.scss';
 
 const PrivacyPage = () => (
     <>
-    <SEO title="Korean Thanksgiving"/>
+    <SEO title="Korean Thanksgiving" desc="Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."/>
     <Nav />
     <div class="container">
 
