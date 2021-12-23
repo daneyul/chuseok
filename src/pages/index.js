@@ -8,11 +8,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'hamburgers/dist/hamburgers.css'
 import "../styles/custom.scss"
 
-
-
 const IndexPage = () => (
   <Layout>
-    <SEO />
   </Layout>
 )
 

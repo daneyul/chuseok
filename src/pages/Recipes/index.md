@@ -7,6 +7,7 @@ tagline: "Some popular blogs for Korean recipes"
 featuredImage: "./recipes-hero.jpg"
 cap: "Republic of Korea - Flickr"
 side: false
+desc: "Here are some popular blogs for Korean recipes."
 ---
 
 <div id="recipes" class="blog-p row justify-content-between flex-wrap img-padding fest-margin">

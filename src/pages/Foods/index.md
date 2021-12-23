@@ -7,6 +7,7 @@ side: true
 featuredImage: "./food-hero.jpg"
 cap: "Republic of Korea - Flickr"
 type: "Food & Drinks"
+desc: "Food is important to celebrating Chuseok and most of the time spent during the holiday is typically for preparing, cooking, and feasting. Traditionally, this has been a huge household event which involves gathering ingredients and preparing all the meals that will be set out for Charye (차례)."
 sidebar: [
     ["Songpyeon", "송편", "#songpyeon"],  
     ["Jeon", "전", "#jeon"], 

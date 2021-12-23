@@ -19,7 +19,7 @@ export default function Template({ data }) {
         const sidebar2 = post.frontmatter.sidebar2;
         return (
             <React.Fragment>
-                <SEO title={post.frontmatter.title} />
+                <SEO title={post.frontmatter.title} desc={post.frontmatter.desc}/>
                 <Nav />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-center slide-in-bottom--1">
@@ -79,7 +79,7 @@ export default function Template({ data }) {
         const sidebar = post.frontmatter.sidebar;
         return (
             <React.Fragment>
-                <SEO title={post.frontmatter.title} />
+                <SEO title={post.frontmatter.title} desc={post.frontmatter.desc}/>
                 <Nav />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-center slide-in-bottom--1">
@@ -134,7 +134,7 @@ export default function Template({ data }) {
     } else if (post.frontmatter.path === "/greetings") {
         return (
             <React.Fragment>
-                <SEO title={post.frontmatter.title} />
+                <SEO title={post.frontmatter.title} desc={post.frontmatter.desc}/>
                 <Nav />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-center slide-in-bottom--1">
@@ -183,7 +183,7 @@ export default function Template({ data }) {
     else {
         return (
             <React.Fragment>
-                <SEO title={post.frontmatter.title} />
+                <SEO title={post.frontmatter.title} desc={post.frontmatter.desc}/>
                 <Nav />
                 <div class="container blog-hide">
                     <div class="row blog-header--margin justify-content-center slide-in-bottom--1">
@@ -245,6 +245,7 @@ export const postQuery = graphql`
                 keywords
                 title
                 side
+                desc
                 tagline
                 sidebar
                 sidebar1

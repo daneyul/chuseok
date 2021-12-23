@@ -6,15 +6,17 @@ import Festimages from "./festimages";
 import Foodimages from "./foodimages";
 import TableMedia from "./table";
 import Adh from "./horizontal";
-import Timer from "./timer";
+import SEO from "./seo";
 
 // import 'aos/dist/aos.css';
 // var AOS = require('aos');
 
+const desc = "Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok."
+const title = "Korean Thanksgiving"
 
-
-const Landing = ({ data }) => (
+const Landing = () => (
   <>
+  <SEO title={title} desc={desc}/>
     <div id="hero">
 
       <div class="container nav-space">

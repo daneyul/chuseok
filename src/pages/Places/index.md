@@ -8,6 +8,7 @@ type: "Tradition"
 featuredImage: "./media-places.jpg"
 cap: "Yeo Khee - Unsplash"
 side: true
+desc: "Here are some things to see and places to visit during Chuseok."
 sidebar: [
     ["Gyeongbeokgung", "경복궁", "#gyeongbokgung"],  
     ["Deoksugung", "덕수궁", "#deoksugung"], 

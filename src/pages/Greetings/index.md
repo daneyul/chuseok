@@ -7,6 +7,7 @@ type: "Festivities"
 featuredImage: "./greetings-hero.jpg"
 cap: "Daniel Kim - Unsplash"
 side: false
+desc: "What to say to your friends and family for Chuseok"
 ---
 <div class="justify-content-center">
 

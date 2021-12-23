@@ -7,6 +7,7 @@ type: "Festivities"
 featuredImage: "./gifts-hero.jpg"
 cap: "Republic of Korea - Flickr"
 side: false
+desc: "Although many stores are closed on the day of Chuseok, there are usually a myriad of sales the day before. Department stores, grocery stores, and everything in between probably have Chuseok gift sets (추석선물세트) for sale. Gift sets are ubiquitous during the biggest holidays, with this being a very busy time for shopping. Because Chuseok is a harvest festival, traditional gift items were harvested foods."
 ---
 
 <p>

@@ -1,13 +1,13 @@
 ---
 path: "/snacks"
-keywords: ["chuseok", "Gyeongbokgung", "경복궁", "Deoksugung", "덕수궁", "Changgyeonggung", "창경궁
-", "Changdeokgung", "창덕궁", "Seonjeongneung", "선정릉", "Bongeunsa", "봉은사", "Jongmyo", "종묘", "Lotte World", "롯데월드 어드벤처", "Everland", "에버랜드", "Seoul Land", "서울랜드" ]
+keywords: ["Dalgona", "Gangjeong", "강정", "Yakgwa", "약과", "Gukhwappang", "국화빵", "Hotteok", "호떡", "Gyeongdan", "경단", "Bukkumi", "부꾸미", "Ppeongtwigi", "뻥튀기", "Yaksik", "약식", "Kkultarae", "꿀타래", "Gwapyeon", "과편", "Jeonggwa", "정과", "Dasik", "다식"]
 title: "Snacks and Desserts"
 tagline: "Some sweet snacks to munch on"
 type: "Tradition"
 featuredImage: "./media-snacks.jpg"
 cap: "Commons - Wikipeda"
 side: true
+desc: "Here are some sweet snacks to munch on during Chuseok."
 sidebar: [
     ["Dalgona/Ppopgi", "뽑기", "#ppopgi"],  
     ["Gangjeong", "강정", "#gangjeong"], 

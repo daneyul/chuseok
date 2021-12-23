@@ -7,6 +7,8 @@ featuredImage: "./folk-hero.jpg"
 cap: "Republic of Korea - Flickr"
 type: "Festivities"
 side: false
+desc: "Traditional Korean games are referred to as Jeontongnori (전통놀이). There are many games that can be played with family and friends or with others at some traditional attractions.
+Here is a list of some modern activities to enjoy with your loved ones."
 ---
 
 <p class="blog-p">

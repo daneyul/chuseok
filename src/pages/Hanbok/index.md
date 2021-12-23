@@ -7,10 +7,11 @@ type: "Festivities"
 featuredImage: "./hanbok-3.jpg"
 cap: "Republic of Korea - Flickr"
 side: false
+desc: "Hanbok (한복) are distinctly colorful, elegant, and expressive clothes that have been around for over 1,600 years. They have evolved a little over time and remain a symbol of the country’s traditional culture and lifestyle. Hanbok are important to Korea’s cultural identity. Its evolution, expression, variations, and details form the outfit representative of Korea."
 ---
 
 <p>
-Hanbok (한복) are distinctly colorful, elegant, and expressive clothes that have been around for over 1,600 years. They have evolved a little over time and remain a symbol of the country’s traditional culture and lifestyle. Hanbok are important to Korea’s cultural identity. Its evolution, expression, variations, and details form the outfit representative of Korea. 
+Hanbok (한복) are distinctly colorful, elegant, and expressive clothes that have been around for over 1,600 years. They have evolved a little over time and remain a symbol of the country’s traditional culture and lifestyle. Hanbok are important to Korea’s cultural identity. Its evolution, expression, variations, and details form the outfit representative of Korea.
 </p>
 
 

@@ -6,6 +6,7 @@ tagline: "The Mid-Autumn harvest folklore"
 type: "Traditions"
 featuredImage: "./rabbit-hero.jpg"
 cap: "Arianna Giavardi - Unsplash"
+desc: "Did you know that the Mid-Autumn harvest festivals around the world have folklore attributed to the moon? In Korea, when you look up at the full moon, you may see the image of a rabbit making rice cakes. But what’s the rabbit doing up there?"
 side: false
 ---
 

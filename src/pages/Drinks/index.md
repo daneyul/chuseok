@@ -7,6 +7,7 @@ type: "Food & Drinks"
 side: true
 featuredImage: "./drink-hero.jpg"
 cap: "Republic of Korea - Flickr"
+desc: "South Korea’s drinking culture has been popularized by music videos and television shows, but aside from the soju and beer, there are plenty of drinks that contribute to Korea’s rich food culture. From distilled liquors, wines, teas, and punches, drinking in Korea is valued with a long tradition."
 sidebar1: [
     ["Soju", "소주", "#soju"], 
     ["Maekju", "맥주", "#maekju"], 

@@ -7,6 +7,7 @@ type: "Traditions"
 featuredImage: "./ceremonies-hero.jpg"
 cap: "Cait Ellis - Unsplash"
 side: false
+desc: "Chuseok occurs on the 15th day of the 8th month of the lunar calendar (usually around late September to early October) on the full moon - it lasts 3 days in total. Sometimes, like in 2017, the Chuseok days line up with National Foundation Day and Hangeul Day to make one long holiday break. It’s also known as Hangawi (the name, “Chuseok”, is derived from Chinese characters whereas Hangawi is more native. However, Hangawi is used mostly on media advertisements)."
 ---
 
 <p class="blog-p">

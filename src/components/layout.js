@@ -13,7 +13,7 @@ import Nav from "./nav"
 import Landing from "./landing"
 import Footer from "./footer"
 
-const Layout = ({ children }) => (
+const Layout = () => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -26,8 +26,6 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-
-        <SEO title="Korean Thanksgiving"/>
         <Nav />
         <main>
           <Landing />

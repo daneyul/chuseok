@@ -7,6 +7,7 @@ type: "Festivities"
 featuredImage: "./media-hero.jpg"
 cap: "2020 Idol Star Athletics Championships"
 side: false
+desc: "Charye, Beolcho, and Songmyo are important rituals of traditional Chuseok. But, watching television specials is an important modern ritual. In South Korea, perhaps the most searched term is “Chuseok bang songpyeon seongpyo” (추석방송편성표), which translates to “Chuseok broadcast schedule."
 ---
 
 <p>
