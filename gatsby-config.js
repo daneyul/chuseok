@@ -2,7 +2,7 @@ const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: `Chuseok 2021`,
+    title: `Chuseok 2`,
     titleTemplate: `Chuseok - %s`,
     description: `Celebrate and learn about the foods, traditions, and festivities of one of Korea's most important holidays, Chuseok.`,
     siteUrl: `https://www.chuseok.info`,

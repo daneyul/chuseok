@@ -7,6 +7,7 @@ import Foodimages from "./foodimages";
 import TableMedia from "./table";
 import Adh from "./horizontal";
 import SEO from "./seo";
+import Timer from "./timer"
 
 // import 'aos/dist/aos.css';
 // var AOS = require('aos');
@@ -24,13 +25,13 @@ const Landing = () => (
         <div class="row justify-content-center">
           <div class="col-sm-12 col-md-8 landing-top slide-in-bottom--2">
             <h1 class="landing-kr text-center">추석</h1>
-            <h1 class="landing-title text-center">Chuseok 2021</h1>
+            <h1 class="landing-title text-center">Chuseok 2022</h1>
             <h4 class="text-center landing-title3">Celebrate and learn about the Korean Mid-Autumn harvest festival!</h4>
           </div>
         </div>
         <Flowers />
       </div>
-
+      <Timer />
     </div>
 
     <div class="container">
@@ -43,13 +44,13 @@ const Landing = () => (
             </div>
             <div class="header-col-2">
               <h2 class="landing-category--top">When is it?</h2>
-              <h3 class="landing-header__two-top">September 20, 2021</h3>
-              <p class="landing-header__two--description">This year, Chuseok is a week earlier than last years (September 30. 2020).</p>
+              <h3 class="landing-header__two-top">September 10, 2022</h3>
+              <p class="landing-header__two--description">This year, Chuseok is 10 days earlier than last years (September 10, 2022).</p>
             </div>
             <div class="header-col-2">
               <h2 class="landing-category--top">For how long?</h2>
               <h3 class="landing-header__two-top">3 Days!</h3>
-              <p class="landing-header__two--description">From September 20-22.</p>
+              <p class="landing-header__two--description">From September 9-12.</p>
             </div>
           </div>
         </div>
