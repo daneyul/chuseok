@@ -7,6 +7,7 @@ import TableMedia from "./table"
 import Adh from "./horizontal"
 import SEO from "./seo"
 import Timer from "./timer"
+import { Script } from "gatsby"
 
 // import 'aos/dist/aos.css';
 // var AOS = require('aos');
@@ -76,23 +77,13 @@ const Landing = () => (
         data-aos-duration="600"
       >
         <Foodimages />
-        <script
-          type="text/javascript"
-          src="https://udbaa.com/bnr.php?section=horizontal&pub=451155&format=728x90&ga=g"
-        ></script>
-        <noscript>
-          <a href="https://yllix.com/publishers/451155" target="_blank">
-            <img
-              src="//ylx-aff.advertica-cdn.com/pub/728x90.png"
-              class="horizontal-ad"
-              alt="ylliX - Online Advertising Network"
-            />
-          </a>
-        </noscript>
       </div>
     </div>
 
-    <Adh />
+    <Script
+      type="text/javascript"
+      src="https://udbaa.com/bnr.php?section=horizontal&pub=451155&format=728x90&ga=g"
+    />
 
     <div class="pink-border"></div>
 
