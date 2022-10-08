@@ -1,4 +1,5 @@
 import React from "react"
+import Helmet from "react-helmet"
 import "../styles/landing.scss"
 import Flowers from "./flowers"
 import Festimages from "./festimages"
@@ -7,7 +8,6 @@ import TableMedia from "./table"
 import Adh from "./horizontal"
 import SEO from "./seo"
 import Timer from "./timer"
-import { Script } from "gatsby"
 
 // import 'aos/dist/aos.css';
 // var AOS = require('aos');
@@ -80,10 +80,9 @@ const Landing = () => (
       </div>
     </div>
 
-    <Script
-      type="text/javascript"
-      src="https://udbaa.com/bnr.php?section=horizontal&pub=451155&format=728x90&ga=g"
-    />
+    <Helmet>
+      <script src="https://udbaa.com/bnr.php?section=horizontal&pub=451155&format=728x90&ga=g" />
+    </Helmet>
 
     <div class="pink-border"></div>
 
