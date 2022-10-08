@@ -84,7 +84,7 @@ const Landing = () => (
           <a href="https://yllix.com/publishers/451155" target="_blank">
             <img
               src="//ylx-aff.advertica-cdn.com/pub/728x90.png"
-              style="border:none;margin:0;padding:0;vertical-align:baseline;"
+              class="horizontal-ad"
               alt="ylliX - Online Advertising Network"
             />
           </a>
