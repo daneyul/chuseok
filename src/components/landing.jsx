@@ -1,5 +1,4 @@
 import React from "react"
-import Helmet from "react-helmet"
 import "../styles/landing.scss"
 import Flowers from "./flowers"
 import Festimages from "./festimages"
@@ -79,10 +78,6 @@ const Landing = () => (
         <Foodimages />
       </div>
     </div>
-
-    {
-      var qs = Math.round(Math.random()*10000000); document.writeln('<iframe src="https://udbaa.com/bnr_xload.php?section=horizontal&pub=451155&format=728x90&ga=g&xt=166520871198776&xtt='+qs+'" width="728" height="90" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts" style="width:728px !important;height:90px !important;"></iframe>');
-    }
 
     <div class="pink-border"></div>
 
