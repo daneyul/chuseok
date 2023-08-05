@@ -11,26 +11,28 @@ desc: "Hanbok (한복) are distinctly colorful, elegant, and expressive clothes 
 ---
 
 <p>
-Hanbok (한복) are distinctly colorful, elegant, and expressive clothes that have been around for over 1,600 years. They have evolved a little over time and remain a symbol of the country’s traditional culture and lifestyle. Hanbok are important to Korea’s cultural identity. Its evolution, expression, variations, and details form the outfit representative of Korea.
+Hanbok (한복) are distinctively colorful, elegant, and expressive clothes that have graced Korean culture for over 1,600 years. While they have evolved somewhat over time, they remain a cherished symbol of the country's traditional culture and lifestyle. The evolution, expression, variations, and details of the hanbok make it a fitting representation of Korea's cultural identity.
 </p>
 
 
 <h2 class="blog-header--2 mt-5">Historically</h2>
 <p>
-Hanbok, or Joseonot (조선옷) in North Korea, were worn daily up until the 21st century. They literally mean ‘Korean clothing’, but now refer to the particular style worn in the Joseon era (14th-19th century). This is because the hanbok evolved the most during this time, into what we see now. The materials and colors reflected social status - brighter colors and more expensive materials were reserved for royalty and the elite, while paler colors and cheaper materials were for the common class.
+Hanbok, or Joseonot (조선옷) as it's called in North Korea, was daily wear up until the 21st century. The term 'hanbok' translates to ‘Korean clothing’, but today it primarily refers to the style worn during the Joseon era (14th-19th century). The hanbok underwent significant evolution during this era, shaping it into what we recognize today. The materials and colors used for hanbok were reflective of social status - brighter colors and more expensive materials signified royalty and the elite, while commoners wore more muted colors and less expensive materials.
 </p>
+
+<h2 class="blog-header--2 mt-5">Present Day</h2>
 <p class="blog-p">
-Today, hanbok are not usually worn outside of special occasions, like weddings or Chuseok. Still, many people feel like hanbok are too traditional and cumbersome to be worn during modern events. Because of this, most people will rent hanbok when they need to, but it’s becoming less often that happens. There are many efforts to encourage wearing hanbok. 
+Today, hanbok are typically reserved for special occasions, such as weddings or the harvest festival, Chuseok. Despite this, many people feel that hanbok are too traditional and impractical to be worn during contemporary events. Consequently, most people opt to rent a hanbok as the need arises, though these instances are becoming increasingly rare. Despite this trend, there are numerous efforts to promote and revitalize hanbok-wearing traditions.
 </p>
 
 ![Hanbok-2](hanbok-2.jpg)
 <p class="blog-cap">Pauline Mae De Leon - Unsplash</p>
 <h2 class="blog-header--2">Fun fact</h2>
 <p>
-In modern times, a Hanbok can be considered a type of bim (빔). Bim refers to clothing that is worn on special occasions in Korea. There are two types that are typically referred to - Seolbim(설빔) and Chuseokbim (추석빔). They each mean clothes that are worn for Seollal and Chuseok respectively. In each case, a Hanbok is the occasional attire. 
+In modern times, a Hanbok can be categorized as a type of bim (빔), which refers to clothing worn on special occasions in Korea. Two common types are Seolbim(설빔) and Chuseokbim (추석빔), denoting clothes worn for Seollal (Lunar New Year) and Chuseok respectively. In both instances, a Hanbok serves as the traditional attire.
 </p>
 <p class="blog-p">
-The contemporary take on hanbok can be seen in fashion shows, especially on Hanbok Day (October 21). Designers take the traditional attire and make stylish variations that fit a modern look.
+Modern interpretations of hanbok often grace the runway, particularly on Hanbok Day (October 21). Fashion designers skillfully reimagine this traditional attire into stylish adaptations that merge the old with the new.
 </p>
 
 <div class="blog-link__box">
@@ -44,12 +46,12 @@ The contemporary take on hanbok can be seen in fashion shows, especially on Hanb
 
 ![Hanbok-1](hanbok-1.jpg "hanbok")
 <p class="blog-cap">Kseniya Petukhova - Unsplash</p>
-<h2 class="blog-header--2">Wearing one</h2>
+<h2 class="blog-header--2">Dressing in Hanbok</h2>
 <p>
-For women, an underskirt is typically worn underneath the visible skirt which is called chima (치마). For men, this is called a baji (바지). Once wrapped, the end of the skirt should be placed on a woman’s left side so that she can move and sit down easily. Modern chimas have shoulder straps, however traditionally the malgi (upper part) of the skirt would be wrapped tightly around a woman’s chest. For both male and female, the jeogori (저고리) is worn on top with a ribbon on the chest. There are many hats to wear and hair accessories that can be used to tie up hair into a bun like a binyeo (비녀). The main difference between male and female hanbok is that females have more intricate patterns, seams, and cloth while men have simpler components and often wear an overcoat called po.
+For women, an underskirt is typically worn beneath the visible skirt known as the chima (치마). For men, trousers, or baji (바지), are worn. Traditionally, the upper part (malgi) of the skirt was wrapped tightly around a woman's chest, but modern chimas come with shoulder straps. After wrapping, the end of the skirt should be placed on a woman's left side to allow for easy movement and sitting. For both genders, the jeogori (저고리), a jacket with a ribbon on the chest, is worn on top. There is a vast array of hats and hair accessories, like the binyeo (비녀) which is used to tie up hair into a bun. The main distinction between male and female hanbok lies in the details - female hanbok feature more intricate patterns, seams, and fabric, while men's are simpler and often complemented by an overcoat called a po.
 </p>
 
 <h2 class="blog-header--2 mt-5">Variety</h2>
 <p class="blog-p">
-Aside from the traditional elite and commoner variations, there are also hanbok for weddings, children, and funerals. Weddings are where you may see them the most. Traditionally, there were hanbok specifically for the king, the queen, the princess, and the prince for formal ceremonies and daily wear. 
+Aside from the traditional variations for different social classes, there are hanbok for specific occasions like weddings, funerals, and for children. Weddings are perhaps the event where hanbok are most prominently showcased. In historical times, there were specific hanbok designed for the king, queen, princess, and prince, each differing based on the occasion, whether it was a formal ceremony or daily wear.
 </p>

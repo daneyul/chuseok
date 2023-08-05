@@ -12,8 +12,7 @@ Here is a list of some modern activities to enjoy with your loved ones."
 ---
 
 <p class="blog-p">
-Traditional Korean games are referred to as Jeontongnori (전통놀이). There are many games that can be played with family and friends or with others at some traditional attractions.
-Here is a list of some modern activities to enjoy with your loved ones.
+Traditional Korean games, referred to as Jeontongnori (전통놀이), offer unique opportunities for fun and cultural exploration. Whether played among family and friends or enjoyed at traditional attractions, these games reflect the depth of Korea's cultural heritage. Here is a list of some traditional activities to enjoy with your loved ones.
 </p>
 
 <div class="blog-p">
@@ -21,7 +20,7 @@ Here is a list of some modern activities to enjoy with your loved ones.
 <p class="blog-cap">Commons - Wikipedia</p>
 <h2 class="blog-header--2 mt-5">Ganggangsullae 강강술래</h2>
 <p>
-This is the most representative folk activity during the full moon of Chuseok and reflects Korea’s agrarian roots. It is a 5,000 year-old dance recognized and described by UNESCO as a “seasonal harvest and fertility ritual.” During the dance, women wear hanbok and gather in a circle and hold hands while playfully miming vignettes of rural life and repeating the name of the dance. The dance is preserved as a performing art today and taught in elementary schools. 
+Ganggangsullae is the quintessential folk activity performed during the full moon of Chuseok, showcasing Korea’s agrarian roots. This 5,000-year-old dance, recognized by UNESCO as a “seasonal harvest and fertility ritual,” provides a glimpse into rural Korean life. Participants, dressed in traditional hanbok, form a circle and hold hands, playfully mimicking vignettes of rural life while repeating the name of the dance. Today, Ganggangsullae is preserved as a performing art and is taught in elementary schools across the country.
 </p>
 <a href="https://www.youtube.com/watch?v=6D73WBzzEG4" target="_blank"><u>Click here to watch it</u></a>
 </div>
@@ -31,7 +30,7 @@ This is the most representative folk activity during the full moon of Chuseok an
 <p class="blog-cap">Commons - Wikipedia</p>
 <h2 class="blog-header--2">Juldarigi 줄다리기</h2>
 <p>
-A tug-of-war game using an enormous hand-woven straw rope. Entire villages and counties would play traditionally. Dangjin and Yeongsan are some places that now famously hold the large-scale juldarigi events. Korea’s Juldarigi and three other countries rope-tugging rituals have been listed in UNESCO. Juldarigi used to be a ritual to bring about good fortune and a good harvest. Teams are divided by gender or region.
+Juldarigi is a traditional tug-of-war game involving an enormous hand-woven straw rope. This communal game was traditionally played by entire villages or counties. Currently, Dangjin and Yeongsan are famous for holding large-scale Juldarigi events. Recognized by UNESCO along with similar rituals from three other countries, Juldarigi was historically performed to usher in good fortune and a bountiful harvest. Teams participating in this game are usually divided by gender or region.
 </p>
 </div>
 
@@ -40,15 +39,14 @@ A tug-of-war game using an enormous hand-woven straw rope. Entire villages and c
 <p class="blog-cap">Commons - Wikipedia</p>
 <h2 class="blog-header--2">Ssireum 씨름</h2>
 <p>
-A wrestling event between two participants wearing thick fabric belts. The game is played by grabbing onto the opponent’s thigh with one hand, their belt with the other, and trying to send the opponent to the ground. The game is traditionally played on sand, however it can also be safely played on mats at home. Ssireum is also a Korean tradition that has been listed in UNESCO.
+Ssireum is a wrestling event where two participants, clad in thick fabric belts, grapple each other with the aim of bringing their opponent to the ground. While traditionally played on sand, Ssireum can be safely adapted for home play with the use of mats. This traditional Korean wrestling has also been listed in UNESCO's intangible cultural heritage.
 </p>
 <a href="https://www.youtube.com/watch?v=Vy1PFvDCE0Q" target="_blank"><u>Click here to watch it</u></a>
 </div>
 
 <div class="blog-p">
 <h2 class="blog-header--2">Dalkssaum 닭싸움</h2>
-<p>Literally “chicken-fighting game”. This refers to players trying to knock each other over while holding onto one leg and hopping around. The game can be played individually or in teams. 
-Here is a clip from a Korean variety show in which they play Dalkssaum.</p> 
+<p>Literally translating to the "chicken-fighting game," Dalkssaum involves players hopping on one leg, attempting to knock over their opponents. This game can be played individually or in teams, often sparking intense yet enjoyable competition. You can watch a clip from a popular Korean variety show demonstrating a round of Dalkssaum here.</p> 
 <a href="https://www.youtube.com/watch?v=oXnPXjWMXps" target="_blank"><u>The show’s called “Running Man”</u></a>
 </div>
 
@@ -57,7 +55,16 @@ Here is a clip from a Korean variety show in which they play Dalkssaum.</p>
 <p class="blog-cap">Commons - Wikipedia</p>
 <h2 class="blog-header--2">Go-Stop 고스톱</h2>
 <p>
-A fast-paced game played with cards called Hwatu (화투). The rules to this game are not simple and it may take at least a few rounds before you first figure out how to play it. Surprisingly, Go-Stop has Japanese origins. But, that doesn’t make it any less popular than it is in Korea today. 
+Go-Stop is a fast-paced card game played with a deck called Hwatu (화투). Although the rules might seem complex at first glance, the fun starts unfolding after a few rounds of practice. Despite its Japanese origins, Go-Stop has garnered immense popularity in Korea, and today it's played extensively across the country during festive seasons and family gatherings. 
+</p>
+<a href="https://www.youtube.com/watch?v=hHfFPCKJ22o" target="_blank" class="mb-5"><u>Here's how to play</u></a>
+<div class="blog-p"></div>
+</div>
+
+<div>
+<h2 class="blog-header--2">Yut Nori - 윷놀이</h2>
+<p>
+Yut Nori is a traditional Korean board game played mostly during Korean New Year. Players take turns throwing four wooden sticks and moving their markers across the board depending on how the sticks land. This game not only stimulates strategic thinking but also fosters a strong sense of camaraderie among participants.
 </p>
 <a href="https://www.youtube.com/watch?v=hHfFPCKJ22o" target="_blank" class="mb-5"><u>Here's how to play</u></a>
 <div class="blog-p"></div>
