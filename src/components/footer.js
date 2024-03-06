@@ -7,7 +7,7 @@ const Footer = () => (
     <div class="container">
     <div class="row justify-content-lg-between flex-wrap">
         <div class="col-12 footer-top">
-            <h3 class="footer-title">Chuseok 4</h3>
+            <h3 class="footer-title">Chuseok 2024</h3>
             <h4 class="footer-font">&copy; 2024 All Rights Reserved <a href="/privacy-policy" class="footer-font footer-color footer-underline footer-link">Privacy Policy</a></h4>
         </div>
         <div class="col-sm-12 col-lg-4 mb-5">
