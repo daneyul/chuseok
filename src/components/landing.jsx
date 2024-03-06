@@ -51,7 +51,7 @@ const Landing = () => (
               <h3 class="landing-header__two-top">September 17, 2024</h3>
               <p class="landing-header__two--description">
                 This year, Chuseok is 11 days later than last years (September
-                28, 2024).
+                28, 2023).
               </p>
             </div>
             <div class="header-col-2">
