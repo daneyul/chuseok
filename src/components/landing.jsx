@@ -23,7 +23,7 @@ const Landing = () => (
         <div class="row justify-content-center">
           <div class="col-sm-12 col-md-8 landing-top slide-in-bottom--2">
             <h1 class="landing-kr text-center">추석</h1>
-            <h1 class="landing-title text-center">Chuseok 2023</h1>
+            <h1 class="landing-title text-center">Chuseok 2024</h1>
             <h4 class="text-center landing-title3">
               Celebrate and learn about the Korean Mid-Autumn harvest festival!
             </h4>
@@ -48,17 +48,17 @@ const Landing = () => (
             </div>
             <div class="header-col-2">
               <h2 class="landing-category--top">When is it?</h2>
-              <h3 class="landing-header__two-top">September 28, 2023</h3>
+              <h3 class="landing-header__two-top">September 17, 2024</h3>
               <p class="landing-header__two--description">
-                This year, Chuseok is 18 days later than last years (September
-                10, 2022).
+                This year, Chuseok is 11 days later than last years (September
+                28, 2024).
               </p>
             </div>
             <div class="header-col-2">
               <h2 class="landing-category--top">For how long?</h2>
               <h3 class="landing-header__two-top">3 Days!</h3>
               <p class="landing-header__two--description">
-                From September 28-30.
+                From September 16-18.
               </p>
             </div>
           </div>

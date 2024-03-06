@@ -31,7 +31,7 @@ const Nav = () => (
           </ul>
 
           <ul className="col-6 col-md-4 nav-item nav-middle active">
-            <a href="/" onClick="window.location.reload();"><li className="nav-item--center">Chuseok 2023</li></a>
+            <a href="/" onClick="window.location.reload();"><li className="nav-item--center">Chuseok 2024</li></a>
           </ul>
 
           <ul className="col-4 nav-item justify-content-between nav-sides">
@@ -47,7 +47,7 @@ const Nav = () => (
             </li>
             <li className="nav-dropdown--parent">
               <span>
-                <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fchuseok.info&text=Celebrate%20Chuseok%202320%21%20Learn%20about%20the%20Korean%20harvest%20festival." target="_blank" rel="noopener noreferrer"><img src={s1} alt="Share on Twitter" className="social-icons--first" /></a>
+                <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fchuseok.info&text=Celebrate%20Chuseok%202420%21%20Learn%20about%20the%20Korean%20harvest%20festival." target="_blank" rel="noopener noreferrer"><img src={s1} alt="Share on Twitter" className="social-icons--first" /></a>
                 <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchuseok.info%2F&amp;src=sdkpreparse" target="_blank" rel="noopener noreferrer"><img src={s2} alt="Share on Facebook" className="social-icons--second" /></a>
                 <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fchuseok.info" target="_blank" rel="noopener noreferrer"><img src={s3} alt="Share on LinkedIn" className="social-icons--third" /></a>
               </span>

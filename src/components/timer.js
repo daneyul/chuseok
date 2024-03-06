@@ -1,7 +1,7 @@
 import React from "react"
 
 const Timer = () => {
-  let countDownDate = new Date("Sep 29, 2023").getTime();
+  let countDownDate = new Date("Sep 17, 2024").getTime();
   let now = new Date().getTime();
   let distance = countDownDate - now;
   let days = Math.floor(distance / (1000 * 60 * 60 * 24));
