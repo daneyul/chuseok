@@ -12,7 +12,7 @@ const Footer = () => (
         </div>
         <div class="col-sm-12 col-lg-4 mb-5">
             <h5 class="footer-category">About</h5>
-            <p class="footer-font">Happy Chuseok! We’ve put together just about everything you’ll need to know to make your Chuseok special. Have a suggestion? Want to chat? <a href="mailto:hangawi@chuseok.info" class ="footer-font footer-link" target="_blank" rel="noopener noreferrer">Send us a note.</a></p>
+            <p class="footer-font">Happy Chuseok! We’ve put together just about everything you’ll need to know to make your Chuseok special. Have a suggestion? Want to chat? <a href="mailto:daniel@umhihello.com" class ="footer-font footer-link" target="_blank" rel="noopener noreferrer">Send us a note.</a></p>
             <h5 class="mt-5"><span class="footer-category">Partner Sites</span></h5>
             <ul class="footer-font">
                 <li><a href="https://archdictionary.com" onClick="window.location.reload();" class="footer-font footer-color footer-link">Architecture Dictionary</a></li>
